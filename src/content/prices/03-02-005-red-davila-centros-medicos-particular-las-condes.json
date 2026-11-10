@@ -1,0 +1,10 @@
+{
+  "exam": "03-02-005",
+  "provider": "red-davila-centros-medicos",
+  "amount": 3531,
+  "kind": "particular",
+  "subdivision": "Las Condes",
+  "sourceUrl": "https://www.davila.cl/aranceles",
+  "verifiedAt": "2026-11-10",
+  "note": "Aranceles web, pestaña Ambulatorio, valor particular hábil (igual al inhábil); prestación base (-00)"
+}

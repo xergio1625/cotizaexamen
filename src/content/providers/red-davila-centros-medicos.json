@@ -1,0 +1,10 @@
+{
+  "name": "Red Dávila (centros médicos)",
+  "kind": "centro-medico",
+  "website": "https://www.davila.cl",
+  "subdivisions": [
+    "Las Condes",
+    "Maipú",
+    "Ñuñoa"
+  ]
+}

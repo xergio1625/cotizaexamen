@@ -2,9 +2,13 @@
 import { siteConfig } from '../../site.config';
 import { getPriceRows, STALE_DAYS } from '../lib/prices';
 import { getArancel, LEVELS, fastingText } from '../lib/arancel';
+import { regionOf } from '../lib/regions';
 
 const items = await getArancel();
 const rows = await getPriceRows();
+for (const s of new Set(rows.map((r) => r.subdivision).filter(Boolean) as string[])) {
+  if (!regionOf(s)) console.warn(`[cotizador] La comuna "${s}" no está en src/lib/regions.ts: no tendrá región.`);
+}
 
 // Datos compactos para el navegador. lv = [[total, benef] | null] para niveles 1, 2 y 3.
 const data = {
@@ -29,6 +33,7 @@ const data = {
     website: r.providerWebsite ?? '',
     kind: r.kind,
     subdivision: r.subdivision ?? '',
+    region: regionOf(r.subdivision) ?? '',
     amount: r.amount,
     verifiedAt: r.verifiedAt.toISOString().slice(0, 10),
   })),
@@ -68,7 +73,7 @@ const data = {
 <script>
   type Lv = [number, number] | null;
   type Exam = { id: string; code: string; name: string; official: string; lv: Lv[]; guide: string; slug: string; fasting: string; fastingRequired: boolean | null };
-  type Offer = { examId: string; provider: string; website: string; kind: string; subdivision: string; amount: number; verifiedAt: string };
+  type Offer = { examId: string; provider: string; website: string; kind: string; subdivision: string; region: string; amount: number; verifiedAt: string };
   type Group = { provider: string; website: string; kind: string; items: Map<string, Offer>; subs: Set<string>; oldest: string };
 
   const data = JSON.parse(document.getElementById('cz-data')!.textContent!) as {
@@ -95,6 +100,7 @@ const data = {
   let selected: string[] = [];
   let order: 'price' | 'subdivision' | 'alpha' = 'price';
   let sub = '';
+  let region = '';
 
   function h(tag: string, attrs: Record<string, string> = {}, ...kids: (Node | string)[]) {
     const n = document.createElement(tag);
@@ -154,6 +160,7 @@ const data = {
     const map = new Map<string, Group>();
     for (const o of data.offers) {
       if (!selected.includes(o.examId)) continue;
+      if (region && o.region && o.region !== region) continue;
       if (sub && o.subdivision && o.subdivision !== sub) continue;
       const key = `${o.provider}|${o.kind}`;
       let g = map.get(key);
@@ -231,7 +238,9 @@ const data = {
       return;
     }
 
-    const subs = [...new Set(data.offers.map((o) => o.subdivision).filter(Boolean))].sort(collator.compare);
+    const regions = [...new Set(data.offers.map((o) => o.region).filter(Boolean))].sort(collator.compare);
+    const subs = [...new Set(data.offers.filter((o) => !region || o.region === region).map((o) => o.subdivision).filter(Boolean))].sort(collator.compare);
+    if (sub && !subs.includes(sub)) sub = '';
     const ctl = h('div', { class: 'controls' });
     const grp = h('div', { role: 'group', 'aria-label': 'Ordenar por' }, h('span', {}, 'Ordenar por: '));
     ([['price', 'Precio total'], ['subdivision', Sub], ['alpha', 'Alfabético']] as const).forEach(([k, label]) => {
@@ -240,6 +249,13 @@ const data = {
       grp.append(b);
     });
     ctl.append(grp);
+    if (regions.length > 1) {
+      const rsel = h('select', { id: 'cz-region' }, h('option', { value: '' }, 'Todo Chile')) as HTMLSelectElement;
+      regions.forEach((r) => rsel.append(h('option', { value: r }, r)));
+      rsel.value = region;
+      rsel.addEventListener('change', () => { region = rsel.value; sub = ''; renderResults(); });
+      ctl.append(h('label', {}, 'Región: ', rsel));
+    }
     if (subs.length) {
       const sel = h('select', { id: 'cz-sub' }, h('option', { value: '' }, 'Todas')) as HTMLSelectElement;
       subs.forEach((s) => sel.append(h('option', { value: s }, s)));
