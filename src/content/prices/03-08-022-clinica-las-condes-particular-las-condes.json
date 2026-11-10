@@ -1,0 +1,10 @@
+{
+  "exam": "03-08-022",
+  "provider": "clinica-las-condes",
+  "amount": 181291,
+  "kind": "particular",
+  "subdivision": "Las Condes",
+  "sourceUrl": "https://www.clinicalascondes.cl/INFORMACION-AL-PACIENTE/Aranceles",
+  "verifiedAt": "2026-11-09",
+  "note": "Valor público ambulatorio, arancel 08-09-2026, horario hábil (8:00 a 20:00; sábados 8:00 a 14:00). Recargo de 20% en urgencias y 50% en hospitalización fuera de horario"
+}

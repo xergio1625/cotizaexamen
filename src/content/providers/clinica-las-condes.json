@@ -1,0 +1,8 @@
+{
+  "name": "Clínica Las Condes",
+  "kind": "clinica",
+  "website": "https://www.clinicalascondes.cl",
+  "subdivisions": [
+    "Las Condes"
+  ]
+}
