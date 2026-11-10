@@ -1,49 +1,50 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Cotizador from '../../components/Cotizador.astro';
-import { formatMoney } from '../../lib/format';
+import { getArancel } from '../../lib/arancel';
 import { getPriceRows } from '../../lib/prices';
 import { siteConfig } from '../../../site.config';
 
-const exams = (await getCollection('exams', (e) => !e.data.draft)).sort((a, b) =>
-  a.data.title.localeCompare(b.data.title, 'es'),
-);
+const items = await getArancel();
 const rows = await getPriceRows();
-const withPrices = exams
-  .map((e) => {
-    const r = rows.filter((x) => x.examId === e.id);
-    return { exam: e, count: r.length, min: r.length ? Math.min(...r.map((x) => x.amount)) : 0 };
-  })
-  .filter((x) => x.count > 0);
+const priced = new Set(rows.map((r) => r.examId));
+
+const sections = [...new Set(items.map((i) => i.section))].map((s) => ({
+  name: s,
+  items: items.filter((i) => i.section === s).sort((a, b) => a.name.localeCompare(b.name, 'es')),
+}));
 ---
 
 <Base
-  title="Comparador de precios de exámenes de laboratorio"
-  description={`Compara precios de exámenes de laboratorio ${siteConfig.country.areaLabel}. Orden solo por precio, ${siteConfig.country.subdivisionLabel} o alfabeto.`}
+  title="Cotizar exámenes de laboratorio"
+  description={`Cotiza tu orden de exámenes de laboratorio ${siteConfig.country.areaLabel}: valores de referencia FONASA por nivel y precios de prestadores.`}
 >
   <div class="container">
     <h1>Cotizar exámenes</h1>
     <p class="notice prose">
       Sin dinero de laboratorios: el orden depende solo de precio, {siteConfig.country.subdivisionLabel} o alfabeto.
-      Los precios cambian; confírmalos con el prestador antes de ir.
+      Los valores FONASA son de referencia oficial; los precios cambian, confírmalos con el prestador.
       <a href="/sobre-el-sitio/">Cómo funciona</a>.
     </p>
 
     <Cotizador />
 
-    <h2>Precio de cada examen</h2>
-    {withPrices.length === 0 ? (
-      <p>Aún estamos recopilando precios públicos.</p>
-    ) : (
-      <ul>
-        {withPrices.map(({ exam, count, min }) => (
-          <li>
-            <a href={`/precios/${exam.id}/`}>{exam.data.title}</a>
-            <span class="muted"> · {count} {count === 1 ? 'precio' : 'precios'}, desde {formatMoney(min)}</span>
-          </li>
-        ))}
-      </ul>
-    )}
+    <h2>Todos los exámenes ({items.length})</h2>
+    <p class="muted prose">
+      Catálogo del Arancel MLE 2026 de FONASA, con su código oficial. {priced.size > 0 && `${priced.size} tienen precios de prestadores.`}
+    </p>
+    {sections.map((s) => (
+      <details class="exam-section">
+        <summary><strong>{s.name}</strong> <span class="muted">({s.items.length})</span></summary>
+        <ul class="exam-list">
+          {s.items.map((i) => (
+            <li>
+              <a href={`/precios/${i.slug}/`}>{i.name}</a>
+              <span class="muted small"> · {i.code}{priced.has(i.id) ? ' · con precios' : ''}</span>
+            </li>
+          ))}
+        </ul>
+      </details>
+    ))}
   </div>
 </Base>

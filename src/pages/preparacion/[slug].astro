@@ -4,20 +4,21 @@ import Base from '../../layouts/Base.astro';
 import { siteConfig } from '../../../site.config';
 import { articleLd, faqLd, breadcrumbLd } from '../../lib/jsonld';
 import { formatDate } from '../../lib/format';
-import { getPriceRows } from '../../lib/prices';
+import { getArancel } from '../../lib/arancel';
 import { categoryLabels, sampleLabels } from '../../lib/categories';
 
 export async function getStaticPaths() {
   if (!siteConfig.modules.preparation) return [];
-  const exams = await getCollection('exams', (e) => !e.data.draft && e.data.guide);
+  const exams = await getCollection('exams', (e) => !e.data.draft);
   return exams.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
 const { entry } = Astro.props;
 const d = entry.data;
 const { Content } = await render(entry);
-const hasPrices =
-  siteConfig.modules.prices && (await getPriceRows()).some((r) => r.examId === entry.id);
+const priceItem = siteConfig.modules.prices
+  ? (await getArancel()).find((i) => i.id === d.fonasa.id)
+  : undefined;
 
 const title = `Cómo prepararte para el examen de ${d.title}`;
 const ld: object[] = [
@@ -32,7 +33,7 @@ ld.push(
   ]),
 );
 
-const fasting = d.fasting!; // garantizado por el esquema cuando guide = true
+const fasting = d.fasting;
 const fastingText = fasting.required
   ? `Requiere ayuno${fasting.hours ? ` de ${fasting.hours} horas` : ''}`
   : 'No requiere ayuno';
@@ -76,8 +77,8 @@ const fastingText = fasting.required
       </>
     )}
 
-    {hasPrices && (
-      <p class="notice"><a href={`/precios/${entry.id}/`}>Compara precios de este examen</a></p>
+    {priceItem && (
+      <p class="notice"><a href={`/precios/${priceItem.slug}/`}>Ver precios de este examen (código FONASA {priceItem.code})</a></p>
     )}
 
     <p class="notice">

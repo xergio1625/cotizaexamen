@@ -1,5 +1,6 @@
 ---
 title: Urocultivo
+fonasa: 03-06-011
 aliases: [Cultivo de orina]
 category: microbiologia
 summary: Examen que busca y cuenta bacterias en una muestra de orina, y puede probar a qué antibióticos responden.

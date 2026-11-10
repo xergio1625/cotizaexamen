@@ -1,5 +1,6 @@
 ---
 title: Hemograma
+fonasa: 03-01-045
 aliases: [Recuento sanguíneo completo, Hemograma completo]
 category: hematologia
 summary: Examen de sangre que cuenta y describe los glóbulos rojos, glóbulos blancos y plaquetas.

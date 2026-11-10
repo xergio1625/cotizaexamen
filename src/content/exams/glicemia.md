@@ -1,5 +1,6 @@
 ---
 title: Glicemia en ayunas
+fonasa: 03-02-047
 aliases: [Glucosa en ayunas, Glucemia basal]
 category: bioquimica
 summary: Examen de sangre que mide la cantidad de glucosa (azúcar) en un momento determinado.

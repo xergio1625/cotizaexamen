@@ -1,0 +1,42 @@
+---
+import { LEVELS, type ArancelItem } from '../lib/arancel';
+import { formatMoney } from '../lib/format';
+
+interface Props {
+  levels: ArancelItem['levels'];
+}
+const { levels } = Astro.props;
+---
+
+<div class="table-wrap">
+  <table>
+    <caption class="muted small">Valores del Arancel MLE 2026 de FONASA, por nivel</caption>
+    <thead>
+      <tr>
+        <th scope="col">Nivel</th>
+        <th scope="col">Valor total</th>
+        <th scope="col">Bonificación FONASA</th>
+        <th scope="col">Copago estimado</th>
+      </tr>
+    </thead>
+    <tbody>
+      {LEVELS.map((n) => {
+        const l = levels[n];
+        return (
+          <tr>
+            <th scope="row">Nivel {n}</th>
+            {l ? (
+              <>
+                <td><strong>{formatMoney(l.total)}</strong></td>
+                <td>{formatMoney(l.benef)}</td>
+                <td>{formatMoney(l.total - l.benef)}</td>
+              </>
+            ) : (
+              <td colspan="3" class="muted">No existe valor para este nivel</td>
+            )}
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>

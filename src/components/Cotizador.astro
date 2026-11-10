@@ -1,27 +1,27 @@
 ---
-import { getCollection } from 'astro:content';
 import { siteConfig } from '../../site.config';
 import { getPriceRows, STALE_DAYS } from '../lib/prices';
-import { fastingLabel } from '../lib/exams';
+import { getArancel, LEVELS, fastingText } from '../lib/arancel';
 
-const exams = (await getCollection('exams', (e) => !e.data.draft)).sort((a, b) =>
-  a.data.title.localeCompare(b.data.title, 'es'),
-);
+const items = await getArancel();
 const rows = await getPriceRows();
-const sub = siteConfig.country.subdivisionLabel;
 
+// Datos compactos para el navegador. lv = [[total, benef] | null] para niveles 1, 2 y 3.
 const data = {
   locale: siteConfig.country.locale,
   currency: siteConfig.country.currency,
   staleDays: STALE_DAYS,
-  subLabel: sub,
-  exams: exams.map((e) => ({
-    id: e.id,
-    title: e.data.title,
-    aliases: e.data.aliases,
-    fasting: fastingLabel(e.data),
-    fastingRequired: e.data.fasting ? e.data.fasting.required : null,
-    guide: e.data.guide,
+  subLabel: siteConfig.country.subdivisionLabel,
+  exams: items.map((i) => ({
+    id: i.id,
+    code: i.code,
+    name: i.name,
+    official: i.official === i.name ? '' : i.official,
+    lv: LEVELS.map((n) => (i.levels[n] ? [i.levels[n]!.total, i.levels[n]!.benef] : null)),
+    guide: i.guide ?? '',
+    slug: i.slug,
+    fasting: i.guide ? fastingText(i.fasting) : '',
+    fastingRequired: i.fasting ? i.fasting.required : null,
   })),
   offers: rows.map((r) => ({
     examId: r.examId,
@@ -38,25 +38,27 @@ const data = {
 <section class="cotizador" aria-labelledby="cz-title">
   <h2 id="cz-title">Cotiza los exámenes de tu orden</h2>
   <p class="muted">
-    Agrega cada examen que te pidieron. Verás cuánto cuesta el conjunto en cada prestador y si alguno requiere
-    preparación especial. Lo que eliges se queda en tu navegador: no se envía a ningún servidor.
+    Busca cada examen que te pidieron, por nombre o por código FONASA. Verás su valor de referencia en FONASA, los
+    precios de prestadores y si alguno requiere preparación. Lo que eliges se queda en tu navegador: no se envía a
+    ningún servidor.
   </p>
 
   <div class="cz-search">
-    <label for="cz-input">Buscar examen</label>
-    <input id="cz-input" type="search" autocomplete="off" placeholder="Ej.: glicemia, hemograma, TSH" />
+    <label for="cz-input">Buscar examen ({items.length} disponibles)</label>
+    <input id="cz-input" type="search" autocomplete="off" placeholder="Ej.: hemograma, glucosa, TSH o 03 01 045" />
     <ul id="cz-suggest" class="cz-suggest" role="listbox" aria-label="Sugerencias" hidden></ul>
   </div>
 
   <ul id="cz-chips" class="cz-chips" aria-label="Exámenes seleccionados"></ul>
 
+  <div id="cz-fonasa"></div>
   <div id="cz-results" aria-live="polite"></div>
   <div id="cz-prep"></div>
 
   <noscript>
     <p class="notice">
-      El cotizador necesita JavaScript. Sin él, abre el precio de cada examen por separado en
-      <a href="/precios/">la lista de exámenes</a>.
+      El cotizador necesita JavaScript. Sin él, busca cada examen en
+      <a href="/precios/">la lista completa</a>.
     </p>
   </noscript>
 
@@ -64,12 +66,10 @@ const data = {
 </section>
 
 <script>
-  type Exam = { id: string; title: string; aliases: string[]; fasting: string; fastingRequired: boolean | null; guide: boolean };
+  type Lv = [number, number] | null;
+  type Exam = { id: string; code: string; name: string; official: string; lv: Lv[]; guide: string; slug: string; fasting: string; fastingRequired: boolean | null };
   type Offer = { examId: string; provider: string; website: string; kind: string; subdivision: string; amount: number; verifiedAt: string };
-  type Group = {
-    provider: string; website: string; kind: string;
-    items: Map<string, Offer>; subs: Set<string>; oldest: string;
-  };
+  type Group = { provider: string; website: string; kind: string; items: Map<string, Offer>; subs: Set<string>; oldest: string };
 
   const data = JSON.parse(document.getElementById('cz-data')!.textContent!) as {
     locale: string; currency: string; staleDays: number; subLabel: string; exams: Exam[]; offers: Offer[];
@@ -80,10 +80,15 @@ const data = {
   const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const kindLabel: Record<string, string> = { particular: 'Particular', convenio: 'Convenio', promocion: 'Promoción' };
   const examById = new Map(data.exams.map((e) => [e.id, e]));
+  // Índice de búsqueda: nombre + denominación oficial + código sin separadores.
+  const haystack = new Map(data.exams.map((e) => [e.id, `${norm(e.name)} ${norm(e.official)} ${e.code.replace(/ /g, '')}`]));
+  const short = (s: string, n = 70) => (s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s);
+  const Sub = data.subLabel[0].toUpperCase() + data.subLabel.slice(1);
 
   const input = document.getElementById('cz-input') as HTMLInputElement;
   const suggest = document.getElementById('cz-suggest')!;
   const chips = document.getElementById('cz-chips')!;
+  const fonasa = document.getElementById('cz-fonasa')!;
   const results = document.getElementById('cz-results')!;
   const prep = document.getElementById('cz-prep')!;
 
@@ -100,17 +105,25 @@ const data = {
 
   /* ---------- Búsqueda y selección ---------- */
   function showSuggestions() {
-    const q = norm(input.value.trim());
+    const q = norm(input.value.trim()).replace(/(\d)\s+(?=\d)/g, '$1');
     suggest.replaceChildren();
-    const matches = data.exams.filter(
-      (e) => !selected.includes(e.id) && (!q || norm(e.title).includes(q) || e.aliases.some((a) => norm(a).includes(q))),
-    );
-    matches.slice(0, 8).forEach((e) => {
-      const b = h('button', { type: 'button', role: 'option' }, e.title);
+    if (!q) { suggest.hidden = true; return; }
+    const tokens = q.split(/\s+/).filter(Boolean);
+    const matches = data.exams
+      .filter((e) => !selected.includes(e.id) && tokens.every((t) => haystack.get(e.id)!.includes(t)))
+      .sort((a, b) => {
+        const sa = norm(a.name).startsWith(tokens[0]) ? 0 : 1;
+        const sb = norm(b.name).startsWith(tokens[0]) ? 0 : 1;
+        return sa - sb || a.name.length - b.name.length;
+      })
+      .slice(0, 8);
+    matches.forEach((e) => {
+      const b = h('button', { type: 'button', role: 'option', title: e.official || e.name }, short(e.name), h('span', { class: 'muted small' }, `  ${e.code}`));
       b.addEventListener('click', () => add(e.id));
       suggest.append(h('li', {}, b));
     });
-    suggest.hidden = !matches.length || (!q && document.activeElement !== input);
+    if (!matches.length) suggest.append(h('li', { class: 'cz-none' }, 'Sin resultados. Prueba con otra palabra o con el código.'));
+    suggest.hidden = false;
   }
 
   function add(id: string) {
@@ -126,19 +139,17 @@ const data = {
   }
 
   input.addEventListener('input', showSuggestions);
-  input.addEventListener('focus', showSuggestions);
   input.addEventListener('keydown', (ev) => {
     if (ev.key === 'Enter') {
       ev.preventDefault();
-      const first = suggest.querySelector('button');
-      first?.click();
+      suggest.querySelector('button')?.click();
     } else if (ev.key === 'Escape') suggest.hidden = true;
   });
   document.addEventListener('click', (ev) => {
     if (!(ev.target as Element).closest('.cz-search')) suggest.hidden = true;
   });
 
-  /* ---------- Cálculo ---------- */
+  /* ---------- Cálculo de prestadores ---------- */
   function buildGroups(): Group[] {
     const map = new Map<string, Group>();
     for (const o of data.offers) {
@@ -165,13 +176,39 @@ const data = {
   function render() {
     chips.replaceChildren(
       ...selected.map((id) => {
-        const b = h('button', { type: 'button', 'aria-label': `Quitar ${examById.get(id)!.title}` }, '×');
+        const e = examById.get(id)!;
+        const b = h('button', { type: 'button', 'aria-label': `Quitar ${e.name}` }, '×');
         b.addEventListener('click', () => remove(id));
-        return h('li', { class: 'chip' }, examById.get(id)!.title, b);
+        return h('li', { class: 'chip', title: e.official || e.name }, short(e.name, 48), b);
       }),
     );
+    renderFonasa();
     renderResults();
     renderPrep();
+  }
+
+  function renderFonasa() {
+    fonasa.replaceChildren();
+    if (!selected.length) return;
+    const exams = selected.map((id) => examById.get(id)!);
+    fonasa.append(h('h3', {}, 'Valor de referencia FONASA'));
+
+    const rows = [0, 1, 2].map((i) => {
+      const missing = exams.filter((e) => !e.lv[i]);
+      if (missing.length) {
+        return h('tr', {}, h('th', { scope: 'row' }, `Nivel ${i + 1}`),
+          h('td', { colspan: '3', class: 'muted' }, `No disponible: ${missing.map((m) => short(m.name, 40)).join(', ')} no tiene valor en este nivel`));
+      }
+      const t = exams.reduce((s, e) => s + e.lv[i]![0], 0);
+      const b = exams.reduce((s, e) => s + e.lv[i]![1], 0);
+      return h('tr', {}, h('th', { scope: 'row' }, `Nivel ${i + 1}`),
+        h('td', {}, h('strong', {}, money.format(t))), h('td', {}, money.format(b)), h('td', {}, money.format(t - b)));
+    });
+    fonasa.append(h('div', { class: 'table-wrap' }, h('table', {},
+      h('thead', {}, h('tr', {}, ...['Nivel', 'Valor total', 'Bonificación FONASA', 'Copago estimado'].map((t) => h('th', { scope: 'col' }, t)))),
+      h('tbody', {}, ...rows))));
+    fonasa.append(h('p', { class: 'muted small' },
+      'Fuente: Arancel MLE 2026 de FONASA. El valor depende del nivel de inscripción del prestador. El copago estimado es el total menos la bonificación y aplica a beneficiarios FONASA que usan bono en Libre Elección. Es una referencia oficial, no el precio de un prestador específico.'));
   }
 
   function renderResults() {
@@ -187,12 +224,17 @@ const data = {
     else if (order === 'subdivision') complete.sort((a, b) => collator.compare(firstSub(a), firstSub(b)) || byName(a, b));
     else complete.sort(byName);
 
-    results.append(h('h3', {}, 'Cotización de tu orden'));
+    results.append(h('h3', {}, 'Precios en prestadores'));
+
+    if (!data.offers.some((o) => selected.includes(o.examId))) {
+      results.append(h('p', { class: 'notice' }, 'Aún no tenemos precios de prestadores para estos exámenes. Usa el valor FONASA como referencia y consulta directamente al laboratorio o clínica.'));
+      return;
+    }
 
     const subs = [...new Set(data.offers.map((o) => o.subdivision).filter(Boolean))].sort(collator.compare);
     const ctl = h('div', { class: 'controls' });
     const grp = h('div', { role: 'group', 'aria-label': 'Ordenar por' }, h('span', {}, 'Ordenar por: '));
-    ([['price', 'Precio total'], ['subdivision', data.subLabel[0].toUpperCase() + data.subLabel.slice(1)], ['alpha', 'Alfabético']] as const).forEach(([k, label]) => {
+    ([['price', 'Precio total'], ['subdivision', Sub], ['alpha', 'Alfabético']] as const).forEach(([k, label]) => {
       const b = h('button', { type: 'button', 'aria-pressed': String(order === k) }, label);
       b.addEventListener('click', () => { order = k; renderResults(); });
       grp.append(b);
@@ -203,14 +245,9 @@ const data = {
       subs.forEach((s) => sel.append(h('option', { value: s }, s)));
       sel.value = sub;
       sel.addEventListener('change', () => { sub = sel.value; renderResults(); });
-      ctl.append(h('label', {}, `${data.subLabel[0].toUpperCase() + data.subLabel.slice(1)}: `, sel));
+      ctl.append(h('label', {}, `${Sub}: `, sel));
     }
     results.append(ctl);
-
-    if (!all.length) {
-      results.append(h('p', { class: 'notice' }, 'Aún no tenemos precios para estos exámenes. Mira abajo cómo prepararte y consulta directamente al prestador.'));
-      return;
-    }
 
     if (complete.length) results.append(table(complete, true));
     else results.append(h('p', { class: 'notice' }, 'Ningún prestador tiene precio para todos tus exámenes. Abajo ves cotizaciones parciales.'));
@@ -223,12 +260,12 @@ const data = {
   }
 
   function table(groups: Group[], isComplete: boolean) {
-    const head = h('tr', {}, ...['Prestador', isComplete ? 'Total' : 'Subtotal', 'Detalle', data.subLabel[0].toUpperCase() + data.subLabel.slice(1), 'Verificado'].map((t) => h('th', { scope: 'col' }, t)));
+    const head = h('tr', {}, ...['Prestador', isComplete ? 'Total' : 'Subtotal', 'Detalle', Sub, 'Verificado'].map((t) => h('th', { scope: 'col' }, t)));
     const body = groups.map((g) => {
       const name = g.website ? h('a', { href: g.website, rel: 'noopener nofollow' }, g.provider) : g.provider;
       const detail = selected.map((id) => {
         const o = g.items.get(id);
-        return h('div', { class: 'small' }, `${examById.get(id)!.title}: `, o ? money.format(o.amount) : h('em', {}, 'sin precio'));
+        return h('div', { class: 'small' }, `${short(examById.get(id)!.name, 40)}: `, o ? money.format(o.amount) : h('em', {}, 'sin precio'));
       });
       const stale = (Date.now() - new Date(g.oldest).getTime()) / 86400000 > data.staleDays;
       return h('tr', {},
@@ -246,14 +283,22 @@ const data = {
     prep.replaceChildren();
     if (!selected.length) return;
     const items = selected.map((id) => examById.get(id)!);
+    const withGuide = items.filter((e) => e.guide);
+    const without = items.filter((e) => !e.guide);
+
     prep.append(h('h3', {}, '¿Necesitas prepararte?'));
-    const list = h('ul', { class: 'prep-list' });
-    items.forEach((e) => {
-      const flag = e.fastingRequired === true ? 'prep-yes' : e.fastingRequired === false ? 'prep-no' : 'prep-unk';
-      const link = e.guide ? h('a', { href: `/preparacion/${e.id}/` }, 'Ver preparación') : h('span', { class: 'muted small' }, 'Sin guía aún: consulta al prestador');
-      list.append(h('li', {}, h('strong', {}, e.title), ' ', h('span', { class: `tag ${flag}` }, e.fasting), ' ', link));
-    });
-    prep.append(list);
+    if (withGuide.length) {
+      const list = h('ul', { class: 'prep-list' });
+      withGuide.forEach((e) => {
+        const flag = e.fastingRequired ? 'prep-yes' : 'prep-no';
+        list.append(h('li', {}, h('strong', {}, short(e.name, 60)), ' ', h('span', { class: `tag ${flag}` }, e.fasting), ' ',
+          h('a', { href: `/preparacion/${e.guide}/` }, 'Ver preparación')));
+      });
+      prep.append(list);
+    }
+    if (without.length) {
+      prep.append(h('p', { class: 'muted' }, `Aún no tenemos guía de preparación para: ${without.map((e) => short(e.name, 40)).join(', ')}. Pregunta al prestador si requiere ayuno u otra indicación.`));
+    }
     if (items.some((e) => e.fastingRequired)) {
       prep.append(h('p', { class: 'notice' }, 'Si alguno de tus exámenes requiere ayuno, lo habitual es ir en ayuno para toda la toma de muestra. Confírmalo con el laboratorio.'));
     }

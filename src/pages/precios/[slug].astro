@@ -1,98 +1,122 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PriceTable from '../../components/PriceTable.astro';
+import FonasaTable from '../../components/FonasaTable.astro';
 import { siteConfig } from '../../../site.config';
 import { orderOffers, type OrderKey } from '../../lib/ordering';
 import { getPriceRows } from '../../lib/prices';
+import { getArancel, LEVELS, fastingText } from '../../lib/arancel';
+import { breadcrumbLd, examServiceLd } from '../../lib/jsonld';
 import { formatMoney } from '../../lib/format';
-import { breadcrumbLd, priceServiceLd } from '../../lib/jsonld';
 
 export async function getStaticPaths() {
   if (!siteConfig.modules.prices) return [];
-  const [exams, rows] = await Promise.all([getCollection('exams', (e) => !e.data.draft), getPriceRows()]);
-  return exams
-    .map((exam) => ({ exam, rows: rows.filter((r) => r.examId === exam.id) }))
-    .filter((x) => x.rows.length > 0)
-    .map(({ exam, rows }) => ({ params: { slug: exam.id }, props: { exam, rows } }));
+  const [items, allRows] = await Promise.all([getArancel(), getPriceRows()]);
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { item, rows: allRows.filter((r) => r.examId === item.id) },
+  }));
 }
 
-const { exam, rows } = Astro.props;
+const { item, rows } = Astro.props;
 const sub = siteConfig.country.subdivisionLabel;
+const Sub = sub[0].toUpperCase() + sub.slice(1);
 const orders: { key: OrderKey; label: string }[] = [
   { key: 'price', label: 'Precio' },
-  { key: 'subdivision', label: sub[0].toUpperCase() + sub.slice(1) },
+  { key: 'subdivision', label: Sub },
   { key: 'alpha', label: 'Alfabético' },
 ];
 const subdivisions = [...new Set(rows.map((r) => r.subdivision).filter(Boolean))].sort((a, b) =>
   a!.localeCompare(b!, 'es'),
 ) as string[];
-const min = Math.min(...rows.map((r) => r.amount));
-const max = Math.max(...rows.map((r) => r.amount));
+
+const levelList = LEVELS.flatMap((n) => (item.levels[n] ? [{ level: n, ...item.levels[n]! }] : []));
+const n1 = item.levels['1'];
+const title = `Precio del examen de ${item.name}`;
+const description =
+  `Valor del examen ${item.name} (código FONASA ${item.code})` +
+  (n1 ? `: desde ${formatMoney(n1.total)} en el Arancel MLE 2026` : '') +
+  (rows.length ? ` y ${rows.length} ${rows.length === 1 ? 'precio' : 'precios'} de prestadores.` : '.');
+
 const ld = [
-  priceServiceLd({
-    name: exam.data.title,
-    description: exam.data.summary,
+  examServiceLd({
+    name: item.name,
+    description: `${item.official}. ${item.section}.`,
     path: Astro.url.pathname,
+    code: item.code,
+    levels: levelList,
     offers: orderOffers(rows, 'price'),
-    lastVerified: new Date(Math.max(...rows.map((r) => r.verifiedAt.getTime()))),
+    lastVerified: rows.length ? new Date(Math.max(...rows.map((r) => r.verifiedAt.getTime()))) : undefined,
   }),
   breadcrumbLd([
     { name: 'Inicio', path: '/' },
-    { name: 'Precios', path: '/precios/' },
-    { name: exam.data.title, path: Astro.url.pathname },
+    { name: 'Cotizar', path: '/precios/' },
+    { name: item.name, path: Astro.url.pathname },
   ]),
 ];
 ---
 
-<Base
-  jsonLd={ld}
-  title={`Precio del examen de ${exam.data.title}`}
-  description={`Compara ${rows.length} ${rows.length === 1 ? 'precio' : 'precios'} del examen de ${exam.data.title} ${siteConfig.country.areaLabel}, entre ${formatMoney(min)} y ${formatMoney(max)}.`}
->
+<Base jsonLd={ld} title={title} description={description}>
   <div class="container">
     <div class="prose">
-      <p class="muted"><a href="/precios/">Precios</a></p>
-      <h1>Precio del examen de {exam.data.title}</h1>
-      <p>{exam.data.summary}</p>
-      {exam.data.guide && (
-        <p>
-          <a href={`/preparacion/${exam.id}/`}>Cómo prepararte para este examen</a>
+      <p class="muted"><a href="/precios/">Cotizar</a> › {item.section}</p>
+      <h1>{title}</h1>
+      <p class="muted">Código FONASA <strong>{item.code}</strong></p>
+      <p class="muted small">{item.official}</p>
+
+      {item.guide && (
+        <p class="notice">
+          <strong>Preparación:</strong> {fastingText(item.fasting)}.
+          <a href={`/preparacion/${item.guide}/`}>Ver cómo prepararte</a>
         </p>
       )}
-      <p class="notice">
-        Orden solo por precio, {sub} o alfabeto. Ningún prestador paga por aparecer ni por mejor posición.
-      </p>
     </div>
 
-    <div class="controls" id="controls" hidden>
-      <div role="group" aria-label="Ordenar por">
-        <span>Ordenar por:</span>
-        {orders.map((o, i) => (
-          <button type="button" data-order-btn={o.key} aria-pressed={i === 0 ? 'true' : 'false'}>{o.label}</button>
-        ))}
-      </div>
-      {subdivisions.length > 0 && (
-        <label>
-          {sub[0].toUpperCase() + sub.slice(1)}:
-          <select id="sub-filter">
-            <option value="">Todas</option>
-            {subdivisions.map((s) => <option value={s}>{s}</option>)}
-          </select>
-        </label>
-      )}
-    </div>
-
-    {orders.map((o, i) => (
-      <section data-order={o.key} hidden={i !== 0 ? true : undefined} aria-label={`Ordenado por ${o.label.toLowerCase()}`}>
-        <PriceTable rows={orderOffers(rows, o.key)} />
-      </section>
-    ))}
-
+    <h2>Valor de referencia FONASA</h2>
+    <FonasaTable levels={item.levels} />
     <p class="muted small prose">
-      Precios particulares referenciales para pacientes sin convenio, salvo que se indique otro tipo. Pueden cambiar
-      sin aviso y no incluyen necesariamente la toma de muestra u otros cargos. Verifica con el prestador.
+      Fuente: FONASA, Arancel de Prestaciones de Salud 2026, Modalidad Libre Elección. El valor depende del nivel
+      de inscripción del prestador. El copago estimado es el valor total menos la bonificación y aplica a
+      beneficiarios FONASA que usan bono en Libre Elección; otras coberturas o convenios pueden variar. Es una
+      referencia, no el precio de un prestador específico.
     </p>
+
+    <h2>Precios en prestadores</h2>
+    {rows.length === 0 ? (
+      <p class="prose">Aún no tenemos precios de prestadores para este examen. Consulta directamente al laboratorio o clínica.</p>
+    ) : (
+      <>
+        <p class="notice prose">
+          Orden solo por precio, {sub} o alfabeto. Ningún prestador paga por aparecer ni por mejor posición.
+        </p>
+        <div class="controls" id="controls" hidden>
+          <div role="group" aria-label="Ordenar por">
+            <span>Ordenar por:</span>
+            {orders.map((o, i) => (
+              <button type="button" data-order-btn={o.key} aria-pressed={i === 0 ? 'true' : 'false'}>{o.label}</button>
+            ))}
+          </div>
+          {subdivisions.length > 0 && (
+            <label>
+              {Sub}:
+              <select id="sub-filter">
+                <option value="">Todas</option>
+                {subdivisions.map((s) => <option value={s}>{s}</option>)}
+              </select>
+            </label>
+          )}
+        </div>
+        {orders.map((o, i) => (
+          <section data-order={o.key} hidden={i !== 0 ? true : undefined} aria-label={`Ordenado por ${o.label.toLowerCase()}`}>
+            <PriceTable rows={orderOffers(rows, o.key)} />
+          </section>
+        ))}
+        <p class="muted small prose">
+          Precios particulares referenciales, salvo que se indique otro tipo. Pueden cambiar sin aviso y no incluyen
+          necesariamente la toma de muestra u otros cargos. Verifica con el prestador.
+        </p>
+      </>
+    )}
   </div>
 </Base>
 
@@ -113,8 +137,8 @@ const ld = [
 
   filter?.addEventListener('change', () => {
     document.querySelectorAll<HTMLElement>('tbody tr').forEach((tr) => {
-      const s = tr.dataset.sub ?? '';
-      // Los precios sin comuna (todas) siempre aplican.
+      const s = tr.dataset.sub;
+      if (s === undefined) return;
       tr.hidden = !!filter.value && s !== '' && s !== filter.value;
     });
   });

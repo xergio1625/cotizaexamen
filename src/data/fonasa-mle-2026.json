@@ -1,0 +1,8553 @@
+[
+ {
+  "id": "03-01-002",
+  "code": "03 01 002",
+  "official": "ACIDO FÓLICO O FOLATOS",
+  "name": "Acido fólico o folatos",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5140,
+    "benef": 2570
+   },
+   "2": {
+    "total": 6680,
+    "benef": 4110
+   },
+   "3": {
+    "total": 8220,
+    "benef": 5650
+   }
+  }
+ },
+ {
+  "id": "03-01-003",
+  "code": "03 01 003",
+  "official": "ADENOGRAMA, MIELOGRAMA, C/U",
+  "name": "Adenograma, mielograma, C/U",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 8490,
+    "benef": 4240
+   },
+   "2": {
+    "total": 11040,
+    "benef": 6790
+   },
+   "3": {
+    "total": 13580,
+    "benef": 9330
+   }
+  }
+ },
+ {
+  "id": "03-01-006",
+  "code": "03 01 006",
+  "official": "AGREGACIÓN PLAQUETARIA CON DIFERENTES AGONISTAS",
+  "name": "Agregación plaquetaria con diferentes agonistas",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 4970,
+    "benef": 2480
+   },
+   "2": {
+    "total": 6460,
+    "benef": 3970
+   },
+   "3": {
+    "total": 7950,
+    "benef": 5460
+   }
+  }
+ },
+ {
+  "id": "03-01-007",
+  "code": "03 01 007",
+  "official": "ANTICOAGULANTES CIRCULANTES O ANTICOAGULANTE LÚPICO",
+  "name": "Anticoagulantes circulantes o anticoagulante lúpico",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5370,
+    "benef": 2680
+   },
+   "2": {
+    "total": 6980,
+    "benef": 4290
+   },
+   "3": {
+    "total": 8590,
+    "benef": 5900
+   }
+  }
+ },
+ {
+  "id": "03-01-008",
+  "code": "03 01 008",
+  "official": "ANTITROMBINA III",
+  "name": "Antitrombina III",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5370,
+    "benef": 2680
+   },
+   "2": {
+    "total": 6980,
+    "benef": 4290
+   },
+   "3": {
+    "total": 8590,
+    "benef": 5900
+   }
+  }
+ },
+ {
+  "id": "03-01-011",
+  "code": "03 01 011",
+  "official": "COAGULACIÓN, TIEMPO DE",
+  "name": "Coagulación, tiempo de",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1540,
+    "benef": 770
+   },
+   "2": {
+    "total": 2000,
+    "benef": 1230
+   },
+   "3": {
+    "total": 2460,
+    "benef": 1690
+   }
+  }
+ },
+ {
+  "id": "03-01-013",
+  "code": "03 01 013",
+  "official": "TIEMPO DE LISIS DEL COÁGULO",
+  "name": "Tiempo de lisis del coágulo",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 710,
+    "benef": 350
+   },
+   "2": {
+    "total": 920,
+    "benef": 560
+   },
+   "3": {
+    "total": 1140,
+    "benef": 780
+   }
+  }
+ },
+ {
+  "id": "03-01-014",
+  "code": "03 01 014",
+  "official": "PRUEBA DE ANTIGLOBULINA DIRECTA",
+  "name": "Prueba de antiglobulina directa",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1430,
+    "benef": 710
+   },
+   "2": {
+    "total": 1860,
+    "benef": 1140
+   },
+   "3": {
+    "total": 2290,
+    "benef": 1570
+   }
+  }
+ },
+ {
+  "id": "03-01-017",
+  "code": "03 01 017",
+  "official": "DESHIDROGENASA GLUCOSA-6-FOSFATO EN ERITROCITOS",
+  "name": "Deshidrogenasa GLUCOSA-6-FOSFATO en eritrocitos",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 4910,
+    "benef": 2450
+   },
+   "2": {
+    "total": 6380,
+    "benef": 3920
+   },
+   "3": {
+    "total": 7860,
+    "benef": 5400
+   }
+  }
+ },
+ {
+  "id": "03-01-020",
+  "code": "03 01 020",
+  "official": "TIEMPO DE LISIS DE EUGLOBULINAS",
+  "name": "Tiempo de lisis de euglobulinas",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1680,
+    "benef": 840
+   },
+   "2": {
+    "total": 2180,
+    "benef": 1340
+   },
+   "3": {
+    "total": 2690,
+    "benef": 1850
+   }
+  }
+ },
+ {
+  "id": "03-01-021",
+  "code": "03 01 021",
+  "official": "FIBRINÓGENO",
+  "name": "Fibrinógeno",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 2620,
+    "benef": 1310
+   },
+   "2": {
+    "total": 3410,
+    "benef": 2100
+   },
+   "3": {
+    "total": 4190,
+    "benef": 2880
+   }
+  }
+ },
+ {
+  "id": "03-01-022",
+  "code": "03 01 022",
+  "official": "TEST DE NEUTRALIZACIÓN PLAQUETARIA",
+  "name": "Test de neutralización plaquetaria",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5150,
+    "benef": 2570
+   },
+   "2": {
+    "total": 6700,
+    "benef": 4120
+   },
+   "3": {
+    "total": 8240,
+    "benef": 5660
+   }
+  }
+ },
+ {
+  "id": "03-01-024",
+  "code": "03 01 024",
+  "official": "FACTOR V",
+  "name": "Factor v",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 2300,
+    "benef": 1150
+   },
+   "2": {
+    "total": 2990,
+    "benef": 1840
+   },
+   "3": {
+    "total": 3680,
+    "benef": 2530
+   }
+  }
+ },
+ {
+  "id": "03-01-025",
+  "code": "03 01 025",
+  "official": "FACTORES VII, VIII, IX, X, XI, XII, XIII, C/U",
+  "name": "Factores VII, VIII, IX, x, XI, XII, XIII, C/U",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5190,
+    "benef": 2590
+   },
+   "2": {
+    "total": 6750,
+    "benef": 4150
+   },
+   "3": {
+    "total": 8300,
+    "benef": 5700
+   }
+  }
+ },
+ {
+  "id": "03-01-026",
+  "code": "03 01 026",
+  "official": "FERRITINA",
+  "name": "Ferritina",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 6170,
+    "benef": 3080
+   },
+   "2": {
+    "total": 8020,
+    "benef": 4930
+   },
+   "3": {
+    "total": 9870,
+    "benef": 6780
+   }
+  }
+ },
+ {
+  "id": "03-01-027",
+  "code": "03 01 027",
+  "official": "FIBRINÓGENO, PRODUCTOS DE DEGRADACIÓN DEL",
+  "name": "Fibrinógeno, productos de degradación del",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5150,
+    "benef": 2570
+   },
+   "2": {
+    "total": 6700,
+    "benef": 4120
+   },
+   "3": {
+    "total": 8240,
+    "benef": 5660
+   }
+  }
+ },
+ {
+  "id": "03-01-028",
+  "code": "03 01 028",
+  "official": "FIERRO SÉRICO",
+  "name": "Fierro sérico",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 2180,
+    "benef": 1090
+   },
+   "2": {
+    "total": 2830,
+    "benef": 1740
+   },
+   "3": {
+    "total": 3490,
+    "benef": 2400
+   }
+  }
+ },
+ {
+  "id": "03-01-029",
+  "code": "03 01 029",
+  "official": "FIERRO, CAPACIDAD DE FIJACIÓN DEL (INCLUYE FIERRO SÉRICO)",
+  "name": "Fierro, capacidad de fijación del",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 4740,
+    "benef": 2370
+   },
+   "2": {
+    "total": 6160,
+    "benef": 3790
+   },
+   "3": {
+    "total": 7580,
+    "benef": 5210
+   }
+  }
+ },
+ {
+  "id": "03-01-030",
+  "code": "03 01 030",
+  "official": "FIERRO, CINÉTICA DEL (CADA DETERMINACIÓN)",
+  "name": "Fierro, cinética del (cada determinación)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5340,
+    "benef": 2670
+   },
+   "2": {
+    "total": 6940,
+    "benef": 4270
+   },
+   "3": {
+    "total": 8540,
+    "benef": 5870
+   }
+  }
+ },
+ {
+  "id": "03-01-034",
+  "code": "03 01 034",
+  "official": "CLASIFICACIÓN SANGUÍNEA AB0 Y RHD",
+  "name": "Clasificación sanguínea AB0 y RHD",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 2560,
+    "benef": 1280
+   },
+   "2": {
+    "total": 3330,
+    "benef": 2050
+   },
+   "3": {
+    "total": 4100,
+    "benef": 2820
+   }
+  }
+ },
+ {
+  "id": "03-01-035",
+  "code": "03 01 035",
+  "official": "HAPTOGLOBINA CUANTITATIVA",
+  "name": "Haptoglobina cuantitativa",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 4880,
+    "benef": 2440
+   },
+   "2": {
+    "total": 6340,
+    "benef": 3900
+   },
+   "3": {
+    "total": 7810,
+    "benef": 5370
+   }
+  }
+ },
+ {
+  "id": "03-01-036",
+  "code": "03 01 036",
+  "official": "HEMATOCRITO (PROC. AUT.)",
+  "name": "Hematocrito (proc. aut.)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 790,
+    "benef": 390
+   },
+   "2": {
+    "total": 1030,
+    "benef": 630
+   },
+   "3": {
+    "total": 1260,
+    "benef": 860
+   }
+  }
+ },
+ {
+  "id": "03-01-038",
+  "code": "03 01 038",
+  "official": "HEMOGLOBINA EN SANGRE TOTAL (PROC. AUT.)",
+  "name": "Hemoglobina en sangre total (proc. aut.)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 790,
+    "benef": 390
+   },
+   "2": {
+    "total": 1030,
+    "benef": 630
+   },
+   "3": {
+    "total": 1260,
+    "benef": 860
+   }
+  }
+ },
+ {
+  "id": "03-01-040",
+  "code": "03 01 040",
+  "official": "HEMOGLOBINA FETAL CUANTITATIVA EN ERITROCITOS",
+  "name": "Hemoglobina fetal cuantitativa en eritrocitos",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 4980,
+    "benef": 2490
+   },
+   "2": {
+    "total": 6470,
+    "benef": 3980
+   },
+   "3": {
+    "total": 7970,
+    "benef": 5480
+   }
+  }
+ },
+ {
+  "id": "03-01-041",
+  "code": "03 01 041",
+  "official": "HEMOGLOBINA GLICADA A1C",
+  "name": "Hemoglobina glicada A1C",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 4640,
+    "benef": 2320
+   },
+   "2": {
+    "total": 6030,
+    "benef": 3710
+   },
+   "3": {
+    "total": 7420,
+    "benef": 5100
+   }
+  }
+ },
+ {
+  "id": "03-01-042",
+  "code": "03 01 042",
+  "official": "HEMOGLOBINA PLASMÁTICA",
+  "name": "Hemoglobina plasmática",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1050,
+    "benef": 520
+   },
+   "2": {
+    "total": 1370,
+    "benef": 840
+   },
+   "3": {
+    "total": 1680,
+    "benef": 1150
+   }
+  }
+ },
+ {
+  "id": "03-01-044",
+  "code": "03 01 044",
+  "official": "ELECTROFORESIS DE HEMOGLOBINA",
+  "name": "Electroforesis de hemoglobina",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5430,
+    "benef": 2710
+   },
+   "2": {
+    "total": 7060,
+    "benef": 4340
+   },
+   "3": {
+    "total": 8690,
+    "benef": 5970
+   }
+  }
+ },
+ {
+  "id": "03-01-045",
+  "code": "03 01 045",
+  "official": "HEMOGRAMA (INCLUYE RECUENTOS DE LEUCOCITOS, ERITROCITOS, PLAQUETAS, HEMOGLOBINA, HEMATOCRITO, FÓRMULA LEUCOCITARIA, CARACTERÍSTICAS DE LOS ELEMENTOS FIGURADOS Y VELOCIDAD DE ERITROSEDIMENTACIÓN)",
+  "name": "Hemograma",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 3170,
+    "benef": 1580
+   },
+   "2": {
+    "total": 4120,
+    "benef": 2530
+   },
+   "3": {
+    "total": 5070,
+    "benef": 3480
+   }
+  }
+ },
+ {
+  "id": "03-01-048",
+  "code": "03 01 048",
+  "official": "HEMOSIDERINA MEDULAR",
+  "name": "Hemosiderina medular",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1250,
+    "benef": 620
+   },
+   "2": {
+    "total": 1630,
+    "benef": 1000
+   },
+   "3": {
+    "total": 2000,
+    "benef": 1370
+   }
+  }
+ },
+ {
+  "id": "03-01-049",
+  "code": "03 01 049",
+  "official": "CUANTIFICACIÓN DE HEPARINA",
+  "name": "Cuantificación de heparina",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5960,
+    "benef": 2980
+   },
+   "2": {
+    "total": 7750,
+    "benef": 4770
+   },
+   "3": {
+    "total": 9540,
+    "benef": 6560
+   }
+  }
+ },
+ {
+  "id": "03-01-051",
+  "code": "03 01 051",
+  "official": "IDENTIFICACIÓN DE ANTICUERPOS IRREGULARES ERITROCITARIOS",
+  "name": "Identificación de anticuerpos irregulares eritrocitarios",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5150,
+    "benef": 2570
+   },
+   "2": {
+    "total": 6700,
+    "benef": 4120
+   },
+   "3": {
+    "total": 8240,
+    "benef": 5660
+   }
+  }
+ },
+ {
+  "id": "03-01-054",
+  "code": "03 01 054",
+  "official": "METAHEMOGLOBINA",
+  "name": "Metahemoglobina",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1580,
+    "benef": 790
+   },
+   "2": {
+    "total": 2050,
+    "benef": 1260
+   },
+   "3": {
+    "total": 2530,
+    "benef": 1740
+   }
+  }
+ },
+ {
+  "id": "03-01-059",
+  "code": "03 01 059",
+  "official": "TIEMPO DE PROTROMBINA (INCLUYE INR, RAZÓN INTERNACIONAL NORMALIZADA)",
+  "name": "Tiempo de protrombina",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1590,
+    "benef": 790
+   },
+   "2": {
+    "total": 2070,
+    "benef": 1270
+   },
+   "3": {
+    "total": 2540,
+    "benef": 1740
+   }
+  }
+ },
+ {
+  "id": "03-01-062",
+  "code": "03 01 062",
+  "official": "RECUENTO DE BASÓFILOS (ABSOLUTO)",
+  "name": "Recuento de basófilos (absoluto)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1080,
+    "benef": 540
+   },
+   "2": {
+    "total": 1400,
+    "benef": 860
+   },
+   "3": {
+    "total": 1730,
+    "benef": 1190
+   }
+  }
+ },
+ {
+  "id": "03-01-063",
+  "code": "03 01 063",
+  "official": "RECUENTO DE EOSINÓFILOS (ABSOLUTO)",
+  "name": "Recuento de eosinófilos (absoluto)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1010,
+    "benef": 500
+   },
+   "2": {
+    "total": 1310,
+    "benef": 800
+   },
+   "3": {
+    "total": 1620,
+    "benef": 1110
+   }
+  }
+ },
+ {
+  "id": "03-01-064",
+  "code": "03 01 064",
+  "official": "RECUENTO DE ERITROCITOS, ABSOLUTO (PROC. AUT.)",
+  "name": "Recuento de eritrocitos, absoluto (proc. aut.)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 770,
+    "benef": 380
+   },
+   "2": {
+    "total": 1000,
+    "benef": 610
+   },
+   "3": {
+    "total": 1230,
+    "benef": 840
+   }
+  }
+ },
+ {
+  "id": "03-01-065",
+  "code": "03 01 065",
+  "official": "RECUENTO DE LEUCOCITOS, ABSOLUTO (PROC. AUT.)",
+  "name": "Recuento de leucocitos, absoluto (proc. aut.)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 750,
+    "benef": 370
+   },
+   "2": {
+    "total": 980,
+    "benef": 600
+   },
+   "3": {
+    "total": 1200,
+    "benef": 820
+   }
+  }
+ },
+ {
+  "id": "03-01-066",
+  "code": "03 01 066",
+  "official": "RECUENTO DE LINFOCITOS (ABSOLUTO)",
+  "name": "Recuento de linfocitos (absoluto)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1300,
+    "benef": 650
+   },
+   "2": {
+    "total": 1690,
+    "benef": 1040
+   },
+   "3": {
+    "total": 2080,
+    "benef": 1430
+   }
+  }
+ },
+ {
+  "id": "03-01-067",
+  "code": "03 01 067",
+  "official": "RECUENTO DE PLAQUETAS (ABSOLUTO)",
+  "name": "Recuento de plaquetas (absoluto)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1330,
+    "benef": 660
+   },
+   "2": {
+    "total": 1730,
+    "benef": 1060
+   },
+   "3": {
+    "total": 2130,
+    "benef": 1460
+   }
+  }
+ },
+ {
+  "id": "03-01-068",
+  "code": "03 01 068",
+  "official": "RECUENTO DE RETICULOCITOS (ABSOLUTO O PORCENTUAL)",
+  "name": "Recuento de reticulocitos (absoluto o porcentual)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1030,
+    "benef": 510
+   },
+   "2": {
+    "total": 1340,
+    "benef": 820
+   },
+   "3": {
+    "total": 1650,
+    "benef": 1130
+   }
+  }
+ },
+ {
+  "id": "03-01-069",
+  "code": "03 01 069",
+  "official": "RECUENTO DIFERENCIAL O FÓRMULA LEUCOCITARIA (PROC. AUT.)",
+  "name": "Recuento diferencial o fórmula leucocitaria (proc. aut.)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 2180,
+    "benef": 1090
+   },
+   "2": {
+    "total": 2830,
+    "benef": 1740
+   },
+   "3": {
+    "total": 3490,
+    "benef": 2400
+   }
+  }
+ },
+ {
+  "id": "03-01-070",
+  "code": "03 01 070",
+  "official": "RESISTENCIA GLOBULAR OSMÓTICA",
+  "name": "Resistencia globular osmótica",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 3430,
+    "benef": 1710
+   },
+   "2": {
+    "total": 4460,
+    "benef": 2740
+   },
+   "3": {
+    "total": 5490,
+    "benef": 3770
+   }
+  }
+ },
+ {
+  "id": "03-01-072",
+  "code": "03 01 072",
+  "official": "TIEMPO DE SANGRÍA (NO INCLUYE DISPOSITIVO ASOCIADO)",
+  "name": "Tiempo de sangría",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 1540,
+    "benef": 770
+   },
+   "2": {
+    "total": 2000,
+    "benef": 1230
+   },
+   "3": {
+    "total": 2460,
+    "benef": 1690
+   }
+  }
+ },
+ {
+  "id": "03-01-082",
+  "code": "03 01 082",
+  "official": "TRANSFERRINA",
+  "name": "Transferrina",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 5640,
+    "benef": 2820
+   },
+   "2": {
+    "total": 7330,
+    "benef": 4510
+   },
+   "3": {
+    "total": 9020,
+    "benef": 6200
+   }
+  }
+ },
+ {
+  "id": "03-01-083",
+  "code": "03 01 083",
+  "official": "TROMBINA, TIEMPO DE",
+  "name": "Trombina, tiempo de",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 2120,
+    "benef": 1060
+   },
+   "2": {
+    "total": 2760,
+    "benef": 1700
+   },
+   "3": {
+    "total": 3390,
+    "benef": 2330
+   }
+  }
+ },
+ {
+  "id": "03-01-085",
+  "code": "03 01 085",
+  "official": "TROMBOPLASTINA, TIEMPO PARCIAL DE (TTPA, TTPK O SIMILARES)",
+  "name": "Tromboplastina, tiempo parcial de (TTPA, TTPK o similares)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 2450,
+    "benef": 1220
+   },
+   "2": {
+    "total": 3190,
+    "benef": 1960
+   },
+   "3": {
+    "total": 3920,
+    "benef": 2690
+   }
+  }
+ },
+ {
+  "id": "03-01-086",
+  "code": "03 01 086",
+  "official": "VELOCIDAD DE ERITROSEDIMENTACIÓN (PROC. AUT.)",
+  "name": "Velocidad de eritrosedimentación (proc. aut.)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 570,
+    "benef": 280
+   },
+   "2": {
+    "total": 740,
+    "benef": 450
+   },
+   "3": {
+    "total": 910,
+    "benef": 620
+   }
+  }
+ },
+ {
+  "id": "03-01-089",
+  "code": "03 01 089",
+  "official": "FACTOR VON WILLEBRAND ANTIGÉNICO (FVW:AG)",
+  "name": "Factor von willebrand antigénico (fvw:ag)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 10330,
+    "benef": 5160
+   },
+   "2": {
+    "total": 13430,
+    "benef": 8260
+   },
+   "3": {
+    "total": 16530,
+    "benef": 11360
+   }
+  }
+ },
+ {
+  "id": "03-01-090",
+  "code": "03 01 090",
+  "official": "FACTOR VON WILLEBRAND ANTIGÉNICO COFACTOR RISTOCETINA (FVW:CORIS)",
+  "name": "Factor von willebrand antigénico cofactor ristocetina (fvw:coris)",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 9770,
+    "benef": 4880
+   },
+   "2": {
+    "total": 12700,
+    "benef": 7810
+   },
+   "3": {
+    "total": 15630,
+    "benef": 10740
+   }
+  }
+ },
+ {
+  "id": "03-01-091",
+  "code": "03 01 091",
+  "official": "PROTEÍNA C FUNCIONAL",
+  "name": "Proteína c funcional",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 31990,
+    "benef": 15990
+   },
+   "2": {
+    "total": 41590,
+    "benef": 25590
+   },
+   "3": {
+    "total": 51180,
+    "benef": 35180
+   }
+  }
+ },
+ {
+  "id": "03-01-092",
+  "code": "03 01 092",
+  "official": "PROTEÍNA S",
+  "name": "Proteína s",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 37830,
+    "benef": 18910
+   },
+   "2": {
+    "total": 49180,
+    "benef": 30260
+   },
+   "3": {
+    "total": 60530,
+    "benef": 41610
+   }
+  }
+ },
+ {
+  "id": "03-01-093",
+  "code": "03 01 093",
+  "official": "RESISTENCIA A LA PROTEÍNA C ACTIVADA",
+  "name": "Resistencia a la proteína c activada",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 23820,
+    "benef": 11910
+   },
+   "2": {
+    "total": 30970,
+    "benef": 19060
+   },
+   "3": {
+    "total": 38110,
+    "benef": 26200
+   }
+  }
+ },
+ {
+  "id": "03-01-094",
+  "code": "03 01 094",
+  "official": "ESTUDIO DE LA HEMOGLOBINURIA PAROXÍSTICA NOCTURNA (HPN) POR CITOMETRÍA DE FLUJO",
+  "name": "Estudio de la hemoglobinuria paroxística nocturna (HPN) por citometría de flujo",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 49130,
+    "benef": 24560
+   },
+   "2": {
+    "total": 63870,
+    "benef": 39300
+   },
+   "3": {
+    "total": 78610,
+    "benef": 54040
+   }
+  }
+ },
+ {
+  "id": "03-01-095",
+  "code": "03 01 095",
+  "official": "DÍMERO-D",
+  "name": "Dímero-d",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 12280,
+    "benef": 6140
+   },
+   "2": {
+    "total": 15960,
+    "benef": 9820
+   },
+   "3": {
+    "total": 19650,
+    "benef": 13510
+   }
+  }
+ },
+ {
+  "id": "03-01-096",
+  "code": "03 01 096",
+  "official": "PROCALCITONINA",
+  "name": "Procalcitonina",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 44720,
+    "benef": 22360
+   }
+  }
+ },
+ {
+  "id": "03-01-097",
+  "code": "03 01 097",
+  "official": "INHIBIDOR DE FACTOR DE LA COAGULACIÓN",
+  "name": "Inhibidor de factor de la coagulación",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 93130,
+    "benef": 46560
+   }
+  }
+ },
+ {
+  "id": "03-01-098",
+  "code": "03 01 098",
+  "official": "SECRECIÓN PLAQUETARIA CON DIFERENTES AGONISTAS",
+  "name": "Secreción plaquetaria con diferentes agonistas",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 120070,
+    "benef": 60030
+   }
+  }
+ },
+ {
+  "id": "03-01-099",
+  "code": "03 01 099",
+  "official": "TIEMPO DE VENENO DE VÍBORA DE RUSSELL DILUÍDO",
+  "name": "Tiempo de veneno de víbora de russell diluído",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 45100,
+    "benef": 22550
+   }
+  }
+ },
+ {
+  "id": "03-01-100",
+  "code": "03 01 100",
+  "official": "ANTITROMBINA III ANTIGÉNICA",
+  "name": "Antitrombina III antigénica",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 45240,
+    "benef": 22620
+   }
+  }
+ },
+ {
+  "id": "03-01-114",
+  "code": "03 01 114",
+  "official": "PROTEÍNA C ANTIGÉNICA",
+  "name": "Proteína c antigénica",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 45400,
+    "benef": 22700
+   }
+  }
+ },
+ {
+  "id": "03-01-116",
+  "code": "03 01 116",
+  "official": "HEMOGLOBINA GLICADA, A1C, TEST RÁPIDO EN EL LUGAR DE ASISTENCIA (INCLUYE TOMA DE MUESTRA SANGRE CAPILAR)",
+  "name": "Hemoglobina glicada, A1C, test rápido en el lugar de asistencia",
+  "section": "Sangre, hematología",
+  "levels": {
+   "1": {
+    "total": 4640,
+    "benef": 2320
+   },
+   "2": {
+    "total": 6030,
+    "benef": 3710
+   },
+   "3": {
+    "total": 7420,
+    "benef": 5100
+   }
+  }
+ },
+ {
+  "id": "03-02-001",
+  "code": "03 02 001",
+  "official": "CUERPOS CETÓNICOS EN SANGRE",
+  "name": "Cuerpos cetónicos en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 960,
+    "benef": 480
+   },
+   "2": {
+    "total": 1250,
+    "benef": 770
+   },
+   "3": {
+    "total": 1540,
+    "benef": 1060
+   }
+  }
+ },
+ {
+  "id": "03-02-002",
+  "code": "03 02 002",
+  "official": "ACIDO CÍTRICO",
+  "name": "Acido cítrico",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 3340,
+    "benef": 1670
+   },
+   "2": {
+    "total": 4340,
+    "benef": 2670
+   },
+   "3": {
+    "total": 5340,
+    "benef": 3670
+   }
+  }
+ },
+ {
+  "id": "03-02-004",
+  "code": "03 02 004",
+  "official": "LACTATO EN SANGRE",
+  "name": "Lactato en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 4180,
+    "benef": 2090
+   },
+   "2": {
+    "total": 5430,
+    "benef": 3340
+   },
+   "3": {
+    "total": 6690,
+    "benef": 4600
+   }
+  }
+ },
+ {
+  "id": "03-02-005",
+  "code": "03 02 005",
+  "official": "ACIDO ÚRICO, EN SANGRE",
+  "name": "Acido úrico, en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1560,
+    "benef": 780
+   },
+   "2": {
+    "total": 2030,
+    "benef": 1250
+   },
+   "3": {
+    "total": 2500,
+    "benef": 1720
+   }
+  }
+ },
+ {
+  "id": "03-02-008",
+  "code": "03 02 008",
+  "official": "AMILASA, EN SANGRE",
+  "name": "Amilasa, en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2450,
+    "benef": 1220
+   },
+   "2": {
+    "total": 3190,
+    "benef": 1960
+   },
+   "3": {
+    "total": 3920,
+    "benef": 2690
+   }
+  }
+ },
+ {
+  "id": "03-02-009",
+  "code": "03 02 009",
+  "official": "AMINOÁCIDOS, CUALITATIVO EN SANGRE",
+  "name": "Aminoácidos, cualitativo en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 6900,
+    "benef": 3450
+   },
+   "2": {
+    "total": 8970,
+    "benef": 5520
+   },
+   "3": {
+    "total": 11040,
+    "benef": 7590
+   }
+  }
+ },
+ {
+  "id": "03-02-010",
+  "code": "03 02 010",
+  "official": "AMONIO",
+  "name": "Amonio",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2530,
+    "benef": 1260
+   },
+   "2": {
+    "total": 3290,
+    "benef": 2020
+   },
+   "3": {
+    "total": 4050,
+    "benef": 2780
+   }
+  }
+ },
+ {
+  "id": "03-02-070",
+  "code": "03 02 070",
+  "official": "APOLIPOPROTEÍNAS (A1, B U OTRAS) C/U",
+  "name": "Apolipoproteínas (A1, b u otras) C/U",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 7100,
+    "benef": 3550
+   },
+   "2": {
+    "total": 9230,
+    "benef": 5680
+   },
+   "3": {
+    "total": 11360,
+    "benef": 7810
+   }
+  }
+ },
+ {
+  "id": "03-02-011",
+  "code": "03 02 011",
+  "official": "BICARBONATO (PROC. AUT.)",
+  "name": "Bicarbonato (proc. aut.)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 740,
+    "benef": 370
+   },
+   "2": {
+    "total": 960,
+    "benef": 590
+   },
+   "3": {
+    "total": 1180,
+    "benef": 810
+   }
+  }
+ },
+ {
+  "id": "03-02-012",
+  "code": "03 02 012",
+  "official": "BILIRRUBINA TOTAL (PROC. AUT.)",
+  "name": "Bilirrubina total (proc. aut.)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1590,
+    "benef": 790
+   },
+   "2": {
+    "total": 2070,
+    "benef": 1270
+   },
+   "3": {
+    "total": 2540,
+    "benef": 1740
+   }
+  }
+ },
+ {
+  "id": "03-02-013",
+  "code": "03 02 013",
+  "official": "BILIRRUBINA TOTAL Y CONJUGADA",
+  "name": "Bilirrubina total y conjugada",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1500,
+    "benef": 750
+   },
+   "2": {
+    "total": 1950,
+    "benef": 1200
+   },
+   "3": {
+    "total": 2400,
+    "benef": 1650
+   }
+  }
+ },
+ {
+  "id": "03-02-015",
+  "code": "03 02 015",
+  "official": "CALCIO EN SANGRE",
+  "name": "Calcio en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1420,
+    "benef": 710
+   },
+   "2": {
+    "total": 1850,
+    "benef": 1140
+   },
+   "3": {
+    "total": 2270,
+    "benef": 1560
+   }
+  }
+ },
+ {
+  "id": "03-02-017",
+  "code": "03 02 017",
+  "official": "CAROTENO",
+  "name": "Caroteno",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2270,
+    "benef": 1130
+   },
+   "2": {
+    "total": 2950,
+    "benef": 1810
+   },
+   "3": {
+    "total": 3630,
+    "benef": 2490
+   }
+  }
+ },
+ {
+  "id": "03-02-018",
+  "code": "03 02 018",
+  "official": "CAROTENO, PRUEBA DE SOBRECARGA DE, ADEMÁS 2 CÓDIGOS 03-07-011 O 03-07-012.",
+  "name": "Caroteno, prueba de sobrecarga de, además 2 códigos 03-07-011 o 03-07-012",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 4920,
+    "benef": 2460
+   },
+   "2": {
+    "total": 6400,
+    "benef": 3940
+   },
+   "3": {
+    "total": 7870,
+    "benef": 5410
+   }
+  }
+ },
+ {
+  "id": "03-02-019",
+  "code": "03 02 019",
+  "official": "CERULOPLASMINA",
+  "name": "Ceruloplasmina",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 3790,
+    "benef": 1890
+   },
+   "2": {
+    "total": 4930,
+    "benef": 3030
+   },
+   "3": {
+    "total": 6060,
+    "benef": 4160
+   }
+  }
+ },
+ {
+  "id": "03-02-020",
+  "code": "03 02 020",
+  "official": "COBRE EN SANGRE",
+  "name": "Cobre en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2110,
+    "benef": 1050
+   },
+   "2": {
+    "total": 2740,
+    "benef": 1680
+   },
+   "3": {
+    "total": 3380,
+    "benef": 2320
+   }
+  }
+ },
+ {
+  "id": "03-02-067",
+  "code": "03 02 067",
+  "official": "COLESTEROL TOTAL (PROC. AUT.)",
+  "name": "Colesterol total (proc. aut.)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1390,
+    "benef": 690
+   },
+   "2": {
+    "total": 1810,
+    "benef": 1110
+   },
+   "3": {
+    "total": 2220,
+    "benef": 1520
+   }
+  }
+ },
+ {
+  "id": "03-02-068",
+  "code": "03 02 068",
+  "official": "COLESTEROL HDL (PROC. AUT.)",
+  "name": "Colesterol HDL (proc. aut.)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2070,
+    "benef": 1030
+   },
+   "2": {
+    "total": 2690,
+    "benef": 1650
+   },
+   "3": {
+    "total": 3310,
+    "benef": 2270
+   }
+  }
+ },
+ {
+  "id": "03-02-021",
+  "code": "03 02 021",
+  "official": "COLINESTERASA EN SUERO O PLASMA",
+  "name": "Colinesterasa en suero o plasma",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 3050,
+    "benef": 1520
+   },
+   "2": {
+    "total": 3970,
+    "benef": 2440
+   },
+   "3": {
+    "total": 4880,
+    "benef": 3350
+   }
+  }
+ },
+ {
+  "id": "03-02-023",
+  "code": "03 02 023",
+  "official": "CREATININA EN SANGRE",
+  "name": "Creatinina en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1370,
+    "benef": 680
+   },
+   "2": {
+    "total": 1780,
+    "benef": 1090
+   },
+   "3": {
+    "total": 2190,
+    "benef": 1500
+   }
+  }
+ },
+ {
+  "id": "03-02-024",
+  "code": "03 02 024",
+  "official": "CLEARANCE DE CREATININA (PROC.AUT.)",
+  "name": "Clearance de creatinina (proc.aut.)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 3020,
+    "benef": 1510
+   },
+   "2": {
+    "total": 3930,
+    "benef": 2420
+   },
+   "3": {
+    "total": 4830,
+    "benef": 3320
+   }
+  }
+ },
+ {
+  "id": "03-02-025",
+  "code": "03 02 025",
+  "official": "CREATINQUINASA CK - MB ACTIVIDAD",
+  "name": "Creatinquinasa CK - MB actividad",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 5440,
+    "benef": 2720
+   },
+   "2": {
+    "total": 7070,
+    "benef": 4350
+   },
+   "3": {
+    "total": 8700,
+    "benef": 5980
+   }
+  }
+ },
+ {
+  "id": "03-02-026",
+  "code": "03 02 026",
+  "official": "CREATINQUINASA CK - TOTAL",
+  "name": "Creatinquinasa CK - total",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 3900,
+    "benef": 1950
+   },
+   "2": {
+    "total": 5070,
+    "benef": 3120
+   },
+   "3": {
+    "total": 6240,
+    "benef": 4290
+   }
+  }
+ },
+ {
+  "id": "03-02-027",
+  "code": "03 02 027",
+  "official": "TROPONINA",
+  "name": "Troponina",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 11650,
+    "benef": 5820
+   },
+   "2": {
+    "total": 15150,
+    "benef": 9320
+   },
+   "3": {
+    "total": 18640,
+    "benef": 12810
+   }
+  }
+ },
+ {
+  "id": "03-02-030",
+  "code": "03 02 030",
+  "official": "DESHIDROGENASA LÁCTICA TOTAL (LDH)",
+  "name": "Deshidrogenasa láctica total (LDH)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2450,
+    "benef": 1220
+   },
+   "2": {
+    "total": 3190,
+    "benef": 1960
+   },
+   "3": {
+    "total": 3920,
+    "benef": 2690
+   }
+  }
+ },
+ {
+  "id": "03-02-031",
+  "code": "03 02 031",
+  "official": "DESHIDROGENASA LÁCTICA TOTAL (LDH), CON SEPARACIÓN DE ISOENZIMAS",
+  "name": "Deshidrogenasa láctica total (LDH), con separación de isoenzimas",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 6740,
+    "benef": 3370
+   },
+   "2": {
+    "total": 8760,
+    "benef": 5390
+   },
+   "3": {
+    "total": 10780,
+    "benef": 7410
+   }
+  }
+ },
+ {
+  "id": "03-02-032",
+  "code": "03 02 032",
+  "official": "ELECTROLITOS PLASMÁTICOS (SODIO, POTASIO, CLORO) C/U",
+  "name": "Electrolitos plasmáticos (sodio, potasio, cloro) C/U",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1320,
+    "benef": 660
+   },
+   "2": {
+    "total": 1720,
+    "benef": 1060
+   },
+   "3": {
+    "total": 2110,
+    "benef": 1450
+   }
+  }
+ },
+ {
+  "id": "03-02-033",
+  "code": "03 02 033",
+  "official": "ENZIMA CONVERTIDORA DE ANGIOTENSINA I",
+  "name": "Enzima convertidora de angiotensina i",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 8170,
+    "benef": 4080
+   },
+   "2": {
+    "total": 10620,
+    "benef": 6530
+   },
+   "3": {
+    "total": 13070,
+    "benef": 8980
+   }
+  }
+ },
+ {
+  "id": "03-02-034",
+  "code": "03 02 034",
+  "official": "PERFIL LIPÍDICO (INCLUYE MEDICIONES DE COLESTEROL TOTAL, HDL-COLESTEROL Y TRIGLICÉRIDOS CON ESTIMACIONES POR FÓRMULA DE LDL-COLESTEROL, VLDL-COLESTEROL Y COLESTEROL NO-HDL)",
+  "name": "Perfil lipídico",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 6380,
+    "benef": 3190
+   },
+   "2": {
+    "total": 8290,
+    "benef": 5100
+   },
+   "3": {
+    "total": 10210,
+    "benef": 7020
+   }
+  }
+ },
+ {
+  "id": "03-02-035",
+  "code": "03 02 035",
+  "official": "FÁRMACOS Y/O DROGAS; NIVELES PLASMÁTICOS DE (ALCOHOL, ANOREXÍGENOS, ANTIARRÍTMICOS, ANTIBIÓTICOS, ANTIDEPRESIVOS, ANTIEPILÉPTICOS, ANTIHISTAMÍNICOS, ANTIINFLAMATORIOS Y ANALGÉSICOS, ESTIMULANTES RESPIRATORIOS, TRANQUILIZANTES MAYORES Y MENORES, ETC.) C/U",
+  "name": "Fármacos y/o drogas; niveles plasmáticos de C/U",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 6410,
+    "benef": 3200
+   },
+   "2": {
+    "total": 8330,
+    "benef": 5120
+   },
+   "3": {
+    "total": 10260,
+    "benef": 7050
+   }
+  }
+ },
+ {
+  "id": "03-02-036",
+  "code": "03 02 036",
+  "official": "FENILALANINA",
+  "name": "Fenilalanina",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2660,
+    "benef": 1330
+   },
+   "2": {
+    "total": 3460,
+    "benef": 2130
+   },
+   "3": {
+    "total": 4260,
+    "benef": 2930
+   }
+  }
+ },
+ {
+  "id": "03-02-039",
+  "code": "03 02 039",
+  "official": "FOSFATASAS ALCALINAS CON SEPARACIÓN DE ISOENZIMAS HEPÁTICAS, INTESTINALES, ÓSEAS C/U",
+  "name": "Fosfatasas alcalinas con separación de isoenzimas hepáticas, intestinales, óseas C/U",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 6490,
+    "benef": 3240
+   },
+   "2": {
+    "total": 8440,
+    "benef": 5190
+   },
+   "3": {
+    "total": 10380,
+    "benef": 7130
+   }
+  }
+ },
+ {
+  "id": "03-02-040",
+  "code": "03 02 040",
+  "official": "FOSFATASAS ALCALINAS TOTALES",
+  "name": "Fosfatasas alcalinas totales",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1310,
+    "benef": 650
+   },
+   "2": {
+    "total": 1700,
+    "benef": 1040
+   },
+   "3": {
+    "total": 2100,
+    "benef": 1440
+   }
+  }
+ },
+ {
+  "id": "03-02-042",
+  "code": "03 02 042",
+  "official": "FÓSFORO (FOSFATOS) EN SANGRE",
+  "name": "Fósforo (fosfatos) en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1880,
+    "benef": 940
+   },
+   "2": {
+    "total": 2440,
+    "benef": 1500
+   },
+   "3": {
+    "total": 3010,
+    "benef": 2070
+   }
+  }
+ },
+ {
+  "id": "03-02-043",
+  "code": "03 02 043",
+  "official": "GALACTOSA",
+  "name": "Galactosa",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 910,
+    "benef": 450
+   },
+   "2": {
+    "total": 1180,
+    "benef": 720
+   },
+   "3": {
+    "total": 1460,
+    "benef": 1000
+   }
+  }
+ },
+ {
+  "id": "03-02-045",
+  "code": "03 02 045",
+  "official": "GAMMA GLUTAMILTRANSPEPTIDASA (GGT)",
+  "name": "Gamma glutamiltranspeptidasa (GGT)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2300,
+    "benef": 1150
+   },
+   "2": {
+    "total": 2990,
+    "benef": 1840
+   },
+   "3": {
+    "total": 3680,
+    "benef": 2530
+   }
+  }
+ },
+ {
+  "id": "03-02-046",
+  "code": "03 02 046",
+  "official": "GASES Y EQUILIBRIO ÁCIDO BASE EN SANGRE (INCLUYE: PH, O2, CO2, EXCESO DE BASE Y BICARBONATO), TODOS O CADA UNO DE LOS PARÁMETROS",
+  "name": "Gases y equilibrio ácido base en sangre, todos o cada uno de los parámetros",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 4020,
+    "benef": 2010
+   },
+   "2": {
+    "total": 5230,
+    "benef": 3220
+   },
+   "3": {
+    "total": 6430,
+    "benef": 4420
+   }
+  }
+ },
+ {
+  "id": "03-02-047",
+  "code": "03 02 047",
+  "official": "GLUCOSA EN SANGRE",
+  "name": "Glucosa en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1280,
+    "benef": 640
+   },
+   "2": {
+    "total": 1660,
+    "benef": 1020
+   },
+   "3": {
+    "total": 2050,
+    "benef": 1410
+   }
+  }
+ },
+ {
+  "id": "03-02-048",
+  "code": "03 02 048",
+  "official": "GLUCOSA, PRUEBA DE TOLERANCIA A LA GLUCOSA ORAL (PTGO), (DOS DETERMINACIONES; NO INCLUYE LA GLUCOSA QUE SE ADMINISTRA; INCLUYE EL VALOR DE LAS DOS TOMAS DE MUESTRAS)",
+  "name": "Glucosa, prueba de tolerancia a la glucosa oral (ptgo)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 5960,
+    "benef": 2980
+   },
+   "2": {
+    "total": 7750,
+    "benef": 4770
+   },
+   "3": {
+    "total": 9540,
+    "benef": 6560
+   }
+  }
+ },
+ {
+  "id": "03-02-050",
+  "code": "03 02 050",
+  "official": "ADENOSINDEAMINASA EN SANGRE U OTRO FLUIDO BIOLÓGICO (ADA)",
+  "name": "Adenosindeaminasa en sangre u otro fluido biológico (ADA)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 5450,
+    "benef": 2720
+   },
+   "2": {
+    "total": 7090,
+    "benef": 4360
+   },
+   "3": {
+    "total": 8720,
+    "benef": 5990
+   }
+  }
+ },
+ {
+  "id": "03-02-052",
+  "code": "03 02 052",
+  "official": "LEUCINAMINOPEPTIDASA (LAP)",
+  "name": "Leucinaminopeptidasa (lap)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2390,
+    "benef": 1190
+   },
+   "2": {
+    "total": 3110,
+    "benef": 1910
+   },
+   "3": {
+    "total": 3820,
+    "benef": 2620
+   }
+  }
+ },
+ {
+  "id": "03-02-053",
+  "code": "03 02 053",
+  "official": "LIPASA EN SANGRE",
+  "name": "Lipasa en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2720,
+    "benef": 1360
+   },
+   "2": {
+    "total": 3540,
+    "benef": 2180
+   },
+   "3": {
+    "total": 4350,
+    "benef": 2990
+   }
+  }
+ },
+ {
+  "id": "03-02-055",
+  "code": "03 02 055",
+  "official": "LITIO EN SANGRE",
+  "name": "Litio en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2990,
+    "benef": 1490
+   },
+   "2": {
+    "total": 3890,
+    "benef": 2390
+   },
+   "3": {
+    "total": 4780,
+    "benef": 3280
+   }
+  }
+ },
+ {
+  "id": "03-02-056",
+  "code": "03 02 056",
+  "official": "MAGNESIO EN SANGRE",
+  "name": "Magnesio en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 3270,
+    "benef": 1630
+   },
+   "2": {
+    "total": 4250,
+    "benef": 2610
+   },
+   "3": {
+    "total": 5230,
+    "benef": 3590
+   }
+  }
+ },
+ {
+  "id": "03-02-057",
+  "code": "03 02 057",
+  "official": "NITRÓGENO UREICO Y/O UREA, EN SANGRE",
+  "name": "Nitrógeno ureico y/o urea, en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1350,
+    "benef": 670
+   },
+   "2": {
+    "total": 1760,
+    "benef": 1080
+   },
+   "3": {
+    "total": 2160,
+    "benef": 1480
+   }
+  }
+ },
+ {
+  "id": "03-02-058",
+  "code": "03 02 058",
+  "official": "OSMOLALIDAD EN SANGRE",
+  "name": "Osmolalidad en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2120,
+    "benef": 1060
+   },
+   "2": {
+    "total": 2760,
+    "benef": 1700
+   },
+   "3": {
+    "total": 3390,
+    "benef": 2330
+   }
+  }
+ },
+ {
+  "id": "03-02-075",
+  "code": "03 02 075",
+  "official": "PERFIL BIOQUÍMICO (DETERMINACIÓN AUTOMATIZADA DE 12 PARÁMETROS)",
+  "name": "Perfil bioquímico",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 8960,
+    "benef": 4480
+   },
+   "2": {
+    "total": 11650,
+    "benef": 7170
+   },
+   "3": {
+    "total": 14340,
+    "benef": 9860
+   }
+  }
+ },
+ {
+  "id": "03-02-061",
+  "code": "03 02 061",
+  "official": "ELECTROFORESIS DE PROTEÍNAS (INCLUYE CÓD. 03-02-100 Y 03-02-101 )",
+  "name": "Electroforesis de proteínas",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 6450,
+    "benef": 3220
+   },
+   "2": {
+    "total": 8390,
+    "benef": 5160
+   },
+   "3": {
+    "total": 10320,
+    "benef": 7090
+   }
+  }
+ },
+ {
+  "id": "03-02-076",
+  "code": "03 02 076",
+  "official": "PERFIL HEPÁTICO (INCLUYE TIEMPO DE PROTROMBINA, BILIRRUBINA TOTAL Y CONJUGADA, FOSFATASAS ALCALINAS TOTALES, GGT, TRANSAMINASAS GOT/AST Y GPT/ALT)",
+  "name": "Perfil hepático",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 10490,
+    "benef": 5240
+   },
+   "2": {
+    "total": 13640,
+    "benef": 8390
+   },
+   "3": {
+    "total": 16780,
+    "benef": 11530
+   }
+  }
+ },
+ {
+  "id": "03-02-063",
+  "code": "03 02 063",
+  "official": "TRANSAMINASAS, OXALACÉTICA (GOT/AST), PIRÚVICA (GPT/ALT), C/U",
+  "name": "Transaminasas, oxalacética (got/ast), pirúvica (gpt/alt), C/U",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1900,
+    "benef": 950
+   },
+   "2": {
+    "total": 2470,
+    "benef": 1520
+   },
+   "3": {
+    "total": 3040,
+    "benef": 2090
+   }
+  }
+ },
+ {
+  "id": "03-02-064",
+  "code": "03 02 064",
+  "official": "TRIGLICÉRIDOS EN SANGRE (PROC.AUT.)",
+  "name": "Triglicéridos en sangre (proc.aut.)",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1810,
+    "benef": 900
+   },
+   "2": {
+    "total": 2350,
+    "benef": 1440
+   },
+   "3": {
+    "total": 2900,
+    "benef": 1990
+   }
+  }
+ },
+ {
+  "id": "03-02-066",
+  "code": "03 02 066",
+  "official": "XILOSA, PRUEBA DE ABSORCIÓN (NO INCLUYE LA XILOSA QUE SE ADMINISTRA)",
+  "name": "Xilosa, prueba de absorción",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 3640,
+    "benef": 1820
+   },
+   "2": {
+    "total": 4730,
+    "benef": 2910
+   },
+   "3": {
+    "total": 5820,
+    "benef": 4000
+   }
+  }
+ },
+ {
+  "id": "03-02-077",
+  "code": "03 02 077",
+  "official": "VITAMINA B12 POR INMUNOENSAYO",
+  "name": "Vitamina B12 por inmunoensayo",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 7780,
+    "benef": 3890
+   },
+   "2": {
+    "total": 10110,
+    "benef": 6220
+   },
+   "3": {
+    "total": 12450,
+    "benef": 8560
+   }
+  }
+ },
+ {
+  "id": "03-02-078",
+  "code": "03 02 078",
+  "official": "25 OH VITAMINA D TOTAL POR INMUNOENSAYO (QUIMIOLUMINISCENCIA, ENZIMOINMUNOENSAYO, RADIO INMUNOENSAYO Y OTROS)",
+  "name": "25 oh vitamina d total por inmunoensayo",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 17280,
+    "benef": 8640
+   },
+   "2": {
+    "total": 22460,
+    "benef": 13820
+   },
+   "3": {
+    "total": 27650,
+    "benef": 19010
+   }
+  }
+ },
+ {
+  "id": "03-02-080",
+  "code": "03 02 080",
+  "official": "VITAMINA B6 POR HPLC",
+  "name": "Vitamina B6 por HPLC",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 53090,
+    "benef": 26540
+   },
+   "2": {
+    "total": 69020,
+    "benef": 42470
+   },
+   "3": {
+    "total": 84940,
+    "benef": 58390
+   }
+  }
+ },
+ {
+  "id": "03-02-081",
+  "code": "03 02 081",
+  "official": "CALCIO IÓNICO. INCLUYE MEDICIÓN DE PH MÉTODO IÓN SELECTIVO. NO INCLUYE POINT OF CARE TESTING POCT",
+  "name": "Calcio iónico. incluye medición de PH método ión selectivo. no incluye point of care testing poct",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 2550,
+    "benef": 1270
+   },
+   "2": {
+    "total": 3320,
+    "benef": 2040
+   },
+   "3": {
+    "total": 4080,
+    "benef": 2800
+   }
+  }
+ },
+ {
+  "id": "03-02-082",
+  "code": "03 02 082",
+  "official": "FENILALANINA CUANTITATIVA EN GOTAS DE SANGRE SECA",
+  "name": "Fenilalanina cuantitativa en gotas de sangre seca",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 8790,
+    "benef": 4390
+   },
+   "2": {
+    "total": 11430,
+    "benef": 7030
+   },
+   "3": {
+    "total": 14060,
+    "benef": 9660
+   }
+  }
+ },
+ {
+  "id": "03-02-083",
+  "code": "03 02 083",
+  "official": "CARBOXIHEMOGLOBINA",
+  "name": "Carboxihemoglobina",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 23780,
+    "benef": 11890
+   }
+  }
+ },
+ {
+  "id": "03-02-084",
+  "code": "03 02 084",
+  "official": "PLOMO EN SANGRE",
+  "name": "Plomo en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 65950,
+    "benef": 32970
+   }
+  }
+ },
+ {
+  "id": "03-02-085",
+  "code": "03 02 085",
+  "official": "PREALBUMINA",
+  "name": "Prealbumina",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 31170,
+    "benef": 15580
+   }
+  }
+ },
+ {
+  "id": "03-02-086",
+  "code": "03 02 086",
+  "official": "HOMOCISTEÍNA",
+  "name": "Homocisteína",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 61690,
+    "benef": 30840
+   }
+  }
+ },
+ {
+  "id": "03-02-100",
+  "code": "03 02 100",
+  "official": "PROTEÍNAS TOTALES EN SANGRE",
+  "name": "Proteínas totales en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1510,
+    "benef": 750
+   },
+   "2": {
+    "total": 1960,
+    "benef": 1200
+   },
+   "3": {
+    "total": 2420,
+    "benef": 1660
+   }
+  }
+ },
+ {
+  "id": "03-02-101",
+  "code": "03 02 101",
+  "official": "ALBÚMINAS EN SANGRE",
+  "name": "Albúminas en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 1510,
+    "benef": 750
+   },
+   "2": {
+    "total": 1960,
+    "benef": 1200
+   },
+   "3": {
+    "total": 2420,
+    "benef": 1660
+   }
+  }
+ },
+ {
+  "id": "03-02-095",
+  "code": "03 02 095",
+  "official": "TIOPURINA METILTRANSFERASA, ACTIVIDAD ENZIMATICA",
+  "name": "Tiopurina metiltransferasa, actividad enzimatica",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 62430,
+    "benef": 31210
+   }
+  }
+ },
+ {
+  "id": "03-02-097",
+  "code": "03 02 097",
+  "official": "HORMONA TIROESTIMULANTE, NEONATAL EN GSS",
+  "name": "Hormona tiroestimulante, neonatal en GSS",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 23080,
+    "benef": 11540
+   }
+  }
+ },
+ {
+  "id": "03-02-098",
+  "code": "03 02 098",
+  "official": "PERFIL DE AMINOÁCIDOS Y ACILCARNITINAS EN GSS",
+  "name": "Perfil de aminoácidos y acilcarnitinas en GSS",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 82590,
+    "benef": 41290
+   }
+  }
+ },
+ {
+  "id": "03-02-099",
+  "code": "03 02 099",
+  "official": "PESQUISA NEONATAL AMPLIADA EN GSS (INCLUYE PERFIL DE AMINOÁCIDOS Y ACILCARNITINAS; SUCCINILACETONA; HORMONA TIROESTIMULANTE, NEONATAL; BIOTINIDASA; GALACTOSA TOTAL; GALACTOSA-1-FOSFATO URIDILTRANSFERASA; 17-HIDROXIPROGESTERONA; TRIPSINA INMUNORREACTIVA).",
+  "name": "Pesquisa neonatal ampliada en GSS",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 131180,
+    "benef": 65590
+   }
+  }
+ },
+ {
+  "id": "03-02-102",
+  "code": "03 02 102",
+  "official": "LEUCINA CUALITATIVA EN GSS A.- EN SANGRE",
+  "name": "Leucina cualitativa en GSS a.- en sangre",
+  "section": "Sangre, exámenes bioquímicos",
+  "levels": {
+   "1": {
+    "total": 35230,
+    "benef": 17610
+   }
+  }
+ },
+ {
+  "id": "03-03-001",
+  "code": "03 03 001",
+  "official": "ADENOCORTICOTROFINA (ACTH)",
+  "name": "Adenocorticotrofina (ACTH)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 8800,
+    "benef": 4400
+   },
+   "2": {
+    "total": 11440,
+    "benef": 7040
+   },
+   "3": {
+    "total": 14080,
+    "benef": 9680
+   }
+  }
+ },
+ {
+  "id": "03-03-002",
+  "code": "03 03 002",
+  "official": "ALDOSTERONA",
+  "name": "Aldosterona",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 7260,
+    "benef": 3630
+   },
+   "2": {
+    "total": 9440,
+    "benef": 5810
+   },
+   "3": {
+    "total": 11620,
+    "benef": 7990
+   }
+  }
+ },
+ {
+  "id": "03-03-003",
+  "code": "03 03 003",
+  "official": "ANDROSTENEDIONA",
+  "name": "Androstenediona",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5730,
+    "benef": 2860
+   },
+   "2": {
+    "total": 7450,
+    "benef": 4580
+   },
+   "3": {
+    "total": 9170,
+    "benef": 6300
+   }
+  }
+ },
+ {
+  "id": "03-03-004",
+  "code": "03 03 004",
+  "official": "ANGIOTENSINA",
+  "name": "Angiotensina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 6990,
+    "benef": 3490
+   },
+   "2": {
+    "total": 9090,
+    "benef": 5590
+   },
+   "3": {
+    "total": 11180,
+    "benef": 7680
+   }
+  }
+ },
+ {
+  "id": "03-03-006",
+  "code": "03 03 006",
+  "official": "CORTISOL",
+  "name": "Cortisol",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5730,
+    "benef": 2860
+   },
+   "2": {
+    "total": 7450,
+    "benef": 4580
+   },
+   "3": {
+    "total": 9170,
+    "benef": 6300
+   }
+  }
+ },
+ {
+  "id": "03-03-007",
+  "code": "03 03 007",
+  "official": "CRECIMIENTO, HORMONA DE (HGH) (SOMATOTROFINA)",
+  "name": "Crecimiento, hormona de (HGH) (somatotrofina)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 7260,
+    "benef": 3630
+   },
+   "2": {
+    "total": 9440,
+    "benef": 5810
+   },
+   "3": {
+    "total": 11620,
+    "benef": 7990
+   }
+  }
+ },
+ {
+  "id": "03-03-008",
+  "code": "03 03 008",
+  "official": "DEHIDROEPIANDROSTERONA SULFATO (DHEA-S)",
+  "name": "Dehidroepiandrosterona sulfato (dhea-s)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 7150,
+    "benef": 3570
+   },
+   "2": {
+    "total": 9300,
+    "benef": 5720
+   },
+   "3": {
+    "total": 11440,
+    "benef": 7860
+   }
+  }
+ },
+ {
+  "id": "03-03-009",
+  "code": "03 03 009",
+  "official": "ERITROPOYETINA",
+  "name": "Eritropoyetina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 6020,
+    "benef": 3010
+   },
+   "2": {
+    "total": 7830,
+    "benef": 4820
+   },
+   "3": {
+    "total": 9630,
+    "benef": 6620
+   }
+  }
+ },
+ {
+  "id": "03-03-012",
+  "code": "03 03 012",
+  "official": "GASTRINA",
+  "name": "Gastrina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 7690,
+    "benef": 3840
+   },
+   "2": {
+    "total": 10000,
+    "benef": 6150
+   },
+   "3": {
+    "total": 12300,
+    "benef": 8450
+   }
+  }
+ },
+ {
+  "id": "03-03-014",
+  "code": "03 03 014",
+  "official": "GONADOTROFINA CORIÓNICA, SUB-UNIDAD BETA (CUANTIFICACIÓN)",
+  "name": "Gonadotrofina coriónica, sub-unidad beta (cuantificación)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5520,
+    "benef": 2760
+   },
+   "2": {
+    "total": 7180,
+    "benef": 4420
+   },
+   "3": {
+    "total": 8830,
+    "benef": 6070
+   }
+  }
+ },
+ {
+  "id": "03-03-015",
+  "code": "03 03 015",
+  "official": "HORMONA FOLÍCULO ESTIMULANTE (FSH)",
+  "name": "Hormona folículo estimulante (FSH)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5640,
+    "benef": 2820
+   },
+   "2": {
+    "total": 7330,
+    "benef": 4510
+   },
+   "3": {
+    "total": 9020,
+    "benef": 6200
+   }
+  }
+ },
+ {
+  "id": "03-03-016",
+  "code": "03 03 016",
+  "official": "HORMONA LUTEINIZANTE (LH)",
+  "name": "Hormona luteinizante (LH)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5650,
+    "benef": 2820
+   },
+   "2": {
+    "total": 7350,
+    "benef": 4520
+   },
+   "3": {
+    "total": 9040,
+    "benef": 6210
+   }
+  }
+ },
+ {
+  "id": "03-03-047",
+  "code": "03 03 047",
+  "official": "IGF1 O SOMATOMEDINA - C (INSULINE LIKE GROWTH FACTOR)",
+  "name": "IGF1 o somatomedina - c (insuline like growth factor)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 14000,
+    "benef": 7000
+   },
+   "2": {
+    "total": 18200,
+    "benef": 11200
+   },
+   "3": {
+    "total": 22400,
+    "benef": 15400
+   }
+  }
+ },
+ {
+  "id": "03-03-048",
+  "code": "03 03 048",
+  "official": "IGFBP3, IGFBP1 (INSULIN LIKE GROWTH FACTOR BINDING PROTEINS) C/U",
+  "name": "IGFBP3, IGFBP1 C/U",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 13790,
+    "benef": 6890
+   },
+   "2": {
+    "total": 17930,
+    "benef": 11030
+   },
+   "3": {
+    "total": 22060,
+    "benef": 15160
+   }
+  }
+ },
+ {
+  "id": "03-03-017",
+  "code": "03 03 017",
+  "official": "INSULINA",
+  "name": "Insulina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5250,
+    "benef": 2620
+   },
+   "2": {
+    "total": 6830,
+    "benef": 4200
+   },
+   "3": {
+    "total": 8400,
+    "benef": 5770
+   }
+  }
+ },
+ {
+  "id": "03-03-031",
+  "code": "03 03 031",
+  "official": "INSULINA, CURVA DE (MÍNIMO DOS DETERMINACIONES E INCLUYE TODAS LAS TOMAS DE MUESTRA NECESARIAS. NO INCLUYE LA GLUCOSA QUE SE ADMINISTRA)",
+  "name": "Insulina, curva de",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 14160,
+    "benef": 7080
+   },
+   "2": {
+    "total": 18410,
+    "benef": 11330
+   },
+   "3": {
+    "total": 22660,
+    "benef": 15580
+   }
+  }
+ },
+ {
+  "id": "03-03-018",
+  "code": "03 03 018",
+  "official": "PARATHORMONA, HORMONA PARATIROÍDEA O PTH.",
+  "name": "Parathormona, hormona paratiroídea o PTH",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 8600,
+    "benef": 4300
+   },
+   "2": {
+    "total": 11180,
+    "benef": 6880
+   },
+   "3": {
+    "total": 13760,
+    "benef": 9460
+   }
+  }
+ },
+ {
+  "id": "03-03-019",
+  "code": "03 03 019",
+  "official": "PROGESTERONA",
+  "name": "Progesterona",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5340,
+    "benef": 2670
+   },
+   "2": {
+    "total": 6940,
+    "benef": 4270
+   },
+   "3": {
+    "total": 8540,
+    "benef": 5870
+   }
+  }
+ },
+ {
+  "id": "03-03-020",
+  "code": "03 03 020",
+  "official": "PROLACTINA (PRL)",
+  "name": "Prolactina (PRL)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5640,
+    "benef": 2820
+   },
+   "2": {
+    "total": 7330,
+    "benef": 4510
+   },
+   "3": {
+    "total": 9020,
+    "benef": 6200
+   }
+  }
+ },
+ {
+  "id": "03-03-021",
+  "code": "03 03 021",
+  "official": "RENINA",
+  "name": "Renina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 9120,
+    "benef": 4560
+   },
+   "2": {
+    "total": 11860,
+    "benef": 7300
+   },
+   "3": {
+    "total": 14590,
+    "benef": 10030
+   }
+  }
+ },
+ {
+  "id": "03-03-046",
+  "code": "03 03 046",
+  "official": "SHBG (SEX-HORMONE BINDING GLOBULIN)",
+  "name": "SHBG (sex-hormone binding globulin)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 13000,
+    "benef": 6500
+   },
+   "2": {
+    "total": 16900,
+    "benef": 10400
+   },
+   "3": {
+    "total": 20800,
+    "benef": 14300
+   }
+  }
+ },
+ {
+  "id": "03-03-022",
+  "code": "03 03 022",
+  "official": "TESTOSTERONA EN SANGRE",
+  "name": "Testosterona en sangre",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5860,
+    "benef": 2930
+   },
+   "2": {
+    "total": 7620,
+    "benef": 4690
+   },
+   "3": {
+    "total": 9380,
+    "benef": 6450
+   }
+  }
+ },
+ {
+  "id": "03-03-023",
+  "code": "03 03 023",
+  "official": "TESTOSTERONA LIBRE EN SANGRE",
+  "name": "Testosterona libre en sangre",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 6700,
+    "benef": 3350
+   },
+   "2": {
+    "total": 8710,
+    "benef": 5360
+   },
+   "3": {
+    "total": 10720,
+    "benef": 7370
+   }
+  }
+ },
+ {
+  "id": "03-03-123",
+  "code": "03 03 123",
+  "official": "ÍNDICE ANDROGÉNICO (INCLUYE TESTOSTERONA TOTAL Y SHBG)",
+  "name": "Índice androgénico",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 13270,
+    "benef": 6630
+   },
+   "2": {
+    "total": 17250,
+    "benef": 10610
+   },
+   "3": {
+    "total": 21230,
+    "benef": 14590
+   }
+  }
+ },
+ {
+  "id": "03-03-024",
+  "code": "03 03 024",
+  "official": "TIROESTIMULANTE (TSH), HORMONA (ADULTO, NIÑO O R.N.)",
+  "name": "Tiroestimulante (TSH), hormona (adulto, niño o R.N.)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 4640,
+    "benef": 2320
+   },
+   "2": {
+    "total": 6030,
+    "benef": 3710
+   },
+   "3": {
+    "total": 7420,
+    "benef": 5100
+   }
+  }
+ },
+ {
+  "id": "03-03-025",
+  "code": "03 03 025",
+  "official": "TIROGLOBULINA",
+  "name": "Tiroglobulina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 7260,
+    "benef": 3630
+   },
+   "2": {
+    "total": 9440,
+    "benef": 5810
+   },
+   "3": {
+    "total": 11620,
+    "benef": 7990
+   }
+  }
+ },
+ {
+  "id": "03-03-026",
+  "code": "03 03 026",
+  "official": "TIROXINA LIBRE (T4L)",
+  "name": "Tiroxina libre (T4L)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5340,
+    "benef": 2670
+   },
+   "2": {
+    "total": 6940,
+    "benef": 4270
+   },
+   "3": {
+    "total": 8540,
+    "benef": 5870
+   }
+  }
+ },
+ {
+  "id": "03-03-027",
+  "code": "03 03 027",
+  "official": "TIROXINA O TETRAYODOTIRONINA (T4)",
+  "name": "Tiroxina o tetrayodotironina (T4)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 4640,
+    "benef": 2320
+   },
+   "2": {
+    "total": 6030,
+    "benef": 3710
+   },
+   "3": {
+    "total": 7420,
+    "benef": 5100
+   }
+  }
+ },
+ {
+  "id": "03-03-028",
+  "code": "03 03 028",
+  "official": "TRIYODOTIRONINA (T3)",
+  "name": "Triyodotironina (T3)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 4820,
+    "benef": 2410
+   },
+   "2": {
+    "total": 6270,
+    "benef": 3860
+   },
+   "3": {
+    "total": 7710,
+    "benef": 5300
+   }
+  }
+ },
+ {
+  "id": "03-03-029",
+  "code": "03 03 029",
+  "official": "17 - HIDROXIPROGESTERONA",
+  "name": "17 - hidroxiprogesterona",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 7260,
+    "benef": 3630
+   },
+   "2": {
+    "total": 9440,
+    "benef": 5810
+   },
+   "3": {
+    "total": 11620,
+    "benef": 7990
+   }
+  }
+ },
+ {
+  "id": "03-03-030",
+  "code": "03 03 030",
+  "official": "ESTRADIOL (17-BETA)",
+  "name": "Estradiol (17-BETA)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5540,
+    "benef": 2770
+   },
+   "2": {
+    "total": 7200,
+    "benef": 4430
+   },
+   "3": {
+    "total": 8860,
+    "benef": 6090
+   }
+  }
+ },
+ {
+  "id": "03-03-049",
+  "code": "03 03 049",
+  "official": "CATECOLAMINAS EN SANGRE (INCLUYE MEDICIÓN DE ADRENALINA, NORADRENALINA Y DOPAMINA POR SEPARADO POR MÉTODOS CROMATOGRÁFICOS)",
+  "name": "Catecolaminas en sangre",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 35710,
+    "benef": 17850
+   },
+   "2": {
+    "total": 46420,
+    "benef": 28560
+   },
+   "3": {
+    "total": 57140,
+    "benef": 39280
+   }
+  }
+ },
+ {
+  "id": "03-03-052",
+  "code": "03 03 052",
+  "official": "PEPTIDO C",
+  "name": "Peptido c",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 46310,
+    "benef": 23150
+   }
+  }
+ },
+ {
+  "id": "03-03-053",
+  "code": "03 03 053",
+  "official": "CALCITONINA",
+  "name": "Calcitonina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 46980,
+    "benef": 23490
+   }
+  }
+ },
+ {
+  "id": "03-03-054",
+  "code": "03 03 054",
+  "official": "INHIBINA B",
+  "name": "Inhibina b",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 54150,
+    "benef": 27070
+   }
+  }
+ },
+ {
+  "id": "03-03-055",
+  "code": "03 03 055",
+  "official": "NT-PRO BNP O BNP",
+  "name": "Nt-pro BNP o BNP",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 54790,
+    "benef": 27390
+   }
+  }
+ },
+ {
+  "id": "03-03-057",
+  "code": "03 03 057",
+  "official": "TRIYODOTIRONINA LIBRE (T3 LIBRE)",
+  "name": "Triyodotironina libre (T3 libre)",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 21690,
+    "benef": 10840
+   }
+  }
+ },
+ {
+  "id": "03-03-058",
+  "code": "03 03 058",
+  "official": "HORMONA ANTIMULLERIANA B.- EN ORINA",
+  "name": "Hormona antimulleriana b.- en orina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 47720,
+    "benef": 23860
+   }
+  }
+ },
+ {
+  "id": "03-03-033",
+  "code": "03 03 033",
+  "official": "ANGIOTENSINA",
+  "name": "Angiotensina",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 6540,
+    "benef": 3270
+   },
+   "2": {
+    "total": 8500,
+    "benef": 5230
+   },
+   "3": {
+    "total": 10460,
+    "benef": 7190
+   }
+  }
+ },
+ {
+  "id": "03-03-035",
+  "code": "03 03 035",
+  "official": "CORTISOL LIBRE URINARIO",
+  "name": "Cortisol libre urinario",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5810,
+    "benef": 2900
+   },
+   "2": {
+    "total": 7550,
+    "benef": 4640
+   },
+   "3": {
+    "total": 9300,
+    "benef": 6390
+   }
+  }
+ },
+ {
+  "id": "03-03-039",
+  "code": "03 03 039",
+  "official": "GONADOTROFINA CORIÓNICA, SUB-UNIDAD BETA; TITULACIÓN POR (ELISA; RIA O IRMA; QUIMIOLUMINISCENCIA U OTRA TÉCNICA)",
+  "name": "Gonadotrofina coriónica, sub-unidad beta; titulación por",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 5510,
+    "benef": 2750
+   },
+   "2": {
+    "total": 7160,
+    "benef": 4400
+   },
+   "3": {
+    "total": 8820,
+    "benef": 6060
+   }
+  }
+ },
+ {
+  "id": "03-03-050",
+  "code": "03 03 050",
+  "official": "METANEFRINAS URINARIAS (INCLUYE DETERMINACIÓN DE METANEFRINA Y NORMETANEFRINA POR SEPARADO POR MÉTODOS CROMATOGRÁFICOS)",
+  "name": "Metanefrinas urinarias",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 43470,
+    "benef": 21730
+   },
+   "2": {
+    "total": 56510,
+    "benef": 34770
+   },
+   "3": {
+    "total": 69550,
+    "benef": 47810
+   }
+  }
+ },
+ {
+  "id": "03-03-051",
+  "code": "03 03 051",
+  "official": "CATECOLAMINAS URINARIAS (INCLUYE MEDICIÓN DE ADRENALINA, NORADRENALINA Y DOPAMINA POR SEPARADO POR MÉTODOS CROMATOGRÁFICOS) C.- OTRAS MUESTRAS",
+  "name": "Catecolaminas urinarias c.- otras muestras",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 37370,
+    "benef": 18680
+   },
+   "2": {
+    "total": 48580,
+    "benef": 29890
+   },
+   "3": {
+    "total": 59790,
+    "benef": 41100
+   }
+  }
+ },
+ {
+  "id": "03-03-056",
+  "code": "03 03 056",
+  "official": "CORTISOL SALIVAL",
+  "name": "Cortisol salival",
+  "section": "Hormonas",
+  "levels": {
+   "1": {
+    "total": 50090,
+    "benef": 25040
+   }
+  }
+ },
+ {
+  "id": "03-04-001",
+  "code": "03 04 001",
+  "official": "CARIOTIPO EN SANGRE POR CULTIVO DE LINFOCITOS (INCLUYE MÍNIMO 25 MITOSIS CON BANDEO G Y EVENTUALMENTE Q, R, C, NOR) (MONTAJE DE 3 METAFASES BANDEADAS)",
+  "name": "Cariotipo en sangre por cultivo de linfocitos",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 66460,
+    "benef": 33230
+   },
+   "2": {
+    "total": 86400,
+    "benef": 53170
+   },
+   "3": {
+    "total": 106340,
+    "benef": 73110
+   }
+  }
+ },
+ {
+  "id": "03-04-002",
+  "code": "03 04 002",
+  "official": "CARIOTIPO CON TÉCNICAS ESPECIALES (INCLUYE MUESTRA DE SANGRE O DE MÉDULA ÓSEA, TRATAMIENTO CON FUDR, BROMURO DE ETIDIO, MEDIO DEFICIENTE EN ÁCIDO FÓLICO)",
+  "name": "Cariotipo con técnicas especiales",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 68180,
+    "benef": 34090
+   },
+   "2": {
+    "total": 88630,
+    "benef": 54540
+   },
+   "3": {
+    "total": 109090,
+    "benef": 75000
+   }
+  }
+ },
+ {
+  "id": "03-04-003",
+  "code": "03 04 003",
+  "official": "CARIOTIPO EN FIBROBLASTOS POR CULTIVO DE TROFOBLASTO, LÍQUIDO AMNIÓTICO, PIEL U OTROS BANDEOS G Y EVENTUALMENTE Q, R, C, NOR",
+  "name": "Cariotipo en fibroblastos por cultivo de trofoblasto, líquido amniótico, piel u otros bandeos g y eventualmente q, r, c, nor",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 62400,
+    "benef": 31200
+   },
+   "2": {
+    "total": 81120,
+    "benef": 49920
+   },
+   "3": {
+    "total": 99840,
+    "benef": 68640
+   }
+  }
+ },
+ {
+  "id": "03-04-006",
+  "code": "03 04 006",
+  "official": "FISH CROMOSOMAS X E Y",
+  "name": "Fish cromosomas x e y",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 89440,
+    "benef": 44720
+   },
+   "2": {
+    "total": 116270,
+    "benef": 71550
+   },
+   "3": {
+    "total": 143100,
+    "benef": 98380
+   }
+  }
+ },
+ {
+  "id": "03-04-007",
+  "code": "03 04 007",
+  "official": "DIAGNÓSTICO GENÉTICO MOLECULAR: DISPLASIA TANATOFÓRICA TIPO I Y II",
+  "name": "Diagnóstico genético molecular: displasia tanatofórica tipo i y II",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 39300,
+    "benef": 19650
+   },
+   "2": {
+    "total": 51090,
+    "benef": 31440
+   },
+   "3": {
+    "total": 62880,
+    "benef": 43230
+   }
+  }
+ },
+ {
+  "id": "03-04-008",
+  "code": "03 04 008",
+  "official": "AMPLIFICACIÓN POR PCR MÁS ANÁLISIS DE FRAGMENTOS FLUORESCENTES POR ELECTROFORESIS CAPILAR (HASTA 5 FRAGMENTOS)",
+  "name": "Amplificación por PCR más análisis de fragmentos fluorescentes por electroforesis capilar (hasta 5 fragmentos)",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 213060,
+    "benef": 106530
+   }
+  }
+ },
+ {
+  "id": "03-04-009",
+  "code": "03 04 009",
+  "official": "ESTUDIO DE DELECIONES Y DUPLICACIONES POR AMPLIFICACIÓN MÚLTIPLE DE SONDAS DEPENDIENTE DE LIGACIÓN (MLPA) (1 O VARIOS GENES)",
+  "name": "Estudio de deleciones y duplicaciones por amplificación múltiple de sondas dependiente de ligación (mlpa) (1 o varios genes)",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 110280,
+    "benef": 55140
+   }
+  }
+ },
+ {
+  "id": "03-04-010",
+  "code": "03 04 010",
+  "official": "ESTUDIO DE DELECIONES Y DUPLICACIONES POR AMPLIFICACIÓN MÚLTIPLE DE SONDAS DEPENDIENTE DE LIGACIÓN (MLPA) MÁS ESTUDIO DE METILACIÓN O SEGUNDO SET DE SONDAS (1 O VARIOS GENES)",
+  "name": "Estudio de deleciones y duplicaciones por amplificación múltiple de sondas dependiente de ligación (mlpa) más estudio de metilación o segundo set de sondas (1 o varios genes)",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 130250,
+    "benef": 65120
+   }
+  }
+ },
+ {
+  "id": "03-04-012",
+  "code": "03 04 012",
+  "official": "AMPLIFICACIÓN POR PCR EN TIEMPO REAL CUANTITATIVO CON SONDA",
+  "name": "Amplificación por PCR en tiempo real cuantitativo con sonda",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 201540,
+    "benef": 100770
+   }
+  }
+ },
+ {
+  "id": "03-04-013",
+  "code": "03 04 013",
+  "official": "AMPLIFICACIÓN DE ADN Y ARN POR PCR CONVENCIONAL DE 1 FRAGMENTO",
+  "name": "Amplificación de ADN y ARN por PCR convencional de 1 fragmento",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 182250,
+    "benef": 91120
+   }
+  }
+ },
+ {
+  "id": "03-04-014",
+  "code": "03 04 014",
+  "official": "AMPLIFICACIÓN POR PCR MÁS ANÁLISIS POR RESTRICCIÓN ENZIMÁTICA",
+  "name": "Amplificación por PCR más análisis por restricción enzimática",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 146780,
+    "benef": 73390
+   }
+  }
+ },
+ {
+  "id": "03-04-015",
+  "code": "03 04 015",
+  "official": "FISH EN FROTIS FRESCOS DE MÉDULA ÓSEA, SANGRE, CONCENTRADO DE CÉLULAS PLASMÁTICAS SELECCIONADAS, BÚSQUEDA DE ALTERACIONES ADQUIRIDAS",
+  "name": "Fish en frotis frescos de médula ósea, sangre, concentrado de células plasmáticas seleccionadas, búsqueda de alteraciones adquiridas",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 300990,
+    "benef": 150490
+   }
+  }
+ },
+ {
+  "id": "03-04-016",
+  "code": "03 04 016",
+  "official": "CARIOTIPO MOLECULAR (HIBRIDACIÓN GENÓMICA COMPARATIVA EN MICROMATRICES) 60K (INCLUYE LA EXTRACCIÓN DE ADN) A.- INMUNOQUIMICA",
+  "name": "Cariotipo molecular 60K a.- inmunoquimica",
+  "section": "Genética",
+  "levels": {
+   "1": {
+    "total": 834430,
+    "benef": 417210
+   }
+  }
+ },
+ {
+  "id": "03-05-001",
+  "code": "03 05 001",
+  "official": "ALFA -1- ANTITRIPSINA CUANTITATIVA",
+  "name": "Alfa -1- antitripsina cuantitativa",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 5510,
+    "benef": 2750
+   },
+   "2": {
+    "total": 7160,
+    "benef": 4400
+   },
+   "3": {
+    "total": 8820,
+    "benef": 6060
+   }
+  }
+ },
+ {
+  "id": "03-05-002",
+  "code": "03 05 002",
+  "official": "ALFA -2- MACROGLOBULINA",
+  "name": "Alfa -2- macroglobulina",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 5690,
+    "benef": 2840
+   },
+   "2": {
+    "total": 7400,
+    "benef": 4550
+   },
+   "3": {
+    "total": 9100,
+    "benef": 6250
+   }
+  }
+ },
+ {
+  "id": "03-05-003",
+  "code": "03 05 003",
+  "official": "ALFA FETOPROTEÍNAS",
+  "name": "Alfa fetoproteínas",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 5340,
+    "benef": 2670
+   },
+   "2": {
+    "total": 6940,
+    "benef": 4270
+   },
+   "3": {
+    "total": 8540,
+    "benef": 5870
+   }
+  }
+ },
+ {
+  "id": "03-05-004",
+  "code": "03 05 004",
+  "official": "TAMIZAJE DE ANTICUERPOS ANTI-ANTÍGENOS NUCLEARES EXTRACTABLES (A- ENA) (INCLUYE SM, RNP, RO, LA, SCL- 70 Y JO- 1).",
+  "name": "Tamizaje de anticuerpos anti-antígenos nucleares extractables (a- ENA)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 11050,
+    "benef": 5520
+   },
+   "2": {
+    "total": 14370,
+    "benef": 8840
+   },
+   "3": {
+    "total": 17680,
+    "benef": 12150
+   }
+  }
+ },
+ {
+  "id": "03-05-005",
+  "code": "03 05 005",
+  "official": "ANTICUERPOS ANTINUCLEARES (ANA), ANTIMITOCONDRIALES, ANTI DNA (ADNA), ANTI MÚSCULO LISO, ANTICENTRÓMERO, U OTROS, C/U.",
+  "name": "Anticuerpos antinucleares (ANA), antimitocondriales, ANTI dna (adna), ANTI músculo liso, anticentrómero, u otros, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 7780,
+    "benef": 3890
+   },
+   "2": {
+    "total": 10110,
+    "benef": 6220
+   },
+   "3": {
+    "total": 12450,
+    "benef": 8560
+   }
+  }
+ },
+ {
+  "id": "03-05-007",
+  "code": "03 05 007",
+  "official": "ANTICUERPOS ESPECÍFICOS Y OTROS AUTOANTICUERPOS (ANTICUERPOS ANTITIROÍDEOS: ANTICUERPOS ANTIMICROSOMALES Y ANTITIROGLOBULINAS Y OTROS ANTICUERPOS: PROSTÁTICO, ESPERMIOS, ETC.) C/U",
+  "name": "Anticuerpos específicos y otros autoanticuerpos C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 6210,
+    "benef": 3100
+   },
+   "2": {
+    "total": 8070,
+    "benef": 4960
+   },
+   "3": {
+    "total": 9940,
+    "benef": 6830
+   }
+  }
+ },
+ {
+  "id": "03-05-008",
+  "code": "03 05 008",
+  "official": "ANTIESTREPTOLISINA O, POR TÉCNICA DE LÁTEX",
+  "name": "Antiestreptolisina o, por técnica de látex",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 4800,
+    "benef": 2400
+   },
+   "2": {
+    "total": 6240,
+    "benef": 3840
+   },
+   "3": {
+    "total": 7680,
+    "benef": 5280
+   }
+  }
+ },
+ {
+  "id": "03-05-009",
+  "code": "03 05 009",
+  "official": "ANTÍGENO CARCINOEMBRIONARIO (CEA)",
+  "name": "Antígeno carcinoembrionario (CEA)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 7260,
+    "benef": 3630
+   },
+   "2": {
+    "total": 9440,
+    "benef": 5810
+   },
+   "3": {
+    "total": 11620,
+    "benef": 7990
+   }
+  }
+ },
+ {
+  "id": "03-05-070",
+  "code": "03 05 070",
+  "official": "ANTÍGENO PROSTÁTICO ESPECÍFICO",
+  "name": "Antígeno prostático específico",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 9340,
+    "benef": 4670
+   },
+   "2": {
+    "total": 12140,
+    "benef": 7470
+   },
+   "3": {
+    "total": 14940,
+    "benef": 10270
+   }
+  }
+ },
+ {
+  "id": "03-05-170",
+  "code": "03 05 170",
+  "official": "ANTÍGENO CA 125, CA 15-3 Y CA 19-9, C/U",
+  "name": "Antígeno ca 125, ca 15-3 y ca 19-9, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 9680,
+    "benef": 4840
+   },
+   "2": {
+    "total": 12580,
+    "benef": 7740
+   },
+   "3": {
+    "total": 15490,
+    "benef": 10650
+   }
+  }
+ },
+ {
+  "id": "03-05-010",
+  "code": "03 05 010",
+  "official": "BETA-2-MICROGLOBULINA",
+  "name": "BETA-2-MICROGLOBULINA",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 8250,
+    "benef": 4120
+   },
+   "2": {
+    "total": 10730,
+    "benef": 6600
+   },
+   "3": {
+    "total": 13200,
+    "benef": 9070
+   }
+  }
+ },
+ {
+  "id": "03-05-012",
+  "code": "03 05 012",
+  "official": "COMPLEMENTO C1Q, C2, C3, C4, ETC., C/U",
+  "name": "Complemento C1Q, C2, C3, C4, etc., C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 4800,
+    "benef": 2400
+   },
+   "2": {
+    "total": 6240,
+    "benef": 3840
+   },
+   "3": {
+    "total": 7680,
+    "benef": 5280
+   }
+  }
+ },
+ {
+  "id": "03-05-013",
+  "code": "03 05 013",
+  "official": "COMPLEMENTO HEMOLÍTICO (CH 50)",
+  "name": "Complemento hemolítico (CH 50)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 7720,
+    "benef": 3860
+   },
+   "2": {
+    "total": 10040,
+    "benef": 6180
+   },
+   "3": {
+    "total": 12350,
+    "benef": 8490
+   }
+  }
+ },
+ {
+  "id": "03-05-014",
+  "code": "03 05 014",
+  "official": "CRIOGLOBULINAS, PRECIPITACIÓN EN FRÍO (CUALITATIVA) O CUANTITATIVA C/U",
+  "name": "Crioglobulinas, precipitación en frío (cualitativa) o cuantitativa C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 1310,
+    "benef": 650
+   },
+   "2": {
+    "total": 1700,
+    "benef": 1040
+   },
+   "3": {
+    "total": 2100,
+    "benef": 1440
+   }
+  }
+ },
+ {
+  "id": "03-05-019",
+  "code": "03 05 019",
+  "official": "FACTOR REUMATOÍDEO POR TÉCNICA DE LÁTEX U OTRAS SIMILARES",
+  "name": "Factor reumatoídeo por técnica de látex u otras similares",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 2750,
+    "benef": 1370
+   },
+   "2": {
+    "total": 3580,
+    "benef": 2200
+   },
+   "3": {
+    "total": 4400,
+    "benef": 3020
+   }
+  }
+ },
+ {
+  "id": "03-05-020",
+  "code": "03 05 020",
+  "official": "FACTOR REUMATOÍDEO POR TÉCNICA DE SCAT, WAALER ROSE, NEFELOMÉTRICAS Y/O TURBIDIMÉTRICAS",
+  "name": "Factor reumatoídeo por técnica de scat, waaler rose, nefelométricas y/o turbidimétricas",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 4720,
+    "benef": 2360
+   },
+   "2": {
+    "total": 6140,
+    "benef": 3780
+   },
+   "3": {
+    "total": 7550,
+    "benef": 5190
+   }
+  }
+ },
+ {
+  "id": "03-05-021",
+  "code": "03 05 021",
+  "official": "INHIBIDOR DE C1Q, C2 Y C3, C/U",
+  "name": "Inhibidor de C1Q, C2 y C3, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 6020,
+    "benef": 3010
+   },
+   "2": {
+    "total": 7830,
+    "benef": 4820
+   },
+   "3": {
+    "total": 9630,
+    "benef": 6620
+   }
+  }
+ },
+ {
+  "id": "03-05-025",
+  "code": "03 05 025",
+  "official": "INMUNOFIJACIÓN DE INMUNOGLOBULINA, C/U",
+  "name": "Inmunofijación de inmunoglobulina, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 9550,
+    "benef": 4770
+   },
+   "2": {
+    "total": 12420,
+    "benef": 7640
+   },
+   "3": {
+    "total": 15280,
+    "benef": 10500
+   }
+  }
+ },
+ {
+  "id": "03-05-026",
+  "code": "03 05 026",
+  "official": "INMUNOGLOBULINA IGA SECRETORA",
+  "name": "Inmunoglobulina IGA secretora",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 4510,
+    "benef": 2250
+   },
+   "2": {
+    "total": 5860,
+    "benef": 3600
+   },
+   "3": {
+    "total": 7220,
+    "benef": 4960
+   }
+  }
+ },
+ {
+  "id": "03-05-027",
+  "code": "03 05 027",
+  "official": "INMUNOGLOBULINAS IGA, IGG, IGM, C/U",
+  "name": "Inmunoglobulinas IGA, IGG, IGM, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 5280,
+    "benef": 2640
+   },
+   "2": {
+    "total": 6860,
+    "benef": 4220
+   },
+   "3": {
+    "total": 8450,
+    "benef": 5810
+   }
+  }
+ },
+ {
+  "id": "03-05-028",
+  "code": "03 05 028",
+  "official": "INMUNOGLOBULINAS IGE, IGD TOTAL, C/U",
+  "name": "Inmunoglobulinas IGE, igd total, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 5510,
+    "benef": 2750
+   },
+   "2": {
+    "total": 7160,
+    "benef": 4400
+   },
+   "3": {
+    "total": 8820,
+    "benef": 6060
+   }
+  }
+ },
+ {
+  "id": "03-05-029",
+  "code": "03 05 029",
+  "official": "INMUNOGLOBULINAS IGE, IGG ESPECÍFICAS, C/U",
+  "name": "Inmunoglobulinas IGE, IGG específicas, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 5410,
+    "benef": 2700
+   },
+   "2": {
+    "total": 7030,
+    "benef": 4320
+   },
+   "3": {
+    "total": 8660,
+    "benef": 5950
+   }
+  }
+ },
+ {
+  "id": "03-05-030",
+  "code": "03 05 030",
+  "official": "PROTEÍNA C REACTIVA POR TÉCNICA DE LÁTEX U OTRAS SIMILARES",
+  "name": "Proteína c reactiva por técnica de látex u otras similares",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 4980,
+    "benef": 2490
+   },
+   "2": {
+    "total": 6470,
+    "benef": 3980
+   },
+   "3": {
+    "total": 7970,
+    "benef": 5480
+   }
+  }
+ },
+ {
+  "id": "03-05-031",
+  "code": "03 05 031",
+  "official": "PROTEÍNA C REACTIVA POR TÉCNICAS AUTOMATIZADAS",
+  "name": "Proteína c reactiva por técnicas automatizadas",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 6240,
+    "benef": 3120
+   },
+   "2": {
+    "total": 8110,
+    "benef": 4990
+   },
+   "3": {
+    "total": 9980,
+    "benef": 6860
+   }
+  }
+ },
+ {
+  "id": "03-05-081",
+  "code": "03 05 081",
+  "official": "ANTICUERPO ANTIENDOMISIO (EMA, ANTIMEMBRANA BASAL GLOMERULAR (GBM), ANTIRETICULINA, POR IFI C/U.",
+  "name": "Anticuerpo antiendomisio (ema, antimembrana basal glomerular",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 11640,
+    "benef": 5820
+   },
+   "2": {
+    "total": 15130,
+    "benef": 9310
+   },
+   "3": {
+    "total": 18620,
+    "benef": 12800
+   }
+  }
+ },
+ {
+  "id": "03-05-181",
+  "code": "03 05 181",
+  "official": "ANTICUERPOS ANTITRANSGLUTAMINASA (TTG)(INCLUYE IGG E IGA)",
+  "name": "Anticuerpos antitransglutaminasa (TTG)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 12450,
+    "benef": 6220
+   },
+   "2": {
+    "total": 16190,
+    "benef": 9960
+   },
+   "3": {
+    "total": 19920,
+    "benef": 13690
+   }
+  }
+ },
+ {
+  "id": "03-05-082",
+  "code": "03 05 082",
+  "official": "ANTICUERPOS ANTICITOPLASMA DE NEUTRÓFILOS (ANCA), (INCLUYE C-ANCA Y P-ANCA), POR IFI.",
+  "name": "Anticuerpos anticitoplasma de neutrófilos (ANCA),, por IFI",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 16650,
+    "benef": 8320
+   },
+   "2": {
+    "total": 21650,
+    "benef": 13320
+   },
+   "3": {
+    "total": 26640,
+    "benef": 18310
+   }
+  }
+ },
+ {
+  "id": "03-05-083",
+  "code": "03 05 083",
+  "official": "DETERMINACIÓN DE ISOTIPOS DE ANTICUERPOS ANTICITOPLASMA DE NEUTRÓFILOS (G-M-A-C'3), POR IFI, C/U.",
+  "name": "Determinación de isotipos de anticuerpos anticitoplasma de neutrófilos (G-M-A-C'3), por IFI, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 7990,
+    "benef": 3990
+   },
+   "2": {
+    "total": 10390,
+    "benef": 6390
+   },
+   "3": {
+    "total": 12780,
+    "benef": 8780
+   }
+  }
+ },
+ {
+  "id": "03-05-084",
+  "code": "03 05 084",
+  "official": "ANTICUERPOS ANTICARDIOLIPINAS (IGG, IGM), C/U",
+  "name": "Anticuerpos anticardiolipinas (IGG, IGM), C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 13230,
+    "benef": 6610
+   },
+   "2": {
+    "total": 17200,
+    "benef": 10580
+   },
+   "3": {
+    "total": 21170,
+    "benef": 14550
+   }
+  }
+ },
+ {
+  "id": "03-05-085",
+  "code": "03 05 085",
+  "official": "ANTICUERPOS ANTI LKM-1",
+  "name": "Anticuerpos ANTI LKM-1",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 23640,
+    "benef": 11820
+   },
+   "2": {
+    "total": 30730,
+    "benef": 18910
+   },
+   "3": {
+    "total": 37820,
+    "benef": 26000
+   }
+  }
+ },
+ {
+  "id": "03-05-086",
+  "code": "03 05 086",
+  "official": "ANTICUERPOS CONTRA PÉPTIDOS DEAMINADOS DE GLIADINA IGG E IGA",
+  "name": "Anticuerpos contra péptidos deaminados de gliadina IGG e IGA",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 10860,
+    "benef": 5430
+   },
+   "2": {
+    "total": 14120,
+    "benef": 8690
+   },
+   "3": {
+    "total": 17380,
+    "benef": 11950
+   }
+  }
+ },
+ {
+  "id": "03-05-098",
+  "code": "03 05 098",
+  "official": "CROMOGRANINA A",
+  "name": "Cromogranina a",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 50170,
+    "benef": 25080
+   }
+  }
+ },
+ {
+  "id": "03-05-099",
+  "code": "03 05 099",
+  "official": "PÉPTIDO CÍCLICO CITRULINADO, ANTICUERPOS IGG",
+  "name": "Péptido cíclico citrulinado, anticuerpos IGG",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 38830,
+    "benef": 19410
+   }
+  }
+ },
+ {
+  "id": "03-05-104",
+  "code": "03 05 104",
+  "official": "ANTÍGENO PROSTÁTICO TOTAL Y LIBRE",
+  "name": "Antígeno prostático total y libre",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 24690,
+    "benef": 12340
+   }
+  }
+ },
+ {
+  "id": "03-05-105",
+  "code": "03 05 105",
+  "official": "ANTICUERPOS ANTI-BETA 2 GLICOPROTEINA 1 (IGG, IGM), C/U",
+  "name": "Anticuerpos anti-beta 2 glicoproteina 1 (IGG, IGM), C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 41120,
+    "benef": 20560
+   }
+  }
+ },
+ {
+  "id": "03-05-106",
+  "code": "03 05 106",
+  "official": "ESTUDIO INMUNOLÓGICO DE DIABETES (INCLUYE DETERMINACIÓN SIMULTÁNEA DE ANTICUERPOS ANTI-CÉLULAS DE ISLOTES (ICA), AUTO ANTICUERPO INSULINA NATIVA (IAA), ANTI-ANTÍGENO DE INSULINOMA-2 (IA2) Y ANTI-GLUTAMATO DESCARBOXILASA (GADA).",
+  "name": "Estudio inmunológico de diabetes (incluye determinación simultánea de anticuerpos anti-células de islotes (ica), auto anticuerpo insulina nativa (iaa), anti-antígeno de INSULINOMA-2 (IA2) y anti-glutamato descarboxilasa",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 109630,
+    "benef": 54810
+   }
+  }
+ },
+ {
+  "id": "03-05-107",
+  "code": "03 05 107",
+  "official": "ANTICUERPOS ANTI-MPO (MIELOPEROXIDASA)",
+  "name": "Anticuerpos anti-mpo (mieloperoxidasa)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 40460,
+    "benef": 20230
+   }
+  }
+ },
+ {
+  "id": "03-05-108",
+  "code": "03 05 108",
+  "official": "ANTICUERPOS ANTI ANTÍGENOS NUCLEARES EXTRACTABLES (A-ENA): SM, RNP, SS-A/RO, SS-B/LA, SCL-70, JO-1). C/U",
+  "name": "Anticuerpos ANTI antígenos nucleares extractables (a-ena): SM, RNP, ss-a/ro, ss-b/la, SCL-70, JO-1). C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 23220,
+    "benef": 11610
+   }
+  }
+ },
+ {
+  "id": "03-05-124",
+  "code": "03 05 124",
+  "official": "RECEPTOR DE TIROTROPINA (TRAB), ANTICUERPOS ANTI B.- INMUNOCELULARES",
+  "name": "Receptor de tirotropina (trab), anticuerpos ANTI b.- inmunocelulares",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 35290,
+    "benef": 17640
+   }
+  }
+ },
+ {
+  "id": "03-05-035",
+  "code": "03 05 035",
+  "official": "DETECCIÓN, IDENTIFICACIÓN Y TITULACIÓN DE CRIOAGLUTININAS",
+  "name": "Detección, identificación y titulación de crioaglutininas",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 2730,
+    "benef": 1360
+   },
+   "2": {
+    "total": 3550,
+    "benef": 2180
+   },
+   "3": {
+    "total": 4370,
+    "benef": 3000
+   }
+  }
+ },
+ {
+  "id": "03-05-036",
+  "code": "03 05 036",
+  "official": "CRIOHEMOLISINAS",
+  "name": "Criohemolisinas",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 2730,
+    "benef": 1360
+   },
+   "2": {
+    "total": 3550,
+    "benef": 2180
+   },
+   "3": {
+    "total": 4370,
+    "benef": 3000
+   }
+  }
+ },
+ {
+  "id": "03-05-037",
+  "code": "03 05 037",
+  "official": "DIGESTIÓN FAGOCÍTICA NITROBLUE-TETRAZOLIUM CUALITATIVO Y CUANTITATIVO",
+  "name": "Digestión fagocítica nitroblue-tetrazolium cualitativo y cuantitativo",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 8140,
+    "benef": 4070
+   },
+   "2": {
+    "total": 10580,
+    "benef": 6510
+   },
+   "3": {
+    "total": 13020,
+    "benef": 8950
+   }
+  }
+ },
+ {
+  "id": "03-05-038",
+  "code": "03 05 038",
+  "official": "FAGOCITOSIS: INGESTIÓN Y DIGESTIÓN (KILLING) DE LEVADURAS POR POLIMORFONUCLEARES",
+  "name": "Fagocitosis: ingestión y digestión (killing) de levaduras por polimorfonucleares",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 13050,
+    "benef": 6520
+   },
+   "2": {
+    "total": 16970,
+    "benef": 10440
+   },
+   "3": {
+    "total": 20880,
+    "benef": 14350
+   }
+  }
+ },
+ {
+  "id": "03-05-039",
+  "code": "03 05 039",
+  "official": "FAGOCITOSIS: INGESTIÓN Y DIGESTIÓN (KILLING) DE BACTERIAS POR POLIMORFONUCLEARES",
+  "name": "Fagocitosis: ingestión y digestión (killing) de bacterias por polimorfonucleares",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 13930,
+    "benef": 6960
+   },
+   "2": {
+    "total": 18110,
+    "benef": 11140
+   },
+   "3": {
+    "total": 22290,
+    "benef": 15320
+   }
+  }
+ },
+ {
+  "id": "03-05-040",
+  "code": "03 05 040",
+  "official": "INMUNOADHERENCIA DE LEUCOCITOS MACRÓFAGOS",
+  "name": "Inmunoadherencia de leucocitos macrófagos",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 6540,
+    "benef": 3270
+   },
+   "2": {
+    "total": 8500,
+    "benef": 5230
+   },
+   "3": {
+    "total": 10460,
+    "benef": 7190
+   }
+  }
+ },
+ {
+  "id": "03-05-041",
+  "code": "03 05 041",
+  "official": "INTRADERMORREACCIÓN (PPD, HISTOPLASMINA, ASPERGILINA, U OTROS, INCLUYE EL VALOR DEL ANTÍGENO Y REACCIÓN DE CONTROL), C/U.",
+  "name": "Intradermorreacción, C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 5160,
+    "benef": 2580
+   },
+   "2": {
+    "total": 6710,
+    "benef": 4130
+   },
+   "3": {
+    "total": 8260,
+    "benef": 5680
+   }
+  }
+ },
+ {
+  "id": "03-05-080",
+  "code": "03 05 080",
+  "official": "ESTUDIO PARA HIPERSENSIBILIDAD RETARDADA",
+  "name": "Estudio para hipersensibilidad retardada",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 20720,
+    "benef": 10360
+   },
+   "2": {
+    "total": 26940,
+    "benef": 16580
+   },
+   "3": {
+    "total": 33150,
+    "benef": 22790
+   }
+  }
+ },
+ {
+  "id": "03-05-042",
+  "code": "03 05 042",
+  "official": "LIF O MIF",
+  "name": "Lif o mif",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 6110,
+    "benef": 3050
+   },
+   "2": {
+    "total": 7940,
+    "benef": 4880
+   },
+   "3": {
+    "total": 9780,
+    "benef": 6720
+   }
+  }
+ },
+ {
+  "id": "03-05-044",
+  "code": "03 05 044",
+  "official": "LINFOCITOS B (ROSETAS EAC) Y LINFOCITOS T (ROSETAS E) C/U",
+  "name": "Linfocitos b (rosetas eac) y linfocitos t (rosetas e) C/U",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 7600,
+    "benef": 3800
+   },
+   "2": {
+    "total": 9880,
+    "benef": 6080
+   },
+   "3": {
+    "total": 12160,
+    "benef": 8360
+   }
+  }
+ },
+ {
+  "id": "03-05-047",
+  "code": "03 05 047",
+  "official": "LINFOTOXINAS HUMANAS, DETECCIÓN DE",
+  "name": "Linfotoxinas humanas, detección de",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 9080,
+    "benef": 4540
+   },
+   "2": {
+    "total": 11800,
+    "benef": 7260
+   },
+   "3": {
+    "total": 14530,
+    "benef": 9990
+   }
+  }
+ },
+ {
+  "id": "03-05-049",
+  "code": "03 05 049",
+  "official": "TRANSFORMACIÓN LINFOBLÁSTICA A DROGAS, ANÁLISIS DE TRANSFORMACIÓN ESPONTÁNEA CON ESTÍMULO INESPECÍFICO Y CON DIFERENTES CONCENTRACIONES DE LA DROGA EN 1000 CÉLULAS",
+  "name": "Transformación linfoblástica a drogas, análisis de transformación espontánea con estímulo inespecífico y con diferentes concentraciones de la droga en 1000 células",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 28610,
+    "benef": 14300
+   },
+   "2": {
+    "total": 37190,
+    "benef": 22880
+   },
+   "3": {
+    "total": 45780,
+    "benef": 31470
+   }
+  }
+ },
+ {
+  "id": "03-05-089",
+  "code": "03 05 089",
+  "official": "LINFOCITOS B TOTALES (CD19). TÉCNICA CITOMETRÍA DE FLUJO",
+  "name": "Linfocitos b totales (CD19). técnica citometría de flujo",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 46920,
+    "benef": 23460
+   },
+   "2": {
+    "total": 61000,
+    "benef": 37540
+   },
+   "3": {
+    "total": 75070,
+    "benef": 51610
+   }
+  }
+ },
+ {
+  "id": "03-05-091",
+  "code": "03 05 091",
+  "official": "LINFOCITOS T (INCLUYE CD3, CD4, CD8). TÉCNICA CITOMETRÍA DE FLUJO",
+  "name": "Linfocitos t. técnica citometría de flujo",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 29930,
+    "benef": 14960
+   },
+   "2": {
+    "total": 38910,
+    "benef": 23940
+   },
+   "3": {
+    "total": 47890,
+    "benef": 32920
+   }
+  }
+ },
+ {
+  "id": "03-05-092",
+  "code": "03 05 092",
+  "official": "NATURAL KILLERS (INCLUYE CD16, CD 56). TÉCNICA CITOMETRÍA DE FLUJO",
+  "name": "Natural killers. técnica citometría de flujo",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 29150,
+    "benef": 14570
+   },
+   "2": {
+    "total": 37900,
+    "benef": 23320
+   },
+   "3": {
+    "total": 46640,
+    "benef": 32060
+   }
+  }
+ },
+ {
+  "id": "03-05-093",
+  "code": "03 05 093",
+  "official": "INMUNOFENOTIPO EN LEUCEMIAS AGUDAS",
+  "name": "Inmunofenotipo en leucemias agudas",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 349950,
+    "benef": 174970
+   }
+  }
+ },
+ {
+  "id": "03-05-094",
+  "code": "03 05 094",
+  "official": "INMUNOFENOTIPO EN SÍNDROME LINFOPROLIFERATIVOS",
+  "name": "Inmunofenotipo en síndrome linfoproliferativos",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 298260,
+    "benef": 149130
+   }
+  }
+ },
+ {
+  "id": "03-05-095",
+  "code": "03 05 095",
+  "official": "INMUNOFENOTIPO EN SÍNDROME MIELODISPLÁSICOS",
+  "name": "Inmunofenotipo en síndrome mielodisplásicos",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 303690,
+    "benef": 151840
+   }
+  }
+ },
+ {
+  "id": "03-05-096",
+  "code": "03 05 096",
+  "official": "DETECCIÓN DE ENFERMEDAD RESIDUAL MÍNIMA",
+  "name": "Detección de enfermedad residual mínima",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 192860,
+    "benef": 96430
+   }
+  }
+ },
+ {
+  "id": "03-05-097",
+  "code": "03 05 097",
+  "official": "CUANTIFICACIÓN DE CÉLULAS PROGENITORAS HEMATOPOYÉTICAS CD 34 C.- HISTOCOMPATIBILIDAD",
+  "name": "Cuantificación de células progenitoras hematopoyéticas CD 34 c.- histocompatibilidad",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 82680,
+    "benef": 41340
+   }
+  }
+ },
+ {
+  "id": "03-05-110",
+  "code": "03 05 110",
+  "official": "ALOCROSS MATCH LINFOCITOS T Y LINFOCITOS B (CITOMETRÍA DE FLUJO)",
+  "name": "Alocross match linfocitos t y linfocitos b (citometría de flujo)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 295040,
+    "benef": 147520
+   }
+  }
+ },
+ {
+  "id": "03-05-111",
+  "code": "03 05 111",
+  "official": "ANTICUERPO ANTI HLA CLASE I Y II SCREENING (LUMINEX)",
+  "name": "Anticuerpo ANTI HLA clase i y II screening (luminex)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 65900,
+    "benef": 32950
+   }
+  }
+ },
+ {
+  "id": "03-05-112",
+  "code": "03 05 112",
+  "official": "AUTOCROSSMATCH LINFOCITOS T Y B (CITOMETRÍA DE FLUJO )",
+  "name": "Autocrossmatch linfocitos t y b (citometría de flujo )",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 295040,
+    "benef": 147520
+   }
+  }
+ },
+ {
+  "id": "03-05-113",
+  "code": "03 05 113",
+  "official": "ESPECIFICIDAD DE ANTICUERPOS HLA CON ANTÍGENOS INDIVIDUALES CLASE I (LUMINEX)",
+  "name": "Especificidad de anticuerpos HLA con antígenos individuales clase i (luminex)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 250460,
+    "benef": 125230
+   }
+  }
+ },
+ {
+  "id": "03-05-114",
+  "code": "03 05 114",
+  "official": "ESPECIFICIDAD DE ANTICUERPOS HLA CON ANTÍGENOS INDIVIDUALES CLASE II (LUMINEX)",
+  "name": "Especificidad de anticuerpos HLA con antígenos individuales clase II (luminex)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 295040,
+    "benef": 147520
+   }
+  }
+ },
+ {
+  "id": "03-05-115",
+  "code": "03 05 115",
+  "official": "ESTUDIO RECEPTOR TRASPLANTADO CON DONANTE CADÁVER",
+  "name": "Estudio receptor trasplantado con donante cadáver",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 474600,
+    "benef": 237300
+   }
+  }
+ },
+ {
+  "id": "03-05-116",
+  "code": "03 05 116",
+  "official": "HLA-AB TIPIFICACIÓN (BIOLOGÍA MOLECULAR)",
+  "name": "Hla-ab tipificación (biología molecular)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 177420,
+    "benef": 88710
+   }
+  }
+ },
+ {
+  "id": "03-05-117",
+  "code": "03 05 117",
+  "official": "HLA-ABDR TIPIFICACIÓN (BIOLOGÍA MOLECULAR)",
+  "name": "Hla-abdr tipificación (biología molecular)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 295040,
+    "benef": 147520
+   }
+  }
+ },
+ {
+  "id": "03-05-118",
+  "code": "03 05 118",
+  "official": "HLA-B27 TIPIFICACIÓN (BIOLOGÍA MOLECULAR)",
+  "name": "HLA-B27 tipificación (biología molecular)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 93150,
+    "benef": 46570
+   }
+  }
+ },
+ {
+  "id": "03-05-119",
+  "code": "03 05 119",
+  "official": "HLA-C TIPIFICACIÓN (BIOLOGÍA MOLECULAR)",
+  "name": "Hla-c tipificación (biología molecular)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 108300,
+    "benef": 54150
+   }
+  }
+ },
+ {
+  "id": "03-05-120",
+  "code": "03 05 120",
+  "official": "HLA-DP TIPIFICACIÓN (BIOLOGÍA MOLECULAR)",
+  "name": "Hla-dp tipificación (biología molecular)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 108300,
+    "benef": 54150
+   }
+  }
+ },
+ {
+  "id": "03-05-121",
+  "code": "03 05 121",
+  "official": "HLA-DQ TIPIFICACIÓN (BIOLOGÍA MOLECULAR)",
+  "name": "Hla-dq tipificación (biología molecular)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 164880,
+    "benef": 82440
+   }
+  }
+ },
+ {
+  "id": "03-05-122",
+  "code": "03 05 122",
+  "official": "HLA-DR TIPIFICACIÓN (BIOLOGÍA MOLECULAR)",
+  "name": "Hla-dr tipificación (biología molecular)",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 116540,
+    "benef": 58270
+   }
+  }
+ },
+ {
+  "id": "03-05-123",
+  "code": "03 05 123",
+  "official": "SEROTECA MENSUAL Y MANTENCIÓN EN LISTA DE ESPERA A.- BACTERIAS Y HONGOS A.1 EXAMENES MICROSCOPICOS",
+  "name": "Seroteca mensual y mantención en lista de espera a.- bacterias y hongos A.1 examenes microscopicos",
+  "section": "Inmunología",
+  "levels": {
+   "1": {
+    "total": 27250,
+    "benef": 13620
+   }
+  }
+ },
+ {
+  "id": "03-06-001",
+  "code": "03 06 001",
+  "official": "BACILOSCOPÍA POR MÉTODO DE CONCENTRACIÓN",
+  "name": "Baciloscopía por método de concentración",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2710,
+    "benef": 1350
+   },
+   "2": {
+    "total": 3520,
+    "benef": 2160
+   },
+   "3": {
+    "total": 4340,
+    "benef": 2980
+   }
+  }
+ },
+ {
+  "id": "03-06-002",
+  "code": "03 06 002",
+  "official": "BACILOSCOPÍA ZIEHL-NEELSEN, C/U",
+  "name": "Baciloscopía ziehl-neelsen, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 1770,
+    "benef": 880
+   },
+   "2": {
+    "total": 2300,
+    "benef": 1410
+   },
+   "3": {
+    "total": 2830,
+    "benef": 1940
+   }
+  }
+ },
+ {
+  "id": "03-06-004",
+  "code": "03 06 004",
+  "official": "EXAMEN DIRECTO AL FRESCO, C/S TINCIÓN (INCLUYE TRICHOMONAS)",
+  "name": "Examen directo al fresco, C/S tinción",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 1540,
+    "benef": 770
+   },
+   "2": {
+    "total": 2000,
+    "benef": 1230
+   },
+   "3": {
+    "total": 2460,
+    "benef": 1690
+   }
+  }
+ },
+ {
+  "id": "03-06-005",
+  "code": "03 06 005",
+  "official": "TINCIÓN DE GRAM",
+  "name": "Tinción de gram",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 710,
+    "benef": 350
+   },
+   "2": {
+    "total": 920,
+    "benef": 560
+   },
+   "3": {
+    "total": 1140,
+    "benef": 780
+   }
+  }
+ },
+ {
+  "id": "03-06-006",
+  "code": "03 06 006",
+  "official": "ULTRAMICROSCOPÍA (INCLUYE TOMA DE MUESTRAS)",
+  "name": "Ultramicroscopía",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5230,
+    "benef": 2610
+   },
+   "2": {
+    "total": 6800,
+    "benef": 4180
+   },
+   "3": {
+    "total": 8370,
+    "benef": 5750
+   }
+  }
+ },
+ {
+  "id": "03-06-102",
+  "code": "03 06 102",
+  "official": "TINCIÓN DE TOLUIDINA A.2 CULTIVOS (Incluye la identificación bioquímica y serológica cuando corresponda)",
+  "name": "Tinción de toluidina A.2 cultivos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 48820,
+    "benef": 24410
+   }
+  }
+ },
+ {
+  "id": "03-06-007",
+  "code": "03 06 007",
+  "official": "COPROCULTIVO, C/U",
+  "name": "Coprocultivo, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 4260,
+    "benef": 2130
+   },
+   "2": {
+    "total": 5540,
+    "benef": 3410
+   },
+   "3": {
+    "total": 6820,
+    "benef": 4690
+   }
+  }
+ },
+ {
+  "id": "03-06-008",
+  "code": "03 06 008",
+  "official": "CULTIVO CORRIENTE (EXCEPTO COPROCULTIVO, HEMOCULTIVO Y UROCULTIVO) C/U",
+  "name": "Cultivo corriente C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3720,
+    "benef": 1860
+   },
+   "2": {
+    "total": 4840,
+    "benef": 2980
+   },
+   "3": {
+    "total": 5950,
+    "benef": 4090
+   }
+  }
+ },
+ {
+  "id": "03-06-011",
+  "code": "03 06 011",
+  "official": "UROCULTIVO, RECUENTO DE COLONIAS Y ANTIBIOGRAMA (CUALQUIER TÉCNICA) (INCLUYE TOMA DE ORINA ASÉPTICA Y FRASCO RECOLECTOR) (NO INCLUYE RECOLECTOR PEDIÁTRICO NI SONDA)",
+  "name": "Urocultivo, recuento de colonias y antibiograma (cualquier técnica)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3800,
+    "benef": 1900
+   },
+   "2": {
+    "total": 4940,
+    "benef": 3040
+   },
+   "3": {
+    "total": 6080,
+    "benef": 4180
+   }
+  }
+ },
+ {
+  "id": "03-06-091",
+  "code": "03 06 091",
+  "official": "HEMOCULTIVO AUTOMATIZADO. INCLUYE ANTIBIOGRAMA CON CIM. 2 FRASCOS (COSTO NO INCLUIDO EN EL ARANCEL)",
+  "name": "Hemocultivo automatizado. incluye antibiograma con cim. 2 frascos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 18130,
+    "benef": 9060
+   },
+   "2": {
+    "total": 23570,
+    "benef": 14500
+   },
+   "3": {
+    "total": 29010,
+    "benef": 19940
+   }
+  }
+ },
+ {
+  "id": "03-06-093",
+  "code": "03 06 093",
+  "official": "HEMOCULTIVO AUTOMATIZADO PARA MICOBACTERIAS.1 FRASCO (COSTO NO INCLUIDO EN EL ARANCEL)",
+  "name": "Hemocultivo automatizado para MICOBACTERIAS.1 frasco",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 19110,
+    "benef": 9550
+   },
+   "2": {
+    "total": 24840,
+    "benef": 15280
+   },
+   "3": {
+    "total": 30580,
+    "benef": 21020
+   }
+  }
+ },
+ {
+  "id": "03-06-101",
+  "code": "03 06 101",
+  "official": "CULTIVO DE LÍQUIDO DE CAVIDADES ESTÉRILES EN FRASCO DE HEMOCULTIVO AUTOMATIZADO. INCLUYE ANTIBIOGRAMA POR DIFUSIÓN O DILUCIÓN (1 FRASCO, COSTO NO INCLUIDO EN ARANCEL).",
+  "name": "Cultivo de líquido de cavidades estériles en frasco de hemocultivo automatizado. incluye antibiograma por difusión o dilución",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 22160,
+    "benef": 11080
+   }
+  }
+ },
+ {
+  "id": "03-06-106",
+  "code": "03 06 106",
+  "official": "HEMOCULTIVO AUTOMATIZADO PARA HONGOS A.3 CULTIVOS ESPECIFICOS PARA",
+  "name": "Hemocultivo automatizado para hongos A.3 cultivos especificos para",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 21290,
+    "benef": 10640
+   }
+  }
+ },
+ {
+  "id": "03-06-012",
+  "code": "03 06 012",
+  "official": "CULTIVO PARA ANAEROBIOS (INCLUYE CÓD. 03-06-008)",
+  "name": "Cultivo para anaerobios",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 9090,
+    "benef": 4540
+   },
+   "2": {
+    "total": 11820,
+    "benef": 7270
+   },
+   "3": {
+    "total": 14540,
+    "benef": 9990
+   }
+  }
+ },
+ {
+  "id": "03-06-013",
+  "code": "03 06 013",
+  "official": "CULTIVO PARA BORDETELLA",
+  "name": "Cultivo para bordetella",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 7210,
+    "benef": 3600
+   },
+   "2": {
+    "total": 9370,
+    "benef": 5760
+   },
+   "3": {
+    "total": 11540,
+    "benef": 7930
+   }
+  }
+ },
+ {
+  "id": "03-06-014",
+  "code": "03 06 014",
+  "official": "CULTIVO PARA CAMPYLOBACTER, YERSINIA, VIBRIO, C/U",
+  "name": "Cultivo para campylobacter, yersinia, vibrio, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5450,
+    "benef": 2720
+   },
+   "2": {
+    "total": 7090,
+    "benef": 4360
+   },
+   "3": {
+    "total": 8720,
+    "benef": 5990
+   }
+  }
+ },
+ {
+  "id": "03-06-016",
+  "code": "03 06 016",
+  "official": "NEISSERIA GONORRHOEAE (GONOCOCO)",
+  "name": "Neisseria gonorrhoeae (gonococo)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3040,
+    "benef": 1520
+   },
+   "2": {
+    "total": 3950,
+    "benef": 2430
+   },
+   "3": {
+    "total": 4860,
+    "benef": 3340
+   }
+  }
+ },
+ {
+  "id": "03-06-017",
+  "code": "03 06 017",
+  "official": "CULTIVO PARA HONGOS (LEVADURAS Y FILAMENTOSOS)",
+  "name": "Cultivo para hongos (levaduras y filamentosos)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2760,
+    "benef": 1380
+   },
+   "2": {
+    "total": 3590,
+    "benef": 2210
+   },
+   "3": {
+    "total": 4420,
+    "benef": 3040
+   }
+  }
+ },
+ {
+  "id": "03-06-117",
+  "code": "03 06 117",
+  "official": "CULTIVO PARA DERMATOFITOS",
+  "name": "Cultivo para dermatofitos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3120,
+    "benef": 1560
+   },
+   "2": {
+    "total": 4060,
+    "benef": 2500
+   },
+   "3": {
+    "total": 4990,
+    "benef": 3430
+   }
+  }
+ },
+ {
+  "id": "03-06-018",
+  "code": "03 06 018",
+  "official": "CULTIVO PARA MICOBACTERIAS (INCLUYE BACILO DE KOCH)",
+  "name": "Cultivo para micobacterias",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 4700,
+    "benef": 2350
+   },
+   "2": {
+    "total": 6110,
+    "benef": 3760
+   },
+   "3": {
+    "total": 7520,
+    "benef": 5170
+   }
+  }
+ },
+ {
+  "id": "03-06-019",
+  "code": "03 06 019",
+  "official": "CULTIVO PARA LEGIONELLA",
+  "name": "Cultivo para legionella",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 6330,
+    "benef": 3160
+   },
+   "2": {
+    "total": 8230,
+    "benef": 5060
+   },
+   "3": {
+    "total": 10130,
+    "benef": 6960
+   }
+  }
+ },
+ {
+  "id": "03-06-022",
+  "code": "03 06 022",
+  "official": "CULTIVO Y TIPIFICACIÓN DE MICOBACTERIAS",
+  "name": "Cultivo y tipificación de micobacterias",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 6330,
+    "benef": 3160
+   },
+   "2": {
+    "total": 8230,
+    "benef": 5060
+   },
+   "3": {
+    "total": 10130,
+    "benef": 6960
+   }
+  }
+ },
+ {
+  "id": "03-06-023",
+  "code": "03 06 023",
+  "official": "CULTIVO MYCOPLASMA Y UREAPLASMA, C/U.",
+  "name": "Cultivo mycoplasma y ureaplasma, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 6470,
+    "benef": 3230
+   },
+   "2": {
+    "total": 8410,
+    "benef": 5170
+   },
+   "3": {
+    "total": 10350,
+    "benef": 7110
+   }
+  }
+ },
+ {
+  "id": "03-06-099",
+  "code": "03 06 099",
+  "official": "STREPTOCOCCUS GRUPO B/ AGALACTIAE EN EMBARAZADA POR CULTIVO CON MEDIO SELECTIVO Y/O ENRIQUECIDO.",
+  "name": "Streptococcus grupo b/ agalactiae en embarazada por cultivo con medio selectivo y/o enriquecido",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 15820,
+    "benef": 7910
+   }
+  }
+ },
+ {
+  "id": "03-06-100",
+  "code": "03 06 100",
+  "official": "CULTIVO ACELERADO PARA MICOBACTERIAS A.4 ANTIBIOGRAMA",
+  "name": "Cultivo acelerado para micobacterias A.4 antibiograma",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 26640,
+    "benef": 13320
+   }
+  }
+ },
+ {
+  "id": "03-06-025",
+  "code": "03 06 025",
+  "official": "ANTIBIOGRAMA BACILO DE KOCH (CADA FÁRMACO)",
+  "name": "Antibiograma bacilo de koch (cada fármaco)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5400,
+    "benef": 2700
+   },
+   "2": {
+    "total": 7020,
+    "benef": 4320
+   },
+   "3": {
+    "total": 8640,
+    "benef": 5940
+   }
+  }
+ },
+ {
+  "id": "03-06-026",
+  "code": "03 06 026",
+  "official": "ANTIBIOGRAMA CORRIENTE (MÍNIMO 10 FÁRMACOS) (EN CASO DE UROCULTIVO NO CORRESPONDE SU COBRO; INCLUIDO EN EL VALOR 03-06-011)",
+  "name": "Antibiograma corriente (mínimo 10 fármacos)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2760,
+    "benef": 1380
+   },
+   "2": {
+    "total": 3590,
+    "benef": 2210
+   },
+   "3": {
+    "total": 4420,
+    "benef": 3040
+   }
+  }
+ },
+ {
+  "id": "03-06-027",
+  "code": "03 06 027",
+  "official": "ANTIBIOGRAMA DE ESTUDIO DE SENSIBILIDAD POR DILUCIÓN (CIM) (MÍNIMO 6 FÁRMACOS) (EN CASO DE UROCULTIVO, NO CORRESPONDE SU COBRO; INCLUIDO EN EL VALOR CÓDIGO 03-06-011)",
+  "name": "Antibiograma de estudio de sensibilidad por dilución (cim) (mínimo 6 fármacos)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 8300,
+    "benef": 4150
+   },
+   "2": {
+    "total": 10790,
+    "benef": 6640
+   },
+   "3": {
+    "total": 13280,
+    "benef": 9130
+   }
+  }
+ },
+ {
+  "id": "03-06-028",
+  "code": "03 06 028",
+  "official": "ANTIFUNGIGRAMA (MÍNIMO 4 FÁRMACOS ANTIHONGOS) A.5 OTROS",
+  "name": "Antifungigrama (mínimo 4 fármacos antihongos) A.5 otros",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2780,
+    "benef": 1390
+   },
+   "2": {
+    "total": 3610,
+    "benef": 2220
+   },
+   "3": {
+    "total": 4450,
+    "benef": 3060
+   }
+  }
+ },
+ {
+  "id": "03-06-090",
+  "code": "03 06 090",
+  "official": "TEST RÁPIDO DE DETECCIÓN DE STREPTOCOCCUS GRUPO A (PYOGENES)",
+  "name": "Test rápido de detección de streptococcus grupo a (pyogenes)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 6240,
+    "benef": 3120
+   },
+   "2": {
+    "total": 8110,
+    "benef": 4990
+   },
+   "3": {
+    "total": 9980,
+    "benef": 6860
+   }
+  }
+ },
+ {
+  "id": "03-06-097",
+  "code": "03 06 097",
+  "official": "CHLAMYDIA TRACHOMATIS Y NEISSERIA GONORRHOEAE DETECCIÓN POR TÉCNICA DE BIOLOGÍA MOLECULAR",
+  "name": "Chlamydia trachomatis y neisseria gonorrhoeae detección por técnica de biología molecular",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 43470,
+    "benef": 21730
+   }
+  }
+ },
+ {
+  "id": "03-06-098",
+  "code": "03 06 098",
+  "official": "TOXINA CLOSTRIDIUM DIFFICILE EN DEPOSICIONES TEST RÁPIDO",
+  "name": "Toxina clostridium difficile en deposiciones test rápido",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 19870,
+    "benef": 9930
+   }
+  }
+ },
+ {
+  "id": "03-06-107",
+  "code": "03 06 107",
+  "official": "PNEUMOCYSTIS JIROVECCI POR TÉCNICA DE BIOLOGÍA MOLECULAR EN TIEMPO REAL",
+  "name": "Pneumocystis jirovecci por técnica de biología molecular en tiempo real",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 86430,
+    "benef": 43210
+   }
+  }
+ },
+ {
+  "id": "03-06-118",
+  "code": "03 06 118",
+  "official": "AMPLIFICACIÓN DE DNA DE BORDETELLA PERTUSSIS POR TÉCNICA DE BIOLOGÍA MOLECULAR EN TIEMPO REAL A.6 SEROLOGICOS (Determinación de antígenos o anticuerpos)",
+  "name": "Amplificación de dna de bordetella pertussis por técnica de biología molecular en tiempo real A.6 serologicos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 65220,
+    "benef": 32610
+   }
+  }
+ },
+ {
+  "id": "03-06-033",
+  "code": "03 06 033",
+  "official": "BRUCELLA ABORTUS, MELITENSIS Y SUIS, ANTICUERPOS, POR AGLUTINACIÓN O ELISA",
+  "name": "Brucella abortus, melitensis y suis, anticuerpos, por aglutinación o ELISA",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2130,
+    "benef": 1060
+   },
+   "2": {
+    "total": 2770,
+    "benef": 1700
+   },
+   "3": {
+    "total": 3410,
+    "benef": 2340
+   }
+  }
+ },
+ {
+  "id": "03-06-034",
+  "code": "03 06 034",
+  "official": "CLAMIDIAS POR INMUNOFLUORESCENCIA, PEROXIDASA, ELISA O SIMILARES",
+  "name": "Clamidias por inmunofluorescencia, peroxidasa, ELISA o similares",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5570,
+    "benef": 2780
+   },
+   "2": {
+    "total": 7240,
+    "benef": 4450
+   },
+   "3": {
+    "total": 8910,
+    "benef": 6120
+   }
+  }
+ },
+ {
+  "id": "03-06-036",
+  "code": "03 06 036",
+  "official": "MONONUCLEOSIS, REACCIÓN DE PAUL BUNNELL, ANTICUERPOS HETERÓFILOS O SIMILARES",
+  "name": "Mononucleosis, reacción de paul bunnell, anticuerpos heterófilos o similares",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2450,
+    "benef": 1220
+   },
+   "2": {
+    "total": 3190,
+    "benef": 1960
+   },
+   "3": {
+    "total": 3920,
+    "benef": 2690
+   }
+  }
+ },
+ {
+  "id": "03-06-037",
+  "code": "03 06 037",
+  "official": "MYCOPLASMA IGG, IGM, C/U.",
+  "name": "Mycoplasma IGG, IGM, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5350,
+    "benef": 2670
+   },
+   "2": {
+    "total": 6960,
+    "benef": 4280
+   },
+   "3": {
+    "total": 8560,
+    "benef": 5880
+   }
+  }
+ },
+ {
+  "id": "03-06-038",
+  "code": "03 06 038",
+  "official": "R.P.R.",
+  "name": "R.P.R",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2770,
+    "benef": 1380
+   },
+   "2": {
+    "total": 3600,
+    "benef": 2210
+   },
+   "3": {
+    "total": 4430,
+    "benef": 3040
+   }
+  }
+ },
+ {
+  "id": "03-06-039",
+  "code": "03 06 039",
+  "official": "TÍFICAS, REACCIONES DE AGLUTINACIÓN (EBERTH H Y O, PARATYPHI A Y B) (WIDAL)",
+  "name": "Tíficas, reacciones de aglutinación (eberth h y o, paratyphi a y b) (widal)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3640,
+    "benef": 1820
+   },
+   "2": {
+    "total": 4730,
+    "benef": 2910
+   },
+   "3": {
+    "total": 5820,
+    "benef": 4000
+   }
+  }
+ },
+ {
+  "id": "03-06-041",
+  "code": "03 06 041",
+  "official": "TREPONEMA PALLIDUM FTA - ABS, MHA-TP C/U",
+  "name": "Treponema pallidum fta - abs, mha-tp C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5110,
+    "benef": 2550
+   },
+   "2": {
+    "total": 6640,
+    "benef": 4080
+   },
+   "3": {
+    "total": 8180,
+    "benef": 5620
+   }
+  }
+ },
+ {
+  "id": "03-06-042",
+  "code": "03 06 042",
+  "official": "V.D.R.L.",
+  "name": "V.D.R.L",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3180,
+    "benef": 1590
+   },
+   "2": {
+    "total": 4130,
+    "benef": 2540
+   },
+   "3": {
+    "total": 5090,
+    "benef": 3500
+   }
+  }
+ },
+ {
+  "id": "03-06-094",
+  "code": "03 06 094",
+  "official": "ANTÍGENO GALACTOMANANO",
+  "name": "Antígeno galactomanano",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 27470,
+    "benef": 13730
+   },
+   "2": {
+    "total": 35710,
+    "benef": 21970
+   },
+   "3": {
+    "total": 43950,
+    "benef": 30210
+   }
+  }
+ },
+ {
+  "id": "03-06-119",
+  "code": "03 06 119",
+  "official": "INTERFERÓN GAMMA TBC B. PARASITOS B.1 MACRO Y MICROSCOPICOS",
+  "name": "Interferón gamma TBC b. parasitos B.1 macro y microscopicos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 104210,
+    "benef": 52100
+   }
+  }
+ },
+ {
+  "id": "03-06-043",
+  "code": "03 06 043",
+  "official": "ARTRÓPODOS MACROSCÓPICOS Y MICROSCÓPICOS (IMAGOS Y/O PUPAS Y/O LARVAS), DIAGNÓSTICO DE",
+  "name": "Artrópodos macroscópicos y microscópicos (imagos y/o pupas y/o larvas), diagnóstico de",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3270,
+    "benef": 1630
+   },
+   "2": {
+    "total": 4250,
+    "benef": 2610
+   },
+   "3": {
+    "total": 5230,
+    "benef": 3590
+   }
+  }
+ },
+ {
+  "id": "03-06-045",
+  "code": "03 06 045",
+  "official": "COPROPARASITARIO SERIADO CON TÉCNICA PARA CRYPTOSPORIDIUM SP O PARA DIANTAMOEBA FRAGILIS (INCLUYE LOS CÓDIGOS 03-06-048 Y/O 03-06-059 MÁS APLICACIÓN DE TÉCNICA DE FROTIS CON TINCIÓN TRICRÓMICA O TINCIÓN ZIEHL-NEELSEN EN POR LO MENOS 3 MUESTRAS, SEGÚN CORRESPONDA)",
+  "name": "Coproparasitario seriado con técnica para cryptosporidium SP o para diantamoeba fragilis",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 9110,
+    "benef": 4550
+   },
+   "2": {
+    "total": 11840,
+    "benef": 7280
+   },
+   "3": {
+    "total": 14580,
+    "benef": 10020
+   }
+  }
+ },
+ {
+  "id": "03-06-046",
+  "code": "03 06 046",
+  "official": "COPROPARASITARIO SERIADO PARA FASCIOLA HEPÁTICA (INCLUYE DIAGNÓSTICO DE GUSANOS MACROSCÓPICOS Y EXAMEN MICROSCÓPICO DE 10 MUESTRAS POR MÉTODO DE TELEMANN Y SIMULTÁNEAMENTE POR TÉCNICA DE SEDIMENTACIÓN RÁPIDA (COPA CÓNICA)",
+  "name": "Coproparasitario seriado para fasciola hepática (incluye diagnóstico de gusanos macroscópicos y examen microscópico de 10 muestras por método de telemann y simultáneamente por técnica de sedimentación rápida",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 20760,
+    "benef": 10380
+   },
+   "2": {
+    "total": 26990,
+    "benef": 16610
+   },
+   "3": {
+    "total": 33220,
+    "benef": 22840
+   }
+  }
+ },
+ {
+  "id": "03-06-047",
+  "code": "03 06 047",
+  "official": "COPROPARASITARIO SERIADO PARA ISOSPORA Y SARCOCYSTIS (INCLUYE DIAGNÓSTICO DE GUSANOS MACROSCÓPICOS Y EXAMEN MICROSCÓPICO DE 3 MUESTRAS SEPARADAS)",
+  "name": "Coproparasitario seriado para isospora y sarcocystis",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 4790,
+    "benef": 2390
+   },
+   "2": {
+    "total": 6230,
+    "benef": 3830
+   },
+   "3": {
+    "total": 7660,
+    "benef": 5260
+   }
+  }
+ },
+ {
+  "id": "03-06-048",
+  "code": "03 06 048",
+  "official": "COPROPARASITOLÓGICO SERIADO SIMPLE (INCLUYE DIAGNÓSTICO DE GUSANOS MACROSCÓPICOS Y EXAMEN MICROSCÓPICO POR CONCENTRACIÓN DE TRES MUESTRAS SEPARADAS MÉTODO TELEMANN ) (PROC. AUT.)",
+  "name": "Coproparasitológico seriado simple (proc. aut.)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3050,
+    "benef": 1520
+   },
+   "2": {
+    "total": 3970,
+    "benef": 2440
+   },
+   "3": {
+    "total": 4880,
+    "benef": 3350
+   }
+  }
+ },
+ {
+  "id": "03-06-049",
+  "code": "03 06 049",
+  "official": "DIAGNÓSTICO DE PARÁSITOS EN JUGO DUODENAL Y/O BILIS, EXAMEN MACROSCÓPICO Y MICROSCÓPICO (DIRECTO Y/O CONCENTRACIÓN, C/S TINCIÓN)",
+  "name": "Diagnóstico de parásitos en jugo duodenal y/o bilis, examen macroscópico y microscópico",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2910,
+    "benef": 1450
+   },
+   "2": {
+    "total": 3780,
+    "benef": 2320
+   },
+   "3": {
+    "total": 4660,
+    "benef": 3200
+   }
+  }
+ },
+ {
+  "id": "03-06-050",
+  "code": "03 06 050",
+  "official": "DIAGNÓSTICO PARASITARIO EN EXUDADOS, SECRECIONES Y OTROS LÍQUIDOS ORGÁNICOS, EXAMEN MACRO Y MICROSCÓPICO DE (INCLUYE CONCENTRACIÓN Y/O TINCIÓN CUANDO PROCEDA), C/U",
+  "name": "Diagnóstico parasitario en exudados, secreciones y otros líquidos orgánicos, examen macro y microscópico de, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 3060,
+    "benef": 1530
+   },
+   "2": {
+    "total": 3980,
+    "benef": 2450
+   },
+   "3": {
+    "total": 4900,
+    "benef": 3370
+   }
+  }
+ },
+ {
+  "id": "03-06-051",
+  "code": "03 06 051",
+  "official": "GRAHAM, EXAMEN DE (INCLUYE DIAGNÓSTICO DE GUSANOS MACROSCÓPICOS Y EXAMEN MICROSCÓPICO DE 5 MUESTRAS SEPARADAS)",
+  "name": "Graham, examen de",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 2160,
+    "benef": 1080
+   },
+   "2": {
+    "total": 2810,
+    "benef": 1730
+   },
+   "3": {
+    "total": 3460,
+    "benef": 2380
+   }
+  }
+ },
+ {
+  "id": "03-06-052",
+  "code": "03 06 052",
+  "official": "ESTUDIO DE GUSANOS MACROSCÓPICOS",
+  "name": "Estudio de gusanos macroscópicos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 1800,
+    "benef": 900
+   },
+   "2": {
+    "total": 2340,
+    "benef": 1440
+   },
+   "3": {
+    "total": 2880,
+    "benef": 1980
+   }
+  }
+ },
+ {
+  "id": "03-06-053",
+  "code": "03 06 053",
+  "official": "HEMOPARÁSITOS, DIAGNÓSTICO MICROSCÓPICO DE (MÍNIMO 10 FROTIS Y/O GOTAS GRUESAS, C/S EXAMEN DIRECTO AL FRESCO), CADA SESIÓN",
+  "name": "Hemoparásitos, diagnóstico microscópico de, cada sesión",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 10220,
+    "benef": 5110
+   },
+   "2": {
+    "total": 13290,
+    "benef": 8180
+   },
+   "3": {
+    "total": 16350,
+    "benef": 11240
+   }
+  }
+ },
+ {
+  "id": "03-06-054",
+  "code": "03 06 054",
+  "official": "HEMOPARÁSITOS, DIAGNÓSTICO POR TÉCNICA DE MICROSTROUT O SIMILAR EN HASTA 10 TUBOS CAPILARES, CADA SESIÓN (CHAGAS)",
+  "name": "Hemoparásitos, diagnóstico por técnica de microstrout o similar en hasta 10 tubos capilares, cada sesión (chagas)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 11350,
+    "benef": 5670
+   },
+   "2": {
+    "total": 14760,
+    "benef": 9080
+   },
+   "3": {
+    "total": 18160,
+    "benef": 12480
+   }
+  }
+ },
+ {
+  "id": "03-06-056",
+  "code": "03 06 056",
+  "official": "RASPADO DE PIEL, EXAMEN MICROSCÓPICO DE ('ACAROTEST'): DE 6 A 10 PREPARACIONES",
+  "name": "Raspado de piel, examen microscópico de ('acarotest'): de 6 a 10 preparaciones",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 4080,
+    "benef": 2040
+   },
+   "2": {
+    "total": 5300,
+    "benef": 3260
+   },
+   "3": {
+    "total": 6530,
+    "benef": 4490
+   }
+  }
+ },
+ {
+  "id": "03-06-059",
+  "code": "03 06 059",
+  "official": "COPROPARASITOLÓGICO SERIADO SIMPLE (INCLUYE DIAGNÓSTICO DE GUSANOS MACROSCÓPICOS Y EXAMEN MICROSCÓPICO POR CONCENTRACIÓN DE TRES MUESTRAS SEPARADAS MÉTODO PAFS) (PROC. AUT.) B.2. SEROLOGICOS (Determinación de antígenos y anticuerpos)",
+  "name": "Coproparasitológico seriado simple (proc. aut.) B.2. serologicos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 4060,
+    "benef": 2030
+   },
+   "2": {
+    "total": 5280,
+    "benef": 3250
+   },
+   "3": {
+    "total": 6500,
+    "benef": 4470
+   }
+  }
+ },
+ {
+  "id": "03-06-061",
+  "code": "03 06 061",
+  "official": "PARÁSITOS IGG/IGM (CHAGAS, HIDATIDOSIS, TOXOCARIASIS Y OTROS POR ELISA O INMUNOFLUORESCENCIA), C/U",
+  "name": "Parásitos igg/igm, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5760,
+    "benef": 2880
+   },
+   "2": {
+    "total": 7490,
+    "benef": 4610
+   },
+   "3": {
+    "total": 9220,
+    "benef": 6340
+   }
+  }
+ },
+ {
+  "id": "03-06-066",
+  "code": "03 06 066",
+  "official": "INMUNOFLUORESCENCIA INDIRECTA (TOXOPLASMOSIS, CHAGAS, AMEBIASIS Y OTRAS), C/U",
+  "name": "Inmunofluorescencia indirecta, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 6280,
+    "benef": 3140
+   },
+   "2": {
+    "total": 8160,
+    "benef": 5020
+   },
+   "3": {
+    "total": 10050,
+    "benef": 6910
+   }
+  }
+ },
+ {
+  "id": "03-06-095",
+  "code": "03 06 095",
+  "official": "PARÁSITOS: DETERMINACIÓN POR REACCIÓN DE POLIMERASA EN CADENA (PCR)",
+  "name": "Parásitos: determinación por reacción de polimerasa en cadena (PCR)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 41770,
+    "benef": 20880
+   },
+   "2": {
+    "total": 54300,
+    "benef": 33410
+   },
+   "3": {
+    "total": 66830,
+    "benef": 45940
+   }
+  }
+ },
+ {
+  "id": "03-06-096",
+  "code": "03 06 096",
+  "official": "PARÁSITOS: TEST RÁPIDO ANTICUERPOS (CHAGAS Y OTROS) C. VIRUS C.1 CULTIVOS",
+  "name": "Parásitos: test rápido anticuerpos (chagas y otros) c. virus C.1 cultivos",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 10970,
+    "benef": 5480
+   },
+   "2": {
+    "total": 14260,
+    "benef": 8770
+   },
+   "3": {
+    "total": 17550,
+    "benef": 12060
+   }
+  }
+ },
+ {
+  "id": "03-06-068",
+  "code": "03 06 068",
+  "official": "AISLAMIENTO DE VIRUS (ADENOVIRUS, CITOMEGALOVIRUS, ENTEROVIRUS, HERPES, INFLUENZA, POLIO,SARAMPIÓN Y OTROS), C/U C.2 SEROLOGIA (Determinación de antígenos o anticuerpos)",
+  "name": "Aislamiento de virus, C/U C.2 serologia",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 9410,
+    "benef": 4700
+   },
+   "2": {
+    "total": 12230,
+    "benef": 7520
+   },
+   "3": {
+    "total": 15060,
+    "benef": 10350
+   }
+  }
+ },
+ {
+  "id": "03-06-069",
+  "code": "03 06 069",
+  "official": "ANTICUERPOS VIRALES, DETERM. DE (SARS COV-2 IGM IGG), (ADENOVIRUS, CITOMEGALOVIRUS, HERPES SIMPLE, RUBÉOLA, INFLUENZA A Y B; VIRUS VARICELA-ZOSTER; VIRUS SINCICIAL RESPIRATORIO; PARAINFLUENZA 1, 2 Y 3; EPSTEIN BARR Y OTROS), C/U",
+  "name": "Anticuerpos virales, determ. de (sars COV-2 IGM IGG),, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 6400,
+    "benef": 3200
+   },
+   "2": {
+    "total": 8320,
+    "benef": 5120
+   },
+   "3": {
+    "total": 10240,
+    "benef": 7040
+   }
+  }
+ },
+ {
+  "id": "03-06-169",
+  "code": "03 06 169",
+  "official": "ANTICUERPOS VIRALES, DETERM. DE H.I.V.",
+  "name": "Anticuerpos virales, determ. de h.i.v",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5550,
+    "benef": 2770
+   },
+   "2": {
+    "total": 7220,
+    "benef": 4440
+   },
+   "3": {
+    "total": 8880,
+    "benef": 6100
+   }
+  }
+ },
+ {
+  "id": "03-06-070",
+  "code": "03 06 070",
+  "official": "ANTÍGENOS VIRALES DETERM. DE (ADENOVIRUS, CITOMEGALOVIRUS, HERPES SIMPLEX, RUBEOLA, INFLUENZA Y OTROS), (POR CUALQUIER TÉCNICA EJ: INMUNOFLUORESCENCIA), C/U",
+  "name": "Antígenos virales determ. de,, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5730,
+    "benef": 2860
+   },
+   "2": {
+    "total": 7450,
+    "benef": 4580
+   },
+   "3": {
+    "total": 9170,
+    "benef": 6300
+   }
+  }
+ },
+ {
+  "id": "03-06-170",
+  "code": "03 06 170",
+  "official": "ANTÍGENOS VIRALES DETERM. DE ROTAVIRUS, POR CUALQUIER TÉCNICA",
+  "name": "Antígenos virales determ. de rotavirus, por cualquier técnica",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5250,
+    "benef": 2620
+   },
+   "2": {
+    "total": 6830,
+    "benef": 4200
+   },
+   "3": {
+    "total": 8400,
+    "benef": 5770
+   }
+  }
+ },
+ {
+  "id": "03-06-270",
+  "code": "03 06 270",
+  "official": "ANTÍGENOS VIRALES DETERM. DE VIRUS SINCICIAL, POR CUALQUIER TÉCNICA",
+  "name": "Antígenos virales determ. de virus sincicial, por cualquier técnica",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 6060,
+    "benef": 3030
+   },
+   "2": {
+    "total": 7880,
+    "benef": 4850
+   },
+   "3": {
+    "total": 9700,
+    "benef": 6670
+   }
+  }
+ },
+ {
+  "id": "03-06-074",
+  "code": "03 06 074",
+  "official": "VIRUS HEPATITIS A, ANTICUERPOS IGG, IGM O TOTALES C/U",
+  "name": "Virus hepatitis a, anticuerpos IGG, IGM o totales C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 7860,
+    "benef": 3930
+   },
+   "2": {
+    "total": 10220,
+    "benef": 6290
+   },
+   "3": {
+    "total": 12580,
+    "benef": 8650
+   }
+  }
+ },
+ {
+  "id": "03-06-075",
+  "code": "03 06 075",
+  "official": "VIRUS HEPATITIS B, ANTICUERPO DEL ANTÍGENO E DEL",
+  "name": "Virus hepatitis b, anticuerpo del antígeno e del",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 7690,
+    "benef": 3840
+   },
+   "2": {
+    "total": 10000,
+    "benef": 6150
+   },
+   "3": {
+    "total": 12300,
+    "benef": 8450
+   }
+  }
+ },
+ {
+  "id": "03-06-076",
+  "code": "03 06 076",
+  "official": "VIRUS HEPATITIS B, ANTICORE TOTAL DEL (ANTI HBC TOTAL)",
+  "name": "Virus hepatitis b, anticore total del (ANTI HBC total)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 7870,
+    "benef": 3930
+   },
+   "2": {
+    "total": 10230,
+    "benef": 6290
+   },
+   "3": {
+    "total": 12590,
+    "benef": 8650
+   }
+  }
+ },
+ {
+  "id": "03-06-078",
+  "code": "03 06 078",
+  "official": "VIRUS HEPATITIS B, ANTÍGENO E DEL (HBEAG)",
+  "name": "Virus hepatitis b, antígeno e del (hbeag)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 7110,
+    "benef": 3550
+   },
+   "2": {
+    "total": 9240,
+    "benef": 5680
+   },
+   "3": {
+    "total": 11380,
+    "benef": 7820
+   }
+  }
+ },
+ {
+  "id": "03-06-079",
+  "code": "03 06 079",
+  "official": "VIRUS HEPATITIS B, ANTÍGENO DE SUPERFICIE (HBSAG)",
+  "name": "Virus hepatitis b, antígeno de superficie (hbsag)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 5620,
+    "benef": 2810
+   },
+   "2": {
+    "total": 7310,
+    "benef": 4500
+   },
+   "3": {
+    "total": 8990,
+    "benef": 6180
+   }
+  }
+ },
+ {
+  "id": "03-06-080",
+  "code": "03 06 080",
+  "official": "VIRUS HEPATITIS B, ANTICORE IGM DEL (ANTI HBC IGM)",
+  "name": "Virus hepatitis b, anticore IGM del (ANTI HBC IGM)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 7830,
+    "benef": 3910
+   },
+   "2": {
+    "total": 10180,
+    "benef": 6260
+   },
+   "3": {
+    "total": 12530,
+    "benef": 8610
+   }
+  }
+ },
+ {
+  "id": "03-06-081",
+  "code": "03 06 081",
+  "official": "VIRUS HEPATITIS C, ANTICUERPOS DE (ANTI HCV)",
+  "name": "Virus hepatitis c, anticuerpos de (ANTI HCV)",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 8580,
+    "benef": 4290
+   },
+   "2": {
+    "total": 11150,
+    "benef": 6860
+   },
+   "3": {
+    "total": 13730,
+    "benef": 9440
+   }
+  }
+ },
+ {
+  "id": "03-06-082",
+  "code": "03 06 082",
+  "official": "REACCIÓN DE POLIMERASA EN CADENA (P.C.R.) EN TIEMPO REAL, SARS COV-2, (INCLUYE TOMA MUESTRA HISOPADO NASOFARÍNGEO).",
+  "name": "Reacción de polimerasa en cadena (P.C.R.) en tiempo real, sars COV-2",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 25600,
+    "benef": 12800
+   }
+  }
+ },
+ {
+  "id": "03-06-182",
+  "code": "03 06 182",
+  "official": "REACCIÓN DE POLIMERASA EN CADENA (P.C.R.) EN TIEMPO REAL, VIRUS INFLUENZA, VIRUS HERPES, CITOMEGALOVIRUS, HEPATITIS C, MYCOBACTERIA TBC, C/U (INCLUYE TOMA MUESTRA HISOPADO NASOFARÍNGEO).",
+  "name": "Reacción de polimerasa en cadena (P.C.R.) en tiempo real, virus influenza, virus herpes, citomegalovirus, hepatitis c, mycobacteria TBC, C/U",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 29710,
+    "benef": 14850
+   }
+  }
+ },
+ {
+  "id": "03-06-083",
+  "code": "03 06 083",
+  "official": "CITOMEGALOVIRUS (CMV) SHELL VIAL AISLAMIENTO RÁPIDO",
+  "name": "Citomegalovirus (CMV) shell vial aislamiento rápido",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 76230,
+    "benef": 38110
+   }
+  }
+ },
+ {
+  "id": "03-06-084",
+  "code": "03 06 084",
+  "official": "HEPATITIS B, CARGA VIRAL",
+  "name": "Hepatitis b, carga viral",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 116220,
+    "benef": 58110
+   }
+  }
+ },
+ {
+  "id": "03-06-085",
+  "code": "03 06 085",
+  "official": "HEPATITIS C CARGA VIRAL. TÉCNICA PCR",
+  "name": "Hepatitis c carga viral. técnica PCR",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 129320,
+    "benef": 64660
+   }
+  }
+ },
+ {
+  "id": "03-06-086",
+  "code": "03 06 086",
+  "official": "VIH, CARGA VIRAL",
+  "name": "VIH, carga viral",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 68730,
+    "benef": 34360
+   }
+  }
+ },
+ {
+  "id": "03-06-087",
+  "code": "03 06 087",
+  "official": "VIRUS EPSTEIN BARR (VEB) CARGA VIRAL. TÉCNICA PCR",
+  "name": "Virus epstein barr (veb) carga viral. técnica PCR",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 161250,
+    "benef": 80620
+   }
+  }
+ },
+ {
+  "id": "03-06-088",
+  "code": "03 06 088",
+  "official": "POLIOMA (BK) VIRUS CARGA VIRAL. TÉCNICA PCR",
+  "name": "Polioma (BK) virus carga viral. técnica PCR",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 99900,
+    "benef": 49950
+   }
+  }
+ },
+ {
+  "id": "03-06-109",
+  "code": "03 06 109",
+  "official": "VIH, GENOTIPIFICACIÓN ANTIVIRALES",
+  "name": "VIH, genotipificación antivirales",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 441630,
+    "benef": 220810
+   }
+  }
+ },
+ {
+  "id": "03-06-110",
+  "code": "03 06 110",
+  "official": "PCR METAPNEUMOVIRUS",
+  "name": "PCR metapneumovirus",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 80790,
+    "benef": 40390
+   }
+  }
+ },
+ {
+  "id": "03-06-111",
+  "code": "03 06 111",
+  "official": "HTLV I Y II DETERMINACIÓN DE ANTICUERPOS VIRALES",
+  "name": "HTLV i y II determinación de anticuerpos virales",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 78910,
+    "benef": 39450
+   }
+  }
+ },
+ {
+  "id": "03-06-112",
+  "code": "03 06 112",
+  "official": "VIH, ANTICUERPOS Y ANTÍGENOS VIRALES, DETERM. DE H.I.V.",
+  "name": "VIH, anticuerpos y antígenos virales, determ. de h.i.v",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 7430,
+    "benef": 3710
+   }
+  }
+ },
+ {
+  "id": "03-06-113",
+  "code": "03 06 113",
+  "official": "VIH, REACCIÓN DE POLIMERASA EN CADENA (P.C.R.) EN LÍQUIDO CEFALORAQUÍDEO",
+  "name": "VIH, reacción de polimerasa en cadena (P.C.R.) en líquido cefaloraquídeo",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 64630,
+    "benef": 32310
+   }
+  }
+ },
+ {
+  "id": "03-06-120",
+  "code": "03 06 120",
+  "official": "PANEL VIRAL DIARREA POR PCR (DETERMINACIÓN DE ROTAVIRUS, NOROVIRUS G1, NOROVIRUS G2, ASTROVIRUS, ADENOVIRUS)",
+  "name": "Panel viral diarrea por PCR",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 128020,
+    "benef": 64010
+   }
+  }
+ },
+ {
+  "id": "03-06-121",
+  "code": "03 06 121",
+  "official": "HANTA VIRUS, ANTICUERPOS IGM TEST RÁPIDO",
+  "name": "Hanta virus, anticuerpos IGM test rápido",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 69720,
+    "benef": 34860
+   }
+  }
+ },
+ {
+  "id": "03-06-122",
+  "code": "03 06 122",
+  "official": "PANEL VIRUS RESPIRATORIO MOLECULAR (15 A 17 VIRUS) (ADENOVIRUS, VRS A, VRS B, PARAINFLUENZA 1,2,3,4, INFLUENZA A Y B, INFLUENZA A H1N1, BOCAVIRUS, CORONAVIRUS (2 TIPOS), RINOVIRUS, ENTEROVIRUS.",
+  "name": "Panel virus respiratorio molecular (15 a 17 virus) (adenovirus, VRS a, VRS b, parainfluenza 1,2,3,4, influenza a y b, influenza a H1N1, bocavirus, coronavirus",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 88000,
+    "benef": 44000
+   }
+  }
+ },
+ {
+  "id": "03-06-123",
+  "code": "03 06 123",
+  "official": "VIRUS PAPILOMA HUMANO POR PCR CON GENOTIPIFICACIÓN DE PAPILOMA DE ALTO RIESGO DE CÁNCER CÉRVICO UTERINO TIPOS 16 Y 18",
+  "name": "Virus papiloma humano por PCR con genotipificación de papiloma de alto riesgo de cáncer cérvico uterino tipos 16 y 18",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 28140,
+    "benef": 14070
+   },
+   "2": {
+    "total": 36580,
+    "benef": 22510
+   },
+   "3": {
+    "total": 45020,
+    "benef": 30950
+   }
+  }
+ },
+ {
+  "id": "03-06-146",
+  "code": "03 06 146",
+  "official": "REACCIÓN DE POLIMERASA EN CADENA (P.C.R.) VIRUS VIRUELA SÍMICA (INCLUYE HISOPADO DE LESIONES CUTÁNEAS).",
+  "name": "Reacción de polimerasa en cadena (P.C.R.) virus viruela símica",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 29830,
+    "benef": 14910
+   }
+  }
+ },
+ {
+  "id": "03-06-271",
+  "code": "03 06 271",
+  "official": "TEST RÁPIDO DE DETECCIÓN DE ANTÍGENOS SARS-COV-2 (INCLUYE TOMA DE MUESTRA) (No incluye los fármacos ni los exámenes bioquímicos que correspondan)",
+  "name": "Test rápido de detección de antígenos SARS-COV-2",
+  "section": "Exámenes microbiológicos",
+  "levels": {
+   "1": {
+    "total": 9710,
+    "benef": 4850
+   }
+  }
+ },
+ {
+  "id": "03-07-001",
+  "code": "03 07 001",
+  "official": "DIETILENDIAMINA TETRAACETATO DE SODIO CROMO (EDTA CR 51)",
+  "name": "Dietilendiamina tetraacetato de sodio cromo (edta CR 51)",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 6130,
+    "benef": 3060
+   },
+   "2": {
+    "total": 7970,
+    "benef": 4900
+   },
+   "3": {
+    "total": 9810,
+    "benef": 6740
+   }
+  }
+ },
+ {
+  "id": "03-07-002",
+  "code": "03 07 002",
+  "official": "PRUEBA DE LA SED (VOLUMEN, DENSIDAD, OSMOLALIDAD SERIADA EN SANGRE Y ORINA)",
+  "name": "Prueba de la sed",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 5410,
+    "benef": 2700
+   },
+   "2": {
+    "total": 7030,
+    "benef": 4320
+   },
+   "3": {
+    "total": 8660,
+    "benef": 5950
+   }
+  }
+ },
+ {
+  "id": "03-07-005",
+  "code": "03 07 005",
+  "official": "REACCIÓN CUTÁNEA DE PARCHE C/U",
+  "name": "Reacción cutánea de parche C/U",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 820,
+    "benef": 410
+   },
+   "2": {
+    "total": 1070,
+    "benef": 660
+   },
+   "3": {
+    "total": 1310,
+    "benef": 900
+   }
+  }
+ },
+ {
+  "id": "03-07-006",
+  "code": "03 07 006",
+  "official": "SOBRECARGA HÍDRICA",
+  "name": "Sobrecarga hídrica",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 1920,
+    "benef": 960
+   },
+   "2": {
+    "total": 2500,
+    "benef": 1540
+   },
+   "3": {
+    "total": 3070,
+    "benef": 2110
+   }
+  }
+ },
+ {
+  "id": "03-07-007",
+  "code": "03 07 007",
+  "official": "TEST DEL SUDOR (PROCEDIMIENTO COMPLETO)",
+  "name": "Test del sudor (procedimiento completo)",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 16080,
+    "benef": 8040
+   },
+   "2": {
+    "total": 20900,
+    "benef": 12860
+   },
+   "3": {
+    "total": 25730,
+    "benef": 17690
+   }
+  }
+ },
+ {
+  "id": "03-07-008",
+  "code": "03 07 008",
+  "official": "VASOPRESINA TEST O SIMILARES (INCLUYE ADEMÁS MEDICIONES DE DIURESIS)",
+  "name": "Vasopresina test o similares",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 4590,
+    "benef": 2290
+   },
+   "2": {
+    "total": 5970,
+    "benef": 3670
+   },
+   "3": {
+    "total": 7340,
+    "benef": 5040
+   }
+  }
+ },
+ {
+  "id": "03-07-025",
+  "code": "03 07 025",
+  "official": "TEST RESPIRATORIO DE LACTOSA, LACTULOSA, FRUCTUOSA, C/U. TOMA DE MUESTRAS (Incluye procedimiento y el material) DE SANGRE",
+  "name": "Test respiratorio de lactosa, lactulosa, fructuosa, C/U. toma de muestras de sangre",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 25670,
+    "benef": 12830
+   },
+   "2": {
+    "total": 33370,
+    "benef": 20530
+   },
+   "3": {
+    "total": 41070,
+    "benef": 28230
+   }
+  }
+ },
+ {
+  "id": "03-07-009",
+  "code": "03 07 009",
+  "official": "ARTERIAL EN ADULTOS",
+  "name": "Arterial en adultos",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 1240,
+    "benef": 620
+   },
+   "2": {
+    "total": 1610,
+    "benef": 990
+   },
+   "3": {
+    "total": 1980,
+    "benef": 1360
+   }
+  }
+ },
+ {
+  "id": "03-07-010",
+  "code": "03 07 010",
+  "official": "ARTERIAL EN NIÑOS Y LACTANTES",
+  "name": "Arterial en niños y lactantes",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 1830,
+    "benef": 910
+   },
+   "2": {
+    "total": 2380,
+    "benef": 1460
+   },
+   "3": {
+    "total": 2930,
+    "benef": 2010
+   }
+  }
+ },
+ {
+  "id": "03-07-011",
+  "code": "03 07 011",
+  "official": "VENOSA EN ADULTOS",
+  "name": "Venosa en adultos",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 910,
+    "benef": 450
+   },
+   "2": {
+    "total": 1180,
+    "benef": 720
+   },
+   "3": {
+    "total": 1460,
+    "benef": 1000
+   }
+  }
+ },
+ {
+  "id": "03-07-012",
+  "code": "03 07 012",
+  "official": "VENOSA EN NIÑOS Y LACTANTES",
+  "name": "Venosa en niños y lactantes",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 830,
+    "benef": 410
+   },
+   "2": {
+    "total": 1080,
+    "benef": 660
+   },
+   "3": {
+    "total": 1330,
+    "benef": 910
+   }
+  }
+ },
+ {
+  "id": "03-07-013",
+  "code": "03 07 013",
+  "official": "CON TÉCNICA ASÉPTICA PARA HEMOCULTIVO AUTOMATIZADO, C/U, NO INCLUYE FRASCO",
+  "name": "Con técnica aséptica para hemocultivo automatizado, C/U, no incluye frasco",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 1430,
+    "benef": 710
+   },
+   "2": {
+    "total": 1860,
+    "benef": 1140
+   },
+   "3": {
+    "total": 2290,
+    "benef": 1570
+   }
+  }
+ },
+ {
+  "id": "03-07-014",
+  "code": "03 07 014",
+  "official": "CAPILAR ( ADULTOS, NIÑOS Y LACTANTES ) DE ORINA, EXUDADOS, SECRECIONES Y LIQUIDOS DE CAVIDADES SEROSAS",
+  "name": "Capilar ( adultos, niños y lactantes ) de orina, exudados, secreciones y liquidos de cavidades serosas",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 850,
+    "benef": 420
+   },
+   "2": {
+    "total": 1110,
+    "benef": 680
+   },
+   "3": {
+    "total": 1360,
+    "benef": 930
+   }
+  }
+ },
+ {
+  "id": "03-07-016",
+  "code": "03 07 016",
+  "official": "PUNCIÓN TRAQUEAL",
+  "name": "Punción traqueal",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 2480,
+    "benef": 1240
+   },
+   "2": {
+    "total": 3220,
+    "benef": 1980
+   },
+   "3": {
+    "total": 3970,
+    "benef": 2730
+   }
+  }
+ },
+ {
+  "id": "03-07-017",
+  "code": "03 07 017",
+  "official": "PUNCIÓN VESICAL EN RECIÉN NACIDOS",
+  "name": "Punción vesical en recién nacidos",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 2700,
+    "benef": 1350
+   },
+   "2": {
+    "total": 3510,
+    "benef": 2160
+   },
+   "3": {
+    "total": 4320,
+    "benef": 2970
+   }
+  }
+ },
+ {
+  "id": "03-07-018",
+  "code": "03 07 018",
+  "official": "PUNCIÓN MEDULAR ÓSEA",
+  "name": "Punción medular ósea",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 14450,
+    "benef": 7220
+   },
+   "2": {
+    "total": 18790,
+    "benef": 11560
+   },
+   "3": {
+    "total": 23120,
+    "benef": 15890
+   }
+  }
+ },
+ {
+  "id": "03-07-023",
+  "code": "03 07 023",
+  "official": "ASPIRADOS NASOFARÍNGEO PARA ADULTO Y NIÑO.",
+  "name": "Aspirados nasofaríngeo para adulto y niño",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 2540,
+    "benef": 1270
+   },
+   "2": {
+    "total": 3300,
+    "benef": 2030
+   },
+   "3": {
+    "total": 4060,
+    "benef": 2790
+   }
+  }
+ },
+ {
+  "id": "03-07-024",
+  "code": "03 07 024",
+  "official": "REACCIÓN CUTÁNEA A ALERGENOS (INCLUYE EL VALOR DE LOS ALERGENOS) A. DEPOSICIONES",
+  "name": "Reacción cutánea a alergenos a. deposiciones",
+  "section": "Procedimientos o determinaciones directamente con el paciente",
+  "levels": {
+   "1": {
+    "total": 7510,
+    "benef": 3750
+   },
+   "2": {
+    "total": 9760,
+    "benef": 6000
+   },
+   "3": {
+    "total": 12020,
+    "benef": 8260
+   }
+  }
+ },
+ {
+  "id": "03-08-001",
+  "code": "03 08 001",
+  "official": "AZÚCARES REDUCTORES (BENEDICT-FEHLING O SIMILAR)",
+  "name": "Azúcares reductores (benedict-fehling o similar)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1170,
+    "benef": 580
+   },
+   "2": {
+    "total": 1520,
+    "benef": 930
+   },
+   "3": {
+    "total": 1870,
+    "benef": 1280
+   }
+  }
+ },
+ {
+  "id": "03-08-003",
+  "code": "03 08 003",
+  "official": "GRASAS NEUTRAS (SUDÁN III)",
+  "name": "Grasas neutras (sudán III)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 670,
+    "benef": 330
+   },
+   "2": {
+    "total": 870,
+    "benef": 530
+   },
+   "3": {
+    "total": 1070,
+    "benef": 730
+   }
+  }
+ },
+ {
+  "id": "03-08-004",
+  "code": "03 08 004",
+  "official": "HEMORRAGIAS OCULTAS, (BENCIDINA, GUAYACO O TEST DE WEBER Y SIMILARES), CUALQUIER MÉTODO, C/MUESTRA",
+  "name": "Hemorragias ocultas,, cualquier método, c/muestra",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1210,
+    "benef": 600
+   },
+   "2": {
+    "total": 1570,
+    "benef": 960
+   },
+   "3": {
+    "total": 1940,
+    "benef": 1330
+   }
+  }
+ },
+ {
+  "id": "03-08-005",
+  "code": "03 08 005",
+  "official": "LEUCOCITOS FECALES",
+  "name": "Leucocitos fecales",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1210,
+    "benef": 600
+   },
+   "2": {
+    "total": 1570,
+    "benef": 960
+   },
+   "3": {
+    "total": 1940,
+    "benef": 1330
+   }
+  }
+ },
+ {
+  "id": "03-08-006",
+  "code": "03 08 006",
+  "official": "PH EN DEPOSICIONES",
+  "name": "PH en deposiciones",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 670,
+    "benef": 330
+   },
+   "2": {
+    "total": 870,
+    "benef": 530
+   },
+   "3": {
+    "total": 1070,
+    "benef": 730
+   }
+  }
+ },
+ {
+  "id": "03-08-007",
+  "code": "03 08 007",
+  "official": "ELASTASA FECAL",
+  "name": "Elastasa fecal",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 78830,
+    "benef": 39410
+   }
+  }
+ },
+ {
+  "id": "03-08-047",
+  "code": "03 08 047",
+  "official": "ESTEATOCRITO",
+  "name": "Esteatocrito",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 16840,
+    "benef": 8420
+   }
+  }
+ },
+ {
+  "id": "03-08-049",
+  "code": "03 08 049",
+  "official": "CALPROTECTINA CUANTITATIVA POR ELISA",
+  "name": "Calprotectina cuantitativa por ELISA",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 47010,
+    "benef": 23500
+   }
+  }
+ },
+ {
+  "id": "03-08-062",
+  "code": "03 08 062",
+  "official": "ANÁLISIS INMUNOQUÍMICO/INMUNOLÓGICO DE SANGRE OCULTA EN DEPOSICIONES",
+  "name": "Análisis inmunoquímico/inmunológico de sangre oculta en deposiciones",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 14470,
+    "benef": 7230
+   }
+  }
+ },
+ {
+  "id": "03-08-063",
+  "code": "03 08 063",
+  "official": "TEST DE HELICOBACTER PYLORI EN DEPOSICIONES B. EXUDADOS, SECRECIONES Y OTROS LIQUIDOS (Amniótico, articular, ascítico, bronquial, digestivo, ginecológico, L.C.R., nasal, pericárdico, pleural, seminal u otros ).",
+  "name": "Test de helicobacter pylori en deposiciones b. exudados, secreciones y otros liquidos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 30080,
+    "benef": 15040
+   }
+  }
+ },
+ {
+  "id": "03-08-009",
+  "code": "03 08 009",
+  "official": "CÉLULAS NEOPLÁSICAS EN FLUIDOS BIOLÓGICOS",
+  "name": "Células neoplásicas en fluidos biológicos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 5100,
+    "benef": 2550
+   },
+   "2": {
+    "total": 6630,
+    "benef": 4080
+   },
+   "3": {
+    "total": 8160,
+    "benef": 5610
+   }
+  }
+ },
+ {
+  "id": "03-08-010",
+  "code": "03 08 010",
+  "official": "CITOLÓGICO C/S TINCIÓN (INCLUYE EXAMEN AL FRESCO, RECUENTO CELULAR Y CITOLÓGICO PORCENTUAL)",
+  "name": "Citológico C/S tinción",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 3430,
+    "benef": 1710
+   },
+   "2": {
+    "total": 4460,
+    "benef": 2740
+   },
+   "3": {
+    "total": 5490,
+    "benef": 3770
+   }
+  }
+ },
+ {
+  "id": "03-08-011",
+  "code": "03 08 011",
+  "official": "DIRECTO AL FRESCO C/S TINCIÓN, (INCLUYE TRICHOMONAS)",
+  "name": "Directo al fresco C/S tinción",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1590,
+    "benef": 790
+   },
+   "2": {
+    "total": 2070,
+    "benef": 1270
+   },
+   "3": {
+    "total": 2540,
+    "benef": 1740
+   }
+  }
+ },
+ {
+  "id": "03-08-012",
+  "code": "03 08 012",
+  "official": "ELECTROLITOS (SODIO, POTASIO, CLORO), EN EXUDADOS, SECRECIONES Y OTROS LÍQUIDOS, C/U",
+  "name": "Electrolitos (sodio, potasio, cloro), en exudados, secreciones y otros líquidos, C/U",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1690,
+    "benef": 840
+   },
+   "2": {
+    "total": 2200,
+    "benef": 1350
+   },
+   "3": {
+    "total": 2700,
+    "benef": 1850
+   }
+  }
+ },
+ {
+  "id": "03-08-013",
+  "code": "03 08 013",
+  "official": "EOSINÓFILOS EN SECRECIONES",
+  "name": "Eosinófilos en secreciones",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 830,
+    "benef": 410
+   },
+   "2": {
+    "total": 1080,
+    "benef": 660
+   },
+   "3": {
+    "total": 1330,
+    "benef": 910
+   }
+  }
+ },
+ {
+  "id": "03-08-014",
+  "code": "03 08 014",
+  "official": "FÍSICO-QUÍMICO (INCLUYE ASPECTO, COLOR, PH, GLUCOSA, PROTEÍNA, PANDY Y FILANCIA)",
+  "name": "Físico-químico",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 2880,
+    "benef": 1440
+   },
+   "2": {
+    "total": 3740,
+    "benef": 2300
+   },
+   "3": {
+    "total": 4610,
+    "benef": 3170
+   }
+  }
+ },
+ {
+  "id": "03-08-015",
+  "code": "03 08 015",
+  "official": "GLUCOSA EN EXUDADOS, SECRECIONES Y OTROS LÍQUIDOS",
+  "name": "Glucosa en exudados, secreciones y otros líquidos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 750,
+    "benef": 370
+   },
+   "2": {
+    "total": 980,
+    "benef": 600
+   },
+   "3": {
+    "total": 1200,
+    "benef": 820
+   }
+  }
+ },
+ {
+  "id": "03-08-016",
+  "code": "03 08 016",
+  "official": "MUCINA, DETERMINACIÓN DE",
+  "name": "Mucina, determinación de",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1210,
+    "benef": 600
+   },
+   "2": {
+    "total": 1570,
+    "benef": 960
+   },
+   "3": {
+    "total": 1940,
+    "benef": 1330
+   }
+  }
+ },
+ {
+  "id": "03-08-017",
+  "code": "03 08 017",
+  "official": "PH EN EXUDADOS, SECRECIONES Y OTROS LÍQUIDOS (PROC. AUT.)",
+  "name": "PH en exudados, secreciones y otros líquidos (proc. aut.)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 720,
+    "benef": 360
+   },
+   "2": {
+    "total": 940,
+    "benef": 580
+   },
+   "3": {
+    "total": 1150,
+    "benef": 790
+   }
+  }
+ },
+ {
+  "id": "03-08-019",
+  "code": "03 08 019",
+  "official": "PROTEÍNAS, ELECTROFORÉSIS DE (INCLUYE PROTEÍNAS TOTALES) EN OTROS LÍQUIDOS BIOLÓGICOS",
+  "name": "Proteínas, electroforésis de en otros líquidos biológicos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 6830,
+    "benef": 3410
+   },
+   "2": {
+    "total": 8880,
+    "benef": 5460
+   },
+   "3": {
+    "total": 10930,
+    "benef": 7510
+   }
+  }
+ },
+ {
+  "id": "03-08-020",
+  "code": "03 08 020",
+  "official": "BANDAS OLIGOCLONALES (INCLUYE ELECTROFORESIS DE L.C.R., SUERO E INMUNOFIJACIÓN)",
+  "name": "Bandas oligoclonales",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 26780,
+    "benef": 13390
+   },
+   "2": {
+    "total": 34810,
+    "benef": 21420
+   },
+   "3": {
+    "total": 42850,
+    "benef": 29460
+   }
+  }
+ },
+ {
+  "id": "03-08-021",
+  "code": "03 08 021",
+  "official": "GLUTAMINA",
+  "name": "Glutamina",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 2080,
+    "benef": 1040
+   },
+   "2": {
+    "total": 2700,
+    "benef": 1660
+   },
+   "3": {
+    "total": 3330,
+    "benef": 2290
+   }
+  }
+ },
+ {
+  "id": "03-08-022",
+  "code": "03 08 022",
+  "official": "ÍNDICE IGG/ALBÚMINA (INCLUYE DETERM. DE IGG Y ALBÚMINA EN L.C.R. Y SUERO)",
+  "name": "Índice igg/albúmina",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 14870,
+    "benef": 7430
+   },
+   "2": {
+    "total": 19330,
+    "benef": 11890
+   },
+   "3": {
+    "total": 23790,
+    "benef": 16350
+   }
+  }
+ },
+ {
+  "id": "03-08-023",
+  "code": "03 08 023",
+  "official": "ESTUDIO DE CRISTALES (CON LUZ POLARIZADA)",
+  "name": "Estudio de cristales (con luz polarizada)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1800,
+    "benef": 900
+   },
+   "2": {
+    "total": 2340,
+    "benef": 1440
+   },
+   "3": {
+    "total": 2880,
+    "benef": 1980
+   }
+  }
+ },
+ {
+  "id": "03-08-025",
+  "code": "03 08 025",
+  "official": "PRUEBA DE ESTIMULACIÓN MÁXIMA CON HISTAMINA, MÍNIMO 5 MUESTRAS (NO INCLUYE LA HISTAMINA NI EL ANTIHISTAMÍNICO).",
+  "name": "Prueba de estimulación máxima con histamina, mínimo 5 muestras",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 6030,
+    "benef": 3010
+   },
+   "2": {
+    "total": 7840,
+    "benef": 4820
+   },
+   "3": {
+    "total": 9650,
+    "benef": 6630
+   }
+  }
+ },
+ {
+  "id": "03-08-029",
+  "code": "03 08 029",
+  "official": "ESPERMIOGRAMA (FÍSICO Y MICROSCÓPICO, CON O SIN OBSERVACIÓN HASTA 24 HORAS)",
+  "name": "Espermiograma",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 4870,
+    "benef": 2430
+   },
+   "2": {
+    "total": 6330,
+    "benef": 3890
+   },
+   "3": {
+    "total": 7790,
+    "benef": 5350
+   }
+  }
+ },
+ {
+  "id": "03-08-030",
+  "code": "03 08 030",
+  "official": "FOSFATASA ÁCIDA PROSTÁTICA",
+  "name": "Fosfatasa ácida prostática",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 3280,
+    "benef": 1640
+   },
+   "2": {
+    "total": 4260,
+    "benef": 2620
+   },
+   "3": {
+    "total": 5250,
+    "benef": 3610
+   }
+  }
+ },
+ {
+  "id": "03-08-031",
+  "code": "03 08 031",
+  "official": "FRUCTOSA SEMINAL",
+  "name": "Fructosa seminal",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 2100,
+    "benef": 1050
+   },
+   "2": {
+    "total": 2730,
+    "benef": 1680
+   },
+   "3": {
+    "total": 3360,
+    "benef": 2310
+   }
+  }
+ },
+ {
+  "id": "03-08-033",
+  "code": "03 08 033",
+  "official": "CÉLULAS ANARANJADAS (PROC. AUT.)",
+  "name": "Células anaranjadas (proc. aut.)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 820,
+    "benef": 410
+   },
+   "2": {
+    "total": 1070,
+    "benef": 660
+   },
+   "3": {
+    "total": 1310,
+    "benef": 900
+   }
+  }
+ },
+ {
+  "id": "03-08-034",
+  "code": "03 08 034",
+  "official": "CONTAMINANTES (MECONIO Y SANGRE) (PROC. AUT.)",
+  "name": "Contaminantes (meconio y sangre) (proc. aut.)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1200,
+    "benef": 600
+   },
+   "2": {
+    "total": 1560,
+    "benef": 960
+   },
+   "3": {
+    "total": 1920,
+    "benef": 1320
+   }
+  }
+ },
+ {
+  "id": "03-08-035",
+  "code": "03 08 035",
+  "official": "CREATININA EN EXUDADOS, SECRECIONES Y OTROS LÍQUIDOS (PROC. AUT.)",
+  "name": "Creatinina en exudados, secreciones y otros líquidos (proc. aut.)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1320,
+    "benef": 660
+   },
+   "2": {
+    "total": 1720,
+    "benef": 1060
+   },
+   "3": {
+    "total": 2110,
+    "benef": 1450
+   }
+  }
+ },
+ {
+  "id": "03-08-036",
+  "code": "03 08 036",
+  "official": "FOSFATIDIL GLICEROL Y/O FOSFATIDIL INOSITOL",
+  "name": "Fosfatidil glicerol y/o fosfatidil inositol",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 8080,
+    "benef": 4040
+   },
+   "2": {
+    "total": 10500,
+    "benef": 6460
+   },
+   "3": {
+    "total": 12930,
+    "benef": 8890
+   }
+  }
+ },
+ {
+  "id": "03-08-037",
+  "code": "03 08 037",
+  "official": "ÍNDICE DE BILIRRUBINA (PRUEBA DE LILEY)",
+  "name": "Índice de bilirrubina (prueba de liley)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1620,
+    "benef": 810
+   },
+   "2": {
+    "total": 2110,
+    "benef": 1300
+   },
+   "3": {
+    "total": 2590,
+    "benef": 1780
+   }
+  }
+ },
+ {
+  "id": "03-08-038",
+  "code": "03 08 038",
+  "official": "ÍNDICE LECITINA/ESFINGOMIELINA",
+  "name": "Índice lecitina/esfingomielina",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 6130,
+    "benef": 3060
+   },
+   "2": {
+    "total": 7970,
+    "benef": 4900
+   },
+   "3": {
+    "total": 9810,
+    "benef": 6740
+   }
+  }
+ },
+ {
+  "id": "03-08-039",
+  "code": "03 08 039",
+  "official": "MADUREZ FETAL COMPLETA (FÍSICO; CÉLULAS ANARANJADAS, BILIRRUBINA, TEST DE CLEMENTS, CREATININA, CONTAMINANTES)",
+  "name": "Madurez fetal completa",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 7830,
+    "benef": 3910
+   },
+   "2": {
+    "total": 10180,
+    "benef": 6260
+   },
+   "3": {
+    "total": 12530,
+    "benef": 8610
+   }
+  }
+ },
+ {
+  "id": "03-08-040",
+  "code": "03 08 040",
+  "official": "TEST DE CLEMENTS (PROC. AUT.)",
+  "name": "Test de clements (proc. aut.)",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1360,
+    "benef": 680
+   },
+   "2": {
+    "total": 1770,
+    "benef": 1090
+   },
+   "3": {
+    "total": 2180,
+    "benef": 1500
+   }
+  }
+ },
+ {
+  "id": "03-08-041",
+  "code": "03 08 041",
+  "official": "COLPOCITOGRAMA",
+  "name": "Colpocitograma",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 2770,
+    "benef": 1380
+   },
+   "2": {
+    "total": 3600,
+    "benef": 2210
+   },
+   "3": {
+    "total": 4430,
+    "benef": 3040
+   }
+  }
+ },
+ {
+  "id": "03-08-043",
+  "code": "03 08 043",
+  "official": "MOCO-SEMEN, PRUEBA DE COMPATIBILIDAD",
+  "name": "Moco-semen, prueba de compatibilidad",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 2620,
+    "benef": 1310
+   },
+   "2": {
+    "total": 3410,
+    "benef": 2100
+   },
+   "3": {
+    "total": 4190,
+    "benef": 2880
+   }
+  }
+ },
+ {
+  "id": "03-08-044",
+  "code": "03 08 044",
+  "official": "FLUJO VAGINAL O SECRECIÓN URETRAL, ESTUDIO DE (INCLUYE TOMA DE MUESTRA Y CÓDIGOS 03-06-004, 03-06-005, 03-06-008, 03-06-017 Y 03-06-026)",
+  "name": "Flujo vaginal o secreción uretral, estudio de",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 7990,
+    "benef": 3990
+   },
+   "2": {
+    "total": 10390,
+    "benef": 6390
+   },
+   "3": {
+    "total": 12780,
+    "benef": 8780
+   }
+  }
+ },
+ {
+  "id": "03-08-045",
+  "code": "03 08 045",
+  "official": "AMILASA EN LÍQUIDOS BIOLÓGICOS",
+  "name": "Amilasa en líquidos biológicos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 4820,
+    "benef": 2410
+   },
+   "2": {
+    "total": 6270,
+    "benef": 3860
+   },
+   "3": {
+    "total": 7710,
+    "benef": 5300
+   }
+  }
+ },
+ {
+  "id": "03-08-046",
+  "code": "03 08 046",
+  "official": "LIPASA EN LÍQUIDOS BIOLÓGICOS",
+  "name": "Lipasa en líquidos biológicos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 3180,
+    "benef": 1590
+   },
+   "2": {
+    "total": 4130,
+    "benef": 2540
+   },
+   "3": {
+    "total": 5090,
+    "benef": 3500
+   }
+  }
+ },
+ {
+  "id": "03-08-050",
+  "code": "03 08 050",
+  "official": "PROTEÍNAS TOTALES EN EXUDADOS, SECRECIONES Y OTROS LÍQUIDOS",
+  "name": "Proteínas totales en exudados, secreciones y otros líquidos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1570,
+    "benef": 780
+   },
+   "2": {
+    "total": 2040,
+    "benef": 1250
+   },
+   "3": {
+    "total": 2510,
+    "benef": 1720
+   }
+  }
+ },
+ {
+  "id": "03-08-051",
+  "code": "03 08 051",
+  "official": "ALBÚMINAS EN EXUDADOS, SECRECIONES Y OTROS LÍQUIDOS",
+  "name": "Albúminas en exudados, secreciones y otros líquidos",
+  "section": "Deposiciones, exudados, secreciones y otros líquidos",
+  "levels": {
+   "1": {
+    "total": 1570,
+    "benef": 780
+   },
+   "2": {
+    "total": 2040,
+    "benef": 1250
+   },
+   "3": {
+    "total": 2510,
+    "benef": 1720
+   }
+  }
+ },
+ {
+  "id": "03-09-001",
+  "code": "03 09 001",
+  "official": "ACIDO ASCÓRBICO",
+  "name": "Acido ascórbico",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2680,
+    "benef": 1340
+   },
+   "2": {
+    "total": 3480,
+    "benef": 2140
+   },
+   "3": {
+    "total": 4290,
+    "benef": 2950
+   }
+  }
+ },
+ {
+  "id": "03-09-002",
+  "code": "03 09 002",
+  "official": "ACIDO DELTA AMINOLEVULÍNICO",
+  "name": "Acido delta aminolevulínico",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 4700,
+    "benef": 2350
+   },
+   "2": {
+    "total": 6110,
+    "benef": 3760
+   },
+   "3": {
+    "total": 7520,
+    "benef": 5170
+   }
+  }
+ },
+ {
+  "id": "03-09-004",
+  "code": "03 09 004",
+  "official": "ÁCIDO ÚRICO EN ORINA (CUANTITATIVO)",
+  "name": "Ácido úrico en orina (cuantitativo)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2270,
+    "benef": 1130
+   },
+   "2": {
+    "total": 2950,
+    "benef": 1810
+   },
+   "3": {
+    "total": 3630,
+    "benef": 2490
+   }
+  }
+ },
+ {
+  "id": "03-09-005",
+  "code": "03 09 005",
+  "official": "ACIDO 5 HIDROXIINDOLACÉTICO CUANTITATIVO",
+  "name": "Acido 5 hidroxiindolacético cuantitativo",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 5630,
+    "benef": 2810
+   },
+   "2": {
+    "total": 7320,
+    "benef": 4500
+   },
+   "3": {
+    "total": 9010,
+    "benef": 6190
+   }
+  }
+ },
+ {
+  "id": "03-09-006",
+  "code": "03 09 006",
+  "official": "AMILASA CUANTITATIVA EN ORINA",
+  "name": "Amilasa cuantitativa en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2780,
+    "benef": 1390
+   },
+   "2": {
+    "total": 3610,
+    "benef": 2220
+   },
+   "3": {
+    "total": 4450,
+    "benef": 3060
+   }
+  }
+ },
+ {
+  "id": "03-09-007",
+  "code": "03 09 007",
+  "official": "AMINOÁCIDOS EN ORINA (CUALITATIVO)(EXCEPTO FENILALANINA, PKU)",
+  "name": "Aminoácidos en orina (cualitativo)(excepto fenilalanina, pku)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 5980,
+    "benef": 2990
+   },
+   "2": {
+    "total": 7770,
+    "benef": 4780
+   },
+   "3": {
+    "total": 9570,
+    "benef": 6580
+   }
+  }
+ },
+ {
+  "id": "03-09-008",
+  "code": "03 09 008",
+  "official": "CALCIO CUANTITATIVO EN ORINA",
+  "name": "Calcio cuantitativo en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2100,
+    "benef": 1050
+   },
+   "2": {
+    "total": 2730,
+    "benef": 1680
+   },
+   "3": {
+    "total": 3360,
+    "benef": 2310
+   }
+  }
+ },
+ {
+  "id": "03-09-009",
+  "code": "03 09 009",
+  "official": "CÁLCULO URINARIO (EXAMEN FÍSICO Y QUÍMICO)",
+  "name": "Cálculo urinario (examen físico y químico)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 4990,
+    "benef": 2490
+   },
+   "2": {
+    "total": 6490,
+    "benef": 3990
+   },
+   "3": {
+    "total": 7980,
+    "benef": 5480
+   }
+  }
+ },
+ {
+  "id": "03-09-010",
+  "code": "03 09 010",
+  "official": "CREATININA CUANTITATIVA EN ORINA",
+  "name": "Creatinina cuantitativa en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1590,
+    "benef": 790
+   },
+   "2": {
+    "total": 2070,
+    "benef": 1270
+   },
+   "3": {
+    "total": 2540,
+    "benef": 1740
+   }
+  }
+ },
+ {
+  "id": "03-09-012",
+  "code": "03 09 012",
+  "official": "ELECTRÓLITOS (SODIO, POTASIO, CLORO) C/U, EN ORINA",
+  "name": "Electrólitos (sodio, potasio, cloro) C/U, en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1620,
+    "benef": 810
+   },
+   "2": {
+    "total": 2110,
+    "benef": 1300
+   },
+   "3": {
+    "total": 2590,
+    "benef": 1780
+   }
+  }
+ },
+ {
+  "id": "03-09-013",
+  "code": "03 09 013",
+  "official": "MICROALBUMINURIA CUANTITATIVA",
+  "name": "Microalbuminuria cuantitativa",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2910,
+    "benef": 1450
+   },
+   "2": {
+    "total": 3780,
+    "benef": 2320
+   },
+   "3": {
+    "total": 4660,
+    "benef": 3200
+   }
+  }
+ },
+ {
+  "id": "03-09-014",
+  "code": "03 09 014",
+  "official": "GONADOTROFINA CORIÓNICA, SUB-UNIDAD BETA EN ORINA (TEST RÁPIDO)",
+  "name": "Gonadotrofina coriónica, sub-unidad beta en orina (test rápido)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2770,
+    "benef": 1380
+   },
+   "2": {
+    "total": 3600,
+    "benef": 2210
+   },
+   "3": {
+    "total": 4430,
+    "benef": 3040
+   }
+  }
+ },
+ {
+  "id": "03-09-015",
+  "code": "03 09 015",
+  "official": "FÓSFORO CUANTITATIVO EN ORINA",
+  "name": "Fósforo cuantitativo en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2100,
+    "benef": 1050
+   },
+   "2": {
+    "total": 2730,
+    "benef": 1680
+   },
+   "3": {
+    "total": 3360,
+    "benef": 2310
+   }
+  }
+ },
+ {
+  "id": "03-09-016",
+  "code": "03 09 016",
+  "official": "GLUCOSA (CUANTITATIVO), EN ORINA",
+  "name": "Glucosa (cuantitativo), en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1430,
+    "benef": 710
+   },
+   "2": {
+    "total": 1860,
+    "benef": 1140
+   },
+   "3": {
+    "total": 2290,
+    "benef": 1570
+   }
+  }
+ },
+ {
+  "id": "03-09-035",
+  "code": "03 09 035",
+  "official": "HEMOSIDERINA",
+  "name": "Hemosiderina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1580,
+    "benef": 790
+   },
+   "2": {
+    "total": 2050,
+    "benef": 1260
+   },
+   "3": {
+    "total": 2530,
+    "benef": 1740
+   }
+  }
+ },
+ {
+  "id": "03-09-017",
+  "code": "03 09 017",
+  "official": "HIDROXIPROLINA EN ORINA",
+  "name": "Hidroxiprolina en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 4740,
+    "benef": 2370
+   },
+   "2": {
+    "total": 6160,
+    "benef": 3790
+   },
+   "3": {
+    "total": 7580,
+    "benef": 5210
+   }
+  }
+ },
+ {
+  "id": "03-09-019",
+  "code": "03 09 019",
+  "official": "MUCOPOLISACÁRIDOS",
+  "name": "Mucopolisacáridos",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 6130,
+    "benef": 3060
+   },
+   "2": {
+    "total": 7970,
+    "benef": 4900
+   },
+   "3": {
+    "total": 9810,
+    "benef": 6740
+   }
+  }
+ },
+ {
+  "id": "03-09-020",
+  "code": "03 09 020",
+  "official": "NITRÓGENO UREICO O UREA EN ORINA (CUANTITATIVO)",
+  "name": "Nitrógeno ureico o urea en orina (cuantitativo)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 880,
+    "benef": 440
+   },
+   "2": {
+    "total": 1140,
+    "benef": 700
+   },
+   "3": {
+    "total": 1410,
+    "benef": 970
+   }
+  }
+ },
+ {
+  "id": "03-09-021",
+  "code": "03 09 021",
+  "official": "NUCLEÓTIDOS CÍCLICOS (CAMP, CGM, U OTROS) C/U",
+  "name": "Nucleótidos cíclicos (camp, CGM, u otros) C/U",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 5190,
+    "benef": 2590
+   },
+   "2": {
+    "total": 6750,
+    "benef": 4150
+   },
+   "3": {
+    "total": 8300,
+    "benef": 5700
+   }
+  }
+ },
+ {
+  "id": "03-09-022",
+  "code": "03 09 022",
+  "official": "ORINA COMPLETA, (INCLUYE CÓD. 03-09-023 Y 03-09-024)",
+  "name": "Orina completa",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1960,
+    "benef": 980
+   },
+   "2": {
+    "total": 2550,
+    "benef": 1570
+   },
+   "3": {
+    "total": 3140,
+    "benef": 2160
+   }
+  }
+ },
+ {
+  "id": "03-09-023",
+  "code": "03 09 023",
+  "official": "ORINA, FÍSICO-QUÍMICO ( ASPECTO, COLOR, DENSIDAD, PH; PROTEÍNAS, GLUCOSA, CUERPOS CETÓNICOS, UROBILINOGENO, BILIRRUBINA, HEMOGLOBINA Y NITRITOS, DETERMINACIÓN CUALITATIVA O SEMI CUANTITATIVA) TODOS O CADA UNO DE LOS PARÁMETROS (PROC. AUT.)",
+  "name": "Orina, físico-químico todos o cada uno de los parámetros (proc. aut.)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1430,
+    "benef": 710
+   },
+   "2": {
+    "total": 1860,
+    "benef": 1140
+   },
+   "3": {
+    "total": 2290,
+    "benef": 1570
+   }
+  }
+ },
+ {
+  "id": "03-09-024",
+  "code": "03 09 024",
+  "official": "SEDIMENTO DE ORINA (PROC. AUT.)",
+  "name": "Sedimento de orina (proc. aut.)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1130,
+    "benef": 560
+   },
+   "2": {
+    "total": 1470,
+    "benef": 900
+   },
+   "3": {
+    "total": 1810,
+    "benef": 1240
+   }
+  }
+ },
+ {
+  "id": "03-09-025",
+  "code": "03 09 025",
+  "official": "OSMOLALIDAD",
+  "name": "Osmolalidad",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1940,
+    "benef": 970
+   },
+   "2": {
+    "total": 2520,
+    "benef": 1550
+   },
+   "3": {
+    "total": 3100,
+    "benef": 2130
+   }
+  }
+ },
+ {
+  "id": "03-09-027",
+  "code": "03 09 027",
+  "official": "PORFIRINAS, C/U",
+  "name": "Porfirinas, C/U",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 2660,
+    "benef": 1330
+   },
+   "2": {
+    "total": 3460,
+    "benef": 2130
+   },
+   "3": {
+    "total": 4260,
+    "benef": 2930
+   }
+  }
+ },
+ {
+  "id": "03-09-028",
+  "code": "03 09 028",
+  "official": "PROTEÍNA (CUANTITATIVA), EN ORINA",
+  "name": "Proteína (cuantitativa), en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1830,
+    "benef": 910
+   },
+   "2": {
+    "total": 2380,
+    "benef": 1460
+   },
+   "3": {
+    "total": 2930,
+    "benef": 2010
+   }
+  }
+ },
+ {
+  "id": "03-09-029",
+  "code": "03 09 029",
+  "official": "PROTEÍNAS DE BENCE-JONES PRUEBA TÉRMICA",
+  "name": "Proteínas de bence-jones prueba térmica",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 1180,
+    "benef": 590
+   },
+   "2": {
+    "total": 1530,
+    "benef": 940
+   },
+   "3": {
+    "total": 1890,
+    "benef": 1300
+   }
+  }
+ },
+ {
+  "id": "03-09-034",
+  "code": "03 09 034",
+  "official": "ARSENICO EN ORINA (MUESTRA AISLADA)",
+  "name": "Arsenico en orina (muestra aislada)",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 48360,
+    "benef": 24180
+   }
+  }
+ },
+ {
+  "id": "03-09-036",
+  "code": "03 09 036",
+  "official": "COBRE EN ORINA",
+  "name": "Cobre en orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 32810,
+    "benef": 16400
+   }
+  }
+ },
+ {
+  "id": "03-09-044",
+  "code": "03 09 044",
+  "official": "ÁCIDOS ORGÁNICOS, ORINA",
+  "name": "Ácidos orgánicos, orina",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 304850,
+    "benef": 152420
+   }
+  }
+ },
+ {
+  "id": "03-09-046",
+  "code": "03 09 046",
+  "official": "SCREENING DE MUCOPOLISACARIDOS",
+  "name": "Screening de mucopolisacaridos",
+  "section": "Orina",
+  "levels": {
+   "1": {
+    "total": 129960,
+    "benef": 64980
+   }
+  }
+ }
+]

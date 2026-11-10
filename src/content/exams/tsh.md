@@ -1,5 +1,6 @@
 ---
 title: TSH
+fonasa: 03-03-024
 aliases: [Hormona estimulante de la tiroides, Tirotropina]
 category: hormonas
 summary: Examen de sangre que mide una hormona producida por la hipófisis y que regula el funcionamiento de la tiroides.

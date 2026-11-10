@@ -3,9 +3,9 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { siteConfig } from '../../../site.config';
 import { categoryLabels } from '../../lib/categories';
-import { fastingLabel } from '../../lib/exams';
+import { fastingText } from '../../lib/arancel';
 
-const exams = (await getCollection('exams', (e) => !e.data.draft && e.data.guide)).sort((a, b) =>
+const exams = (await getCollection('exams', (e) => !e.data.draft)).sort((a, b) =>
   a.data.title.localeCompare(b.data.title, 'es'),
 );
 const groups = Object.entries(categoryLabels)
@@ -31,7 +31,7 @@ const groups = Object.entries(categoryLabels)
           {g.items.map((e) => (
             <li>
               <a href={`/preparacion/${e.id}/`}>{e.data.title}</a>
-              <span class="muted"> · {fastingLabel(e.data)}</span>
+              <span class="muted"> · {fastingText(e.data.fasting)}</span>
             </li>
           ))}
         </ul>

@@ -1,5 +1,6 @@
 ---
 title: Perfil lipídico
+fonasa: 03-02-034
 aliases: [Colesterol total, HDL, LDL y triglicéridos, Lipidograma]
 category: bioquimica
 summary: Conjunto de exámenes de sangre que mide los distintos tipos de grasas (lípidos), como colesterol y triglicéridos.

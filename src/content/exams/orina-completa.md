@@ -1,5 +1,6 @@
 ---
 title: Orina completa
+fonasa: 03-09-022
 aliases: [Examen de orina, Sedimento urinario]
 category: orina-y-deposiciones
 summary: Análisis de una muestra de orina que revisa sus características físicas, químicas y su sedimento al microscopio.

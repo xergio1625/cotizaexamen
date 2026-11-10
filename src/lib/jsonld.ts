@@ -1,6 +1,6 @@
 import { siteConfig } from '../../site.config';
 
-/** Constructores de datos estructurados. Los de precios se añaden en la etapa del comparador. */
+/** Constructores de datos estructurados. */
 
 export const organizationLd = () => ({
   '@context': 'https://schema.org',
@@ -40,19 +40,23 @@ export const breadcrumbLd = (crumbs: { name: string; path: string }[]) => ({
 });
 
 /**
- * Precios de un examen.
- * Decisión de esquema: un examen de laboratorio no es un Product físico, así que se modela como
- * Service con AggregateOffer (rango y cantidad) y un Offer por prestador.
+ * Página de un examen.
+ * Un examen de laboratorio no es un Product físico, así que se modela como Service.
+ * - Los valores de referencia FONASA (arancel, por nivel) van como additionalProperty: son una
+ *   referencia pública, NO una oferta de venta, así que no se marcan como Offer.
+ * - Solo los precios reales de prestadores (con fuente y fecha) se emiten como Offer dentro de
+ *   un AggregateOffer.
  * Deliberadamente NO se emiten aggregateRating, review, priceValidUntil ni availability:
- * no tenemos esos datos y no se inventan. El orden de offers sigue la regla de independencia
- * (el llamador entrega las filas ya ordenadas por precio).
+ * no tenemos esos datos y no se inventan. Las offers llegan ya ordenadas por precio.
  */
-export const priceServiceLd = (o: {
+export const examServiceLd = (o: {
   name: string;
   description: string;
   path: string;
+  code: string;
+  levels: { level: string; total: number; benef: number }[];
   offers: { amount: number; providerName: string; providerWebsite?: string; kind: string; subdivision?: string }[];
-  lastVerified: Date;
+  lastVerified?: Date;
 }) => {
   const amounts = o.offers.map((x) => x.amount);
   return {
@@ -60,36 +64,47 @@ export const priceServiceLd = (o: {
     '@type': 'WebPage',
     url: new URL(o.path, siteConfig.url).href,
     inLanguage: siteConfig.lang,
-    dateModified: o.lastVerified.toISOString(),
+    ...(o.lastVerified ? { dateModified: o.lastVerified.toISOString() } : {}),
     mainEntity: {
       '@type': 'Service',
       name: o.name,
       description: o.description,
       serviceType: 'Examen de laboratorio',
+      identifier: { '@type': 'PropertyValue', propertyID: 'Código FONASA', value: o.code },
       areaServed: { '@type': 'Country', name: siteConfig.country.name },
-      offers: {
-        '@type': 'AggregateOffer',
-        priceCurrency: siteConfig.country.currency,
-        lowPrice: Math.min(...amounts),
-        highPrice: Math.max(...amounts),
-        offerCount: o.offers.length,
-        offers: o.offers.map((x) => ({
-          '@type': 'Offer',
-          price: x.amount,
-          priceCurrency: siteConfig.country.currency,
-          description: x.subdivision ? `${x.kind}, ${x.subdivision}` : x.kind,
-          seller: {
-            '@type': 'Organization',
-            name: x.providerName,
-            ...(x.providerWebsite ? { url: x.providerWebsite } : {}),
-          },
-        })),
-      },
+      additionalProperty: o.levels.map((l) => ({
+        '@type': 'PropertyValue',
+        name: `Valor total Arancel MLE FONASA 2026, nivel ${l.level}`,
+        value: l.total,
+        unitText: siteConfig.country.currency,
+      })),
+      ...(o.offers.length
+        ? {
+            offers: {
+              '@type': 'AggregateOffer',
+              priceCurrency: siteConfig.country.currency,
+              lowPrice: Math.min(...amounts),
+              highPrice: Math.max(...amounts),
+              offerCount: o.offers.length,
+              offers: o.offers.map((x) => ({
+                '@type': 'Offer',
+                price: x.amount,
+                priceCurrency: siteConfig.country.currency,
+                description: x.subdivision ? `${x.kind}, ${x.subdivision}` : x.kind,
+                seller: {
+                  '@type': 'Organization',
+                  name: x.providerName,
+                  ...(x.providerWebsite ? { url: x.providerWebsite } : {}),
+                },
+              })),
+            },
+          }
+        : {}),
     },
   };
 };
 
-export const articleLd =(o: { title: string; description: string; path: string; updated: Date }) => ({
+export const articleLd = (o: { title: string; description: string; path: string; updated: Date }) => ({
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: o.title,
