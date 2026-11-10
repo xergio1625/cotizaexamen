@@ -1,0 +1,25 @@
+---
+import { siteConfig } from '../../site.config';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      <strong>{siteConfig.brand}</strong>: {siteConfig.tagline}. Sitio independiente, sin dinero de laboratorios,
+      clínicas ni prestadores. <a href="/sobre-el-sitio/">Cómo nos financiamos</a>.
+    </p>
+    <p>
+      Este sitio entrega información general sobre precios, preparación y proceso. No interpreta resultados
+      individuales ni reemplaza la indicación de tu médico.
+    </p>
+    <p class="discreet">
+      <a href="/sobre-el-sitio/">Sobre el sitio</a> · <a href="/privacidad/">Privacidad</a> ·
+      <a href="/aviso-legal/">Aviso legal</a> · <a href="/contacto/">Contacto y correcciones</a>
+    </p>
+    <p class="discreet">
+      © {year} {siteConfig.author.displayName}, {siteConfig.author.credential} ·
+      <a href={siteConfig.affiliation.url} rel="noopener">{siteConfig.affiliation.name}</a>
+    </p>
+  </div>
+</footer>

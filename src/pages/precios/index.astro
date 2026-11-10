@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { formatMoney } from '../../lib/format';
+import { getPriceRows } from '../../lib/prices';
+import { siteConfig } from '../../../site.config';
+
+const exams = (await getCollection('exams', (e) => !e.data.draft)).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, 'es'),
+);
+const rows = await getPriceRows();
+const withPrices = exams
+  .map((e) => {
+    const r = rows.filter((x) => x.examId === e.id);
+    return { exam: e, count: r.length, min: r.length ? Math.min(...r.map((x) => x.amount)) : 0 };
+  })
+  .filter((x) => x.count > 0);
+---
+
+<Base
+  title="Comparador de precios de exámenes de laboratorio"
+  description={`Compara precios de exámenes de laboratorio ${siteConfig.country.areaLabel}. Orden solo por precio, ${siteConfig.country.subdivisionLabel} o alfabeto.`}
+>
+  <div class="container prose">
+    <h1>Precios de exámenes</h1>
+    <p class="notice">
+      Sin dinero de laboratorios: el orden depende solo de precio, {siteConfig.country.subdivisionLabel} o alfabeto.
+      Los precios cambian; confírmalos con el prestador antes de ir.
+      <a href="/sobre-el-sitio/">Cómo funciona</a>.
+    </p>
+
+    {withPrices.length === 0 ? (
+      <p>Aún estamos recopilando precios. Mientras tanto, revisa <a href="/preparacion/">cómo prepararte</a>.</p>
+    ) : (
+      <ul>
+        {withPrices.map(({ exam, count, min }) => (
+          <li>
+            <a href={`/precios/${exam.id}/`}>{exam.data.title}</a>
+            <span class="muted"> · {count} {count === 1 ? 'precio' : 'precios'}, desde {formatMoney(min)}</span>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Base>

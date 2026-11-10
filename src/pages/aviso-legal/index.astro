@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+const { brand, author, affiliation } = siteConfig;
+---
+
+<Base title="Aviso legal y límites" description={`Alcance y límites de la información publicada en ${brand}.`}>
+  <div class="container prose">
+    <h1>Aviso legal y límites</h1>
+    <p class="muted">Última actualización: 9 de noviembre de 2026.</p>
+
+    <h2>Información general, no atención de salud</h2>
+    <p>
+      {brand} publica información general sobre precios, preparación y proceso de exámenes de laboratorio. No
+      diagnostica, no interpreta resultados individuales y no reemplaza la indicación de tu médico ni las
+      instrucciones del laboratorio donde te tomes la muestra. Ante cualquier duda de salud, consulta a un
+      profesional.
+    </p>
+
+    <h2>Precios</h2>
+    <p>
+      Los precios provienen de fuentes públicas indicadas en cada caso y tienen fecha de verificación. Pueden
+      cambiar sin aviso, variar por sucursal y no siempre incluyen la toma de muestra u otros cargos. Confirma
+      siempre con el prestador antes de ir. {brand} no vende exámenes ni intermedia pagos.
+    </p>
+
+    <h2>Independencia</h2>
+    <p>
+      Ningún laboratorio, clínica ni prestador paga por aparecer, por mejor posición ni por contenido. Detalles en
+      <a href="/sobre-el-sitio/">Sobre el sitio</a>.
+    </p>
+
+    <h2>Exactitud</h2>
+    <p>
+      Hacemos lo posible por mantener la información correcta y actualizada, pero puede contener errores u
+      omisiones. Si encuentras uno, <a href="/contacto/">avísanos</a> y lo corregimos.
+    </p>
+
+    <h2>Responsable</h2>
+    <p>
+      {author.displayName}, {author.credential}. Persona que también dirige
+      <a href={affiliation.url} rel="noopener">{affiliation.name}</a>.
+    </p>
+
+    <h2>Enlaces</h2>
+    <p>No nos hacemos responsables del contenido de sitios externos enlazados.</p>
+  </div>
+</Base>

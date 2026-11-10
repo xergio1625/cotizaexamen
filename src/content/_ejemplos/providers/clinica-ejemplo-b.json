@@ -1,0 +1,5 @@
+{
+  "name": "Clínica Ejemplo B",
+  "kind": "clinica",
+  "subdivisions": ["Las Condes"]
+}

@@ -1,0 +1,24 @@
+---
+import { siteConfig } from '../../site.config';
+
+const { modules } = siteConfig;
+const links = [
+  modules.prices && { href: '/precios/', label: 'Precios' },
+  modules.preparation && { href: '/preparacion/', label: 'Preparación' },
+  modules.interpretation && { href: '/interpretacion/', label: 'Interpretación' },
+  { href: '/sobre-el-sitio/', label: 'Sobre el sitio' },
+].filter(Boolean) as { href: string; label: string }[];
+
+const path = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">Cotiza<span>Examen</span></a>
+    <nav class="nav" aria-label="Principal">
+      {links.map((l) => (
+        <a href={l.href} aria-current={path.startsWith(l.href) ? 'page' : undefined}>{l.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>

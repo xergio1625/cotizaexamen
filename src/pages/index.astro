@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { siteConfig } from '../../site.config';
+---
+
+<Base>
+  <section class="hero">
+    <div class="container">
+      <h1>{siteConfig.tagline}</h1>
+      <p>
+        Compara cuánto cuesta un examen de laboratorio {siteConfig.country.areaLabel} y revisa cómo prepararte:
+        ayuno, horarios y qué llevar.
+      </p>
+      <p class="notice">
+        Sitio independiente: ningún laboratorio ni clínica paga por aparecer ni por mejor posición. Los resultados
+        se ordenan solo por precio, {siteConfig.country.subdivisionLabel} o alfabeto.
+        <a href="/sobre-el-sitio/">Más información</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>En construcción</h2>
+    <p>Estamos preparando el comparador de precios y las guías de preparación.</p>
+  </section>
+</Base>

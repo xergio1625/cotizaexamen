@@ -1,0 +1,119 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PriceTable from '../../components/PriceTable.astro';
+import { siteConfig } from '../../../site.config';
+import { orderOffers, type OrderKey } from '../../lib/ordering';
+import { getPriceRows } from '../../lib/prices';
+import { formatMoney } from '../../lib/format';
+import { breadcrumbLd, priceServiceLd } from '../../lib/jsonld';
+
+export async function getStaticPaths() {
+  if (!siteConfig.modules.prices) return [];
+  const [exams, rows] = await Promise.all([getCollection('exams', (e) => !e.data.draft), getPriceRows()]);
+  return exams
+    .map((exam) => ({ exam, rows: rows.filter((r) => r.examId === exam.id) }))
+    .filter((x) => x.rows.length > 0)
+    .map(({ exam, rows }) => ({ params: { slug: exam.id }, props: { exam, rows } }));
+}
+
+const { exam, rows } = Astro.props;
+const sub = siteConfig.country.subdivisionLabel;
+const orders: { key: OrderKey; label: string }[] = [
+  { key: 'price', label: 'Precio' },
+  { key: 'subdivision', label: sub[0].toUpperCase() + sub.slice(1) },
+  { key: 'alpha', label: 'Alfabético' },
+];
+const subdivisions = [...new Set(rows.map((r) => r.subdivision).filter(Boolean))].sort((a, b) =>
+  a!.localeCompare(b!, 'es'),
+) as string[];
+const min = Math.min(...rows.map((r) => r.amount));
+const max = Math.max(...rows.map((r) => r.amount));
+const ld = [
+  priceServiceLd({
+    name: exam.data.title,
+    description: exam.data.summary,
+    path: Astro.url.pathname,
+    offers: orderOffers(rows, 'price'),
+    lastVerified: new Date(Math.max(...rows.map((r) => r.verifiedAt.getTime()))),
+  }),
+  breadcrumbLd([
+    { name: 'Inicio', path: '/' },
+    { name: 'Precios', path: '/precios/' },
+    { name: exam.data.title, path: Astro.url.pathname },
+  ]),
+];
+---
+
+<Base
+  jsonLd={ld}
+  title={`Precio del examen de ${exam.data.title}`}
+  description={`Compara ${rows.length} ${rows.length === 1 ? 'precio' : 'precios'} del examen de ${exam.data.title} ${siteConfig.country.areaLabel}, entre ${formatMoney(min)} y ${formatMoney(max)}.`}
+>
+  <div class="container">
+    <div class="prose">
+      <p class="muted"><a href="/precios/">Precios</a></p>
+      <h1>Precio del examen de {exam.data.title}</h1>
+      <p>{exam.data.summary}</p>
+      <p>
+        <a href={`/preparacion/${exam.id}/`}>Cómo prepararte para este examen</a>
+      </p>
+      <p class="notice">
+        Orden solo por precio, {sub} o alfabeto. Ningún prestador paga por aparecer ni por mejor posición.
+      </p>
+    </div>
+
+    <div class="controls" id="controls" hidden>
+      <div role="group" aria-label="Ordenar por">
+        <span>Ordenar por:</span>
+        {orders.map((o, i) => (
+          <button type="button" data-order-btn={o.key} aria-pressed={i === 0 ? 'true' : 'false'}>{o.label}</button>
+        ))}
+      </div>
+      {subdivisions.length > 0 && (
+        <label>
+          {sub[0].toUpperCase() + sub.slice(1)}:
+          <select id="sub-filter">
+            <option value="">Todas</option>
+            {subdivisions.map((s) => <option value={s}>{s}</option>)}
+          </select>
+        </label>
+      )}
+    </div>
+
+    {orders.map((o, i) => (
+      <section data-order={o.key} hidden={i !== 0 ? true : undefined} aria-label={`Ordenado por ${o.label.toLowerCase()}`}>
+        <PriceTable rows={orderOffers(rows, o.key)} />
+      </section>
+    ))}
+
+    <p class="muted small prose">
+      Precios particulares referenciales para pacientes sin convenio, salvo que se indique otro tipo. Pueden cambiar
+      sin aviso y no incluyen necesariamente la toma de muestra u otros cargos. Verifica con el prestador.
+    </p>
+  </div>
+</Base>
+
+<script>
+  const controls = document.getElementById('controls');
+  const sections = document.querySelectorAll<HTMLElement>('[data-order]');
+  const buttons = document.querySelectorAll<HTMLButtonElement>('[data-order-btn]');
+  const filter = document.getElementById('sub-filter') as HTMLSelectElement | null;
+
+  if (controls) controls.hidden = false;
+
+  buttons.forEach((b) =>
+    b.addEventListener('click', () => {
+      buttons.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      sections.forEach((s) => (s.hidden = s.dataset.order !== b.dataset.orderBtn));
+    }),
+  );
+
+  filter?.addEventListener('change', () => {
+    document.querySelectorAll<HTMLElement>('tbody tr').forEach((tr) => {
+      const s = tr.dataset.sub ?? '';
+      // Los precios sin comuna (todas) siempre aplican.
+      tr.hidden = !!filter.value && s !== '' && s !== filter.value;
+    });
+  });
+</script>

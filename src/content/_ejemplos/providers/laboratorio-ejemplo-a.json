@@ -1,0 +1,6 @@
+{
+  "name": "Laboratorio Ejemplo A",
+  "kind": "laboratorio",
+  "website": "https://ejemplo.invalid/a",
+  "subdivisions": ["Providencia", "Ñuñoa"]
+}

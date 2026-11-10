@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+const { contactEmail, brand } = siteConfig;
+---
+
+<Base title="Contacto y correcciones" description={`Cómo avisar de un error o actualizar un precio en ${brand}.`}>
+  <div class="container prose">
+    <h1>Contacto y correcciones</h1>
+    <p>
+      Corregimos errores y actualizamos precios cuando nos avisan. Indica la página, el dato que está mal y, si
+      puedes, un enlace público que lo respalde.
+    </p>
+
+    {contactEmail ? (
+      <p><a class="btn" href={`mailto:${contactEmail}`}>{contactEmail}</a></p>
+    ) : (
+      <p class="notice">[Falta definir <code>contactEmail</code> en site.config.ts]</p>
+    )}
+
+    <h2>Qué no atendemos</h2>
+    <ul>
+      <li>Interpretación de resultados o consultas clínicas: consulta a tu médico.</li>
+      <li>Ofertas de posicionamiento, auspicio o comisión de prestadores: no se aceptan.</li>
+    </ul>
+    <p>
+      <strong>Si eres un prestador</strong> y un dato tuyo está desactualizado, puedes escribirnos con una fuente
+      pública; lo actualizaremos igual que para cualquier persona.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,88 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+import { articleLd, faqLd, breadcrumbLd } from '../../lib/jsonld';
+import { formatDate } from '../../lib/format';
+import { getPriceRows } from '../../lib/prices';
+import { categoryLabels, sampleLabels } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  if (!siteConfig.modules.preparation) return [];
+  const exams = await getCollection('exams', (e) => !e.data.draft);
+  return exams.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const d = entry.data;
+const { Content } = await render(entry);
+const hasPrices =
+  siteConfig.modules.prices && (await getPriceRows()).some((r) => r.examId === entry.id);
+
+const title = `Cómo prepararte para el examen de ${d.title}`;
+const ld: object[] = [
+  articleLd({ title, description: d.summary, path: Astro.url.pathname, updated: d.updated }),
+];
+if (d.faq.length) ld.push(faqLd(d.faq));
+ld.push(
+  breadcrumbLd([
+    { name: 'Inicio', path: '/' },
+    { name: 'Preparación', path: '/preparacion/' },
+    { name: d.title, path: Astro.url.pathname },
+  ]),
+);
+
+const fastingText = d.fasting.required
+  ? `Requiere ayuno${d.fasting.hours ? ` de ${d.fasting.hours} horas` : ''}`
+  : 'No requiere ayuno';
+---
+
+<Base title={title} description={d.summary} jsonLd={ld} ogType="article">
+  <article class="container prose">
+    <p class="muted"><a href="/preparacion/">Preparación</a> › {categoryLabels[d.category]}</p>
+    <h1>{title}</h1>
+    <p>{d.summary}</p>
+    {d.aliases.length > 0 && <p class="muted">También se conoce como: {d.aliases.join(', ')}.</p>}
+
+    <div class="table-wrap">
+      <table>
+        <tbody>
+          <tr><th scope="row">Muestra</th><td>{sampleLabels[d.sample]}</td></tr>
+          <tr><th scope="row">Ayuno</th><td>{fastingText}{d.fasting.note ? `. ${d.fasting.note}` : ''}</td></tr>
+          {d.turnaround && <tr><th scope="row">Entrega de resultados</th><td>{d.turnaround}</td></tr>}
+        </tbody>
+      </table>
+    </div>
+
+    {d.preparation.length > 0 && (
+      <>
+        <h2>Cómo prepararte</h2>
+        <ol>{d.preparation.map((p) => <li>{p}</li>)}</ol>
+      </>
+    )}
+
+    <Content />
+
+    {d.faq.length > 0 && (
+      <>
+        <h2>Preguntas frecuentes</h2>
+        {d.faq.map((f) => (
+          <details>
+            <summary><strong>{f.q}</strong></summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </>
+    )}
+
+    {hasPrices && (
+      <p class="notice"><a href={`/precios/${entry.id}/`}>Compara precios de este examen</a></p>
+    )}
+
+    <p class="notice">
+      Información general, no reemplaza la indicación de tu médico ni del laboratorio. Este sitio no interpreta
+      resultados. Actualizado el {formatDate(d.updated)} · {siteConfig.author.displayName},
+      {siteConfig.author.credential}.
+    </p>
+  </article>
+</Base>

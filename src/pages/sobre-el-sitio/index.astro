@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+const { author, affiliation, brand } = siteConfig;
+---
+
+<Base
+  title="Sobre el sitio"
+  description={`Quién está detrás de ${brand}, cómo se financia y por qué ningún laboratorio influye en lo que ves aquí.`}
+>
+  <div class="container prose">
+    <h1>Sobre el sitio</h1>
+
+    <h2>Qué es {brand}</h2>
+    <p>
+      {brand} ayuda a pacientes que pagan de su bolsillo {siteConfig.country.areaLabel} a comparar precios de
+      exámenes de laboratorio y a entender cómo prepararse. No interpreta resultados individuales ni diagnostica.
+    </p>
+
+    <h2>Quién lo hace</h2>
+    <p>
+      El sitio es mantenido por una sola persona: {author.displayName}, {author.credential}.
+    </p>
+
+    <h2>Independencia</h2>
+    <p>
+      {brand} <strong>no recibe dinero de laboratorios, clínicas ni otros prestadores</strong>. Concretamente:
+    </p>
+    <ul>
+      <li>No cobramos comisiones por derivar pacientes.</li>
+      <li>No aceptamos auspicios de laboratorios ni de prestadores.</li>
+      <li>No existen posiciones pagadas ni destacados.</li>
+      <li>
+        El orden de los resultados depende solo de tres criterios: <strong>precio</strong>,
+        <strong>{siteConfig.country.subdivisionLabel}</strong> o <strong>orden alfabético</strong>.
+      </li>
+    </ul>
+
+    <h2>Transparencia: relación con {affiliation.name}</h2>
+    <p>
+      La misma persona que mantiene {brand} dirige <a href={affiliation.url} rel="noopener">{affiliation.name}</a>.
+      Lo declaramos para que lo sepas: son proyectos distintos y {brand} no se usa para promocionar ni derivar
+      pacientes a {affiliation.name}. [Este párrafo se ajustará con la descripción exacta de Consensus Lab.]
+    </p>
+
+    <h2>Cómo obtenemos los precios</h2>
+    <p>
+      Cada precio indica su fuente y la fecha en que se verificó. Los precios pueden cambiar sin aviso: confírmalo
+      siempre con el prestador antes de ir.
+    </p>
+
+    <h2>Límites</h2>
+    <p>
+      La información es general y educativa. No reemplaza la indicación de tu médico ni la del laboratorio donde te
+      tomes la muestra.
+    </p>
+  </div>
+</Base>

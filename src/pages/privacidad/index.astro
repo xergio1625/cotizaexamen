@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+const { brand, domain } = siteConfig;
+---
+
+<Base title="Política de privacidad" description={`Qué datos recoge ${brand} (ninguno personal) y cómo se alojan sus páginas.`}>
+  <div class="container prose">
+    <h1>Política de privacidad</h1>
+    <p class="muted">Última actualización: 9 de noviembre de 2026.</p>
+
+    <h2>Resumen</h2>
+    <p>
+      {domain} es un sitio estático de información. <strong>No tiene cuentas, formularios ni comentarios, y no
+      recoge datos personales.</strong>
+    </p>
+
+    <h2>Cookies y analítica</h2>
+    <p>
+      El sitio no usa cookies propias ni herramientas de analítica o publicidad. Si en el futuro se incorpora
+      alguna, se declarará aquí antes de activarla.
+    </p>
+
+    <h2>Alojamiento</h2>
+    <p>
+      Las páginas se sirven desde GitHub Pages. Como en cualquier servicio de alojamiento web, el proveedor puede
+      registrar datos técnicos de la conexión (por ejemplo la dirección IP) según sus propias políticas. Puedes
+      consultarlas en el sitio de GitHub.
+    </p>
+
+    <h2>Enlaces externos</h2>
+    <p>
+      Algunas páginas enlazan a sitios de prestadores u otras instituciones. No controlamos sus políticas de
+      privacidad.
+    </p>
+
+    <h2>Si nos escribes</h2>
+    <p>
+      Si nos contactas por correo, usaremos tu mensaje solo para responderte o corregir información del sitio, y
+      no lo compartiremos con prestadores ni terceros.
+    </p>
+
+    <h2>Datos de salud</h2>
+    <p>
+      No pidas ni envíes resultados de exámenes ni información clínica personal por correo: el sitio no los
+      interpreta y no es un canal de atención de salud.
+    </p>
+  </div>
+</Base>

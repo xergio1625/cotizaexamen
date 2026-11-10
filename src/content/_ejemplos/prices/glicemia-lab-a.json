@@ -1,0 +1,10 @@
+{
+  "exam": "glicemia",
+  "provider": "laboratorio-ejemplo-a",
+  "amount": 1111,
+  "kind": "particular",
+  "subdivision": "Providencia",
+  "sourceUrl": "https://ejemplo.invalid/a/precios",
+  "verifiedAt": "2026-11-01",
+  "note": "DATO FICTICIO DE PRUEBA"
+}

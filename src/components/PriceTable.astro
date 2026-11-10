@@ -1,0 +1,41 @@
+---
+import type { PriceRow } from '../lib/prices';
+import { formatMoney, formatDate } from '../lib/format';
+
+interface Props {
+  rows: PriceRow[];
+}
+const { rows } = Astro.props;
+const kindLabel = { particular: 'Particular', convenio: 'Convenio', promocion: 'Promoción' } as const;
+---
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Prestador</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Comuna</th>
+        <th scope="col">Verificado</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((r) => (
+        <tr data-sub={r.subdivision ?? ''}>
+          <th scope="row">
+            {r.providerWebsite ? <a href={r.providerWebsite} rel="noopener nofollow">{r.providerName}</a> : r.providerName}
+            {r.note && <div class="muted small">{r.note}</div>}
+          </th>
+          <td><strong>{formatMoney(r.amount)}</strong></td>
+          <td>{kindLabel[r.kind]}</td>
+          <td>{r.subdivision ?? 'Todas'}</td>
+          <td>
+            {r.sourceUrl ? <a href={r.sourceUrl} rel="noopener nofollow">{formatDate(r.verifiedAt)}</a> : formatDate(r.verifiedAt)}
+            {r.stale && <div class="stale small">Por reconfirmar</div>}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

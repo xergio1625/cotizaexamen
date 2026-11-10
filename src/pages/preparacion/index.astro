@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+import { categoryLabels } from '../../lib/categories';
+
+const exams = (await getCollection('exams', (e) => !e.data.draft)).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, 'es'),
+);
+const groups = Object.entries(categoryLabels)
+  .map(([key, label]) => ({ label, items: exams.filter((e) => e.data.category === key) }))
+  .filter((g) => g.items.length);
+---
+
+<Base
+  title="Preparación de exámenes de laboratorio"
+  description="Guías claras para prepararte: ayuno, horarios y qué llevar para cada examen de laboratorio."
+>
+  <div class="container prose">
+    <h1>Preparación de exámenes</h1>
+    <p>
+      Cómo llegar bien preparado a tu toma de muestra: ayuno, qué llevar y qué preguntar. Si tu médico o el
+      laboratorio te dieron indicaciones distintas, <strong>sigue siempre las de ellos</strong>.
+    </p>
+
+    {groups.map((g) => (
+      <section>
+        <h2>{g.label}</h2>
+        <ul>
+          {g.items.map((e) => (
+            <li>
+              <a href={`/preparacion/${e.id}/`}>{e.data.title}</a>
+              <span class="muted"> · {e.data.fasting.required ? `ayuno${e.data.fasting.hours ? ` de ${e.data.fasting.hours} h` : ''}` : 'sin ayuno'}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>
