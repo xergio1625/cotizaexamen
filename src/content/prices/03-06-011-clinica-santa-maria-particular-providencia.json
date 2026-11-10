@@ -1,0 +1,10 @@
+{
+  "exam": "03-06-011",
+  "provider": "clinica-santa-maria",
+  "amount": 12100,
+  "kind": "particular",
+  "subdivision": "Providencia",
+  "sourceUrl": "https://www.clinicasantamaria.cl/aranceles",
+  "verifiedAt": "2026-11-09",
+  "note": "Aranceles web, pestaña Ambulatorio, valor particular hábil (igual al inhábil). Se usa la prestación base (código interno terminado en -00)"
+}

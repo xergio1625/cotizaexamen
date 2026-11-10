@@ -1,0 +1,8 @@
+{
+  "name": "Clínica Santa María",
+  "kind": "clinica",
+  "website": "https://www.clinicasantamaria.cl",
+  "subdivisions": [
+    "Providencia"
+  ]
+}
