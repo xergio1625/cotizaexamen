@@ -1,4 +1,14 @@
 import { getCollection } from 'astro:content';
+import info from '../data/examen-info.json';
+
+/** Datos opcionales por examen (src/data/examen-info.json). */
+export interface ExamInfo {
+  /** Examen que no admite demora. */
+  urgente?: { nota: string };
+  /** Estabilidad de la muestra. `derivable`: true si puede tomarse en una ciudad y procesarse en otra. */
+  estabilidad?: { texto: string; derivable?: boolean };
+}
+const infoById = info as unknown as Record<string, ExamInfo>;
 
 export interface Level {
   total: number;
@@ -16,6 +26,8 @@ export interface ArancelItem {
   /** Slug de la guía de preparación, si existe. */
   guide?: string;
   fasting?: { required: boolean; hours?: number };
+  urgent?: { note: string };
+  stability?: { text: string; derivable?: boolean };
 }
 
 export const LEVELS = ['1', '2', '3'] as const;
@@ -56,6 +68,10 @@ export async function getArancel(): Promise<ArancelItem[]> {
         slug: slugOf(i.id, i.data.name),
         guide: g?.id,
         fasting: g?.data.fasting,
+        urgent: infoById[i.id]?.urgente ? { note: infoById[i.id].urgente!.nota } : undefined,
+        stability: infoById[i.id]?.estabilidad
+          ? { text: infoById[i.id].estabilidad!.texto, derivable: infoById[i.id].estabilidad!.derivable }
+          : undefined,
       } satisfies ArancelItem;
     })
     .sort((a, b) => a.code.localeCompare(b.code));

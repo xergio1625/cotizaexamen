@@ -1,0 +1,13 @@
+{
+  "_ayuda": "Datos por examen que se muestran al cotizar. Clave = código FONASA con guiones. 'urgente' marca un examen que no admite demora. 'estabilidad' describe cuánto dura la muestra y si se puede derivar a otra ciudad. Todo es opcional. Lo que no se llena, no se muestra.",
+  "03-02-027": {
+    "urgente": {
+      "nota": "Se solicita en contexto de urgencia u hospitalización. El resultado orienta decisiones médicas inmediatas: aquí importa la rapidez, no comparar precios."
+    }
+  },
+  "03-02-046": {
+    "urgente": {
+      "nota": "Se procesa de inmediato junto al paciente, habitualmente en urgencia o unidades de paciente crítico. No es un examen para cotizar ni para derivar a otra ciudad."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import { getOpinion, topicLabels } from '../../lib/opinion';
+import { formatDate } from '../../lib/format';
+import { siteConfig } from '../../../site.config';
+
+const posts = await getOpinion();
+---
+
+<Base
+  title="Opinión: por qué los exámenes cuestan lo que cuestan"
+  description="Análisis de un tecnólogo médico sobre diferencias de precio, metodologías, calidad de resultados y derivación de muestras en el laboratorio clínico."
+>
+  <PageHero
+    variant="banner"
+    title="Opinión"
+    lead="Por qué un mismo examen puede costar distinto, qué cambia entre una metodología y otra, qué exámenes no admiten demora y cuáles conviene derivar. Una diferencia de precio no siempre es lucro, y tampoco siempre es calidad."
+  />
+  <div class="container prose">
+    <p class="notice">
+      Son <strong>opiniones profesionales</strong> de {siteConfig.author.displayName}, {siteConfig.author.credential},
+      con fuentes cuando existen. No son consejo médico individual ni interpretación de resultados.
+      <a href="/sobre-el-sitio/">Independencia y financiamiento</a>.
+    </p>
+
+    {posts.length === 0 && <p class="muted">Pronto publicaremos los primeros artículos.</p>}
+
+    <ul class="post-list">
+      {posts.map((p) => (
+        <li>
+          <p class="muted">
+            {topicLabels[p.data.topic]} · {formatDate(p.data.published)}
+            {p.data.draft && <strong> · BORRADOR (solo visible en desarrollo)</strong>}
+          </p>
+          <h2><a href={`/opinion/${p.id}/`}>{p.data.title}</a></h2>
+          <p>{p.data.summary}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Base>

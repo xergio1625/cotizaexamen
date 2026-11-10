@@ -30,6 +30,8 @@ export interface SiteConfig {
     prices: boolean;
     /** Guías de preparación del examen. */
     preparation: boolean;
+    /** Opinión: artículos de análisis del autor (precios, metodologías, calidad, derivación). */
+    opinion: boolean;
     /** Interpretación de resultados (reservado para el sitio .com; NO activar aquí). */
     interpretation: boolean;
   };
@@ -71,6 +73,7 @@ export const siteConfig: SiteConfig = {
   modules: {
     prices: true,
     preparation: true,
+    opinion: true,
     interpretation: false,
   },
   author: {

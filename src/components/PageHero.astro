@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  lead?: string;
+  /** Ilustración lateral (variante "side"). */
+  img?: string;
+  variant?: 'side' | 'banner';
+}
+const { title, lead, img, variant = 'side' } = Astro.props;
+---
+
+<section class={`page-hero page-hero-${variant}`}>
+  <div class="container">
+    <div class="page-hero-text reveal">
+      <h1>{title}</h1>
+      {lead && <p>{lead}</p>}
+      <slot />
+    </div>
+    {variant === 'side' && img && (
+      <div class="page-hero-art reveal" data-reveal="right" data-parallax>
+        <div class="layer" data-depth="14">
+          <img src={img} alt="" width="1408" height="768" loading="eager" decoding="async" />
+        </div>
+      </div>
+    )}
+  </div>
+</section>

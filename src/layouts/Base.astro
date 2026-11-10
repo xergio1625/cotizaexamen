@@ -30,6 +30,7 @@ const allLd = Astro.url.pathname === '/' ? [websiteLd(), ...jsonLd] : jsonLd;
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex" />}
+    <script is:inline>document.documentElement.classList.add('js');</script>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     {siteConfig.googleSiteVerification && (
@@ -54,5 +55,110 @@ const allLd = Astro.url.pathname === '/' ? [websiteLd(), ...jsonLd] : jsonLd;
       <slot />
     </main>
     <Footer />
+    <script>
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const $$ = <T extends Element = HTMLElement>(sel: string) => Array.from(document.querySelectorAll<T>(sel));
+
+      /* Revelado al entrar en pantalla, con escalonado por hermanos. */
+      const targets = $$('.prose > *, .cards li, .post-list li, .cotizador, .stats li, .hero-text > *').filter(
+        (el) => !el.classList.contains('reveal'),
+      );
+      targets.forEach((el) => {
+        el.classList.add('reveal');
+        const idx = Array.from(el.parentElement?.children ?? []).indexOf(el);
+        el.style.setProperty('--d', String(Math.min(idx, 5)));
+      });
+      const all = $$('.reveal');
+      if (reduce || !('IntersectionObserver' in window)) {
+        all.forEach((el) => el.classList.add('is-in'));
+      } else {
+        const io = new IntersectionObserver(
+          (entries) =>
+            entries.forEach((e) => {
+              if (!e.isIntersecting) return;
+              const el = e.target as HTMLElement;
+              el.classList.add('is-in');
+              io.unobserve(el);
+              // Terminada la entrada, se devuelven sus transiciones normales (hover, etc.).
+              window.setTimeout(() => el.classList.remove('reveal', 'is-in'), 1100 + Number(el.style.getPropertyValue('--d') || 0) * 70);
+            }),
+          { rootMargin: '0px 0px -8% 0px', threshold: 0.05 },
+        );
+        all.forEach((el) => io.observe(el));
+      }
+
+      /* Números que cuentan hasta su valor. */
+      const nf = new Intl.NumberFormat('es-CL');
+      $$('[data-count]').forEach((el) => {
+        const end = Number(el.dataset.count);
+        if (reduce || !end) { el.textContent = nf.format(end); return; }
+        const t0 = performance.now();
+        const step = (t: number) => {
+          const p = Math.min(1, (t - t0) / 1200);
+          el.textContent = nf.format(Math.round(end * (1 - Math.pow(1 - p, 3))));
+          if (p < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      });
+
+      /* Cabecera con sombra y barra de lectura. */
+      const header = document.querySelector('.site-header');
+      const article = document.querySelector('article.prose');
+      let bar: HTMLElement | null = null;
+      if (article) {
+        bar = document.createElement('div');
+        bar.className = 'progress';
+        bar.setAttribute('aria-hidden', 'true');
+        document.body.append(bar);
+      }
+      const onScroll = () => {
+        const y = window.scrollY;
+        header?.classList.toggle('scrolled', y > 8);
+        if (bar && article) {
+          const r = article.getBoundingClientRect();
+          const total = r.height - window.innerHeight * 0.6;
+          bar.style.transform = `scaleX(${Math.max(0, Math.min(1, (-r.top + 80) / Math.max(total, 1)))})`;
+        }
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      if (!reduce && window.matchMedia('(pointer: fine)').matches) {
+        /* Paralaje: las ilustraciones se mueven en sentido contrario al cursor. */
+        const groups = $$('[data-parallax]');
+        let nx = 0, ny = 0, queued = false;
+        window.addEventListener('pointermove', (ev) => {
+          nx = (ev.clientX / window.innerWidth) * 2 - 1;
+          ny = (ev.clientY / window.innerHeight) * 2 - 1;
+          if (queued) return;
+          queued = true;
+          requestAnimationFrame(() => {
+            queued = false;
+            groups.forEach((g) =>
+              g.querySelectorAll<HTMLElement>('[data-depth]').forEach((l) => {
+                const d = Number(l.dataset.depth);
+                l.style.transform = `translate3d(${-nx * d}px, ${-ny * d}px, 0)`;
+              }),
+            );
+          });
+        });
+
+        /* Inclinación 3D suave en tarjetas. */
+        $$('.cards li, .post-list li').forEach((card) => {
+          card.setAttribute('data-tilt', '');
+          card.addEventListener('pointermove', (ev) => {
+            const r = card.getBoundingClientRect();
+            const x = (ev.clientX - r.left) / r.width - 0.5;
+            const y = (ev.clientY - r.top) / r.height - 0.5;
+            card.style.transition = 'box-shadow .2s, border-color .2s';
+            card.style.transform = `perspective(700px) rotateX(${-y * 5}deg) rotateY(${x * 6}deg) translateY(-3px)`;
+          });
+          card.addEventListener('pointerleave', () => {
+            card.style.transition = 'transform .4s cubic-bezier(.2,.7,.2,1), box-shadow .2s, border-color .2s';
+            card.style.transform = '';
+          });
+        });
+      }
+    </script>
   </body>
 </html>

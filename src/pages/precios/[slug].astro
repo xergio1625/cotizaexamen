@@ -64,6 +64,20 @@ const ld = [
       <p class="muted">Código FONASA <strong>{item.code}</strong></p>
       <p class="muted small">{item.official}</p>
 
+      {item.urgent && (
+        <p class="notice notice-urgent">
+          <strong>Examen que no admite demora.</strong> {item.urgent.note}
+        </p>
+      )}
+
+      {item.stability && (
+        <p class="notice">
+          <strong>Estabilidad de la muestra:</strong> {item.stability.text}
+          {item.stability.derivable === true && ' Puede tomarse en una ciudad y procesarse en otra.'}
+          {item.stability.derivable === false && ' No conviene derivarla a otra ciudad.'}
+        </p>
+      )}
+
       {item.guide && (
         <p class="notice">
           <strong>Preparación:</strong> {fastingText(item.fasting)}.

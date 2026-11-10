@@ -1,19 +1,37 @@
 ---
 import Base from '../layouts/Base.astro';
 import Cotizador from '../components/Cotizador.astro';
+import { getCollection } from 'astro:content';
 import { siteConfig } from '../../site.config';
 
 const { modules, country } = siteConfig;
+const [arancel, providers, prices] = await Promise.all([
+  getCollection('arancel'),
+  getCollection('providers'),
+  getCollection('prices'),
+]);
 ---
 
 <Base>
   <section class="hero">
-    <div class="container">
-      <h1>{siteConfig.tagline}</h1>
-      <p>
-        ¿Te pidieron exámenes de laboratorio? Busca cada examen de tu orden y mira cuánto vale {country.areaLabel}:
-        valores de referencia oficiales de FONASA (Libre Elección, niveles 1, 2 y 3) y precios de prestadores.
-      </p>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>{siteConfig.tagline}</h1>
+        <p>
+          ¿Te pidieron exámenes de laboratorio? Busca cada examen de tu orden y mira cuánto vale {country.areaLabel}:
+          valores de referencia oficiales de FONASA (Libre Elección, niveles 1, 2 y 3) y precios de prestadores.
+        </p>
+        <ul class="stats">
+          <li><strong data-count={arancel.length}>{arancel.length}</strong><span>exámenes con valor FONASA</span></li>
+          <li><strong data-count={providers.length}>{providers.length}</strong><span>prestadores</span></li>
+          <li><strong data-count={prices.length}>{prices.length}</strong><span>precios verificados</span></li>
+        </ul>
+      </div>
+      <div class="hero-art reveal" data-reveal="right" data-parallax>
+        <div class="layer" data-depth="18">
+          <img src="/img/portada.webp" alt="" width="1408" height="768" loading="eager" decoding="async" />
+        </div>
+      </div>
     </div>
   </section>
 

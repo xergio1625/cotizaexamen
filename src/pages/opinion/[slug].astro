@@ -1,0 +1,72 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+import { articleLd, breadcrumbLd } from '../../lib/jsonld';
+import { formatDate } from '../../lib/format';
+import { getArancel } from '../../lib/arancel';
+import { getOpinion, topicLabels } from '../../lib/opinion';
+
+export async function getStaticPaths() {
+  if (!siteConfig.modules.opinion) return [];
+  const posts = await getOpinion();
+  return posts.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const d = entry.data;
+const { Content } = await render(entry);
+
+const arancel = siteConfig.modules.prices ? await getArancel() : [];
+const related = d.relatedExams
+  .map((r) => arancel.find((i) => i.id === r.id))
+  .filter((i): i is NonNullable<typeof i> => Boolean(i));
+
+const ld = [
+  articleLd({ title: d.title, description: d.summary, path: Astro.url.pathname, updated: d.updated ?? d.published }),
+  breadcrumbLd([
+    { name: 'Inicio', path: '/' },
+    { name: 'Opinión', path: '/opinion/' },
+    { name: d.title, path: Astro.url.pathname },
+  ]),
+];
+---
+
+<Base title={d.title} description={d.summary} jsonLd={ld} ogType="article" noindex={d.draft}>
+  <article class="container prose">
+    <p class="muted"><a href="/opinion/">Opinión</a> › {topicLabels[d.topic]}</p>
+    <h1>{d.title}</h1>
+    {d.draft && <p class="notice"><strong>BORRADOR:</strong> no se publica en el sitio real.</p>}
+    <p class="muted">
+      {siteConfig.author.displayName}, {siteConfig.author.credential} · Publicado el {formatDate(d.published)}
+      {d.updated && <> · Actualizado el {formatDate(d.updated)}</>}
+    </p>
+    <p><em>{d.summary}</em></p>
+
+    <Content />
+
+    {d.sources.length > 0 && (
+      <>
+        <h2>Fuentes y evidencia</h2>
+        <ul>
+          {d.sources.map((s) => <li>{s.url ? <a href={s.url} rel="noopener">{s.label}</a> : s.label}</li>)}
+        </ul>
+      </>
+    )}
+
+    {related.length > 0 && (
+      <>
+        <h2>Exámenes mencionados</h2>
+        <ul>
+          {related.map((i) => <li><a href={`/precios/${i.slug}/`}>{i.name}</a> (código FONASA {i.code})</li>)}
+        </ul>
+      </>
+    )}
+
+    <p class="notice">
+      Esto es una opinión profesional, no consejo médico individual ni interpretación de resultados. Ante dudas
+      sobre tu caso, consulta a tu médico. ¿Hay un error o tienes otra mirada?
+      <a href="/contacto/">Escríbeme</a>.
+    </p>
+  </article>
+</Base>

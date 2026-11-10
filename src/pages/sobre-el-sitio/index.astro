@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
 import { siteConfig } from '../../../site.config';
 const { author, affiliation, brand } = siteConfig;
 ---
@@ -8,8 +9,12 @@ const { author, affiliation, brand } = siteConfig;
   title="Sobre el sitio"
   description={`Quién está detrás de ${brand}, cómo se financia y por qué ningún laboratorio influye en lo que ves aquí.`}
 >
+  <PageHero
+    title="Sobre el sitio"
+    lead={`Quién está detrás de ${brand}, cómo se financia y por qué ningún laboratorio influye en lo que ves aquí.`}
+    img="/img/independencia.webp"
+  />
   <div class="container prose">
-    <h1>Sobre el sitio</h1>
 
     <h2>Qué es {brand}</h2>
     <p>
@@ -39,12 +44,25 @@ const { author, affiliation, brand } = siteConfig;
       </li>
     </ul>
 
+    <h2>Hoy es gratis; más adelante habrá servicios de pago</h2>
+    <p>
+      Hoy puedes usar {brand} sin pagar. A futuro, la idea es ofrecer una <strong>suscripción y servicios de
+      pago</strong> para quienes quieran herramientas adicionales. Te lo contamos desde ya, para que sepas cómo se
+      sostiene el sitio.
+    </p>
+    <p>
+      Lo que cobremos vendrá de personas que quieran esos servicios, <strong>nunca de laboratorios ni
+      clínicas</strong>. Las reglas de independencia de arriba no cambian: ningún pago altera el orden de los
+      resultados ni los precios que se muestran. Cuando existan servicios de pago, los anunciaremos aquí, con su
+      detalle.
+    </p>
+
     <h2>Transparencia: relación con {affiliation.name}</h2>
     <p>
       La misma persona que mantiene {brand} es quien está a cargo de
       <a href={affiliation.url} rel="noopener">{affiliation.name}</a>, un sitio de calculadoras, guías,
       herramientas de gestión y software para el laboratorio clínico, dirigido a profesionales y laboratorios, no a
-      pacientes. {affiliation.name} tiene productos de pago; {brand} es gratuito.
+      pacientes. {affiliation.name} tiene productos de pago; {brand} hoy es gratuito.
     </p>
     <p>
       Lo declaramos para que lo sepas: son proyectos distintos. {brand} no se usa para promocionar ni derivar

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
 import { siteConfig } from '../../../site.config';
 import { categoryLabels } from '../../lib/categories';
 import { fastingText } from '../../lib/arancel';
@@ -17,13 +18,12 @@ const groups = Object.entries(categoryLabels)
   title="Preparación de exámenes de laboratorio"
   description="Guías claras para prepararte: ayuno, horarios y qué llevar para cada examen de laboratorio."
 >
+  <PageHero
+    title="Preparación de exámenes"
+    lead="Cómo llegar bien preparado a tu toma de muestra: ayuno, qué llevar y qué preguntar. Si tu médico o el laboratorio te dieron indicaciones distintas, sigue siempre las de ellos."
+    img="/img/preparacion.webp"
+  />
   <div class="container prose">
-    <h1>Preparación de exámenes</h1>
-    <p>
-      Cómo llegar bien preparado a tu toma de muestra: ayuno, qué llevar y qué preguntar. Si tu médico o el
-      laboratorio te dieron indicaciones distintas, <strong>sigue siempre las de ellos</strong>.
-    </p>
-
     {groups.map((g) => (
       <section>
         <h2>{g.label}</h2>

@@ -94,4 +94,35 @@ const prices = defineCollection({
   }),
 });
 
-export const collections = { arancel, exams, providers, prices };
+/**
+ * Opinión: artículos de análisis del autor sobre precios, metodologías, calidad y proceso.
+ * Es opinión profesional, no consejo médico individual ni interpretación de resultados.
+ * Cada artículo debe sostener sus afirmaciones con fuentes (`sources`) o declarar que es experiencia.
+ */
+const opinionTopic = z.enum([
+  'precios', // por qué un examen cuesta más o menos
+  'metodologia', // técnicas y equipos
+  'calidad', // calidad analítica, acreditación, control
+  'derivacion', // toma de muestra local y análisis en otra ciudad
+  'urgencia', // qué no puede esperar
+  'sistema', // FONASA, isapres, bonos, órdenes
+  'comunicacion', // cómo se comunica la salud
+]);
+
+const opinion = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/opinion' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string().max(240),
+    topic: opinionTopic,
+    published: z.coerce.date(),
+    updated: z.coerce.date().optional(),
+    /** Evidencia: normas, guías, publicaciones, aranceles, datos propios del sitio. */
+    sources: z.array(z.object({ label: z.string(), url: z.string().url().optional() })).default([]),
+    /** Códigos FONASA de exámenes de los que se habla (para enlazar a su ficha). */
+    relatedExams: z.array(reference('arancel')).default([]),
+    draft: z.boolean().default(true),
+  }),
+});
+
+export const collections = { arancel, exams, providers, prices, opinion };
