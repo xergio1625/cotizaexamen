@@ -55,9 +55,11 @@ const ld = [
       <p class="muted"><a href="/precios/">Precios</a></p>
       <h1>Precio del examen de {exam.data.title}</h1>
       <p>{exam.data.summary}</p>
-      <p>
-        <a href={`/preparacion/${exam.id}/`}>Cómo prepararte para este examen</a>
-      </p>
+      {exam.data.guide && (
+        <p>
+          <a href={`/preparacion/${exam.id}/`}>Cómo prepararte para este examen</a>
+        </p>
+      )}
       <p class="notice">
         Orden solo por precio, {sub} o alfabeto. Ningún prestador paga por aparecer ni por mejor posición.
       </p>

@@ -26,17 +26,28 @@ const exams = defineCollection({
     category: examCategory,
     summary: z.string().max(200), // qué es, en una frase (sin interpretar valores)
     sample: z.enum(['sangre', 'orina', 'deposiciones', 'saliva', 'otra']),
-    fasting: z.object({
-      required: z.boolean(),
-      hours: z.number().int().positive().optional(),
-      note: z.string().optional(),
-    }),
+    /** Opcional solo si el examen no tiene guía (guide: false). */
+    fasting: z
+      .object({
+        required: z.boolean(),
+        hours: z.number().int().positive().optional(),
+        note: z.string().optional(),
+      })
+      .optional(),
     preparation: z.array(z.string()).default([]), // pasos para el paciente
     turnaround: z.string().optional(), // "24 horas"
     faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
     updated: z.coerce.date(),
+    /**
+     * Si es false, el examen existe solo para cotizar (sin página de preparación).
+     * Permite un catálogo amplio de exámenes sin escribir cientos de guías.
+     */
+    guide: z.boolean().default(true),
     /** Los borradores no se publican. */
     draft: z.boolean().default(true),
+  }).refine((d) => !d.guide || d.fasting, {
+    message: 'Una guía (guide: true) requiere el campo fasting',
+    path: ['fasting'],
   }),
 });
 

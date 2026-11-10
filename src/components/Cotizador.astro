@@ -1,0 +1,263 @@
+---
+import { getCollection } from 'astro:content';
+import { siteConfig } from '../../site.config';
+import { getPriceRows, STALE_DAYS } from '../lib/prices';
+import { fastingLabel } from '../lib/exams';
+
+const exams = (await getCollection('exams', (e) => !e.data.draft)).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, 'es'),
+);
+const rows = await getPriceRows();
+const sub = siteConfig.country.subdivisionLabel;
+
+const data = {
+  locale: siteConfig.country.locale,
+  currency: siteConfig.country.currency,
+  staleDays: STALE_DAYS,
+  subLabel: sub,
+  exams: exams.map((e) => ({
+    id: e.id,
+    title: e.data.title,
+    aliases: e.data.aliases,
+    fasting: fastingLabel(e.data),
+    fastingRequired: e.data.fasting ? e.data.fasting.required : null,
+    guide: e.data.guide,
+  })),
+  offers: rows.map((r) => ({
+    examId: r.examId,
+    provider: r.providerName,
+    website: r.providerWebsite ?? '',
+    kind: r.kind,
+    subdivision: r.subdivision ?? '',
+    amount: r.amount,
+    verifiedAt: r.verifiedAt.toISOString().slice(0, 10),
+  })),
+};
+---
+
+<section class="cotizador" aria-labelledby="cz-title">
+  <h2 id="cz-title">Cotiza los exámenes de tu orden</h2>
+  <p class="muted">
+    Agrega cada examen que te pidieron. Verás cuánto cuesta el conjunto en cada prestador y si alguno requiere
+    preparación especial. Lo que eliges se queda en tu navegador: no se envía a ningún servidor.
+  </p>
+
+  <div class="cz-search">
+    <label for="cz-input">Buscar examen</label>
+    <input id="cz-input" type="search" autocomplete="off" placeholder="Ej.: glicemia, hemograma, TSH" />
+    <ul id="cz-suggest" class="cz-suggest" role="listbox" aria-label="Sugerencias" hidden></ul>
+  </div>
+
+  <ul id="cz-chips" class="cz-chips" aria-label="Exámenes seleccionados"></ul>
+
+  <div id="cz-results" aria-live="polite"></div>
+  <div id="cz-prep"></div>
+
+  <noscript>
+    <p class="notice">
+      El cotizador necesita JavaScript. Sin él, abre el precio de cada examen por separado en
+      <a href="/precios/">la lista de exámenes</a>.
+    </p>
+  </noscript>
+
+  <script type="application/json" id="cz-data" set:html={JSON.stringify(data)} />
+</section>
+
+<script>
+  type Exam = { id: string; title: string; aliases: string[]; fasting: string; fastingRequired: boolean | null; guide: boolean };
+  type Offer = { examId: string; provider: string; website: string; kind: string; subdivision: string; amount: number; verifiedAt: string };
+  type Group = {
+    provider: string; website: string; kind: string;
+    items: Map<string, Offer>; subs: Set<string>; oldest: string;
+  };
+
+  const data = JSON.parse(document.getElementById('cz-data')!.textContent!) as {
+    locale: string; currency: string; staleDays: number; subLabel: string; exams: Exam[]; offers: Offer[];
+  };
+  const money = new Intl.NumberFormat(data.locale, { style: 'currency', currency: data.currency, maximumFractionDigits: 0 });
+  const dateFmt = new Intl.DateTimeFormat(data.locale, { dateStyle: 'medium', timeZone: 'UTC' });
+  const collator = new Intl.Collator('es', { sensitivity: 'base' });
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const kindLabel: Record<string, string> = { particular: 'Particular', convenio: 'Convenio', promocion: 'Promoción' };
+  const examById = new Map(data.exams.map((e) => [e.id, e]));
+
+  const input = document.getElementById('cz-input') as HTMLInputElement;
+  const suggest = document.getElementById('cz-suggest')!;
+  const chips = document.getElementById('cz-chips')!;
+  const results = document.getElementById('cz-results')!;
+  const prep = document.getElementById('cz-prep')!;
+
+  let selected: string[] = [];
+  let order: 'price' | 'subdivision' | 'alpha' = 'price';
+  let sub = '';
+
+  function h(tag: string, attrs: Record<string, string> = {}, ...kids: (Node | string)[]) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    n.append(...kids);
+    return n;
+  }
+
+  /* ---------- Búsqueda y selección ---------- */
+  function showSuggestions() {
+    const q = norm(input.value.trim());
+    suggest.replaceChildren();
+    const matches = data.exams.filter(
+      (e) => !selected.includes(e.id) && (!q || norm(e.title).includes(q) || e.aliases.some((a) => norm(a).includes(q))),
+    );
+    matches.slice(0, 8).forEach((e) => {
+      const b = h('button', { type: 'button', role: 'option' }, e.title);
+      b.addEventListener('click', () => add(e.id));
+      suggest.append(h('li', {}, b));
+    });
+    suggest.hidden = !matches.length || (!q && document.activeElement !== input);
+  }
+
+  function add(id: string) {
+    if (!selected.includes(id)) selected.push(id);
+    input.value = '';
+    suggest.hidden = true;
+    input.focus();
+    render();
+  }
+  function remove(id: string) {
+    selected = selected.filter((x) => x !== id);
+    render();
+  }
+
+  input.addEventListener('input', showSuggestions);
+  input.addEventListener('focus', showSuggestions);
+  input.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Enter') {
+      ev.preventDefault();
+      const first = suggest.querySelector('button');
+      first?.click();
+    } else if (ev.key === 'Escape') suggest.hidden = true;
+  });
+  document.addEventListener('click', (ev) => {
+    if (!(ev.target as Element).closest('.cz-search')) suggest.hidden = true;
+  });
+
+  /* ---------- Cálculo ---------- */
+  function buildGroups(): Group[] {
+    const map = new Map<string, Group>();
+    for (const o of data.offers) {
+      if (!selected.includes(o.examId)) continue;
+      if (sub && o.subdivision && o.subdivision !== sub) continue;
+      const key = `${o.provider}|${o.kind}`;
+      let g = map.get(key);
+      if (!g) {
+        g = { provider: o.provider, website: o.website, kind: o.kind, items: new Map(), subs: new Set(), oldest: o.verifiedAt };
+        map.set(key, g);
+      }
+      const cur = g.items.get(o.examId);
+      if (!cur || o.amount < cur.amount) g.items.set(o.examId, o);
+      if (o.subdivision) g.subs.add(o.subdivision);
+      if (o.verifiedAt < g.oldest) g.oldest = o.verifiedAt;
+    }
+    return [...map.values()];
+  }
+  const total = (g: Group) => [...g.items.values()].reduce((s, o) => s + o.amount, 0);
+  const firstSub = (g: Group) => [...g.subs].sort(collator.compare)[0] ?? '~';
+  const byName = (a: Group, b: Group) => collator.compare(a.provider, b.provider);
+
+  /* ---------- Render ---------- */
+  function render() {
+    chips.replaceChildren(
+      ...selected.map((id) => {
+        const b = h('button', { type: 'button', 'aria-label': `Quitar ${examById.get(id)!.title}` }, '×');
+        b.addEventListener('click', () => remove(id));
+        return h('li', { class: 'chip' }, examById.get(id)!.title, b);
+      }),
+    );
+    renderResults();
+    renderPrep();
+  }
+
+  function renderResults() {
+    results.replaceChildren();
+    if (!selected.length) return;
+
+    const all = buildGroups();
+    const complete = all.filter((g) => g.items.size === selected.length);
+    const partial = all.filter((g) => g.items.size < selected.length).sort(byName);
+
+    // Regla de independencia: solo precio, comuna o alfabeto.
+    if (order === 'price') complete.sort((a, b) => total(a) - total(b) || byName(a, b));
+    else if (order === 'subdivision') complete.sort((a, b) => collator.compare(firstSub(a), firstSub(b)) || byName(a, b));
+    else complete.sort(byName);
+
+    results.append(h('h3', {}, 'Cotización de tu orden'));
+
+    const subs = [...new Set(data.offers.map((o) => o.subdivision).filter(Boolean))].sort(collator.compare);
+    const ctl = h('div', { class: 'controls' });
+    const grp = h('div', { role: 'group', 'aria-label': 'Ordenar por' }, h('span', {}, 'Ordenar por: '));
+    ([['price', 'Precio total'], ['subdivision', data.subLabel[0].toUpperCase() + data.subLabel.slice(1)], ['alpha', 'Alfabético']] as const).forEach(([k, label]) => {
+      const b = h('button', { type: 'button', 'aria-pressed': String(order === k) }, label);
+      b.addEventListener('click', () => { order = k; renderResults(); });
+      grp.append(b);
+    });
+    ctl.append(grp);
+    if (subs.length) {
+      const sel = h('select', { id: 'cz-sub' }, h('option', { value: '' }, 'Todas')) as HTMLSelectElement;
+      subs.forEach((s) => sel.append(h('option', { value: s }, s)));
+      sel.value = sub;
+      sel.addEventListener('change', () => { sub = sel.value; renderResults(); });
+      ctl.append(h('label', {}, `${data.subLabel[0].toUpperCase() + data.subLabel.slice(1)}: `, sel));
+    }
+    results.append(ctl);
+
+    if (!all.length) {
+      results.append(h('p', { class: 'notice' }, 'Aún no tenemos precios para estos exámenes. Mira abajo cómo prepararte y consulta directamente al prestador.'));
+      return;
+    }
+
+    if (complete.length) results.append(table(complete, true));
+    else results.append(h('p', { class: 'notice' }, 'Ningún prestador tiene precio para todos tus exámenes. Abajo ves cotizaciones parciales.'));
+
+    if (partial.length) {
+      results.append(h('h3', {}, 'Cotizaciones parciales'), h('p', { class: 'muted small' }, 'Estos prestadores no tienen precio cargado para algún examen de tu orden.'));
+      results.append(table(partial, false));
+    }
+    results.append(h('p', { class: 'muted small' }, 'Si un prestador tiene varias sedes o precios del mismo examen, se usa el más bajo. Los precios son referenciales: confírmalos con el prestador.'));
+  }
+
+  function table(groups: Group[], isComplete: boolean) {
+    const head = h('tr', {}, ...['Prestador', isComplete ? 'Total' : 'Subtotal', 'Detalle', data.subLabel[0].toUpperCase() + data.subLabel.slice(1), 'Verificado'].map((t) => h('th', { scope: 'col' }, t)));
+    const body = groups.map((g) => {
+      const name = g.website ? h('a', { href: g.website, rel: 'noopener nofollow' }, g.provider) : g.provider;
+      const detail = selected.map((id) => {
+        const o = g.items.get(id);
+        return h('div', { class: 'small' }, `${examById.get(id)!.title}: `, o ? money.format(o.amount) : h('em', {}, 'sin precio'));
+      });
+      const stale = (Date.now() - new Date(g.oldest).getTime()) / 86400000 > data.staleDays;
+      return h('tr', {},
+        h('th', { scope: 'row' }, name, h('div', { class: 'muted small' }, kindLabel[g.kind] ?? g.kind)),
+        h('td', {}, h('strong', {}, money.format(total(g)))),
+        h('td', {}, ...detail),
+        h('td', {}, g.subs.size ? [...g.subs].sort(collator.compare).join(', ') : 'Todas'),
+        h('td', {}, dateFmt.format(new Date(g.oldest)), stale ? h('div', { class: 'stale small' }, 'Por reconfirmar') : ''),
+      );
+    });
+    return h('div', { class: 'table-wrap' }, h('table', {}, h('thead', {}, head), h('tbody', {}, ...body)));
+  }
+
+  function renderPrep() {
+    prep.replaceChildren();
+    if (!selected.length) return;
+    const items = selected.map((id) => examById.get(id)!);
+    prep.append(h('h3', {}, '¿Necesitas prepararte?'));
+    const list = h('ul', { class: 'prep-list' });
+    items.forEach((e) => {
+      const flag = e.fastingRequired === true ? 'prep-yes' : e.fastingRequired === false ? 'prep-no' : 'prep-unk';
+      const link = e.guide ? h('a', { href: `/preparacion/${e.id}/` }, 'Ver preparación') : h('span', { class: 'muted small' }, 'Sin guía aún: consulta al prestador');
+      list.append(h('li', {}, h('strong', {}, e.title), ' ', h('span', { class: `tag ${flag}` }, e.fasting), ' ', link));
+    });
+    prep.append(list);
+    if (items.some((e) => e.fastingRequired)) {
+      prep.append(h('p', { class: 'notice' }, 'Si alguno de tus exámenes requiere ayuno, lo habitual es ir en ayuno para toda la toma de muestra. Confírmalo con el laboratorio.'));
+    }
+  }
+
+  render();
+</script>

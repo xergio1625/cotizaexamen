@@ -1,16 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Cotizador from '../components/Cotizador.astro';
 import { siteConfig } from '../../site.config';
-import { getPriceRows } from '../lib/prices';
-import { formatMoney } from '../lib/format';
 
 const { modules, country } = siteConfig;
-const exams = (await getCollection('exams', (e) => !e.data.draft)).sort((a, b) =>
-  a.data.title.localeCompare(b.data.title, 'es'),
-);
-const rows = modules.prices ? await getPriceRows() : [];
-const priced = new Set(rows.map((r) => r.examId));
 ---
 
 <Base>
@@ -18,45 +11,26 @@ const priced = new Set(rows.map((r) => r.examId));
     <div class="container">
       <h1>{siteConfig.tagline}</h1>
       <p>
-        Revisa cuánto cuesta un examen de laboratorio {country.areaLabel} y cómo llegar bien preparado: ayuno,
-        qué llevar y cómo es la toma de muestra.
-      </p>
-      <p>
-        {modules.preparation && <a class="btn" href="/preparacion/">Ver guías de preparación</a>}
-        {modules.prices && <a class="btn btn-alt" href="/precios/">Comparar precios</a>}
+        ¿Te pidieron exámenes de laboratorio? Cotiza tu orden completa y compara cuánto cuesta en cada prestador
+        {country.areaLabel}.
       </p>
     </div>
   </section>
 
-  <section class="container">
-    <h2>Exámenes más consultados</h2>
-    <ul class="cards">
-      {exams.map((e) => (
-        <li>
-          <a href={`/preparacion/${e.id}/`}><strong>{e.data.title}</strong></a>
-          <span class="muted small">{e.data.fasting.required ? `Ayuno${e.data.fasting.hours ? ` de ${e.data.fasting.hours} h` : ''}` : 'Sin ayuno'}</span>
-          {priced.has(e.id) && <a class="small" href={`/precios/${e.id}/`}>Ver precios</a>}
-        </li>
-      ))}
-    </ul>
-  </section>
+  <div class="container">
+    {modules.prices && <Cotizador />}
 
-  <section class="container prose">
-    <h2>Cómo funciona</h2>
-    <ul>
-      <li><strong>Preparación:</strong> guías claras con ayuno, pasos y preguntas frecuentes.</li>
-      <li>
-        <strong>Precios:</strong>
-        {rows.length > 0
-          ? `${rows.length} precios de ${new Set(rows.map((r) => r.providerName)).size} prestadores, desde ${formatMoney(Math.min(...rows.map((r) => r.amount)))}. Cada uno con fuente y fecha.`
-          : 'estamos recopilando precios públicos. Cada uno se publicará con su fuente y fecha de verificación.'}
-      </li>
-      <li><strong>Sin interpretación:</strong> no explicamos resultados individuales ni diagnosticamos.</li>
-    </ul>
-    <p class="notice">
-      <strong>Sitio independiente.</strong> Ningún laboratorio ni clínica paga por aparecer ni por mejor posición.
-      Los resultados se ordenan solo por precio, {country.subdivisionLabel} o alfabeto.
-      <a href="/sobre-el-sitio/">Cómo se financia y quién lo hace</a>.
-    </p>
-  </section>
+    <div class="prose">
+      <p class="notice">
+        <strong>Sitio independiente.</strong> Ningún laboratorio ni clínica paga por aparecer ni por mejor
+        posición. Los resultados se ordenan solo por precio, {country.subdivisionLabel} o alfabeto.
+        <a href="/sobre-el-sitio/">Cómo se financia y quién lo hace</a>.
+      </p>
+      {modules.preparation && (
+        <p class="muted">
+          ¿Quieres saber cómo prepararte para un examen? Revisa las <a href="/preparacion/">guías de preparación</a>.
+        </p>
+      )}
+    </div>
+  </div>
 </Base>

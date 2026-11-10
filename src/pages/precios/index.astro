@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Cotizador from '../../components/Cotizador.astro';
 import { formatMoney } from '../../lib/format';
 import { getPriceRows } from '../../lib/prices';
 import { siteConfig } from '../../../site.config';
@@ -21,16 +22,19 @@ const withPrices = exams
   title="Comparador de precios de exámenes de laboratorio"
   description={`Compara precios de exámenes de laboratorio ${siteConfig.country.areaLabel}. Orden solo por precio, ${siteConfig.country.subdivisionLabel} o alfabeto.`}
 >
-  <div class="container prose">
-    <h1>Precios de exámenes</h1>
-    <p class="notice">
+  <div class="container">
+    <h1>Cotizar exámenes</h1>
+    <p class="notice prose">
       Sin dinero de laboratorios: el orden depende solo de precio, {siteConfig.country.subdivisionLabel} o alfabeto.
       Los precios cambian; confírmalos con el prestador antes de ir.
       <a href="/sobre-el-sitio/">Cómo funciona</a>.
     </p>
 
+    <Cotizador />
+
+    <h2>Precio de cada examen</h2>
     {withPrices.length === 0 ? (
-      <p>Aún estamos recopilando precios. Mientras tanto, revisa <a href="/preparacion/">cómo prepararte</a>.</p>
+      <p>Aún estamos recopilando precios públicos.</p>
     ) : (
       <ul>
         {withPrices.map(({ exam, count, min }) => (

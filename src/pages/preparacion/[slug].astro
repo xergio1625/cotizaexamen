@@ -9,7 +9,7 @@ import { categoryLabels, sampleLabels } from '../../lib/categories';
 
 export async function getStaticPaths() {
   if (!siteConfig.modules.preparation) return [];
-  const exams = await getCollection('exams', (e) => !e.data.draft);
+  const exams = await getCollection('exams', (e) => !e.data.draft && e.data.guide);
   return exams.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
@@ -32,8 +32,9 @@ ld.push(
   ]),
 );
 
-const fastingText = d.fasting.required
-  ? `Requiere ayuno${d.fasting.hours ? ` de ${d.fasting.hours} horas` : ''}`
+const fasting = d.fasting!; // garantizado por el esquema cuando guide = true
+const fastingText = fasting.required
+  ? `Requiere ayuno${fasting.hours ? ` de ${fasting.hours} horas` : ''}`
   : 'No requiere ayuno';
 ---
 
@@ -48,7 +49,7 @@ const fastingText = d.fasting.required
       <table>
         <tbody>
           <tr><th scope="row">Muestra</th><td>{sampleLabels[d.sample]}</td></tr>
-          <tr><th scope="row">Ayuno</th><td>{fastingText}{d.fasting.note ? `. ${d.fasting.note}` : ''}</td></tr>
+          <tr><th scope="row">Ayuno</th><td>{fastingText}{fasting.note ? `. ${fasting.note}` : ''}</td></tr>
           {d.turnaround && <tr><th scope="row">Entrega de resultados</th><td>{d.turnaround}</td></tr>}
         </tbody>
       </table>
