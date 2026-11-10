@@ -1,0 +1,10 @@
+{
+  "exam": "03-08-014",
+  "provider": "clinica-bupa-antofagasta",
+  "amount": 20314,
+  "kind": "particular",
+  "subdivision": "Antofagasta",
+  "sourceUrl": "https://www.clinicabupaantofagasta.cl/informacion-al-paciente/aranceles",
+  "verifiedAt": "2026-11-09",
+  "note": "Catálogo de prestaciones 2026, valor particular máximo, horario hábil"
+}

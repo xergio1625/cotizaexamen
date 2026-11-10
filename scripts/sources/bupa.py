@@ -7,7 +7,7 @@ por prestación").
 
 Uso:
   pdftotext -layout cbs_ambulatorio.pdf bupa.txt
-  python scripts/sources/bupa-santiago.py bupa.txt salida.csv --verified 2026-11-09
+  python scripts/sources/bupa.py bupa.txt salida.csv --clinic santiago --verified 2026-11-09
   python scripts/import-prices.py salida.csv
 
 Fuente pública: https://www.clinicabupasantiago.cl/informaciones/nuestros-aranceles
@@ -19,6 +19,18 @@ import re
 import sys
 from pathlib import Path
 
+# Clínicas Bupa que publican el mismo "Catálogo de prestaciones" (valor particular máximo, horario hábil).
+CLINICS = {
+    'santiago': dict(id='clinica-bupa-santiago', name='Clínica Bupa Santiago', subdivision='La Florida',
+                     website='https://www.clinicabupasantiago.cl',
+                     source='https://www.clinicabupasantiago.cl/informaciones/nuestros-aranceles'),
+    'antofagasta': dict(id='clinica-bupa-antofagasta', name='Clínica Bupa Antofagasta', subdivision='Antofagasta',
+                        website='https://www.clinicabupaantofagasta.cl',
+                        source='https://www.clinicabupaantofagasta.cl/informacion-al-paciente/aranceles'),
+    'renaca': dict(id='clinica-bupa-renaca', name='Clínica Bupa Reñaca', subdivision='Viña del Mar',
+                   website='https://www.clinicabuparenaca.cl',
+                   source='https://www.clinicabuparenaca.cl/informacion-al-paciente/nuestros-aranceles'),
+}
 ROOT = Path(__file__).resolve().parent.parent.parent
 re_code = re.compile(r'^\s*(\d{6,7})(?:\s|$)')
 re_price = re.compile(r'\$\s*(\d{1,3}(?:\.\d{3})*)\s*$')
@@ -28,6 +40,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('txt')
     ap.add_argument('out')
+    ap.add_argument('--clinic', choices=sorted(CLINICS), default='santiago')
     ap.add_argument('--verified', required=True, help='AAAA-MM-DD: fecha en que se consultó el documento')
     ap.add_argument('--arancel', default=str(ROOT / 'src' / 'data' / 'fonasa-mle-2026.json'))
     a = ap.parse_args()
@@ -58,16 +71,20 @@ def main():
             seen.setdefault(cid, price)
 
     if conflicts:
-        print('CONFLICTOS (mismo código, precios distintos); se conserva el primero:', conflicts[:10], file=sys.stderr)
+        # Un mismo código con precios distintos son variantes (otra muestra o técnica): no se atribuye
+        # ninguno de los precios al examen, para no mostrar el de otra variante.
+        print('CONFLICTOS omitidos (mismo código, precios distintos):', conflicts[:10], file=sys.stderr)
+        for cid, *_ in conflicts:
+            seen.pop(cid, None)
 
     with open(a.out, 'w', encoding='utf-8', newline='') as f:
         w = csv.writer(f)
         w.writerow(['exam_code', 'provider_id', 'provider_name', 'provider_kind', 'provider_website', 'subdivision',
                     'amount', 'kind', 'source_url', 'verified_at', 'note'])
         for cid in sorted(seen):
-            w.writerow([cid, 'clinica-bupa-santiago', 'Clínica Bupa Santiago', 'clinica',
-                        'https://www.clinicabupasantiago.cl', 'La Florida', seen[cid], 'particular',
-                        'https://www.clinicabupasantiago.cl/informaciones/nuestros-aranceles', a.verified,
+            c = CLINICS[a.clinic]
+            w.writerow([cid, c['id'], c['name'], 'clinica', c['website'], c['subdivision'], seen[cid], 'particular',
+                        c['source'], a.verified,
                         'Catálogo de prestaciones 2026, valor particular máximo, horario hábil'])
     print(f'{len(seen)} exámenes de laboratorio extraídos; {skipped_multi} bloques ambiguos omitidos')
 
