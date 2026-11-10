@@ -37,6 +37,7 @@ export interface SiteConfig {
   author: {
     displayName: string;
     credential: string;
+    credentials: string[];
     /** Opcional: texto corto de presentación. */
     bio?: string;
   };
@@ -73,12 +74,19 @@ export const siteConfig: SiteConfig = {
     interpretation: false,
   },
   author: {
-    displayName: '[Nombre o seudónimo]', // TODO: definir
+    displayName: 'Sergio Inostroza Riffo',
     credential: 'Tecnólogo Médico',
+    /** Formación, mostrada en /sobre-el-sitio/. */
+    credentials: [
+      'Tecnólogo Médico',
+      'Magíster en Gerencia y Gestión en Salud',
+      'Diplomado en Gestión de Empresas',
+    ],
   },
   affiliation: {
     name: 'Consensus Lab',
     url: 'https://consensuslab.cl',
   },
+  contactEmail: 'contacto@cotizaexamen.cl',
   social: { ogImage: '/og-default.svg' },
 };

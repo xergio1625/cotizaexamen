@@ -19,8 +19,11 @@ const { author, affiliation, brand } = siteConfig;
 
     <h2>Quién lo hace</h2>
     <p>
-      El sitio es mantenido por una sola persona: {author.displayName}, {author.credential}.
+      El sitio es mantenido por una sola persona: <strong>{author.displayName}</strong>.
     </p>
+    <ul>
+      {author.credentials.map((c) => <li>{c}</li>)}
+    </ul>
 
     <h2>Independencia</h2>
     <p>
@@ -38,9 +41,15 @@ const { author, affiliation, brand } = siteConfig;
 
     <h2>Transparencia: relación con {affiliation.name}</h2>
     <p>
-      La misma persona que mantiene {brand} dirige <a href={affiliation.url} rel="noopener">{affiliation.name}</a>.
-      Lo declaramos para que lo sepas: son proyectos distintos y {brand} no se usa para promocionar ni derivar
-      pacientes a {affiliation.name}. [Este párrafo se ajustará con la descripción exacta de Consensus Lab.]
+      La misma persona que mantiene {brand} es quien está a cargo de
+      <a href={affiliation.url} rel="noopener">{affiliation.name}</a>, un sitio de calculadoras, guías,
+      herramientas de gestión y software para el laboratorio clínico, dirigido a profesionales y laboratorios, no a
+      pacientes. {affiliation.name} tiene productos de pago; {brand} es gratuito.
+    </p>
+    <p>
+      Lo declaramos para que lo sepas: son proyectos distintos. {brand} no se usa para promocionar ni derivar
+      pacientes a {affiliation.name}, no recomienda prestadores por su relación con él, y las reglas de
+      independencia de esta página se aplican igual a todos los laboratorios.
     </p>
 
     <h2>Cómo obtenemos los precios</h2>
