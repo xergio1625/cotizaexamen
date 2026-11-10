@@ -1,0 +1,10 @@
+{
+  "exam": "03-05-008",
+  "provider": "hospital-clinico-universidad-de-chile",
+  "amount": 16896,
+  "kind": "particular",
+  "subdivision": "Independencia",
+  "sourceUrl": "https://www.redclinica.cl/informacion-al-paciente/aranceles-2026.aspx",
+  "verifiedAt": "2026-11-09",
+  "note": "Arancel particular 2026, horario hábil (8:00 a 20:00; sábados 8:00 a 13:00). Fuera de horario o festivos: recargo de 50%"
+}

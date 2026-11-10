@@ -1,0 +1,8 @@
+{
+  "name": "Hospital Clínico Universidad de Chile",
+  "kind": "clinica",
+  "website": "https://www.redclinica.cl",
+  "subdivisions": [
+    "Independencia"
+  ]
+}
