@@ -16,10 +16,18 @@ const { brand, domain } = siteConfig;
     </p>
 
     <h2>Cookies y analítica</h2>
-    <p>
-      El sitio no usa cookies propias ni herramientas de analítica o publicidad. Si en el futuro se incorpora
-      alguna, se declarará aquí antes de activarla.
-    </p>
+    {siteConfig.cloudflareAnalyticsToken ? (
+      <p>
+        El sitio no usa cookies ni publicidad. Para saber cuántas visitas recibe, usa Cloudflare Web Analytics, una
+        medición agregada que no usa cookies, no crea perfiles ni sigue a las personas entre sitios y no guarda
+        direcciones IP completas. Si se incorpora otra herramienta, se declarará aquí antes de activarla.
+      </p>
+    ) : (
+      <p>
+        El sitio no usa cookies propias ni herramientas de analítica o publicidad. Si en el futuro se incorpora
+        alguna, se declarará aquí antes de activarla.
+      </p>
+    )}
 
     <h2>Alojamiento</h2>
     <p>

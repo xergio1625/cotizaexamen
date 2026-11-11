@@ -52,9 +52,12 @@ export interface SiteConfig {
   social: { ogImage: string };
   /** Verificación de Search Console, si se usa (meta tag). */
   googleSiteVerification?: string;
+  /** Token de Cloudflare Web Analytics (sin cookies). Vacío = analítica apagada. */
+  cloudflareAnalyticsToken?: string;
 }
 
 export const siteConfig: SiteConfig = {
+  cloudflareAnalyticsToken: 'a2cc36a47a4f4de6801a6c1d1df995c3',
   brand: 'CotizaExamen',
   tagline: 'Precios y preparación de tus exámenes de laboratorio',
   description:

@@ -55,6 +55,14 @@ const allLd = Astro.url.pathname === '/' ? [websiteLd(), ...jsonLd] : jsonLd;
       <slot />
     </main>
     <Footer />
+    {siteConfig.cloudflareAnalyticsToken && (
+      <script
+        is:inline
+        type="module"
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: siteConfig.cloudflareAnalyticsToken })}
+      />
+    )}
     <script>
       const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const $$ = <T extends Element = HTMLElement>(sel: string) => Array.from(document.querySelectorAll<T>(sel));
