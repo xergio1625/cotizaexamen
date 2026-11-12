@@ -33,7 +33,7 @@ const levelList = LEVELS.flatMap((n) => (item.levels[n] ? [{ level: n, ...item.l
 const n1 = item.levels['1'];
 const title = `Precio del examen de ${item.name}`;
 const description =
-  `Valor del examen ${item.name} (código FONASA ${item.code})` +
+  (item.noFonasa ? `Examen ${item.name} (sin valor FONASA)` : `Valor del examen ${item.name} (código FONASA ${item.code})`) +
   (n1 ? `: desde ${formatMoney(n1.total)} en el Arancel MLE 2026` : '') +
   (rows.length ? ` y ${rows.length} ${rows.length === 1 ? 'precio' : 'precios'} de prestadores.` : '.');
 
@@ -42,7 +42,7 @@ const ld = [
     name: item.name,
     description: `${item.official}. ${item.section}.`,
     path: Astro.url.pathname,
-    code: item.code,
+    code: item.noFonasa ? '' : item.code,
     levels: levelList,
     offers: orderOffers(rows, 'price').map((r) => ({
       ...r,
@@ -58,12 +58,14 @@ const ld = [
 ];
 ---
 
-<Base jsonLd={ld} title={title} description={description}>
+<Base jsonLd={ld} title={title} description={description} noindex={item.noFonasa && rows.length === 0}>
   <div class="container">
     <div class="prose">
       <p class="muted"><a href="/precios/">Cotizar</a> › {item.section}</p>
       <h1>{title}</h1>
-      <p class="muted">Código FONASA <strong>{item.code}</strong></p>
+      {item.noFonasa
+        ? <p class="muted"><strong>Sin código FONASA</strong>: examen especializado que el arancel oficial no valoriza.</p>
+        : <p class="muted">Código FONASA <strong>{item.code}</strong></p>}
       <p class="muted small">{item.official}</p>
 
       {item.urgent && (
@@ -88,14 +90,26 @@ const ld = [
       )}
     </div>
 
-    <h2>Valor de referencia FONASA</h2>
-    <FonasaTable levels={item.levels} />
-    <p class="muted small prose">
-      Fuente: FONASA, Arancel de Prestaciones de Salud 2026, Modalidad Libre Elección. El valor depende del nivel
-      de inscripción del prestador. El copago estimado es el valor total menos la bonificación y aplica a
-      beneficiarios FONASA que usan bono en Libre Elección; otras coberturas o convenios pueden variar. Es una
-      referencia, no el precio de un prestador específico.
-    </p>
+    {item.noFonasa ? (
+      <>
+        <h2>Valor FONASA</h2>
+        <p class="prose">
+          FONASA no tiene valor para este examen en su arancel de Libre Elección: se paga el precio del prestador
+          (valor particular), sin bono de FONASA. Algunas isapres pueden cubrirlo según tu plan.
+        </p>
+      </>
+    ) : (
+      <>
+        <h2>Valor de referencia FONASA</h2>
+        <FonasaTable levels={item.levels} />
+        <p class="muted small prose">
+          Fuente: FONASA, Arancel de Prestaciones de Salud 2026, Modalidad Libre Elección. El valor depende del nivel
+          de inscripción del prestador. El copago estimado es el valor total menos la bonificación y aplica a
+          beneficiarios FONASA que usan bono en Libre Elección; otras coberturas o convenios pueden variar. Es una
+          referencia, no el precio de un prestador específico.
+        </p>
+      </>
+    )}
 
     <h2>Precios en prestadores</h2>
     {rows.length === 0 ? (

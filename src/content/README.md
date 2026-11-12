@@ -3,6 +3,11 @@
 - `../data/fonasa-mle-2026.json`: **catálogo oficial de exámenes** (código FONASA y valores por nivel).
   Se genera con `scripts/parse-arancel.py` a partir del PDF; no se edita a mano.
 - `exams/`: guías de preparación (Markdown). Cada una se enlaza a un examen con `fonasa: 03-01-045`.
+- `../data/examenes-sin-fonasa.json`: exámenes especializados **sin código ni valor FONASA** (id `sf-…`, sin niveles).
+  Se cargaron desde el directorio público de BKLAB (Barnafi Krause, laboratorio de derivación, bklab.cl/examenes;
+  trazabilidad en `docs/fuentes/bklab-directorio-2026-11-12.csv`). BKLAB no publica precios, así que no hay ofertas
+  suyas. Para dar de alta otro examen, agrega una entrada con la misma forma que el arancel; el importador acepta
+  `sf-…` en `exam_code`. Sus fichas quedan `noindex` y fuera del sitemap mientras no tengan precios.
 - `providers/`: un JSON por prestador (laboratorio, clínica, centro).
 - `prices/`: **un JSON por prestador** (`prices/<prestador>.json`) con todas sus ofertas: examen × tipo × fecha.
   No se editan a mano en masa: se generan con `scripts/import-prices.py` (formato en `scripts/pricefile.py`).

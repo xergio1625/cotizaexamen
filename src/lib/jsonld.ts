@@ -70,7 +70,7 @@ export const examServiceLd = (o: {
       name: o.name,
       description: o.description,
       serviceType: 'Examen de laboratorio',
-      identifier: { '@type': 'PropertyValue', propertyID: 'Código FONASA', value: o.code },
+      ...(o.code ? { identifier: { '@type': 'PropertyValue', propertyID: 'Código FONASA', value: o.code } } : {}),
       areaServed: { '@type': 'Country', name: siteConfig.country.name },
       additionalProperty: o.levels.map((l) => ({
         '@type': 'PropertyValue',

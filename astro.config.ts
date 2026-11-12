@@ -7,5 +7,6 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  integrations: [sitemap()],
+  // Los exámenes sin código FONASA (slug terminado en -sf...) no van al sitemap: son fichas sin valor oficial.
+  integrations: [sitemap({ filter: (page) => !/\/precios\/[^/]*-sf[a-z0-9]+\/$/.test(page) })],
 });

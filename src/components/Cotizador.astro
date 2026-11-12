@@ -16,6 +16,7 @@ const data = {
   exams: items.map((i) => ({
     id: i.id,
     code: i.code,
+    noFonasa: i.noFonasa,
     name: i.name,
     official: i.official === i.name ? '' : i.official,
     lv: LEVELS.map((n) => (i.levels[n] ? [i.levels[n]!.total, i.levels[n]!.benef] : null)),
@@ -70,7 +71,7 @@ const data = {
 
 <script>
   type Lv = [number, number] | null;
-  type Exam = { id: string; code: string; name: string; official: string; lv: Lv[]; guide: string; slug: string; fasting: string; fastingRequired: boolean | null; urgent: string; stability: string; derivable: boolean | null; priced: boolean };
+  type Exam = { id: string; code: string; noFonasa: boolean; name: string; official: string; lv: Lv[]; guide: string; slug: string; fasting: string; fastingRequired: boolean | null; urgent: string; stability: string; derivable: boolean | null; priced: boolean };
   type Offer = { examId: string; provider: string; website: string; kind: string; subdivisions: string[]; regionalOnly: boolean; fonasaLevel: number; amount: number; verifiedAt: string };
   type Group = { provider: string; website: string; kind: string; fonasaLevel: number; items: Map<string, Offer>; subs: Set<string>; oldest: string };
 
@@ -242,6 +243,10 @@ const data = {
     fonasa.replaceChildren();
     if (!selected.length) return;
     const exams = selected.map((id) => examById.get(id)!);
+    if (exams.every((e) => e.noFonasa)) {
+      fonasa.append(h('h3', {}, 'Valor FONASA'), h('p', { class: 'notice' }, 'FONASA no valoriza estos exámenes en su arancel de Libre Elección: se pagan al precio del prestador, sin bono de FONASA. Algunas isapres pueden cubrirlos según tu plan.'));
+      return;
+    }
     fonasa.append(h('h3', {}, 'Valor de referencia FONASA'));
 
     const rows = [0, 1, 2].map((i) => {
@@ -292,7 +297,7 @@ const data = {
 
     const pool = poolOffers();
     if (!pool.some(visible)) {
-      results.append(h('p', { class: 'notice' }, 'Aún no tenemos precios de prestadores para estos exámenes. Usa el valor FONASA como referencia y consulta directamente al laboratorio o clínica.'));
+      results.append(h('p', { class: 'notice' }, selected.every((id) => examById.get(id)!.noFonasa) ? 'Aún no tenemos precios de prestadores para estos exámenes. Suelen procesarse en laboratorios de derivación: consulta directamente a un laboratorio o clínica y pregunta si lo toman y a qué valor.' : 'Aún no tenemos precios de prestadores para estos exámenes. Usa el valor FONASA como referencia y consulta directamente al laboratorio o clínica.'));
       return;
     }
 

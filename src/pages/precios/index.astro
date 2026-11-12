@@ -31,7 +31,7 @@ const sections = [...new Set(items.map((i) => i.section))].map((s) => ({
 
     <h2>Todos los exámenes ({items.length})</h2>
     <p class="muted prose">
-      Catálogo del Arancel MLE 2026 de FONASA, con su código oficial. {priced.size > 0 && `${priced.size} tienen precios de prestadores.`}
+      Catálogo del Arancel MLE 2026 de FONASA, con su código oficial, y {items.filter((i) => i.noFonasa).length} exámenes especializados que FONASA no valoriza (registrados desde el directorio de BKLAB). {priced.size > 0 && `${priced.size} tienen precios de prestadores.`}
     </p>
     {sections.map((s) => (
       <details class="exam-section">

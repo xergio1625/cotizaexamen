@@ -51,6 +51,8 @@ def slug(s):
 
 
 def norm_code(raw):
+    if re.fullmatch(r'sf-[a-z0-9-]+', raw.strip()):  # examen sin código FONASA (src/data/examenes-sin-fonasa.json)
+        return raw.strip()
     digits = re.sub(r'\D', '', raw)
     if len(digits) != 7:
         raise ValueError(f'código FONASA inválido: "{raw}"')
@@ -67,6 +69,9 @@ def main():
     a = ap.parse_args()
 
     valid_codes = {r['id'] for r in json.load(open(a.arancel, encoding='utf-8'))}
+    extra = ROOT / 'src' / 'data' / 'examenes-sin-fonasa.json'
+    if extra.exists():
+        valid_codes |= {r['id'] for r in json.load(open(extra, encoding='utf-8'))}
     errors, providers, atoms = [], {}, {}
     seen = set()
 

@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "sf-deoxymasa",
+  "code": "Sin código FONASA",
+  "official": "11 - Desoxicorticosterona por LC-MS/MS (BKLAB DEOXYMASA)",
+  "name": "11 - Desoxicorticosterona por LC-MS/MS",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-deocort",
+  "code": "Sin código FONASA",
+  "official": "11 - Desoxicortisol por LC-MS/MS (BKLAB DEOCORT)",
+  "name": "11 - Desoxicortisol por LC-MS/MS",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitd3masa",
+  "code": "Sin código FONASA",
+  "official": "25-OH-Vitamina D3 (Colecalciferol) (BKLAB VITD3MASA)",
+  "name": "25-OH-Vitamina D3 (Colecalciferol)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aminoporfo",
+  "code": "Sin código FONASA",
+  "official": "Acido Aminolevulinico - PorfobilinogenoRefrigerada (BKLAB AMINOPORFO)",
+  "name": "Acido Aminolevulinico - PorfobilinogenoRefrigerada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-biliares",
+  "code": "Sin código FONASA",
+  "official": "Acidos biliares totales (BKLAB BILIARES)",
+  "name": "Acidos biliares totales",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-arp",
+  "code": "Sin código FONASA",
+  "official": "Actividad de renina plasmática (cada una) (BKLAB ARP)",
+  "name": "Actividad de renina plasmática (cada una)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcradeno",
+  "code": "Sin código FONASA",
+  "official": "Adenovirus, detección por PCR-RT (BKLAB PCRADENO)",
+  "name": "Adenovirus, detección por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aldoo",
+  "code": "Sin código FONASA",
+  "official": "Aldosterona en orina (BKLAB ALDOO)",
+  "name": "Aldosterona en orina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aloa",
+  "code": "Sin código FONASA",
+  "official": "Aluminio en orina aislada (BKLAB ALOA)",
+  "name": "Aluminio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-alumasa",
+  "code": "Sin código FONASA",
+  "official": "Aluminio en suero (BKLAB ALUMASA)",
+  "name": "Aluminio en suero",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-amikacina",
+  "code": "Sin código FONASA",
+  "official": "Amikacina, nivel plasm tico (BKLAB AMIKACINA)",
+  "name": "Amikacina, nivel plasm tico",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aminc",
+  "code": "Sin código FONASA",
+  "official": "Aminoacidemia (BKLAB AMINC)",
+  "name": "Aminoacidemia",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-msud-conf",
+  "code": "Sin código FONASA",
+  "official": "Aminoacidos, panel MSUD en plasma (BKLAB MSUD-CONF)",
+  "name": "Aminoacidos, panel MSUD en plasma",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aminoc",
+  "code": "Sin código FONASA",
+  "official": "Aminoaciduria (BKLAB AMINOC)",
+  "name": "Aminoaciduria",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-msud",
+  "code": "Sin código FONASA",
+  "official": "Aminoácidos de Cadena Ramificadas (BCAA) (BKLAB MSUD)",
+  "name": "Aminoácidos de Cadena Ramificadas (BCAA)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aneuplo",
+  "code": "Sin código FONASA",
+  "official": "Aneuploidia PCR fluorescente de cromosomas 13,18,21,XeY (BKLAB ANEUPLO)",
+  "name": "Aneuploidia PCR fluorescente de cromosomas 13,18,21,XeY",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anfe",
+  "code": "Sin código FONASA",
+  "official": "Anfetamina, detección (BKLAB ANFE)",
+  "name": "Anfetamina, detección",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anfe-conf",
+  "code": "Sin código FONASA",
+  "official": "Anfetaminas en orina LC-MS/MS (Confirmatorio) (BKLAB ANFE-CONF)",
+  "name": "Anfetaminas en orina LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ascag",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti Saccaromyces cerevisiae, IgG (BKLAB ASCAG)",
+  "name": "Anticuerpos anti Saccaromyces cerevisiae, IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-asca",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti Saccharomyces cerevisiae IgA e IgG (BKLAB ASCA)",
+  "name": "Anticuerpos anti Saccharomyces cerevisiae IgA e IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-adl",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-Adalimumab (BKLAB ADL)",
+  "name": "Anticuerpos anti-Adalimumab",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mog",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-aquaporina 4 / MOG (BKLAB MOG)",
+  "name": "Anticuerpos anti-aquaporina 4 / MOG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acuamog",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos Anti-Aquaporina 4 Anti-MoG (BKLAB ACUAMOG)",
+  "name": "Anticuerpos Anti-Aquaporina 4 Anti-MoG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acuamoglcr",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-Aquaporina 4 Anti-MoG (BKLAB ACUAMOGLCR)",
+  "name": "Anticuerpos anti-Aquaporina 4 Anti-MoG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aparifacto",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos Anti-Celulas Parietales y Anti-Factor (BKLAB APARIFACTO)",
+  "name": "Anticuerpos Anti-Celulas Parietales y Anti-Factor",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antihmgcr",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-HMGCR (3-hidroxicoenzima A reductasa) (BKLAB ANTIHMGCR)",
+  "name": "Anticuerpos anti-HMGCR (3-hidroxicoenzima A reductasa)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-rnapoli3",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-RNA polimerasa III (BKLAB RNAPOLI3)",
+  "name": "Anticuerpos anti-RNA polimerasa III",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-glia",
+  "code": "Sin código FONASA",
+  "official": "Antigliadinas, anticuerpos IgA (BKLAB GLIA)",
+  "name": "Antigliadinas, anticuerpos IgA",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-glig",
+  "code": "Sin código FONASA",
+  "official": "Antigliadinas, anticuerpos IgG (BKLAB GLIG)",
+  "name": "Antigliadinas, anticuerpos IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antioa",
+  "code": "Sin código FONASA",
+  "official": "Antimonio en orina aisalda (BKLAB ANTIOA)",
+  "name": "Antimonio en orina aisalda",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-miast",
+  "code": "Sin código FONASA",
+  "official": "Antireceptor de Acetilcolina y Anti-Musk (BKLAB MIAST)",
+  "name": "Antireceptor de Acetilcolina y Anti-Musk",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-neumoco",
+  "code": "Sin código FONASA",
+  "official": "Antígeno de neumococo (BKLAB NEUMOCO)",
+  "name": "Antígeno de neumococo",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-psal",
+  "code": "Sin código FONASA",
+  "official": "Antígeno prostático específico libre (BKLAB PSAL)",
+  "name": "Antígeno prostático específico libre",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-legio",
+  "code": "Sin código FONASA",
+  "official": "Antígeno urinario de Legionella pneumophila (BKLAB LEGIO)",
+  "name": "Antígeno urinario de Legionella pneumophila",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-arsesangre",
+  "code": "Sin código FONASA",
+  "official": "Arsenico en sangre total (BKLAB ARSESANGRE)",
+  "name": "Arsenico en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-barbi-conf",
+  "code": "Sin código FONASA",
+  "official": "Barbituricos en orina por LC-MS/MS (Confirmatorio) (BKLAB BARBI-CONF)",
+  "name": "Barbituricos en orina por LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-barioa",
+  "code": "Sin código FONASA",
+  "official": "Bario en orina aislada (BKLAB BARIOA)",
+  "name": "Bario en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-barg",
+  "code": "Sin código FONASA",
+  "official": "Bartonella henselae, anticuerpos IgG (BKLAB BARG)",
+  "name": "Bartonella henselae, anticuerpos IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-barm",
+  "code": "Sin código FONASA",
+  "official": "Bartonella henselae, anticuerpos IgM (BKLAB BARM)",
+  "name": "Bartonella henselae, anticuerpos IgM",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-benzo-conf",
+  "code": "Sin código FONASA",
+  "official": "Benzodiazepinas en orina por LC-MS/MS (Confirmatorio) (BKLAB BENZO-CONF)",
+  "name": "Benzodiazepinas en orina por LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-benz",
+  "code": "Sin código FONASA",
+  "official": "Benzodiazepinas, detección (BKLAB BENZ)",
+  "name": "Benzodiazepinas, detección",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-berioa",
+  "code": "Sin código FONASA",
+  "official": "Berilio en orina aislada (BKLAB BERIOA)",
+  "name": "Berilio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-buti",
+  "code": "Sin código FONASA",
+  "official": "Beta hidroxibutirato (BKLAB BUTI)",
+  "name": "Beta hidroxibutirato",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bilid",
+  "code": "Sin código FONASA",
+  "official": "Bilirrubina directa (BKLAB BILID)",
+  "name": "Bilirrubina directa",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bilin",
+  "code": "Sin código FONASA",
+  "official": "Bilirrubina indirecta (BKLAB BILIN)",
+  "name": "Bilirrubina indirecta",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bismuoa",
+  "code": "Sin código FONASA",
+  "official": "Bismuto en orina aislada (BKLAB BISMUOA)",
+  "name": "Bismuto en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bog",
+  "code": "Sin código FONASA",
+  "official": "Bordetella pertussis toxinas, anticuerpos IgG (BKLAB BOG)",
+  "name": "Bordetella pertussis toxinas, anticuerpos IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bom",
+  "code": "Sin código FONASA",
+  "official": "Bordetella pertussis, anticuerpos IgM (BKLAB BOM)",
+  "name": "Bordetella pertussis, anticuerpos IgM",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-borrg",
+  "code": "Sin código FONASA",
+  "official": "Borrelia burgdorferi, anticuerpos IgG (BKLAB BORRG)",
+  "name": "Borrelia burgdorferi, anticuerpos IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-borrm",
+  "code": "Sin código FONASA",
+  "official": "Borrelia burgdorferi, anticuerpos IgM (BKLAB BORRM)",
+  "name": "Borrelia burgdorferi, anticuerpos IgM",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cuantikala",
+  "code": "Sin código FONASA",
+  "official": "Cadenas livianas libres, razón kappa/lambda (BKLAB CUANTIKALA)",
+  "name": "Cadenas livianas libres, razón kappa/lambda",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cadoa",
+  "code": "Sin código FONASA",
+  "official": "Cadmio en orina aislada (BKLAB CADOA)",
+  "name": "Cadmio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cadsangre",
+  "code": "Sin código FONASA",
+  "official": "Cadmio en sangre total (BKLAB CADSANGRE)",
+  "name": "Cadmio en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-campilo",
+  "code": "Sin código FONASA",
+  "official": "Campilobacter spp por PCR-RT (BKLAB CAMPILO)",
+  "name": "Campilobacter spp por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mari-conf",
+  "code": "Sin código FONASA",
+  "official": "Canabinoides (d9-THC) orina por LC-MS/MS (Confirmatorio (BKLAB MARI-CONF)",
+  "name": "Canabinoides (d9-THC) orina por LC-MS/MS (Confirmatorio",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrcandi",
+  "code": "Sin código FONASA",
+  "official": "Candida albicans por PCR-RT (BKLAB PCRCANDI)",
+  "name": "Candida albicans por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-carbapene",
+  "code": "Sin código FONASA",
+  "official": "Carbapenemasas, búsqueda por PCR en tiempo real (BKLAB CARBAPENE)",
+  "name": "Carbapenemasas, búsqueda por PCR en tiempo real",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cesiooa",
+  "code": "Sin código FONASA",
+  "official": "Cesio en orina aislada (BKLAB CESIOOA)",
+  "name": "Cesio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrclap",
+  "code": "Sin código FONASA",
+  "official": "Chlamydia pneumoniae por PCR-RT (BKLAB PCRCLAP)",
+  "name": "Chlamydia pneumoniae por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cistatina",
+  "code": "Sin código FONASA",
+  "official": "Cistatina C (BKLAB CISTATINA)",
+  "name": "Cistatina C",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrcitocv",
+  "code": "Sin código FONASA",
+  "official": "Citomegalovirus, carga viral por PCR-RT (BKLAB PCRCITOCV)",
+  "name": "Citomegalovirus, carga viral por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-citrato",
+  "code": "Sin código FONASA",
+  "official": "Citrato en orina (BKLAB CITRATO)",
+  "name": "Citrato en orina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-citratoa",
+  "code": "Sin código FONASA",
+  "official": "Citrato en orina aislada (BKLAB CITRATOA)",
+  "name": "Citrato en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrclo",
+  "code": "Sin código FONASA",
+  "official": "Clostridium difficile por PCR-RT (BKLAB PCRCLO)",
+  "name": "Clostridium difficile por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cooa",
+  "code": "Sin código FONASA",
+  "official": "Cobalto en orina aislada (BKLAB COOA)",
+  "name": "Cobalto en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cobasangre",
+  "code": "Sin código FONASA",
+  "official": "Cobalto en sangre total (BKLAB COBASANGRE)",
+  "name": "Cobalto en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-coca-conf",
+  "code": "Sin código FONASA",
+  "official": "Cocaina (benzoilecgonina) en orina por LC-MS/MS (Confirmatorio) (BKLAB COCA-CONF)",
+  "name": "Cocaina (benzoilecgonina) en orina por LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-coca",
+  "code": "Sin código FONASA",
+  "official": "Cocaína, detección (BKLAB COCA)",
+  "name": "Cocaína, detección",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-colldl",
+  "code": "Sin código FONASA",
+  "official": "Colesterol LDL (BKLAB COLLDL)",
+  "name": "Colesterol LDL",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-colvldl",
+  "code": "Sin código FONASA",
+  "official": "Colesterol VLDL (BKLAB COLVLDL)",
+  "name": "Colesterol VLDL",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-corticoste",
+  "code": "Sin código FONASA",
+  "official": "Corticosterona (BKLAB CORTICOSTE)",
+  "name": "Corticosterona",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-corto",
+  "code": "Sin código FONASA",
+  "official": "Cortisol en orina (BKLAB CORTO)",
+  "name": "Cortisol en orina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cortoa",
+  "code": "Sin código FONASA",
+  "official": "Cortisol en orina aislada (BKLAB CORTOA)",
+  "name": "Cortisol en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cortisona",
+  "code": "Sin código FONASA",
+  "official": "Cortisona por LC-MS/MS (BKLAB CORTISONA)",
+  "name": "Cortisona por LC-MS/MS",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-azuc",
+  "code": "Sin código FONASA",
+  "official": "Cromatografía de azúcares, cualitativa (BKLAB AZUC)",
+  "name": "Cromatografía de azúcares, cualitativa",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-oligo",
+  "code": "Sin código FONASA",
+  "official": "Cromatografía de oligosacáridos, cualitativa (BKLAB OLIGO)",
+  "name": "Cromatografía de oligosacáridos, cualitativa",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-11-deomasa",
+  "code": "Sin código FONASA",
+  "official": "Cromatografía líquida/tandem masas (LC-MS/MS) (BKLAB 11-DEOMASA)",
+  "name": "Cromatografía líquida/tandem masas (LC-MS/MS)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cromoa",
+  "code": "Sin código FONASA",
+  "official": "Cromo en orina aislada (BKLAB CROMOA)",
+  "name": "Cromo en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cromsangre",
+  "code": "Sin código FONASA",
+  "official": "Cromo en sangre total (BKLAB CROMSANGRE)",
+  "name": "Cromo en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cromomasa",
+  "code": "Sin código FONASA",
+  "official": "Cromo en suero (BKLAB CROMOMASA)",
+  "name": "Cromo en suero",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cromogra",
+  "code": "Sin código FONASA",
+  "official": "Cromogranina A (BKLAB CROMOGRA)",
+  "name": "Cromogranina A",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrcrypto",
+  "code": "Sin código FONASA",
+  "official": "Cryptococcus neoformans por PCR-RT (BKLAB PCRCRYPTO)",
+  "name": "Cryptococcus neoformans por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-toxi10",
+  "code": "Sin código FONASA",
+  "official": "Cuantificaci¢n 10 drogas por LC-MS/MS (BKLAB TOXI10)",
+  "name": "Cuantificaci¢n 10 drogas por LC-MS/MS",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-toxilab",
+  "code": "Sin código FONASA",
+  "official": "Cuantificaci¢n 108 drogas por LC-MS/MS (BKLAB TOXILAB)",
+  "name": "Cuantificaci¢n 108 drogas por LC-MS/MS",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-glucano",
+  "code": "Sin código FONASA",
+  "official": "Detección (1,3) - B,D-Glucano (BKLAB GLUCANO)",
+  "name": "Detección (1,3) - B,D-Glucano",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pap",
+  "code": "Sin código FONASA",
+  "official": "Diagnóstico citológico cervico-vaginal, PAP (BKLAB PAP)",
+  "name": "Diagnóstico citológico cervico-vaginal, PAP",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-papliq",
+  "code": "Sin código FONASA",
+  "official": "Diagnóstico citológico cervico-vaginal, PAP (BKLAB PAPLIQ)",
+  "name": "Diagnóstico citológico cervico-vaginal, PAP",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-dht",
+  "code": "Sin código FONASA",
+  "official": "Dihidrotestosterona (BKLAB DHT)",
+  "name": "Dihidrotestosterona",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-dhtmasa",
+  "code": "Sin código FONASA",
+  "official": "Dihidrotestosterona por LC-MS/MS (BKLAB DHTMASA)",
+  "name": "Dihidrotestosterona por LC-MS/MS",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-dimero",
+  "code": "Sin código FONASA",
+  "official": "Dímero D (BKLAB DIMERO)",
+  "name": "Dímero D",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-encefalcr",
+  "code": "Sin código FONASA",
+  "official": "Encefalitis autoinmune en LCR, panel (BKLAB ENCEFALCR)",
+  "name": "Encefalitis autoinmune en LCR, panel",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-encefas",
+  "code": "Sin código FONASA",
+  "official": "Encefalitis autoinmune en suero, panel (BKLAB ENCEFAS)",
+  "name": "Encefalitis autoinmune en suero, panel",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrebac",
+  "code": "Sin código FONASA",
+  "official": "Enterobacterias por PCR-RT (BKLAB PCREBAC)",
+  "name": "Enterobacterias por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrent",
+  "code": "Sin código FONASA",
+  "official": "Enterovirus por PCR-RT (BKLAB PCRENT)",
+  "name": "Enterovirus por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcreb",
+  "code": "Sin código FONASA",
+  "official": "Epstein-Barr virus, detección por PCR-RT (BKLAB PCREB)",
+  "name": "Epstein-Barr virus, detección por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-arsesp",
+  "code": "Sin código FONASA",
+  "official": "Especiación de arsénico en orina aislada (BKLAB ARSESP)",
+  "name": "Especiación de arsénico en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estanooa",
+  "code": "Sin código FONASA",
+  "official": "Estaño en orina aislada (BKLAB ESTAÑOOA)",
+  "name": "Estaño en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estriol",
+  "code": "Sin código FONASA",
+  "official": "Estriol no conjugado (BKLAB ESTRIOL)",
+  "name": "Estriol no conjugado",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estro",
+  "code": "Sin código FONASA",
+  "official": "Estrona (BKLAB ESTRO)",
+  "name": "Estrona",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estronoa",
+  "code": "Sin código FONASA",
+  "official": "Estroncio en orina aislada (BKLAB ESTRONOA)",
+  "name": "Estroncio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ganci",
+  "code": "Sin código FONASA",
+  "official": "Estudio de resistencia ganciclovir (UL97) (BKLAB GANCI)",
+  "name": "Estudio de resistencia ganciclovir (UL97)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-complejofw",
+  "code": "Sin código FONASA",
+  "official": "Estudio del Complejo del Factor von Willebrand (BKLAB COMPLEJOFW)",
+  "name": "Estudio del Complejo del Factor von Willebrand",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pgx-82",
+  "code": "Sin código FONASA",
+  "official": "Estudio Farmacogen¢mico CPIC-FDA (82 genes) (BKLAB PGX-82)",
+  "name": "Estudio Farmacogen¢mico CPIC-FDA (82 genes)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panelhrr23",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético de 23 genes (HRR) en biopsia liquida (BKLAB PANELHRR23)",
+  "name": "Estudio genético de 23 genes (HRR) en biopsia liquida",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-brcager",
+  "code": "Sin código FONASA",
+  "official": "Estudio Genético del Gen BRCA 1/2 (BKLAB BRCAGER)",
+  "name": "Estudio Genético del Gen BRCA 1/2",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-llc",
+  "code": "Sin código FONASA",
+  "official": "Estudio Genético Leucemia Linfocítaria Crónica (BKLAB LLC)",
+  "name": "Estudio Genético Leucemia Linfocítaria Crónica",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-oncopanel",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular de 113 genes (BKLAB ONCOPANEL)",
+  "name": "Estudio genético molecular de 113 genes",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hotspot",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular de 50 genes (BKLAB HOTSPOT)",
+  "name": "Estudio genético molecular de 50 genes",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-focuspanel",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular de 52 genes (BKLAB FOCUSPANEL)",
+  "name": "Estudio genético molecular de 52 genes",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tso500",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular de 523 genes (BKLAB TSO500)",
+  "name": "Estudio genético molecular de 523 genes",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-oncotejido",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular de 71 genes (BKLAB ONCOTEJIDO)",
+  "name": "Estudio genético molecular de 71 genes",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-brca",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular del gen BRCA 1/2 (BKLAB BRCA)",
+  "name": "Estudio genético molecular del gen BRCA 1/2",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-egfr",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular del gen EGFR (BKLAB EGFR)",
+  "name": "Estudio genético molecular del gen EGFR",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-kras",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular del gen KRAS-BRAF-NRAS (BKLAB KRAS)",
+  "name": "Estudio genético molecular del gen KRAS-BRAF-NRAS",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-extas-conf",
+  "code": "Sin código FONASA",
+  "official": "Extasis (MDMA) en orina por LC-MS/MS (Confirmatorio) (BKLAB EXTAS-CONF)",
+  "name": "Extasis (MDMA) en orina por LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fii",
+  "code": "Sin código FONASA",
+  "official": "Factor II protrombina 20210 G>A (BKLAB FII)",
+  "name": "Factor II protrombina 20210 G>A",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fv-r",
+  "code": "Sin código FONASA",
+  "official": "Factor V (BKLAB FV-R)",
+  "name": "Factor V",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fx",
+  "code": "Sin código FONASA",
+  "official": "Factor X (BKLAB FX)",
+  "name": "Factor X",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcp-conf",
+  "code": "Sin código FONASA",
+  "official": "Fenciclidina (PCP) orina por LC-MS/MS (Confirmatorio) (BKLAB PCP-CONF)",
+  "name": "Fenciclidina (PCP) orina por LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-elf",
+  "code": "Sin código FONASA",
+  "official": "Fibrosis hepatica Fibrosis hep tF) (BKLAB ELF)",
+  "name": "Fibrosis hepatica Fibrosis hep tF)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fibroquis",
+  "code": "Sin código FONASA",
+  "official": "Fibrosis qu¡stica, panel 50 mutaciones (BKLAB FIBROQUIS)",
+  "name": "Fibrosis qu¡stica, panel 50 mutaciones",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fosfac",
+  "code": "Sin código FONASA",
+  "official": "Fosfatasa ácida total (BKLAB FOSFAC)",
+  "name": "Fosfatasa ácida total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fosfolipid",
+  "code": "Sin código FONASA",
+  "official": "Fosfolípidos (BKLAB FOSFOLIPID)",
+  "name": "Fosfolípidos",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrgar",
+  "code": "Sin código FONASA",
+  "official": "Gardenella vaginalis por PCR-RT (BKLAB PCRGAR)",
+  "name": "Gardenella vaginalis por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrhaemo",
+  "code": "Sin código FONASA",
+  "official": "Haemophilus influenzae por PCR-RT (BKLAB PCRHAEMO)",
+  "name": "Haemophilus influenzae por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrheli",
+  "code": "Sin código FONASA",
+  "official": "Helicobacter pylori por PCR-RT (BKLAB PCRHELI)",
+  "name": "Helicobacter pylori por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-helig",
+  "code": "Sin código FONASA",
+  "official": "Helicobacter pylori, anticuerpos IgG (BKLAB HELIG)",
+  "name": "Helicobacter pylori, anticuerpos IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hemocro",
+  "code": "Sin código FONASA",
+  "official": "Hemocromatosis, estudio genético molecular (BKLAB HEMOCRO)",
+  "name": "Hemocromatosis, estudio genético molecular",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antihbs",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis B, anticuerpos anti antígeno (BKLAB ANTIHBS)",
+  "name": "Hepatitis B, anticuerpos anti antígeno",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrhepb",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis B, detección por PCR-RT (BKLAB PCRHEPB)",
+  "name": "Hepatitis B, detección por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepaeg",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis E, anticuerpos IgG (BKLAB HEPAEG)",
+  "name": "Hepatitis E, anticuerpos IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepaem",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis E, anticuerpos IgM (BKLAB HEPAEM)",
+  "name": "Hepatitis E, anticuerpos IgM",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-homa",
+  "code": "Sin código FONASA",
+  "official": "HOMA (modelo de evaluación homeostática) (BKLAB HOMA)",
+  "name": "HOMA (modelo de evaluación homeostática)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-msi",
+  "code": "Sin código FONASA",
+  "official": "Inestabilidad microsatelital (MSI) (BKLAB MSI)",
+  "name": "Inestabilidad microsatelital (MSI)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cuantiflix",
+  "code": "Sin código FONASA",
+  "official": "Infliximab, nivel plasm tico (BKLAB CUANTIFLIX)",
+  "name": "Infliximab, nivel plasm tico",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-h1n1",
+  "code": "Sin código FONASA",
+  "official": "Influenza A H1N1 por PCR-RT (BKLAB H1N1)",
+  "name": "Influenza A H1N1 por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-h3n2",
+  "code": "Sin código FONASA",
+  "official": "Influenza A H3N2 por PCR-RT (BKLAB H3N2)",
+  "name": "Influenza A H3N2 por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mega22",
+  "code": "Sin código FONASA",
+  "official": "Inmunoglobulina E específica, panel 22 alérgenos (BKLAB MEGA22)",
+  "name": "Inmunoglobulina E específica, panel 22 alérgenos",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel35",
+  "code": "Sin código FONASA",
+  "official": "Inmunoglobulina E específica, panel 35 alérgenos (BKLAB PANEL35)",
+  "name": "Inmunoglobulina E específica, panel 35 alérgenos",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pchile35",
+  "code": "Sin código FONASA",
+  "official": "Inmunoglobulina E específica, panel Chile (BKLAB PCHILE35)",
+  "name": "Inmunoglobulina E específica, panel Chile",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-il6",
+  "code": "Sin código FONASA",
+  "official": "Interleukina humana 6 (IL6) (BKLAB IL6)",
+  "name": "Interleukina humana 6 (IL6)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ketam-conf",
+  "code": "Sin código FONASA",
+  "official": "Ketamina en orina por LC-MS/MS (Confirmatorio) (BKLAB KETAM-CONF)",
+  "name": "Ketamina en orina por LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrlegio",
+  "code": "Sin código FONASA",
+  "official": "Legionella spp. por PCR-RT (BKLAB PCRLEGIO)",
+  "name": "Legionella spp. por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-leuaguda",
+  "code": "Sin código FONASA",
+  "official": "Leucemia Aguda (BKLAB LEUAGUDA)",
+  "name": "Leucemia Aguda",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-lipoa",
+  "code": "Sin código FONASA",
+  "official": "Lipoproteina A (BKLAB LIPOA)",
+  "name": "Lipoproteina A",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrliste",
+  "code": "Sin código FONASA",
+  "official": "Listeria monocytogenes por PCR-RT (BKLAB PCRLISTE)",
+  "name": "Listeria monocytogenes por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-lip",
+  "code": "Sin código FONASA",
+  "official": "Lípidos totales (BKLAB LIP)",
+  "name": "Lípidos totales",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mgo",
+  "code": "Sin código FONASA",
+  "official": "Magnesio en orina (BKLAB MGO)",
+  "name": "Magnesio en orina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mgoa",
+  "code": "Sin código FONASA",
+  "official": "Magnesio en orina aislada (BKLAB MGOA)",
+  "name": "Magnesio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mangao",
+  "code": "Sin código FONASA",
+  "official": "Manganeso en orina (BKLAB MANGAO)",
+  "name": "Manganeso en orina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mangaoa",
+  "code": "Sin código FONASA",
+  "official": "Manganeso en orina aislada (BKLAB MANGAOA)",
+  "name": "Manganeso en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mangsangre",
+  "code": "Sin código FONASA",
+  "official": "Manganeso en sangre total (BKLAB MANGSANGRE)",
+  "name": "Manganeso en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mangamasa",
+  "code": "Sin código FONASA",
+  "official": "Manganeso en suero (BKLAB MANGAMASA)",
+  "name": "Manganeso en suero",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-thc",
+  "code": "Sin código FONASA",
+  "official": "Marihuana (delta 9 THC) (BKLAB THC)",
+  "name": "Marihuana (delta 9 THC)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antifxa",
+  "code": "Sin código FONASA",
+  "official": "Medici¢n de actividad anti-Factor X (FXA) (BKLAB ANTIFXA)",
+  "name": "Medici¢n de actividad anti-Factor X (FXA)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mercuoa",
+  "code": "Sin código FONASA",
+  "official": "Mercurio en orina aislada (BKLAB MERCUOA)",
+  "name": "Mercurio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mercsangre",
+  "code": "Sin código FONASA",
+  "official": "Mercurio en sangre total (BKLAB MERCSANGRE)",
+  "name": "Mercurio en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metafw",
+  "code": "Sin código FONASA",
+  "official": "Metaloproteinasa del FW, actividad (BKLAB METAFW)",
+  "name": "Metaloproteinasa del FW, actividad",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metalibre",
+  "code": "Sin código FONASA",
+  "official": "Metanefrinas libres en plasma (BKLAB METALIBRE)",
+  "name": "Metanefrinas libres en plasma",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-meta-conf",
+  "code": "Sin código FONASA",
+  "official": "Metanfetaminas en orina LC-MS/MS (Confirmatorio) (BKLAB META-CONF)",
+  "name": "Metanfetaminas en orina LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metrotexa",
+  "code": "Sin código FONASA",
+  "official": "Metotrexato, nivel plasm tico (BKLAB METROTEXA)",
+  "name": "Metotrexato, nivel plasm tico",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-molioa",
+  "code": "Sin código FONASA",
+  "official": "Molibdeno en orina aislada (BKLAB MOLIOA)",
+  "name": "Molibdeno en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacionc6",
+  "code": "Sin código FONASA",
+  "official": "Mutacion 677C>T y 1298A>T del gen MTHFR (BKLAB MUTACIONC6)",
+  "name": "Mutacion 677C>T y 1298A>T del gen MTHFR",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-jak2",
+  "code": "Sin código FONASA",
+  "official": "Mutaciones gen JAK2 (BKLAB JAK2)",
+  "name": "Mutaciones gen JAK2",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrmicoge",
+  "code": "Sin código FONASA",
+  "official": "Mycoplasma genitalium por PCR-RT (BKLAB PCRMICOGE)",
+  "name": "Mycoplasma genitalium por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrmicoh",
+  "code": "Sin código FONASA",
+  "official": "Mycoplasma hominis por PCR-RT (BKLAB PCRMICOH)",
+  "name": "Mycoplasma hominis por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrmicp",
+  "code": "Sin código FONASA",
+  "official": "Mycoplasma pneumoniae por PCR-RT (BKLAB PCRMICP)",
+  "name": "Mycoplasma pneumoniae por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niqoa",
+  "code": "Sin código FONASA",
+  "official": "Niquel en orina aislada (BKLAB NIQOA)",
+  "name": "Niquel en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-opi-conf",
+  "code": "Sin código FONASA",
+  "official": "Opiaceos en orina por LC-MS/MS (Confirmatorio) (BKLAB OPI-CONF)",
+  "name": "Opiaceos en orina por LC-MS/MS (Confirmatorio)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-opi",
+  "code": "Sin código FONASA",
+  "official": "Opiáceos, detección (BKLAB OPI)",
+  "name": "Opiáceos, detección",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-oxalato",
+  "code": "Sin código FONASA",
+  "official": "Oxalato en orina (BKLAB OXALATO)",
+  "name": "Oxalato en orina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-oxalatoa",
+  "code": "Sin código FONASA",
+  "official": "Oxalato en orina aislada (BKLAB OXALATOA)",
+  "name": "Oxalato en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ana23",
+  "code": "Sin código FONASA",
+  "official": "Panel ANA 23, auto anticuerpos tipo IgG (BKLAB ANA23)",
+  "name": "Panel ANA 23, auto anticuerpos tipo IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrbagasr",
+  "code": "Sin código FONASA",
+  "official": "Panel bacteriano gastroenteritis (BKLAB PCRBAGASR)",
+  "name": "Panel bacteriano gastroenteritis",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panelcandi",
+  "code": "Sin código FONASA",
+  "official": "Panel Candida albicans (ETS) por PCR-RT (BKLAB PANELCANDI)",
+  "name": "Panel Candida albicans (ETS) por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hipogli",
+  "code": "Sin código FONASA",
+  "official": "Panel de hipoglicemias (BKLAB HIPOGLI)",
+  "name": "Panel de hipoglicemias",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrhongos",
+  "code": "Sin código FONASA",
+  "official": "Panel dermatomicosis (BKLAB PCRHONGOS)",
+  "name": "Panel dermatomicosis",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pembplus",
+  "code": "Sin código FONASA",
+  "official": "Panel embarazada plus por PCR-RT (BKLAB PEMBPLUS)",
+  "name": "Panel embarazada plus por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panelemb",
+  "code": "Sin código FONASA",
+  "official": "Panel embarazada por PCR-RT (BKLAB PANELEMB)",
+  "name": "Panel embarazada por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panelsti",
+  "code": "Sin código FONASA",
+  "official": "Panel enfermedades de transmisión sexual por PCR-RT (BKLAB PANELSTI)",
+  "name": "Panel enfermedades de transmisión sexual por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panelsti14",
+  "code": "Sin código FONASA",
+  "official": "Panel ETS 14 patógenos por PCR-RT (BKLAB PANELSTI14)",
+  "name": "Panel ETS 14 patógenos por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ganglig",
+  "code": "Sin código FONASA",
+  "official": "Panel Gangliosidos, anticuerpos tipo IgG (BKLAB GANGLIG)",
+  "name": "Panel Gangliosidos, anticuerpos tipo IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ganglim",
+  "code": "Sin código FONASA",
+  "official": "Panel Gangliosidos, anticuerpos tipo IgM (BKLAB GANGLIM)",
+  "name": "Panel Gangliosidos, anticuerpos tipo IgM",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-gastro15r",
+  "code": "Sin código FONASA",
+  "official": "Panel gastroenteritis bacteriana - parasitaria - viral (BKLAB GASTRO15R)",
+  "name": "Panel gastroenteritis bacteriana - parasitaria - viral",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrgastror",
+  "code": "Sin código FONASA",
+  "official": "Panel gastroenteritis bacteriana - viral (BKLAB PCRGASTROR)",
+  "name": "Panel gastroenteritis bacteriana - viral",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tssnc",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Cerebro y Sistema Nervioso (BKLAB TSSNC)",
+  "name": "Panel Genético Ca Cerebro y Sistema Nervioso",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tscolon",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Colon (BKLAB TSCOLON)",
+  "name": "Panel Genético Ca Colon",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsgast",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Gástrico (BKLAB TSGAST)",
+  "name": "Panel Genético Ca Gástrico",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsmamaov",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Mama/Ovario (BKLAB TSMAMAOV)",
+  "name": "Panel Genético Ca Mama/Ovario",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsprost",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Próstata (BKLAB TSPROST)",
+  "name": "Panel Genético Ca Próstata",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tspancr",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Páncreas (BKLAB TSPANCR)",
+  "name": "Panel Genético Ca Páncreas",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsrenalu",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Renal y Vías Urinarias (BKLAB TSRENALU)",
+  "name": "Panel Genético Ca Renal y Vías Urinarias",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tstiro",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Tiroides (BKLAB TSTIRO)",
+  "name": "Panel Genético Ca Tiroides",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsutero",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Ca Útero (BKLAB TSUTERO)",
+  "name": "Panel Genético Ca Útero",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsgist",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético GIST (BKLAB TSGIST)",
+  "name": "Panel Genético GIST",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsmela",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Melanoma (BKLAB TSMELA)",
+  "name": "Panel Genético Melanoma",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsprostger",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Próstata (BKLAB TSPROSTGER)",
+  "name": "Panel Genético Próstata",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tssarco",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Sarcoma (BKLAB TSSARCO)",
+  "name": "Panel Genético Sarcoma",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsswan",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Schwannomatosis Hereditaria (BKLAB TSSWAN)",
+  "name": "Panel Genético Schwannomatosis Hereditaria",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tsendo",
+  "code": "Sin código FONASA",
+  "official": "Panel Genético Tumor NeuroEndocrino (BKLAB TSENDO)",
+  "name": "Panel Genético Tumor NeuroEndocrino",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepapanel",
+  "code": "Sin código FONASA",
+  "official": "Panel Hepatitis Autoinmune (10 Ag) (BKLAB HEPAPANEL+)",
+  "name": "Panel Hepatitis Autoinmune (10 Ag)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepapanel-2",
+  "code": "Sin código FONASA",
+  "official": "Panel Hepatitis Autoinmune (9 Ag) (BKLAB HEPAPANEL)",
+  "name": "Panel Hepatitis Autoinmune (9 Ag)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bk11r",
+  "code": "Sin código FONASA",
+  "official": "Panel Herpex BK11 (BKLAB BK11R)",
+  "name": "Panel Herpex BK11",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrbacmen",
+  "code": "Sin código FONASA",
+  "official": "Panel meningitis bacteriana por PCR-RT (BKLAB PCRBACMEN)",
+  "name": "Panel meningitis bacteriana por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-menir",
+  "code": "Sin código FONASA",
+  "official": "Panel Meningitis/ Encefalitis (BKLAB MENIR)",
+  "name": "Panel Meningitis/ Encefalitis",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-miositis16",
+  "code": "Sin código FONASA",
+  "official": "Panel miositis 16, auto anticuerpos tipo IgG (BKLAB MIOSITIS16)",
+  "name": "Panel miositis 16, auto anticuerpos tipo IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-neuro12",
+  "code": "Sin código FONASA",
+  "official": "Panel Paraneoplásico 12 Ag (IgG (BKLAB NEURO12)",
+  "name": "Panel Paraneoplásico 12 Ag (IgG",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pvaginal",
+  "code": "Sin código FONASA",
+  "official": "Panel patógenos vaginales (ETS) por PCR-RT (BKLAB PVAGINAL)",
+  "name": "Panel patógenos vaginales (ETS) por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bk9",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio BK9 (BKLAB BK9)",
+  "name": "Panel respiratorio BK9",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bk16",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio, 16 virus por PCR-RT (BKLAB BK16)",
+  "name": "Panel respiratorio, 16 virus por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bk16plus",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio, 18 virus por PCR-RT (BKLAB BK16PLUS)",
+  "name": "Panel respiratorio, 18 virus por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bk24",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio, 24 virus por PCR-RT (BKLAB BK24)",
+  "name": "Panel respiratorio, 24 virus por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-prb6",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio, 6 bacterias por PCR-RT (BKLAB PRB6)",
+  "name": "Panel respiratorio, 6 bacterias por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrvigasr",
+  "code": "Sin código FONASA",
+  "official": "Panel Viral Gastroenteritis (BKLAB PCRVIGASR)",
+  "name": "Panel Viral Gastroenteritis",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrvimenar",
+  "code": "Sin código FONASA",
+  "official": "Panel Viral Meningitis (BKLAB PCRVIMENAR)",
+  "name": "Panel Viral Meningitis",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrparv",
+  "code": "Sin código FONASA",
+  "official": "Parvovirus B19 por PCR-RT (BKLAB PCRPARV)",
+  "name": "Parvovirus B19 por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sordera",
+  "code": "Sin código FONASA",
+  "official": "Perdida de la audicion no-sordera Mitocondrial (BKLAB SORDERA)",
+  "name": "Perdida de la audicion no-sordera Mitocondrial",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pneo",
+  "code": "Sin código FONASA",
+  "official": "Perfil ampliado neonatal (BKLAB PNEO)",
+  "name": "Perfil ampliado neonatal",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-platioa",
+  "code": "Sin código FONASA",
+  "official": "Platino en orina aislada (BKLAB PLATIOA)",
+  "name": "Platino en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-plooa",
+  "code": "Sin código FONASA",
+  "official": "Plomo en orina aislada (BKLAB PLOOA)",
+  "name": "Plomo en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrjiro",
+  "code": "Sin código FONASA",
+  "official": "Pneumocystis jirovecii (carinii) por PCR-RT (BKLAB PCRJIRO)",
+  "name": "Pneumocystis jirovecii (carinii) por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-porfoa",
+  "code": "Sin código FONASA",
+  "official": "Porfobilin¢geno en orina aislada (BKLAB PORFOA)",
+  "name": "Porfobilin¢geno en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-porfo",
+  "code": "Sin código FONASA",
+  "official": "Porfobilinógeno en orina 24 horas (BKLAB PORFO)",
+  "name": "Porfobilinógeno en orina 24 horas",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-protecc",
+  "code": "Sin código FONASA",
+  "official": "Proteina C, coagulación (BKLAB PROTECC)",
+  "name": "Proteina C, coagulación",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tau",
+  "code": "Sin código FONASA",
+  "official": "Proteína pTau217, Marcador de Alzheimer (BKLAB TAU)",
+  "name": "Proteína pTau217, Marcador de Alzheimer",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-interleu2",
+  "code": "Sin código FONASA",
+  "official": "Receptor soluble Interleukina - 2 (sCD25) (BKLAB INTERLEU2)",
+  "name": "Receptor soluble Interleukina - 2 (sCD25)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sat",
+  "code": "Sin código FONASA",
+  "official": "Saturación del hierro (BKLAB SAT%)",
+  "name": "Saturación del hierro",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-qnatal",
+  "code": "Sin código FONASA",
+  "official": "Screening prenatal, Quest Diagnostics (BKLAB QNATAL)",
+  "name": "Screening prenatal, Quest Diagnostics",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-selesangre",
+  "code": "Sin código FONASA",
+  "official": "Selenio en sangre total (BKLAB SELESANGRE)",
+  "name": "Selenio en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-selemasa",
+  "code": "Sin código FONASA",
+  "official": "Selenio en suero (BKLAB SELEMASA)",
+  "name": "Selenio en suero",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-charcot",
+  "code": "Sin código FONASA",
+  "official": "Sindrome de Charcot Marie Tooth (BKLAB CHARCOT)",
+  "name": "Sindrome de Charcot Marie Tooth",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-leopard",
+  "code": "Sin código FONASA",
+  "official": "Sindrome de Leopard Gen PTPN11 Exones 7,12,13 (BKLAB LEOPARD)",
+  "name": "Sindrome de Leopard Gen PTPN11 Exones 7,12,13",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-microdel",
+  "code": "Sin código FONASA",
+  "official": "Sindrome por Microdeleci¢n /Microduplicaci¢n (BKLAB MICRODEL)",
+  "name": "Sindrome por Microdeleci¢n /Microduplicaci¢n",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrstrep",
+  "code": "Sin código FONASA",
+  "official": "Streptococcus grupo B (Agalactiae) por PCR-RT (BKLAB PCRSTREP)",
+  "name": "Streptococcus grupo B (Agalactiae) por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrstneumo",
+  "code": "Sin código FONASA",
+  "official": "Streptococcus pneumoniae por PCR-RT (BKLAB PCRSTNEUMO)",
+  "name": "Streptococcus pneumoniae por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-prader",
+  "code": "Sin código FONASA",
+  "official": "S¡ndrome Angelman, Prader-Willi (BKLAB PRADER)",
+  "name": "S¡ndrome Angelman, Prader-Willi",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrxfra",
+  "code": "Sin código FONASA",
+  "official": "Síndrome X-Frágil (BKLAB PCRXFRA)",
+  "name": "Síndrome X-Frágil",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-taloa",
+  "code": "Sin código FONASA",
+  "official": "Talio en orina aislada (BKLAB TALOA)",
+  "name": "Talio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-talisangre",
+  "code": "Sin código FONASA",
+  "official": "Talio en sangre total (BKLAB TALISANGRE)",
+  "name": "Talio en sangre total",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-avidez",
+  "code": "Sin código FONASA",
+  "official": "Test de avidez de IgG anti - citomegalovirus (BKLAB AVIDEZ)",
+  "name": "Test de avidez de IgG anti - citomegalovirus",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-coomt",
+  "code": "Sin código FONASA",
+  "official": "Test de Coombs Directo (BKLAB COOMT)",
+  "name": "Test de Coombs Directo",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-coomi",
+  "code": "Sin código FONASA",
+  "official": "Test de Coombs Indirecto (BKLAB COOMI)",
+  "name": "Test de Coombs Indirecto",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-intol",
+  "code": "Sin código FONASA",
+  "official": "Test de Intolerancia Alimentaria (BKLAB INTOL)",
+  "name": "Test de Intolerancia Alimentaria",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-paternidad",
+  "code": "Sin código FONASA",
+  "official": "Test de paternidad (BKLAB PATERNIDAD)",
+  "name": "Test de paternidad",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-lactogen",
+  "code": "Sin código FONASA",
+  "official": "Test Genetico, Intoleracia a la Lactosa por PCR-RT (BKLAB LACTOGEN)",
+  "name": "Test Genetico, Intoleracia a la Lactosa por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-protom",
+  "code": "Sin código FONASA",
+  "official": "Tiempo de Protrombina /Actividad / INR (BKLAB PROTOM)",
+  "name": "Tiempo de Protrombina /Actividad / INR",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ttpa",
+  "code": "Sin código FONASA",
+  "official": "Tiempo de Tromboplastina (BKLAB TTPA)",
+  "name": "Tiempo de Tromboplastina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hlab51",
+  "code": "Sin código FONASA",
+  "official": "Tipificaci¢n Molecular HLA-b 51 (BKLAB HLAB51)",
+  "name": "Tipificaci¢n Molecular HLA-b 51",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrtoxo",
+  "code": "Sin código FONASA",
+  "official": "Toxoplasma gondii por PCR-RT (BKLAB PCRTOXO)",
+  "name": "Toxoplasma gondii por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrfta",
+  "code": "Sin código FONASA",
+  "official": "Treponema pallidum por PCR-RT (BKLAB PCRFTA)",
+  "name": "Treponema pallidum por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrtricho",
+  "code": "Sin código FONASA",
+  "official": "Trichomonas vaginalis por PCR-RT (BKLAB PCRTRICHO)",
+  "name": "Trichomonas vaginalis por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tripsina",
+  "code": "Sin código FONASA",
+  "official": "Tripsina inmunoreactiva (BKLAB TRIPSINA)",
+  "name": "Tripsina inmunoreactiva",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-triptasa",
+  "code": "Sin código FONASA",
+  "official": "Triptasa (BKLAB TRIPTASA)",
+  "name": "Triptasa",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tungoa",
+  "code": "Sin código FONASA",
+  "official": "Tungsteno en orina aislada (BKLAB TUNGOA)",
+  "name": "Tungsteno en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-uraniooa",
+  "code": "Sin código FONASA",
+  "official": "Uranio en orina aislada (BKLAB URANIOOA)",
+  "name": "Uranio en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrure",
+  "code": "Sin código FONASA",
+  "official": "Ureaplasma spp. (parvum/urealyticum) por PCR-RT (BKLAB PCRURE)",
+  "name": "Ureaplasma spp. (parvum/urealyticum) por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrvari",
+  "code": "Sin código FONASA",
+  "official": "Varicella zoster por PCR-RT (BKLAB PCRVARI)",
+  "name": "Varicella zoster por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrdengue",
+  "code": "Sin código FONASA",
+  "official": "Virus Dengue por PCR-RT (BKLAB PCRDENGUE)",
+  "name": "Virus Dengue por PCR-RT",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrjc",
+  "code": "Sin código FONASA",
+  "official": "Virus JC (BKLAB PCRJC)",
+  "name": "Virus JC",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrhtlv",
+  "code": "Sin código FONASA",
+  "official": "Virus Linfotrópico I y II por PCR (BKLAB PCRHTLV)",
+  "name": "Virus Linfotrópico I y II por PCR",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcrzika",
+  "code": "Sin código FONASA",
+  "official": "Virus Zika por PCR-RT cualitativo (BKLAB PCRZIKA)",
+  "name": "Virus Zika por PCR-RT cualitativo",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vita",
+  "code": "Sin código FONASA",
+  "official": "Vitamina A (Retinol) (BKLAB VITA)",
+  "name": "Vitamina A (Retinol)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitb1",
+  "code": "Sin código FONASA",
+  "official": "Vitamina B1 (Tiamina) (BKLAB VITB1)",
+  "name": "Vitamina B1 (Tiamina)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitc",
+  "code": "Sin código FONASA",
+  "official": "Vitamina C (BKLAB VITC)",
+  "name": "Vitamina C",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vite",
+  "code": "Sin código FONASA",
+  "official": "Vitamina E (alfa tocoferol) (BKLAB VITE)",
+  "name": "Vitamina E (alfa tocoferol)",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-zn",
+  "code": "Sin código FONASA",
+  "official": "Zinc (BKLAB ZN)",
+  "name": "Zinc",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-znomasa",
+  "code": "Sin código FONASA",
+  "official": "Zinc en orina (BKLAB ZNOMASA)",
+  "name": "Zinc en orina",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-zincoa",
+  "code": "Sin código FONASA",
+  "official": "Zinc en orina aislada (BKLAB ZINCOA)",
+  "name": "Zinc en orina aislada",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-zincmasa",
+  "code": "Sin código FONASA",
+  "official": "Zinc en suero o plasma (BKLAB ZINCMASA)",
+  "name": "Zinc en suero o plasma",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-foleri",
+  "code": "Sin código FONASA",
+  "official": "Ácido fólico eritrocitario (BKLAB FOLERI)",
+  "name": "Ácido fólico eritrocitario",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-malo",
+  "code": "Sin código FONASA",
+  "official": "Ácido Metilmalónico cualitativo (BKLAB MALO)",
+  "name": "Ácido Metilmalónico cualitativo",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vma",
+  "code": "Sin código FONASA",
+  "official": "Ácido vainillilmandélico (BKLAB VMA)",
+  "name": "Ácido vainillilmandélico",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mau",
+  "code": "Sin código FONASA",
+  "official": "Índice microalbuminuria / creatininuria (BKLAB MAU)",
+  "name": "Índice microalbuminuria / creatininuria",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-rpca",
+  "code": "Sin código FONASA",
+  "official": "Índice proteinuria/creatininuria (BKLAB RPCA)",
+  "name": "Índice proteinuria/creatininuria",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ },
+ {
+  "id": "sf-rpc",
+  "code": "Sin código FONASA",
+  "official": "Índice proteinuria/creatininuria en orina de 24 horas (BKLAB RPC)",
+  "name": "Índice proteinuria/creatininuria en orina de 24 horas",
+  "section": "Sin código FONASA (laboratorio de derivación)",
+  "levels": {}
+ }
+]

@@ -22,6 +22,8 @@ export interface ArancelItem {
   official: string;
   section: string;
   levels: Partial<Record<'1' | '2' | '3', Level>>;
+  /** Examen que FONASA no valoriza (catálogo propio, id "sf-..."). */
+  noFonasa: boolean;
   slug: string;
   /** Slug de la guía de preparación, si existe. */
   guide?: string;
@@ -65,6 +67,7 @@ export async function getArancel(): Promise<ArancelItem[]> {
         official: i.data.official,
         section: i.data.section,
         levels: i.data.levels,
+        noFonasa: i.id.startsWith('sf-'),
         slug: slugOf(i.id, i.data.name),
         guide: g?.id,
         fasting: g?.data.fasting,

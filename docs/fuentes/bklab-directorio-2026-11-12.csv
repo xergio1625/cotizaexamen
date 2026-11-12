@@ -1,0 +1,681 @@
+codigo_bklab,codigo_fonasa,nombre,metodo,ficha,verificado
+DEOXYMASA,Sin Código FONASA,11 - Desoxicorticosterona por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/11--Desoxicorticosterona-por-LCMSMS/17318441/,2026-11-12
+DEOCORT,Sin Código FONASA,11 - Desoxicortisol por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/11--Desoxicortisol-por-LCMSMS/17357561/,2026-11-12
+17PR,303029,17 alfa Hidroxiprogesterona,RIA,https://www.bklab.cl/examenes/17-alfa-Hidroxiprogesterona/17318263/,2026-11-12
+17PRMASA,303029,17 alfa Hidroxiprogesterona por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/17-alfa-Hidroxiprogesterona-por-LCMSMS/17318264/,2026-11-12
+VITD3MASA,Sin Código FONASA,25-OH-Vitamina D3 (Colecalciferol),HPLC con detección MS/MS,https://www.bklab.cl/examenes/25OHVitamina-D3-Colecalciferol/17318823/,2026-11-12
+AMINOPORFO,Sin Código FONASA,Acido Aminolevulinico - PorfobilinogenoRefrigerada,,https://www.bklab.cl/examenes/Acido-Aminolevulinico--PorfobilinogenoRefrigerada/17328035/,2026-11-12
+BILIARES,Sin Código FONASA,Acidos biliares totales,Colorimetría,https://www.bklab.cl/examenes/Acidos-biliares-totales/17340055/,2026-11-12
+ARP,Sin Código FONASA,Actividad de renina plasmática (cada una),RIA,https://www.bklab.cl/examenes/Actividad-de-renina-plasmatica-cada-una/17318313/,2026-11-12
+ADDA,302050,Adenosindeaminasa,Espectrofotometria,https://www.bklab.cl/examenes/Adenosindeaminasa/17318273/,2026-11-12
+ADEN,306070,Adenovirus,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Adenovirus/17318274/,2026-11-12
+ADENG,306069,"Adenovirus, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Adenovirus-anticuerpos-IgG/17318275/,2026-11-12
+ADENM,306069,"Adenovirus, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Adenovirus-anticuerpos-IgM/17318276/,2026-11-12
+PCRADENO,Sin Código FONASA,"Adenovirus, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Adenovirus-deteccion-por-PCRRT/17318661/,2026-11-12
+ALB,302101,Albúmina,Química seca multi capa,https://www.bklab.cl/examenes/Albumina/17318280/,2026-11-12
+ALDO,303002,Aldosterona,RIA,https://www.bklab.cl/examenes/Aldosterona/17318282/,2026-11-12
+ALDOA,303002,Aldosterona acostado,RIA,https://www.bklab.cl/examenes/Aldosterona-acostado/17345064/,2026-11-12
+ALDOO,Sin Código FONASA,Aldosterona en orina,RIA,https://www.bklab.cl/examenes/Aldosterona-en-orina/17318284/,2026-11-12
+AATT,305001,Alfa 1 antitripsina,Nefelometria,https://www.bklab.cl/examenes/Alfa-1-antitripsina/17318267/,2026-11-12
+AFP,305003,Alfa fetoproteína,IRMA,https://www.bklab.cl/examenes/Alfa-fetoproteina/17318279/,2026-11-12
+ALPRA,302035,"Alprazolam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Alprazolam-nivel-plasmatico/17318285/,2026-11-12
+ALOA,Sin Código FONASA,Aluminio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Aluminio-en-orina-aislada/17345065/,2026-11-12
+ALUMASA,Sin Código FONASA,Aluminio en suero,Espectrometría de masa,https://www.bklab.cl/examenes/Aluminio-en-suero/17318286/,2026-11-12
+AMIKACINA,Sin Código FONASA,"Amikacina, nivel plasm tico",Inmunoturbidimetrico,https://www.bklab.cl/examenes/Amikacina-nivel-plasm%C2%A0tico/17338726/,2026-11-12
+AMIL,302008,Amilasa,Química seca multi capa,https://www.bklab.cl/examenes/Amilasa/17318289/,2026-11-12
+AMILO,309006,Amilasa en orina,Química seca multi capa,https://www.bklab.cl/examenes/Amilasa-en-orina/17318290/,2026-11-12
+AMILOA,309006,Amilasa en orina aislada,Química seca multi capa,https://www.bklab.cl/examenes/Amilasa-en-orina-aislada/17318291/,2026-11-12
+AMINC,Sin Código FONASA,Aminoacidemia,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Aminoacidemia/17318292/,2026-11-12
+MSUD-CONF,Sin Código FONASA,"Aminoacidos, panel MSUD en plasma",Espectrometría de masa,https://www.bklab.cl/examenes/Aminoacidos-panel-MSUD-en-plasma/17320946/,2026-11-12
+AMINOC,Sin Código FONASA,Aminoaciduria,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Aminoaciduria/17318293/,2026-11-12
+MSUD,Sin Código FONASA,Aminoácidos de Cadena Ramificadas (BCAA),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Aminoacidos-de-Cadena-Ramificadas-BCAA/17318612/,2026-11-12
+AMPIMASA,302035,"Ampicilina, nivel plasm tico",,https://www.bklab.cl/examenes/Ampicilina-nivel-plasm%C2%A0tico/17348025/,2026-11-12
+ANDROD,303003,Androstenediona,RIA,https://www.bklab.cl/examenes/Androstenediona/17318301/,2026-11-12
+ANDROMASA,303003,Androstenediona por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Androstenediona-por-LCMSMS/17318302/,2026-11-12
+ANEUPLO,Sin Código FONASA,"Aneuploidia PCR fluorescente de cromosomas 13,18,21,XeY",,https://www.bklab.cl/examenes/Aneuploidia-PCR-fluorescente-de-cromosomas-131821XeY/17342108/,2026-11-12
+ANFE,Sin Código FONASA,"Anfetamina, detección",Colorimetría,https://www.bklab.cl/examenes/Anfetamina-deteccion/17318303/,2026-11-12
+ANFE-CONF,Sin Código FONASA,Anfetaminas en orina LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Anfetaminas-en-orina-LCMSMS-Confirmatorio/17318304/,2026-11-12
+B2G,305007,"Anti B2 glicoproteína I, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anti-B2-glicoproteina-I-anticuerpos-IgG/17318323/,2026-11-12
+B2M,305007,"Anti B2 glicoproteína I, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anti-B2-glicoproteina-I-anticuerpos-IgM/17318324/,2026-11-12
+ANTITROM,301008,Anti trombina III funcional,Cromogénico,https://www.bklab.cl/examenes/Anti-trombina-III-funcional/17318309/,2026-11-12
+COVIA,306069,Anti-Sars-CoV-2 - IgA,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/AntiSarsCoV2--IgA/17318430/,2026-11-12
+COVIGQ,306069,Anti-Sars-CoV-2 - IgG,Quimioluminiscencia directa,https://www.bklab.cl/examenes/AntiSarsCoV2--IgG/17318431/,2026-11-12
+LUPI,301007,Anticoagulante lúpico,Coagulometrico,https://www.bklab.cl/examenes/Anticoagulante-lupico/17318584/,2026-11-12
+ANTICEN,305005,Anticuerpos anti centrómero,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-centromero/17318305/,2026-11-12
+ANCA,305082,Anticuerpos anti citoplasma de neutrófilos,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-citoplasma-de-neutrofilos/17318298/,2026-11-12
+ANCAC,305082,Anticuerpos anti citoplasma de neutrófilos C,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-citoplasma-de-neutrofilos-C/17318299/,2026-11-12
+ANCAP,305082,Anticuerpos anti citoplasma de neutrófilos P,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-citoplasma-de-neutrofilos-P/17318300/,2026-11-12
+ICAS,305007,Anticuerpos anti células beta,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-celulas-beta/17318543/,2026-11-12
+PARI,305007,Anticuerpos anti células parietales,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-celulas-parietales/17318655/,2026-11-12
+PARIELISA,305007,Anticuerpos anti células parietales IgG,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-celulas-parietales-IgG/17318656/,2026-11-12
+PARIETAL,305007,Anticuerpos anti células parietales IgG,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-celulas-parietales-IgG/17357551/,2026-11-12
+ADNA,305005,Anticuerpos anti DNA,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-DNA/17318277/,2026-11-12
+ADNAELISA,305007,Anticuerpos anti DNA genómico doble cadena cuantitativo,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-DNA-genomico-doble-cadena-cuantitativo/17318278/,2026-11-12
+EMA,305081,"Anticuerpos anti endomisio, IgA",Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-endomisio-IgA/17318459/,2026-11-12
+INTRINSECO,305007,"Anticuerpos anti factor intr¡nseco, IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-factor-intrnseco-IgG/17357516/,2026-11-12
+INTRI,305007,"Anticuerpos anti factor intr¡nseco, IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-factor-intrnseco-IgG/17357550/,2026-11-12
+JO,305108,Anticuerpos anti Jo (Jo-1),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-Jo-Jo1/17318566/,2026-11-12
+SB,305108,Anticuerpos anti La (SS-B),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-La-SSB/17318758/,2026-11-12
+LKM,305085,Anticuerpos anti LKM-1,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-LKM1/17318582/,2026-11-12
+MEMBRA,305081,Anticuerpos anti membrana basal glomerular,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-membrana-basal-glomerular/17318594/,2026-11-12
+MEMELISA,305081,Anticuerpos anti membrana basal glomerular IgG,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-membrana-basal-glomerular-IgG/17318595/,2026-11-12
+AMICO,305007,Anticuerpos anti microsomales,Quimioluminiscencia,https://www.bklab.cl/examenes/Anticuerpos-anti-microsomales/17338423/,2026-11-12
+MPO,305107,Anticuerpos anti mieloperoxidasa (MPO),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-mieloperoxidasa-MPO/17318611/,2026-11-12
+AMIT,305005,Anticuerpos anti mitocondriales,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-mitocondriales/17318294/,2026-11-12
+M2,305007,Anticuerpos anti mitocondriales M2 (AMA-M2),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-mitocondriales-M2-AMAM2/17318586/,2026-11-12
+AMLI,305007,Anticuerpos anti musculo liso,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-musculo-liso/17318295/,2026-11-12
+ANAS,305005,Anticuerpos anti nucleares,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-nucleares/17318297/,2026-11-12
+TPOX,305007,Anticuerpos anti peroxidasa (TPO),Quimioluminiscencia,https://www.bklab.cl/examenes/Anticuerpos-anti-peroxidasa-TPO/17338425/,2026-11-12
+PR3,305007,Anticuerpos anti proteinasa 3 (PR-3),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-proteinasa-3-PR3/17318726/,2026-11-12
+ANTIPROT,305007,Anticuerpos anti proteína P ribosomal,Elisa - RIA - IFI,https://www.bklab.cl/examenes/Anticuerpos-anti-proteina-P-ribosomal/17318308/,2026-11-12
+GLIDA,305086,Anticuerpos anti péptido deaminado de gliadina IgA,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-peptido-deaminado-de-gliadina-IgA/17318499/,2026-11-12
+GLIDG,305086,Anticuerpos anti péptido deaminado de gliadina IgG,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-peptido-deaminado-de-gliadina-IgG/17318500/,2026-11-12
+A2,305007,Anticuerpos anti receptor de fosfolipasa A2,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-receptor-de-fosfolipasa-A2/17318266/,2026-11-12
+TRABB,305124,Anticuerpos anti receptor de TSH,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-receptor-de-TSH/17318785/,2026-11-12
+ACETILRECE,305007,Anticuerpos anti receptores de acetilcolina,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-receptores-de-acetilcolina/17318268/,2026-11-12
+RNP,305108,Anticuerpos anti RNP,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-RNP/17318748/,2026-11-12
+SA,305108,Anticuerpos anti Ro (SS-A),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-Ro-SSA/17318753/,2026-11-12
+ASCAG,Sin Código FONASA,"Anticuerpos anti Saccaromyces cerevisiae, IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-Saccaromyces-cerevisiae-IgG/17318852/,2026-11-12
+ASCA,Sin Código FONASA,Anticuerpos anti Saccharomyces cerevisiae IgA e IgG,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-Saccharomyces-cerevisiae-IgA-e-IgG/17318316/,2026-11-12
+SCL,305108,Anticuerpos anti Scl-70,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-Scl70/17318759/,2026-11-12
+SM,305108,Anticuerpos anti Sm,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-Sm/17318763/,2026-11-12
+ATIR,305007,Anticuerpos anti tiroglobulina,Quimioluminiscencia,https://www.bklab.cl/examenes/Anticuerpos-anti-tiroglobulina/17318318/,2026-11-12
+GLUTAS,305181,"Anticuerpos anti transglutaminasa tisular, IgA",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-transglutaminasa-tisular-IgA/17318507/,2026-11-12
+GLUTAG,305181,"Anticuerpos anti transglutaminasa tisular, IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-anti-transglutaminasa-tisular-IgG/17318506/,2026-11-12
+FTA,306041,Anticuerpos anti treponema (FTA-ABS),Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-anti-treponema-FTAABS/17318487/,2026-11-12
+ADL,Sin Código FONASA,Anticuerpos anti-Adalimumab,,https://www.bklab.cl/examenes/Anticuerpos-antiAdalimumab/17347242/,2026-11-12
+MOG,Sin Código FONASA,Anticuerpos anti-aquaporina 4 / MOG,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-antiaquaporina-4--MOG/17345320/,2026-11-12
+ACUAMOG,Sin Código FONASA,Anticuerpos Anti-Aquaporina 4 Anti-MoG,Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Anticuerpos-AntiAquaporina-4-AntiMoG/17345503/,2026-11-12
+ACUAMOGLCR,Sin Código FONASA,Anticuerpos anti-Aquaporina 4 Anti-MoG,,https://www.bklab.cl/examenes/Anticuerpos-antiAquaporina-4-AntiMoG/17345564/,2026-11-12
+APARIFACTO,Sin Código FONASA,Anticuerpos Anti-Celulas Parietales y Anti-Factor,,https://www.bklab.cl/examenes/Anticuerpos-AntiCelulas-Parietales-y-AntiFactor/17357558/,2026-11-12
+ANTIHMGCR,Sin Código FONASA,Anticuerpos anti-HMGCR (3-hidroxicoenzima A reductasa),,https://www.bklab.cl/examenes/Anticuerpos-antiHMGCR-3hidroxicoenzima-A-reductasa/17342171/,2026-11-12
+NEUMOCOCO,305007,Anticuerpos anti-neumococo 23 serotipos,Inmunoensayo Enzimático,https://www.bklab.cl/examenes/Anticuerpos-antineumococo-23-serotipos/17328519/,2026-11-12
+RNAPOLI3,Sin Código FONASA,Anticuerpos anti-RNA polimerasa III,,https://www.bklab.cl/examenes/Anticuerpos-antiRNA-polimerasa-III/17337577/,2026-11-12
+ENAS,305004,Anticuerpos ENA (complejo de antígenos),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Anticuerpos-ENA-complejo-de-antigenos/17318460/,2026-11-12
+ASO,305008,Antiestreptolisina - O,Turbidimetría,https://www.bklab.cl/examenes/Antiestreptolisina--O/17318317/,2026-11-12
+GLIA,Sin Código FONASA,"Antigliadinas, anticuerpos IgA",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Antigliadinas-anticuerpos-IgA/17318498/,2026-11-12
+GLIG,Sin Código FONASA,"Antigliadinas, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Antigliadinas-anticuerpos-IgG/17318501/,2026-11-12
+ANTIOA,Sin Código FONASA,Antimonio en orina aisalda,Espectrometría de masa,https://www.bklab.cl/examenes/Antimonio-en-orina-aisalda/17318836/,2026-11-12
+MIAST,Sin Código FONASA,Antireceptor de Acetilcolina y Anti-Musk,,https://www.bklab.cl/examenes/Antireceptor-de-Acetilcolina-y-AntiMusk/17351011/,2026-11-12
+CEA,305009,Antígeno carcinoembrionario,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Antigeno-carcinoembrionario/17318387/,2026-11-12
+GALACTO,306094,Antígeno de galactomanano de Aspergillus,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Antigeno-de-galactomanano-de-Aspergillus/17318493/,2026-11-12
+NEUMOCO,Sin Código FONASA,Antígeno de neumococo,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Antigeno-de-neumococo/17318621/,2026-11-12
+PSA,305070,Antígeno prostático específico,IRMA,https://www.bklab.cl/examenes/Antigeno-prostatico-especifico/17318741/,2026-11-12
+PSAL,Sin Código FONASA,Antígeno prostático específico libre,IRMA,https://www.bklab.cl/examenes/Antigeno-prostatico-especifico-libre/17318742/,2026-11-12
+LEGIO,Sin Código FONASA,Antígeno urinario de Legionella pneumophila,,https://www.bklab.cl/examenes/Antigeno-urinario-de-Legionella-pneumophila/17318576/,2026-11-12
+APOA,302070,Apolipoproteína A1,Nefelometria,https://www.bklab.cl/examenes/Apolipoproteina-A1/17318311/,2026-11-12
+APOB,302070,Apolipoproteína B,Nefelometria,https://www.bklab.cl/examenes/Apolipoproteina-B/17318312/,2026-11-12
+ARSESANGRE,Sin Código FONASA,Arsenico en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Arsenico-en-sangre-total/17318837/,2026-11-12
+ARSOA,309034,Arsenico total en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Arsenico-total-en-orina-aislada/17318315/,2026-11-12
+ATE,302035,"Atenolol, nivel plasm tico",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Atenolol-nivel-plasm%C2%A0tico/17346401/,2026-11-12
+AVI,302035,"Avibactam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Avibactam-nivel-plasmatico/17321548/,2026-11-12
+BANDAS,308020,Bandas oligoclonales en suero y LCR,Electroforesis de zona en gel de agarosa,https://www.bklab.cl/examenes/Bandas-oligoclonales-en-suero-y-LCR/17318325/,2026-11-12
+BARBI-CONF,Sin Código FONASA,Barbituricos en orina por LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Barbituricos-en-orina-por-LCMSMS-Confirmatorio/17350295/,2026-11-12
+BARIOA,Sin Código FONASA,Bario en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Bario-en-orina-aislada/17318875/,2026-11-12
+BARG,Sin Código FONASA,"Bartonella henselae, anticuerpos IgG",Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Bartonella-henselae-anticuerpos-IgG/17318326/,2026-11-12
+BARM,Sin Código FONASA,"Bartonella henselae, anticuerpos IgM",Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Bartonella-henselae-anticuerpos-IgM/17318327/,2026-11-12
+BENZO-CONF,Sin Código FONASA,Benzodiazepinas en orina por LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Benzodiazepinas-en-orina-por-LCMSMS-Confirmatorio/17318329/,2026-11-12
+BENZ,Sin Código FONASA,"Benzodiazepinas, detección",Colorimetría,https://www.bklab.cl/examenes/Benzodiazepinas-deteccion/17318328/,2026-11-12
+BERIOA,Sin Código FONASA,Berilio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Berilio-en-orina-aislada/17318876/,2026-11-12
+BETA2,305010,Beta 2 microglobulina,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Beta-2-microglobulina/17318330/,2026-11-12
+BUTI,Sin Código FONASA,Beta hidroxibutirato,Espectrofotometria,https://www.bklab.cl/examenes/Beta-hidroxibutirato/17318353/,2026-11-12
+BILID,Sin Código FONASA,Bilirrubina directa,Química seca multi capa,https://www.bklab.cl/examenes/Bilirrubina-directa/17318333/,2026-11-12
+BILIN,Sin Código FONASA,Bilirrubina indirecta,Cálculo aritmético,https://www.bklab.cl/examenes/Bilirrubina-indirecta/17318334/,2026-11-12
+BILI,302012,Bilirrubina total,Química seca multi capa,https://www.bklab.cl/examenes/Bilirrubina-total/17318332/,2026-11-12
+BISMUOA,Sin Código FONASA,Bismuto en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Bismuto-en-orina-aislada/17345066/,2026-11-12
+PCRBOR,306118,Bordetella pertussis por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Bordetella-pertussis-por-PCRRT/17318665/,2026-11-12
+BOG,Sin Código FONASA,"Bordetella pertussis toxinas, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Bordetella-pertussis-toxinas-anticuerpos-IgG/17318342/,2026-11-12
+BOM,Sin Código FONASA,"Bordetella pertussis, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Bordetella-pertussis-anticuerpos-IgM/17318343/,2026-11-12
+BORRG,Sin Código FONASA,"Borrelia burgdorferi, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Borrelia-burgdorferi-anticuerpos-IgG/17324142/,2026-11-12
+BORRM,Sin Código FONASA,"Borrelia burgdorferi, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Borrelia-burgdorferi-anticuerpos-IgM/17324143/,2026-11-12
+BROMA,302035,"Bromazepam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Bromazepam-nivel-plasmatico/17318350/,2026-11-12
+BRUG,306033,"Brucella, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Brucella-anticuerpos-IgG/17324144/,2026-11-12
+BRUM,306033,"Brucella, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Brucella-anticuerpos-IgM/17324145/,2026-11-12
+CA125,305170,CA 125,Quimioluminiscencia,https://www.bklab.cl/examenes/CA-125/17318359/,2026-11-12
+CA153,305170,CA 15-3,Quimioluminiscencia,https://www.bklab.cl/examenes/CA-153/17318360/,2026-11-12
+CA199,305170,CA 19-9,Quimioluminiscencia directa,https://www.bklab.cl/examenes/CA-199/17318361/,2026-11-12
+CUANTIKALA,Sin Código FONASA,"Cadenas livianas libres, razón kappa/lambda",Turbidimetría,https://www.bklab.cl/examenes/Cadenas-livianas-libres-razon-kappalambda/17318439/,2026-11-12
+CADOA,Sin Código FONASA,Cadmio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Cadmio-en-orina-aislada/17318362/,2026-11-12
+CADSANGRE,Sin Código FONASA,Cadmio en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Cadmio-en-sangre-total/17318838/,2026-11-12
+CA,302015,Calcio,Química seca multi capa,https://www.bklab.cl/examenes/Calcio/17318358/,2026-11-12
+CAO,309008,Calcio en orina,Química seca multi capa,https://www.bklab.cl/examenes/Calcio-en-orina/17318367/,2026-11-12
+CAOA,309008,Calcio en orina aislada,Química seca multi capa,https://www.bklab.cl/examenes/Calcio-en-orina-aislada/17318368/,2026-11-12
+CAION,302081,Calcio ionizado,Química seca multi capa,https://www.bklab.cl/examenes/Calcio-ionizado/17318363/,2026-11-12
+CALCIT,303053,Calcitonina,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Calcitonina/17357559/,2026-11-12
+CALC,309009,Calculo renal,Marcha analítica tipo Bunsen,https://www.bklab.cl/examenes/Calculo-renal/17318364/,2026-11-12
+CALPRO,308049,Calprotectina cuantitativa en deposición,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Calprotectina-cuantitativa-en-deposicion/17318365/,2026-11-12
+CAMPILO,Sin Código FONASA,Campilobacter spp por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Campilobacter-spp-por-PCRRT/17318366/,2026-11-12
+MARI-CONF,Sin Código FONASA,Canabinoides (d9-THC) orina por LC-MS/MS (Confirmatorio,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Canabinoides-d9THC-orina-por-LCMSMS-Confirmatorio/17318590/,2026-11-12
+PCRCANDI,Sin Código FONASA,Candida albicans por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Candida-albicans-por-PCRRT/17318666/,2026-11-12
+TIBC,301029,Capacidad de fijación total del hierro,Colorimetría,https://www.bklab.cl/examenes/Capacidad-de-fijacion-total-del-hierro/17318778/,2026-11-12
+CARBL,302035,"Carbamazepina libre, nivel plasmático",Ultraflitracion y cromatografia gaseosa,https://www.bklab.cl/examenes/Carbamazepina-libre-nivel-plasmatico/17318370/,2026-11-12
+CARB,302035,"Carbamazepina total, nivel plasmático",Cromatografia gaseosa,https://www.bklab.cl/examenes/Carbamazepina-total-nivel-plasmatico/17318369/,2026-11-12
+CARBAPENE,Sin Código FONASA,"Carbapenemasas, búsqueda por PCR en tiempo real","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Carbapenemasas-busqueda-por-PCR-en-tiempo-real/17357545/,2026-11-12
+CARG,305084,"Cardiolipinas, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Cardiolipinas-anticuerpos-IgG/17318371/,2026-11-12
+CARM,305084,"Cardiolipinas, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Cardiolipinas-anticuerpos-IgM/17318375/,2026-11-12
+CARGAHIV,306086,Carga viral HIV por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Carga-viral-HIV-por-PCRRT/17318374/,2026-11-12
+CARO,302017,Caroteno,Espectrofotometria,https://www.bklab.cl/examenes/Caroteno/17318376/,2026-11-12
+CATEO,303051,Catecolaminas en orina,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Catecolaminas-en-orina/17318378/,2026-11-12
+CATEOA,303051,Catecolaminas en orina aislada,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Catecolaminas-en-orina-aislada/17318379/,2026-11-12
+CATEA,303049,Catecolaminas plasm ticas,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Catecolaminas-plasm%C2%A0ticas/17318377/,2026-11-12
+CEFTA,302035,"Ceftazidima, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Ceftazidima-nivel-plasmatico/17321549/,2026-11-12
+CER,302019,Ceruloplasmina,Nefelometria,https://www.bklab.cl/examenes/Ceruloplasmina/17318388/,2026-11-12
+CESIOOA,Sin Código FONASA,Cesio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Cesio-en-orina-aislada/17318877/,2026-11-12
+CHAGAS,306061,"Chagas (T. Cruzi), anticuerpos IgG",Quimioluminiscencia,https://www.bklab.cl/examenes/Chagas-T-Cruzi-anticuerpos-IgG/17318389/,2026-11-12
+PCRCLAP,Sin Código FONASA,Chlamydia pneumoniae por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Chlamydia-pneumoniae-por-PCRRT/17318670/,2026-11-12
+CLANEUG,306034,"Chlamydia pneumoniae, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Chlamydia-pneumoniae-anticuerpos-IgG/17357523/,2026-11-12
+CLANEUM,306034,"Chlamydia pneumoniae, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Chlamydia-pneumoniae-anticuerpos-IgM/17357524/,2026-11-12
+PCRCLANEI,306097,Chlamydia trachomatis Neisseria gonorrhoeae por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Chlamydia-trachomatis-Neisseria-gonorrhoeae-por-PCRRT/17318669/,2026-11-12
+PCRCLAT,306097,Chlamydia trachomatis por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Chlamydia-trachomatis-por-PCRRT/17318671/,2026-11-12
+CLATRAG,306034,"Chlamydia trachomatis, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Chlamydia-trachomatis-anticuerpos-IgG/17357525/,2026-11-12
+CLATRAM,306034,"Chlamydia trachomatis, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Chlamydia-trachomatis-anticuerpos-IgM/17357526/,2026-11-12
+CICLO,302035,"Ciclosporina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Ciclosporina-nivel-plasmatico/17318390/,2026-11-12
+CISTATINA,Sin Código FONASA,Cistatina C,Inmunoturbidimetrico,https://www.bklab.cl/examenes/Cistatina-C/17318394/,2026-11-12
+CIS,306061,"Cisticercosis, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Cisticercosis-anticuerpos-IgG/17318393/,2026-11-12
+CITA,302035,"Citalopram, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Citalopram-nivel-plasmatico/17318396/,2026-11-12
+CITOG,306069,"Citomegalovirus, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Citomegalovirus-anticuerpos-IgG/17357521/,2026-11-12
+CITOM,306069,"Citomegalovirus, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Citomegalovirus-anticuerpos-IgM/17357522/,2026-11-12
+PCRCITOCV,Sin Código FONASA,"Citomegalovirus, carga viral por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Citomegalovirus-carga-viral-por-PCRRT/17318668/,2026-11-12
+PCRCITO,306182,"Citomegalovirus, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Citomegalovirus-deteccion--por-PCRRT/17318667/,2026-11-12
+CITRATO,Sin Código FONASA,Citrato en orina,Colorimetría,https://www.bklab.cl/examenes/Citrato-en-orina/17318397/,2026-11-12
+CITRATOA,Sin Código FONASA,Citrato en orina aislada,Espectrofotometria,https://www.bklab.cl/examenes/Citrato-en-orina-aislada/17318398/,2026-11-12
+CLEAR,302024,Clearence de creatinina,Cálculo aritmético,https://www.bklab.cl/examenes/Clearence-de-creatinina/17318406/,2026-11-12
+CLOB,302035,"Clobazam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Clobazam-nivel-plasmatico/17318408/,2026-11-12
+CLOMIPRA,302035,"Clomipramina, nivel plasm tico",,https://www.bklab.cl/examenes/Clomipramina-nivel-plasm%C2%A0tico/17318409/,2026-11-12
+CLON,302035,"Clonazepam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Clonazepam-nivel-plasmatico/17318410/,2026-11-12
+CL,302032,Cloruro,ISE Indirect,https://www.bklab.cl/examenes/Cloruro/17318401/,2026-11-12
+CLO,309012,Cloruro en orina,ISE Indirect,https://www.bklab.cl/examenes/Cloruro-en-orina/17318407/,2026-11-12
+CLOA,309012,Cloruro en orina aislada,ISE Indirect,https://www.bklab.cl/examenes/Cloruro-en-orina-aislada/17345068/,2026-11-12
+PCRCLO,Sin Código FONASA,Clostridium difficile por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Clostridium-difficile-por-PCRRT/17318672/,2026-11-12
+CLOZA,302035,"Clozapina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Clozapina-nivel-plasmatico/17318411/,2026-11-12
+COOA,Sin Código FONASA,Cobalto en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Cobalto-en-orina-aislada/17318421/,2026-11-12
+COBASANGRE,Sin Código FONASA,Cobalto en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Cobalto-en-sangre-total/17318839/,2026-11-12
+CU,302020,Cobre,Colorimetría,https://www.bklab.cl/examenes/Cobre/17318438/,2026-11-12
+CUO,309036,Cobre en orina,Espectrometría de masa,https://www.bklab.cl/examenes/Cobre-en-orina/17318440/,2026-11-12
+COBOA,309036,Cobre en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Cobre-en-orina-aislada/17318412/,2026-11-12
+COBREMASA,302020,Cobre en suero o plasma,Espectrometría de masa,https://www.bklab.cl/examenes/Cobre-en-suero-o-plasma/17318413/,2026-11-12
+COCA-CONF,Sin Código FONASA,Cocaina (benzoilecgonina) en orina por LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Cocaina-benzoilecgonina-en-orina-por-LCMSMS-Confirmatorio/17318415/,2026-11-12
+COCA,Sin Código FONASA,"Cocaína, detección",Colorimetría,https://www.bklab.cl/examenes/Cocaina-deteccion/17318414/,2026-11-12
+COLHDL,302068,Colesterol HDL,Química seca multi capa,https://www.bklab.cl/examenes/Colesterol-HDL/17318417/,2026-11-12
+COLLDL,Sin Código FONASA,Colesterol LDL,Química seca multi capa,https://www.bklab.cl/examenes/Colesterol-LDL/17318419/,2026-11-12
+COL,302067,Colesterol total,Química seca multi capa,https://www.bklab.cl/examenes/Colesterol--total/17318416/,2026-11-12
+COLVLDL,Sin Código FONASA,Colesterol VLDL,Química seca multi capa,https://www.bklab.cl/examenes/Colesterol-VLDL/17318420/,2026-11-12
+COLI,302021,Colinesterasa,Química seca multi capa,https://www.bklab.cl/examenes/Colinesterasa/17318418/,2026-11-12
+C1q,305012,Componente de complemento C1q,Inmuno difusión radial,https://www.bklab.cl/examenes/Componente-de-complemento-C1q/17318355/,2026-11-12
+C3,305012,Componente de complemento C3,Nefelometria,https://www.bklab.cl/examenes/Componente-de-complemento-C3/17318356/,2026-11-12
+C4,305012,Componente de complemento C4,Nefelometria,https://www.bklab.cl/examenes/Componente-de-complemento-C4/17318357/,2026-11-12
+PCRCORONA,306082,"Coronavirus, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Coronavirus-deteccion-por-PCRRT/17318673/,2026-11-12
+CORTICOSTE,Sin Código FONASA,Corticosterona,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Corticosterona/17318423/,2026-11-12
+CORT,303006,Cortisol,RIA,https://www.bklab.cl/examenes/Cortisol/17318422/,2026-11-12
+CORTO,Sin Código FONASA,Cortisol en orina,RIA,https://www.bklab.cl/examenes/Cortisol-en-orina/17318427/,2026-11-12
+CORTOA,Sin Código FONASA,Cortisol en orina aislada,RIA,https://www.bklab.cl/examenes/Cortisol-en-orina-aislada/17318428/,2026-11-12
+CORTS,303056,Cortisol en saliva,RIA,https://www.bklab.cl/examenes/Cortisol-en-saliva/17318429/,2026-11-12
+CORTMASA,303006,Cortisol por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Cortisol-por-LCMSMS/17318426/,2026-11-12
+CORTISONA,Sin Código FONASA,Cortisona por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Cortisona-por-LCMSMS/17318425/,2026-11-12
+CREATS,302023,Creatinina,Química seca multi capa,https://www.bklab.cl/examenes/Creatinina/17318436/,2026-11-12
+CREATO,309010,Creatinina en orina,Colorimetría,https://www.bklab.cl/examenes/Creatinina-en-orina/17318433/,2026-11-12
+CREATOA,309010,Creatinina en orina aislada,Colorimetría,https://www.bklab.cl/examenes/Creatinina-en-orina-aislada/17318435/,2026-11-12
+CK-MB,302025,Creatinquinasa miocárdica,Química seca multi capa,https://www.bklab.cl/examenes/Creatinquinasa-miocardica/17318400/,2026-11-12
+CK,302026,Creatinquinasa total,Química seca multi capa,https://www.bklab.cl/examenes/Creatinquinasa-total/17318399/,2026-11-12
+AZUC,Sin Código FONASA,"Cromatografía de azúcares, cualitativa",,https://www.bklab.cl/examenes/Cromatografia-de-azucares-cualitativa/17318321/,2026-11-12
+OLIGO,Sin Código FONASA,"Cromatografía de oligosacáridos, cualitativa",Cromatografia gaseosa,https://www.bklab.cl/examenes/Cromatografia-de-oligosacaridos-cualitativa/17318628/,2026-11-12
+11-DEOMASA,Sin Código FONASA,Cromatografía líquida/tandem masas (LC-MS/MS),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Cromatografia-liquidatandem-masas-LCMSMS/17318262/,2026-11-12
+CROMOA,Sin Código FONASA,Cromo en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Cromo-en-orina-aislada/17318840/,2026-11-12
+CROMSANGRE,Sin Código FONASA,Cromo en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Cromo-en-sangre-total/17318842/,2026-11-12
+CROMOMASA,Sin Código FONASA,Cromo en suero,Espectrometría de masa,https://www.bklab.cl/examenes/Cromo-en-suero/17318841/,2026-11-12
+CROMOGRA,Sin Código FONASA,Cromogranina A,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Cromogranina-A/17338121/,2026-11-12
+PCRCRYPTO,Sin Código FONASA,Cryptococcus neoformans por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Cryptococcus-neoformans-por-PCRRT/17318674/,2026-11-12
+TOXI10,Sin Código FONASA,Cuantificaci¢n 10 drogas por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Cuantificaci%C2%A2n-10-drogas-por-LCMSMS/17350235/,2026-11-12
+TOXILAB,Sin Código FONASA,Cuantificaci¢n 108 drogas por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Cuantificaci%C2%A2n-108-drogas-por-LCMSMS/17343468/,2026-11-12
+DHEAMASA,303008,Dehidroepiandrosterona por LC-MS/MS,Espectrometría de masa,https://www.bklab.cl/examenes/Dehidroepiandrosterona-por-LCMSMS/17318442/,2026-11-12
+DHEASMASA,303008,Dehidroepiandrosterona sulfato por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Dehidroepiandrosterona-sulfato-por-LCMSMS/17318444/,2026-11-12
+DHEAS,303008,"Dehidroepiandrosterona, sulfato",RIA,https://www.bklab.cl/examenes/Dehidroepiandrosterona-sulfato/17318443/,2026-11-12
+LDH,302030,Deshidrogenasa láctica,Química seca multi capa,https://www.bklab.cl/examenes/Deshidrogenasa-lactica/17318575/,2026-11-12
+GLUCANO,Sin Código FONASA,"Detección (1,3) - B,D-Glucano",Colorimetría,https://www.bklab.cl/examenes/Deteccion-13--BDGlucano/17328037/,2026-11-12
+TBCREST,306182,Detección Resistencia MT a Rifampicina por PCR-RT,,https://www.bklab.cl/examenes/Deteccion-Resistencia-MT-a-Rifampicina-por-PCRRT/17357552/,2026-11-12
+PAP,801001,"Diagnóstico citológico cervico-vaginal, PAP",Microscopía,https://www.bklab.cl/examenes/Diagnostico-citologico-cervicovaginal-PAP/17318648/,2026-11-12
+PAPLIQ,801001,"Diagnóstico citológico cervico-vaginal, PAP",,https://www.bklab.cl/examenes/Diagnostico-citologico-cervicovaginal-PAP/17357535/,2026-11-12
+DIAZE,302035,"Diazepam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Diazepam-nivel-plasmatico/17318447/,2026-11-12
+DIG,302035,"Digoxina, nivel plasmático",Quimioluminiscencia directa,https://www.bklab.cl/examenes/Digoxina-nivel-plasmatico/17318448/,2026-11-12
+DHT,Sin Código FONASA,Dihidrotestosterona,RIA,https://www.bklab.cl/examenes/Dihidrotestosterona/17318445/,2026-11-12
+DHTMASA,Sin Código FONASA,Dihidrotestosterona por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Dihidrotestosterona-por-LCMSMS/17318446/,2026-11-12
+BIC,302011,Dioxido de carbono en suero,Química seca multi capa,https://www.bklab.cl/examenes/Dioxido-de-carbono-en-suero/17318331/,2026-11-12
+DOPAO,303051,Dopamina,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Dopamina/17345500/,2026-11-12
+DOPAOA,303051,Dopamina en orina aislada,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Dopamina-en-orina-aislada/17345069/,2026-11-12
+DIMERO,Sin Código FONASA,Dímero D,Inmunoturbidimetrico,https://www.bklab.cl/examenes/Dimero-D/17357517/,2026-11-12
+ELASTASA,308007,Elastasa cuantitativa en deposiciones,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Elastasa-cuantitativa-en-deposiciones/17318458/,2026-11-12
+EFPOA,308019,Electroforesis de proteina en orina aislada,Electroforesis de zona en gel de agarosa,https://www.bklab.cl/examenes/Electroforesis-de-proteina-en-orina-aislada/17345070/,2026-11-12
+EFP,302061,Electroforesis de proteínas,Electroforesis Capilar,https://www.bklab.cl/examenes/Electroforesis-de-proteinas/17318454/,2026-11-12
+EFPLCR,308019,Electroforesis de proteínas en LCR,Electroforesis de zona en gel de agarosa,https://www.bklab.cl/examenes/Electroforesis-de-proteinas-en-LCR/17318455/,2026-11-12
+EFPO,308019,Electroforesis de proteínas en orina,Electroforesis de zona en gel de agarosa,https://www.bklab.cl/examenes/Electroforesis-de-proteinas-en-orina/17318456/,2026-11-12
+ENCEFALCR,Sin Código FONASA,"Encefalitis autoinmune en LCR, panel",Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Encefalitis-autoinmune-en-LCR-panel/17338485/,2026-11-12
+ENCEFAS,Sin Código FONASA,"Encefalitis autoinmune en suero, panel",Inmunofluorescencia indirecta,https://www.bklab.cl/examenes/Encefalitis-autoinmune-en-suero-panel/17345318/,2026-11-12
+PCREBAC,Sin Código FONASA,Enterobacterias por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Enterobacterias-por-PCRRT/17318677/,2026-11-12
+PCRENT,Sin Código FONASA,Enterovirus por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Enterovirus-por-PCRRT/17318679/,2026-11-12
+ECA,302033,Enzima convertidora de angiotensina,Colorimetría,https://www.bklab.cl/examenes/Enzima-convertidora-de-angiotensina/17318452/,2026-11-12
+EPIOA,303051,Epinefrina en orina aislada,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Epinefrina-en-orina-aislada/17345071/,2026-11-12
+EBARG,306069,"Epstein-Barr virus, anticuerpos VCA IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/EpsteinBarr-virus-anticuerpos-VCA-IgG/17357527/,2026-11-12
+EBARM,306069,"Epstein-Barr virus, anticuerpos VCA IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/EpsteinBarr-virus-anticuerpos-VCA-IgM/17357528/,2026-11-12
+PCREBCV,306087,"Epstein-Barr virus, carga viral por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/EpsteinBarr-virus-carga-viral-por-PCRRT/17318678/,2026-11-12
+PCREB,Sin Código FONASA,"Epstein-Barr virus, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/EpsteinBarr-virus-deteccion--por-PCRRT/17318676/,2026-11-12
+ERI,303009,Eritropoyetina plasmática,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Eritropoyetina-plasmatica/17318461/,2026-11-12
+ARSESP,Sin Código FONASA,Especiación de arsénico en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Especiacion-de-arsenico-en-orina-aislada/17318314/,2026-11-12
+ESTAÑOOA,Sin Código FONASA,Estaño en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Estano-en-orina-aislada/17357513/,2026-11-12
+ESTEATO,308047,Esteatocrito,,https://www.bklab.cl/examenes/Esteatocrito/17318463/,2026-11-12
+ESTD,303030,"Estradiol, 17 beta",RIA,https://www.bklab.cl/examenes/Estradiol-17-beta/17318462/,2026-11-12
+ESTQ,303030,"Estradiol, 17 beta",Quimioluminiscencia,https://www.bklab.cl/examenes/Estradiol-17-beta/17357555/,2026-11-12
+ESTRIOL,Sin Código FONASA,Estriol no conjugado,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Estriol-no-conjugado/17318464/,2026-11-12
+ESTRO,Sin Código FONASA,Estrona,RIA,https://www.bklab.cl/examenes/Estrona/17318465/,2026-11-12
+ESTRONOA,Sin Código FONASA,Estroncio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Estroncio-en-orina-aislada/17318879/,2026-11-12
+GANCI,Sin Código FONASA,Estudio de resistencia ganciclovir (UL97),,https://www.bklab.cl/examenes/Estudio-de-resistencia-ganciclovir-UL97/17343022/,2026-11-12
+COMPLEJOFW,Sin Código FONASA,Estudio del Complejo del Factor von Willebrand,Inmunoturbidimetrico,https://www.bklab.cl/examenes/Estudio-del-Complejo-del-Factor-von-Willebrand/17357546/,2026-11-12
+PGX-82,Sin Código FONASA,Estudio Farmacogen¢mico CPIC-FDA (82 genes),Secuenciación,https://www.bklab.cl/examenes/Estudio-Farmacogen%C2%A2mico-CPICFDA-82-genes/17357514/,2026-11-12
+PANELHRR23,Sin Código FONASA,Estudio genético de 23 genes (HRR) en biopsia liquida,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-de-23-genes-HRR-en-biopsia-liquida/17350173/,2026-11-12
+BRCAGER,Sin Código FONASA,Estudio Genético del Gen BRCA 1/2,Secuenciación,https://www.bklab.cl/examenes/Estudio-Genetico-del-Gen-BRCA-12/17318349/,2026-11-12
+LLC,Sin Código FONASA,Estudio Genético Leucemia Linfocítaria Crónica,Secuenciación,https://www.bklab.cl/examenes/Estudio-Genetico-Leucemia-Linfocitaria-Cronica/17318865/,2026-11-12
+ONCOPANEL,Sin Código FONASA,Estudio genético molecular de 113 genes,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-de-113-genes/17318629/,2026-11-12
+HOTSPOT,Sin Código FONASA,Estudio genético molecular de 50 genes,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-de-50-genes/17318538/,2026-11-12
+FOCUSPANEL,Sin Código FONASA,Estudio genético molecular de 52 genes,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-de-52-genes/17329943/,2026-11-12
+TSO500,Sin Código FONASA,Estudio genético molecular de 523 genes,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-de-523-genes/17328340/,2026-11-12
+ONCOTEJIDO,Sin Código FONASA,Estudio genético molecular de 71 genes,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-de-71-genes/17357543/,2026-11-12
+BRCA,Sin Código FONASA,Estudio genético molecular del gen BRCA 1/2,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-del-gen-BRCA-12/17318348/,2026-11-12
+EGFR,Sin Código FONASA,Estudio genético molecular del gen EGFR,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-del-gen-EGFR/17318457/,2026-11-12
+KRAS,Sin Código FONASA,Estudio genético molecular del gen KRAS-BRAF-NRAS,Secuenciación,https://www.bklab.cl/examenes/Estudio-genetico-molecular-del-gen-KRASBRAFNRAS/17318570/,2026-11-12
+ALCO,302035,Etanol plasmático,Química seca multi capa,https://www.bklab.cl/examenes/Etanol-plasmatico/17318281/,2026-11-12
+ETO,302035,"Etosuximida, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Etosuximida-nivel-plasmatico/17318466/,2026-11-12
+EVE,302035,"Everolimus, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Everolimus-nivel-plasmatico/17318467/,2026-11-12
+EXTAS-CONF,Sin Código FONASA,Extasis (MDMA) en orina por LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Extasis-MDMA-en-orina-por-LCMSMS-Confirmatorio/17357560/,2026-11-12
+FII,Sin Código FONASA,Factor II protrombina 20210 G>A,PCR - Microarray DNA,https://www.bklab.cl/examenes/Factor-II-protrombina-20210-GA/17318476/,2026-11-12
+FR,305019,Factor reumatoideo,Turbidimetría,https://www.bklab.cl/examenes/Factor-reumatoideo/17318485/,2026-11-12
+FV-R,Sin Código FONASA,Factor V,Coagulometrico,https://www.bklab.cl/examenes/Factor-V/17355388/,2026-11-12
+FV,301024,"Factor V Leiden, mutación",PCR - Microarray DNA,https://www.bklab.cl/examenes/Factor-V-Leiden-mutacion/17318488/,2026-11-12
+FVII,301025,Factor VII,,https://www.bklab.cl/examenes/Factor-VII/17323660/,2026-11-12
+FVIII,301025,Factor VIII,Coagulometrico,https://www.bklab.cl/examenes/Factor-VIII/17318489/,2026-11-12
+FIX,301025,Factor VIII,,https://www.bklab.cl/examenes/Factor-VIII/17357515/,2026-11-12
+FW,301089,Factor Von Willebrand (FVW:AG) (EX),Inmunoturbidimetrico,https://www.bklab.cl/examenes/Factor-Von-Willebrand-FVWAG-EX/17318490/,2026-11-12
+FX,Sin Código FONASA,Factor X,,https://www.bklab.cl/examenes/Factor-X/17344922/,2026-11-12
+FXII,301025,Factor XII,Coagulometrico,https://www.bklab.cl/examenes/Factor-XII/17318491/,2026-11-12
+FXIIGEN,301025,"Factor XII, detección variante C46T",Secuenciación,https://www.bklab.cl/examenes/Factor-XII-deteccion-variante-C46T/17329357/,2026-11-12
+PCP-CONF,Sin Código FONASA,Fenciclidina (PCP) orina por LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Fenciclidina-PCP-orina-por-LCMSMS-Confirmatorio/17332190/,2026-11-12
+PKU,302036,Fenilalanina neonatal,Fluorometría,https://www.bklab.cl/examenes/Fenilalanina-neonatal/17318718/,2026-11-12
+FENL,302035,"Fenitoína libre, nivel plasmático",Ultraflitracion y cromatografia gaseosa,https://www.bklab.cl/examenes/Fenitoina-libre-nivel-plasmatico/17318472/,2026-11-12
+FEN,302035,"Fenitoína total, nivel plasmático",Cromatografia gaseosa,https://www.bklab.cl/examenes/Fenitoina-total-nivel-plasmatico/17318471/,2026-11-12
+FEBL,302035,"Fenobarbital libre, nivel plasmático",Ultraflitracion y cromatografia gaseosa,https://www.bklab.cl/examenes/Fenobarbital-libre-nivel-plasmatico/17318470/,2026-11-12
+FEB,302035,"Fenobarbital total, nivel plasmático",Cromatografia gaseosa,https://www.bklab.cl/examenes/Fenobarbital-total-nivel-plasmatico/17318469/,2026-11-12
+FENTA,302035,Fentanilo en orina aislada,,https://www.bklab.cl/examenes/Fentanilo-en-orina-aislada/17318473/,2026-11-12
+FENTA-CONF,302035,Fentanilo en orina aislada (Confirmatorio),,https://www.bklab.cl/examenes/Fentanilo-en-orina-aislada-Confirmatorio/17332187/,2026-11-12
+FERR,301026,Ferritina,Quimioluminiscencia,https://www.bklab.cl/examenes/Ferritina/17318474/,2026-11-12
+ELF,Sin Código FONASA,Fibrosis hepatica Fibrosis hep tF),Quimioluminiscencia directa,https://www.bklab.cl/examenes/Fibrosis-hepatica-Fibrosis-hep%C2%A0tF/17351718/,2026-11-12
+FIBROQUIS,Sin Código FONASA,"Fibrosis qu¡stica, panel 50 mutaciones",,https://www.bklab.cl/examenes/Fibrosis-qustica-panel-50-mutaciones/17341019/,2026-11-12
+FLUNI,302035,"Flunitrazepam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Flunitrazepam-nivel-plasmatico/17318477/,2026-11-12
+FLUOX,302035,"Fluoxetina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Fluoxetina-nivel-plasmatico/17318478/,2026-11-12
+FLURA,302035,"Flurazepam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Flurazepam-nivel-plasmatico/17318480/,2026-11-12
+FA,302040,Fosfatasa alcalina,Química seca multi capa,https://www.bklab.cl/examenes/Fosfatasa-alcalina/17318468/,2026-11-12
+ISOFA,302039,"Fosfatasa alcalina, isoenzimas",Electroforesis de zona en gel de agarosa,https://www.bklab.cl/examenes/Fosfatasa-alcalina-isoenzimas/17318564/,2026-11-12
+FOSFAC,Sin Código FONASA,Fosfatasa ácida total,Espectrofotometria,https://www.bklab.cl/examenes/Fosfatasa-acida-total/17318483/,2026-11-12
+FOSFOLIPID,Sin Código FONASA,Fosfolípidos,Colorimetría,https://www.bklab.cl/examenes/Fosfolipidos/17318484/,2026-11-12
+P,302042,Fosforo,Química seca multi capa,https://www.bklab.cl/examenes/Fosforo/17318638/,2026-11-12
+PO,309015,Fosforo en orina,Química seca multi capa,https://www.bklab.cl/examenes/Fosforo-en-orina/17318721/,2026-11-12
+POA,309015,Fosforo en orina aislada,Química seca multi capa,https://www.bklab.cl/examenes/Fosforo-en-orina-aislada/17318722/,2026-11-12
+GALA,302043,Galactosa total en gota de sangre,Fluorometría,https://www.bklab.cl/examenes/Galactosa-total-en-gota-de-sangre/17318856/,2026-11-12
+GGT,302045,Gamma glutamiltransferasa,Química seca multi capa,https://www.bklab.cl/examenes/Gamma-glutamiltransferasa/17318497/,2026-11-12
+PCRGAR,Sin Código FONASA,Gardenella vaginalis por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Gardenella-vaginalis-por-PCRRT/17318681/,2026-11-12
+GAS,303012,Gastrina,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Gastrina/17318494/,2026-11-12
+GENTA-NP,302035,"Getamicina, nivel plasmático",,https://www.bklab.cl/examenes/Getamicina-nivel-plasmatico/17357541/,2026-11-12
+GLU,302047,Glucosa,Química seca multi capa,https://www.bklab.cl/examenes/Glucosa/17318502/,2026-11-12
+GLUCO6,301017,Glucosa 6 fosfato deshidrogenasa,Espectrofotometria,https://www.bklab.cl/examenes/Glucosa-6-fosfato-deshidrogenasa/17318503/,2026-11-12
+GLUO,309016,Glucosa en orina,Química seca multi capa,https://www.bklab.cl/examenes/Glucosa-en-orina/17318504/,2026-11-12
+GLUOA,309016,Glucosa en orina aislada,Química seca multi capa,https://www.bklab.cl/examenes/Glucosa-en-orina-aislada/17318505/,2026-11-12
+HCGQ,303014,"Gonadotrofina coriónica, sub unidad beta",Quimioluminiscencia,https://www.bklab.cl/examenes/Gonadotrofina-corionica-sub-unidad-beta/17318522/,2026-11-12
+PCRHAEMO,Sin Código FONASA,Haemophilus influenzae por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Haemophilus-influenzae-por-PCRRT/17318686/,2026-11-12
+HALO,302035,"Haloperidol, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Haloperidol-nivel-plasmatico/17318515/,2026-11-12
+HAPTOC,301035,Haptoglobina,Inmunoturbidimetrico,https://www.bklab.cl/examenes/Haptoglobina/17318517/,2026-11-12
+PCRHELI,Sin Código FONASA,Helicobacter pylori por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Helicobacter-pylori-por-PCRRT/17318688/,2026-11-12
+HELIG,Sin Código FONASA,"Helicobacter pylori, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Helicobacter-pylori-anticuerpos-IgG/17357529/,2026-11-12
+HEMOCRO,Sin Código FONASA,"Hemocromatosis, estudio genético molecular",Quimioluminiscencia directa,https://www.bklab.cl/examenes/Hemocromatosis-estudio-genetico-molecular/17318525/,2026-11-12
+A1C,301041,Hemoglobina glicosilada A1c,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Hemoglobina-glicosilada-A1c/17318265/,2026-11-12
+EFHBG,301044,"Hemoglobina, electroforesis",Electroforesis Capilar,https://www.bklab.cl/examenes/Hemoglobina-electroforesis/17318453/,2026-11-12
+HEMOGRAMA,301045,Hemograma con VHS,Citometría de Flujo,https://www.bklab.cl/examenes/Hemograma-con-VHS/17357532/,2026-11-12
+HAV,306074,"Hepatitis A, anticuerpos IgM (anti HAV)",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-A-anticuerpos-IgM-anti-HAV/17318518/,2026-11-12
+HAVG,306074,"Hepatitis A, anticuerpos totales (IgG - IgM)",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-A-anticuerpos-totales-IgG--IgM/17318519/,2026-11-12
+ANTIHBS,Sin Código FONASA,"Hepatitis B, anticuerpos anti antígeno",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-B-anticuerpos-anti-antigeno/17318307/,2026-11-12
+ANTIHBE,306075,"Hepatitis B, anticuerpos anti antígeno E",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-B-anticuerpos-anti-antigeno-E/17318306/,2026-11-12
+HEV,306080,"Hepatitis B, anticuerpos anti Core IgM",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-B-anticuerpos-anti-Core-IgM/17318528/,2026-11-12
+HBC,306076,"Hepatitis B, anticuerpos Core (anti HBc)",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-B-anticuerpos-Core-anti-HBc/17318520/,2026-11-12
+AUS,306079,"Hepatitis B, antígeno de superficie",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-B-antigeno-de-superficie/17318320/,2026-11-12
+HBE,306078,"Hepatitis B, antígeno E",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-B-antigeno-E/17318521/,2026-11-12
+CARGAHBV,306084,"Hepatitis B, carga viral por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Hepatitis-B-carga-viral-por-PCRRT/17318853/,2026-11-12
+PCRHEPB,Sin Código FONASA,"Hepatitis B, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Hepatitis-B-deteccion-por-PCRRT/17318689/,2026-11-12
+HCV,306081,"Hepatitis C, anticuerpos",Quimioluminiscencia,https://www.bklab.cl/examenes/Hepatitis-C-anticuerpos/17318523/,2026-11-12
+CARGAHCVC,306085,"Hepatitis C, carga viral por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Hepatitis-C-carga-viral-por-PCRRT/17318854/,2026-11-12
+PCRHCV,306182,"Hepatitis C, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Hepatitis-C-deteccion-por-PCRRT/17318687/,2026-11-12
+HEPAEG,Sin Código FONASA,"Hepatitis E, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Hepatitis-E-anticuerpos-IgG/17318526/,2026-11-12
+HEPAEM,Sin Código FONASA,"Hepatitis E, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Hepatitis-E-anticuerpos-IgM/17318527/,2026-11-12
+HID,306061,"Hidatidosis, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Hidatidosis-anticuerpos-IgG/17318532/,2026-11-12
+HPRO,309017,Hidroxiprolina en orina de 24 horas,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Hidroxiprolina-en-orina-de-24-horas/17318539/,2026-11-12
+FIERRO,301028,Hierro,Colorimetría,https://www.bklab.cl/examenes/Hierro/17318475/,2026-11-12
+HLAB27,305118,"HLA-B27, tipificación",PCR - Microarray DNA,https://www.bklab.cl/examenes/HLAB27-tipificacion/17318535/,2026-11-12
+HOMA,Sin Código FONASA,HOMA (modelo de evaluación homeostática),Cálculo aritmético,https://www.bklab.cl/examenes/HOMA-modelo-de-evaluacion-homeostatica/17318536/,2026-11-12
+HOMOC,302086,Homocisteína,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Homocisteina/17318537/,2026-11-12
+ACTH,303001,Hormona adenocorticotrófica,Quimioluminiscencia,https://www.bklab.cl/examenes/Hormona-adenocorticotrofica/17318270/,2026-11-12
+MULLER,303058,"Hormona anti mulleriana (AMH), ng/mL",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Hormona-anti-mulleriana-AMH-ngmL/17332189/,2026-11-12
+HGH,303007,Hormona de crecimiento,IRMA,https://www.bklab.cl/examenes/Hormona-de-crecimiento/17318529/,2026-11-12
+TSHC,303024,Hormona estimulante de la tiroides,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Hormona-estimulante-de-la-tiroides/17318797/,2026-11-12
+TSHN,303024,Hormona estimulante de la tiroides neonatal,Fluorometría,https://www.bklab.cl/examenes/Hormona-estimulante-de-la-tiroides-neonatal/17318798/,2026-11-12
+FSHQ,303015,Hormona Folículo Estimulante,Quimioluminiscencia,https://www.bklab.cl/examenes/Hormona-Foliculo-Estimulante/17357556/,2026-11-12
+FSH,303015,Hormona folículo estimulante,IRMA,https://www.bklab.cl/examenes/Hormona-foliculo-estimulante/17318486/,2026-11-12
+LHQ,303016,Hormona Luteinizante,Quimioluminiscencia,https://www.bklab.cl/examenes/Hormona-Luteinizante/17357557/,2026-11-12
+LH,303016,Hormona luteinizante,Quimioluminiscencia,https://www.bklab.cl/examenes/Hormona-luteinizante/17318578/,2026-11-12
+PTHC,303018,Hormona paratiroidea intacta,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Hormona-paratiroidea-intacta/17318743/,2026-11-12
+BP1,303048,IGF binding protein - 1,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/IGF-binding-protein--1/17318850/,2026-11-12
+IGFBP-3Q,303048,IGF binding protein - 3,Quimioluminiscencia directa,https://www.bklab.cl/examenes/IGF-binding-protein--3/17318549/,2026-11-12
+IMIPRA,302035,"Imipramina, nivel plasm tico",Nefelometria,https://www.bklab.cl/examenes/Imipramina-nivel-plasm%C2%A0tico/17318557/,2026-11-12
+MSI,Sin Código FONASA,Inestabilidad microsatelital (MSI),Analisis de Fragmentos,https://www.bklab.cl/examenes/Inestabilidad-microsatelital-MSI/17350297/,2026-11-12
+CUANTIFLIX,Sin Código FONASA,"Infliximab, nivel plasm tico",,https://www.bklab.cl/examenes/Infliximab-nivel-plasm%C2%A0tico/17351896/,2026-11-12
+H1N1,Sin Código FONASA,Influenza A H1N1 por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Influenza-A-H1N1-por-PCRRT/17318512/,2026-11-12
+H3N2,Sin Código FONASA,Influenza A H3N2 por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Influenza-A-H3N2-por-PCRRT/17355033/,2026-11-12
+C1,305021,"Inhibidor de C1 esterasa, cuantitativo",Inmuno difusión radial,https://www.bklab.cl/examenes/Inhibidor-de-C1-esterasa-cuantitativo/17318354/,2026-11-12
+INHIBINA,303054,Inhibina B,Inmunoensayo Enzimático,https://www.bklab.cl/examenes/Inhibina-B/17318560/,2026-11-12
+INMUNOFIJO,305025,Inmunofijaci¢n de inmunoglobulinas en orina,Electroforesis de zona en gel de agarosa,https://www.bklab.cl/examenes/Inmunofijaci%C2%A2n-de-inmunoglobulinas-en-orina/17318562/,2026-11-12
+INMUNOFIJA,305025,Inmunofijaci¢n de inmunoglobulinas en sangre,Electroforesis de zona en gel de agarosa,https://www.bklab.cl/examenes/Inmunofijaci%C2%A2n-de-inmunoglobulinas-en-sangre/17318561/,2026-11-12
+IGA,305027,Inmunoglobulina A,Nefelometria,https://www.bklab.cl/examenes/Inmunoglobulina-A/17318544/,2026-11-12
+IGAS,305026,"Inmunoglobulina A, secretora",Nefelometria,https://www.bklab.cl/examenes/Inmunoglobulina-A-secretora/17348565/,2026-11-12
+IGEE,305029,Inmunoglobulina E alérgeno específica (c/u),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Inmunoglobulina-E-alergeno-especifica-cu/17318545/,2026-11-12
+MEGA22,Sin Código FONASA,"Inmunoglobulina E específica, panel 22 alérgenos",Inmunoblot,https://www.bklab.cl/examenes/Inmunoglobulina-E-especifica-panel-22-alergenos/17318593/,2026-11-12
+PANEL35,Sin Código FONASA,"Inmunoglobulina E específica, panel 35 alérgenos",Inmunoblot,https://www.bklab.cl/examenes/Inmunoglobulina-E-especifica-panel-35-alergenos/17322997/,2026-11-12
+PCHILE35,Sin Código FONASA,"Inmunoglobulina E específica, panel Chile",Inmunoblot,https://www.bklab.cl/examenes/Inmunoglobulina-E-especifica-panel-Chile/17322998/,2026-11-12
+IGEQ,305028,Inmunoglobulina E total,Quimioluminiscencia,https://www.bklab.cl/examenes/Inmunoglobulina-E-total/17318546/,2026-11-12
+IGG,305027,Inmunoglobulina G,Nefelometria,https://www.bklab.cl/examenes/Inmunoglobulina-G/17318550/,2026-11-12
+IGM,305027,Inmunoglobulina M,Nefelometria,https://www.bklab.cl/examenes/Inmunoglobulina-M/17318555/,2026-11-12
+IGF-IQ,303047,Insulin like growth factor - 1,Quimioluminiscencia,https://www.bklab.cl/examenes/Insulin-like-growth-factor--1/17318547/,2026-11-12
+INS,303017,Insulina,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Insulina/17318563/,2026-11-12
+IL6,Sin Código FONASA,Interleukina humana 6 (IL6),Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Interleukina-humana-6-IL6/17318556/,2026-11-12
+ISOLDH,302031,Isoenzimas de LDH,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Isoenzimas-de-LDH/17318565/,2026-11-12
+KETAM-CONF,Sin Código FONASA,Ketamina en orina por LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Ketamina-en-orina-por-LCMSMS-Confirmatorio/17332188/,2026-11-12
+CISTINAO,309007,L-Cistina,Colorimetría,https://www.bklab.cl/examenes/LCistina/17354971/,2026-11-12
+CISTINAOA,309007,L-Cistina,Colorimetría,https://www.bklab.cl/examenes/LCistina/17354972/,2026-11-12
+LACO,302035,"Lacosamida, nivel plasm tico",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Lacosamida-nivel-plasm%C2%A0tico/17351010/,2026-11-12
+LAC,302004,Lactato,Química seca multi capa,https://www.bklab.cl/examenes/Lactato/17318571/,2026-11-12
+LAMO,302035,"Lamotrigina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Lamotrigina-nivel-plasmatico/17318574/,2026-11-12
+PCRLEGIO,Sin Código FONASA,Legionella spp. por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Legionella-spp-por-PCRRT/17318692/,2026-11-12
+LEUAGUDA,Sin Código FONASA,Leucemia Aguda,Citometría de Flujo,https://www.bklab.cl/examenes/Leucemia-Aguda/17357549/,2026-11-12
+LEVE,302035,"Levetiracetam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Levetiracetam-nivel-plasmatico/17318577/,2026-11-12
+CD19,305089,Linfocitos B totales (CD19),Citometría de Flujo,https://www.bklab.cl/examenes/Linfocitos-B-totales-CD19/17318382/,2026-11-12
+CD56,305092,Linfocitos natural killers (CD16-CD56),Citometría de Flujo,https://www.bklab.cl/examenes/Linfocitos-natural-killers-CD16CD56/17318385/,2026-11-12
+CD3,305091,Linfocitos T helper (CD3 totales),Citometría de Flujo,https://www.bklab.cl/examenes/Linfocitos-T-helper-CD3-totales/17318383/,2026-11-12
+CD4,305091,Linfocitos T helper (CD4+),Citometría de Flujo,https://www.bklab.cl/examenes/Linfocitos-T-helper-CD4/17318384/,2026-11-12
+CD8,305091,Linfocitos T supresores (CD8+),Citometría de Flujo,https://www.bklab.cl/examenes/Linfocitos-T-supresores-CD8/17318386/,2026-11-12
+LIPASA,302053,Lipasa,Química seca multi capa,https://www.bklab.cl/examenes/Lipasa/17318580/,2026-11-12
+LIPOA,Sin Código FONASA,Lipoproteina A,Inmunoturbidimetrico,https://www.bklab.cl/examenes/Lipoproteina-A/17356746/,2026-11-12
+PCRLISTE,Sin Código FONASA,Listeria monocytogenes por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Listeria-monocytogenes-por-PCRRT/17318693/,2026-11-12
+LIT,302055,"Litio, nivel plasmático",Química seca multi capa,https://www.bklab.cl/examenes/Litio-nivel-plasmatico/17318581/,2026-11-12
+LORA,302035,"Lorazepam, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Lorazepam-nivel-plasmatico/17318583/,2026-11-12
+LIP,Sin Código FONASA,Lípidos totales,Colorimetría,https://www.bklab.cl/examenes/Lipidos-totales/17318579/,2026-11-12
+MG,302056,Magnesio,Química seca multi capa,https://www.bklab.cl/examenes/Magnesio/17318603/,2026-11-12
+MGO,Sin Código FONASA,Magnesio en orina,Química seca multi capa,https://www.bklab.cl/examenes/Magnesio-en-orina/17318604/,2026-11-12
+MGOA,Sin Código FONASA,Magnesio en orina aislada,Química seca multi capa,https://www.bklab.cl/examenes/Magnesio-en-orina-aislada/17345073/,2026-11-12
+MANGAO,Sin Código FONASA,Manganeso en orina,Espectrometría de masa,https://www.bklab.cl/examenes/Manganeso-en-orina/17324685/,2026-11-12
+MANGAOA,Sin Código FONASA,Manganeso en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Manganeso-en-orina-aislada/17318588/,2026-11-12
+MANGSANGRE,Sin Código FONASA,Manganeso en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Manganeso-en-sangre-total/17318589/,2026-11-12
+MANGAMASA,Sin Código FONASA,Manganeso en suero,Espectrometría de masa,https://www.bklab.cl/examenes/Manganeso-en-suero/17318843/,2026-11-12
+APANELDIAS,305106,Marcadores inmunológicos en diabetes,Elisa - RIA - IFI,https://www.bklab.cl/examenes/Marcadores-inmunologicos-en-diabetes/17318310/,2026-11-12
+THC,Sin Código FONASA,Marihuana (delta 9 THC),Espectrofotometria,https://www.bklab.cl/examenes/Marihuana-delta-9-THC/17318777/,2026-11-12
+ANTIFXA,Sin Código FONASA,Medici¢n de actividad anti-Factor X (FXA),,https://www.bklab.cl/examenes/Medici%C2%A2n-de-actividad-antiFactor-X-FXA/17345256/,2026-11-12
+MERCUOA,Sin Código FONASA,Mercurio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Mercurio-en-orina-aislada/17318598/,2026-11-12
+MERCSANGRE,Sin Código FONASA,Mercurio en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Mercurio-en-sangre-total/17318597/,2026-11-12
+MERO,302035,"Meropenem, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Meropenem-nivel-plasmatico/17321551/,2026-11-12
+METAFW,Sin Código FONASA,"Metaloproteinasa del FW, actividad",Fluorometría,https://www.bklab.cl/examenes/Metaloproteinasa-del-FW-actividad/17340057/,2026-11-12
+METALIBRE,Sin Código FONASA,Metanefrinas libres en plasma,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Metanefrinas-libres-en-plasma/17318600/,2026-11-12
+METANEF,303050,Metanefrinas urinarias,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Metanefrinas-urinarias/17318601/,2026-11-12
+META-CONF,Sin Código FONASA,Metanfetaminas en orina LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Metanfetaminas-en-orina-LCMSMS-Confirmatorio/17336679/,2026-11-12
+META,306070,Metapneumovirus humano,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Metapneumovirus-humano/17318599/,2026-11-12
+METROTEXA,Sin Código FONASA,"Metotrexato, nivel plasm tico",,https://www.bklab.cl/examenes/Metotrexato-nivel-plasm%C2%A0tico/17341081/,2026-11-12
+MIC,309013,Microalbuminuria en orina,Turbidimetría,https://www.bklab.cl/examenes/Microalbuminuria-en-orina/17318605/,2026-11-12
+MIDA,302035,"Midazolam, nivel plasm tico",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Midazolam-nivel-plasm%C2%A0tico/17318609/,2026-11-12
+MOLIOA,Sin Código FONASA,Molibdeno en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Molibdeno-en-orina-aislada/17345074/,2026-11-12
+MONO,306036,Mononucleosis Infecciosa (Paul-Bunnell),Aglutinación de glóbulos rojos,https://www.bklab.cl/examenes/Mononucleosis-Infecciosa-PaulBunnell/17318860/,2026-11-12
+MUTACIONC6,Sin Código FONASA,Mutacion 677C>T y 1298A>T del gen MTHFR,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Mutacion-677CT-y-1298AT-del-gen-MTHFR/17318615/,2026-11-12
+JAK2,Sin Código FONASA,Mutaciones gen JAK2,,https://www.bklab.cl/examenes/Mutaciones-gen-JAK2/17353494/,2026-11-12
+PCRTBC,306182,Mycobacterium tuberculosis por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Mycobacterium-tuberculosis-por-PCRRT/17318705/,2026-11-12
+PCRMICOGE,Sin Código FONASA,Mycoplasma genitalium por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Mycoplasma-genitalium-por-PCRRT/17318694/,2026-11-12
+PCRMICOH,Sin Código FONASA,Mycoplasma hominis por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Mycoplasma-hominis-por-PCRRT/17318695/,2026-11-12
+PCRMICP,Sin Código FONASA,Mycoplasma pneumoniae por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Mycoplasma-pneumoniae-por-PCRRT/17318696/,2026-11-12
+MICOPG,306037,"Mycoplasma pneumoniae, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Mycoplasma-pneumoniae-anticuerpos-IgG/17357530/,2026-11-12
+MICOPM,306037,"Mycoplasma pneumoniae, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Mycoplasma-pneumoniae-anticuerpos-IgM/17357531/,2026-11-12
+PCRNEI,306097,Neisseria gonorrhoeae por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Neisseria-gonorrhoeae-por-PCRRT/17318697/,2026-11-12
+NIQOA,Sin Código FONASA,Niquel en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Niquel-en-orina-aislada/17318623/,2026-11-12
+NITRA,302035,"Nitrazepam, nivel plasm tico",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Nitrazepam-nivel-plasm%C2%A0tico/17318624/,2026-11-12
+NUO,309020,Nitrogeno ureico en orina,Química seca multi capa,https://www.bklab.cl/examenes/Nitrogeno-ureico-en-orina/17318626/,2026-11-12
+NU,302057,Nitrógeno uréico,Química seca multi capa,https://www.bklab.cl/examenes/Nitrogeno-ureico/17318625/,2026-11-12
+NOREPIO,303051,Norepinefrina,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Norepinefrina/17345502/,2026-11-12
+NOREPIOA,303051,Norepinefrina en orina aislada,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Norepinefrina-en-orina-aislada/17345075/,2026-11-12
+OLAN,302035,"Olanzapina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Olanzapina-nivel-plasmatico/17318627/,2026-11-12
+OPI-CONF,Sin Código FONASA,Opiaceos en orina por LC-MS/MS (Confirmatorio),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Opiaceos-en-orina-por-LCMSMS-Confirmatorio/17318631/,2026-11-12
+OPI,Sin Código FONASA,"Opiáceos, detección",Colorimetría,https://www.bklab.cl/examenes/Opiaceos-deteccion/17318630/,2026-11-12
+OSMOLAO,309025,Osmolalidad en orina,,https://www.bklab.cl/examenes/Osmolalidad-en-orina/17318633/,2026-11-12
+OSMOLAOA,309025,Osmolalidad en orina aislada,,https://www.bklab.cl/examenes/Osmolalidad-en-orina-aislada/17318634/,2026-11-12
+OSMOLA,302058,Osmolalidad sérica,,https://www.bklab.cl/examenes/Osmolalidad-serica/17318632/,2026-11-12
+OXALATO,Sin Código FONASA,Oxalato en orina,Colorimetría,https://www.bklab.cl/examenes/Oxalato-en-orina/17318635/,2026-11-12
+OXALATOA,Sin Código FONASA,Oxalato en orina aislada,Espectrofotometria,https://www.bklab.cl/examenes/Oxalato-en-orina-aislada/17318636/,2026-11-12
+OXCAR,302035,"Oxcarbazepina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Oxcarbazepina-nivel-plasmatico/17318637/,2026-11-12
+ANA23,Sin Código FONASA,"Panel ANA 23, auto anticuerpos tipo IgG",Inmunoblot,https://www.bklab.cl/examenes/Panel-ANA-23-auto-anticuerpos-tipo-IgG/17318296/,2026-11-12
+PCRBAGASR,Sin Código FONASA,Panel bacteriano gastroenteritis,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-bacteriano-gastroenteritis/17338910/,2026-11-12
+PANELCANDI,Sin Código FONASA,Panel Candida albicans (ETS) por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-Candida-albicans-ETS-por-PCRRT/17318640/,2026-11-12
+HIPOGLI,Sin Código FONASA,Panel de hipoglicemias,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Panel-de-hipoglicemias/17318533/,2026-11-12
+PCRHONGOS,Sin Código FONASA,Panel dermatomicosis,Microarray DNA,https://www.bklab.cl/examenes/Panel-dermatomicosis/17320274/,2026-11-12
+PEMBPLUS,Sin Código FONASA,Panel embarazada plus por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-embarazada-plus--por-PCRRT/17318716/,2026-11-12
+PANELEMB,Sin Código FONASA,Panel embarazada por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-embarazada-por-PCRRT/17318642/,2026-11-12
+PANELSTI,Sin Código FONASA,Panel enfermedades de transmisión sexual por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-enfermedades-de-transmision-sexual-por-PCRRT/17318644/,2026-11-12
+PANELSTI14,Sin Código FONASA,Panel ETS 14 patógenos por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-ETS-14-patogenos-por-PCRRT/17318645/,2026-11-12
+GANGLIG,Sin Código FONASA,"Panel Gangliosidos, anticuerpos tipo IgG",Inmunoblot,https://www.bklab.cl/examenes/Panel-Gangliosidos-anticuerpos-tipo-IgG/17357518/,2026-11-12
+GANGLIM,Sin Código FONASA,"Panel Gangliosidos, anticuerpos tipo IgM",Inmunoblot,https://www.bklab.cl/examenes/Panel-Gangliosidos-anticuerpos-tipo-IgM/17357519/,2026-11-12
+GASTRO15R,Sin Código FONASA,Panel gastroenteritis bacteriana - parasitaria - viral,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-gastroenteritis-bacteriana--parasitaria--viral/17338909/,2026-11-12
+PCRGASTROR,Sin Código FONASA,Panel gastroenteritis bacteriana - viral,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-gastroenteritis-bacteriana--viral/17338911/,2026-11-12
+TSSNC,Sin Código FONASA,Panel Genético Ca Cerebro y Sistema Nervioso,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Cerebro-y-Sistema-Nervioso/17318806/,2026-11-12
+TSCOLON,Sin Código FONASA,Panel Genético Ca Colon,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Colon/17318793/,2026-11-12
+TSGAST,Sin Código FONASA,Panel Genético Ca Gástrico,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Gastrico/17318795/,2026-11-12
+TSMAMAOV,Sin Código FONASA,Panel Genético Ca Mama/Ovario,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-MamaOvario/17318800/,2026-11-12
+TSPROST,Sin Código FONASA,Panel Genético Ca Próstata,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Prostata/17318803/,2026-11-12
+TSPANCR,Sin Código FONASA,Panel Genético Ca Páncreas,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Pancreas/17318802/,2026-11-12
+TSRENALU,Sin Código FONASA,Panel Genético Ca Renal y Vías Urinarias,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Renal-y-Vias-Urinarias/17318804/,2026-11-12
+TSTIRO,Sin Código FONASA,Panel Genético Ca Tiroides,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Tiroides/17318808/,2026-11-12
+TSUTERO,Sin Código FONASA,Panel Genético Ca Útero,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Ca-Utero/17318809/,2026-11-12
+TSGIST,Sin Código FONASA,Panel Genético GIST,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-GIST/17318796/,2026-11-12
+TSMELA,Sin Código FONASA,Panel Genético Melanoma,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Melanoma/17318801/,2026-11-12
+TSPROSTGER,Sin Código FONASA,Panel Genético Próstata,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Prostata/17320823/,2026-11-12
+TSSARCO,Sin Código FONASA,Panel Genético Sarcoma,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Sarcoma/17318805/,2026-11-12
+TSSWAN,Sin Código FONASA,Panel Genético Schwannomatosis Hereditaria,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Schwannomatosis-Hereditaria/17318807/,2026-11-12
+TSENDO,Sin Código FONASA,Panel Genético Tumor NeuroEndocrino,Secuenciación,https://www.bklab.cl/examenes/Panel-Genetico-Tumor-NeuroEndocrino/17318794/,2026-11-12
+HEPAPANEL+,Sin Código FONASA,Panel Hepatitis Autoinmune (10 Ag),Inmunoblot,https://www.bklab.cl/examenes/Panel-Hepatitis-Autoinmune-10-Ag/17357554/,2026-11-12
+HEPAPANEL,Sin Código FONASA,Panel Hepatitis Autoinmune (9 Ag),Inmunoblot,https://www.bklab.cl/examenes/Panel-Hepatitis-Autoinmune-9-Ag/17318858/,2026-11-12
+BK11R,Sin Código FONASA,Panel Herpex BK11,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-Herpex-BK11/17343463/,2026-11-12
+PCRBACMEN,Sin Código FONASA,Panel meningitis bacteriana por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-meningitis-bacteriana-por-PCRRT/17318662/,2026-11-12
+MENIR,Sin Código FONASA,Panel Meningitis/ Encefalitis,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-Meningitis-Encefalitis/17343465/,2026-11-12
+MIOSITIS16,Sin Código FONASA,"Panel miositis 16, auto anticuerpos tipo IgG",Inmunoblot,https://www.bklab.cl/examenes/Panel-miositis-16-auto-anticuerpos-tipo-IgG/17318610/,2026-11-12
+NEURO12,Sin Código FONASA,Panel Paraneoplásico 12 Ag (IgG,Inmunoblot,https://www.bklab.cl/examenes/Panel-Paraneoplasico-12-Ag-IgG/17318622/,2026-11-12
+PCRPARAR,306095,Panel Parasitarios,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-Parasitarios/17338912/,2026-11-12
+PVAGINAL,Sin Código FONASA,Panel patógenos vaginales (ETS) por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-patogenos-vaginales-ETS-por-PCRRT/17318744/,2026-11-12
+BK9,Sin Código FONASA,Panel respiratorio BK9,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-respiratorio-BK9/17318340/,2026-11-12
+PANELVRS,306122,Panel respiratorio influenza A - B y VRS,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-respiratorio-influenza-A--B-y-VRS/17318647/,2026-11-12
+PANELINF,306122,Panel respiratorio Influenza A y B por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-respiratorio-Influenza-A-y-B-por-PCRRT/17318643/,2026-11-12
+PANELVIRAL,306122,Panel respiratorio viral,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Panel-respiratorio-viral/17318646/,2026-11-12
+BK16,Sin Código FONASA,"Panel respiratorio, 16 virus por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-respiratorio-16-virus-por-PCRRT/17318337/,2026-11-12
+BK16PLUS,Sin Código FONASA,"Panel respiratorio, 18 virus por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-respiratorio-18-virus-por-PCRRT/17318338/,2026-11-12
+BK24,Sin Código FONASA,"Panel respiratorio, 24 virus por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-respiratorio-24-virus-por-PCRRT/17318339/,2026-11-12
+PRB6,Sin Código FONASA,"Panel respiratorio, 6 bacterias por PCR-RT",,https://www.bklab.cl/examenes/Panel-respiratorio-6-bacterias-por-PCRRT/17353257/,2026-11-12
+PCRVIGASR,Sin Código FONASA,Panel Viral Gastroenteritis,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-Viral-Gastroenteritis/17338913/,2026-11-12
+PCRVIMENAR,Sin Código FONASA,Panel Viral Meningitis,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Panel-Viral-Meningitis/17343466/,2026-11-12
+PAROX,302035,"Paroxetina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Paroxetina-nivel-plasmatico/17318657/,2026-11-12
+PCRPARV,Sin Código FONASA,Parvovirus B19 por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Parvovirus-B19-por-PCRRT/17318700/,2026-11-12
+PAVOG,306069,"Parvovirus B19, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Parvovirus-B19-anticuerpos-IgG/17324081/,2026-11-12
+PAVOM,306069,"Parvovirus B19, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Parvovirus-B19-anticuerpos-IgM/17324082/,2026-11-12
+SORDERA,Sin Código FONASA,Perdida de la audicion no-sordera Mitocondrial,,https://www.bklab.cl/examenes/Perdida-de-la-audicion-nosordera-Mitocondrial/17342112/,2026-11-12
+PNEO,Sin Código FONASA,Perfil ampliado neonatal,Espectrometría de masa,https://www.bklab.cl/examenes/Perfil-ampliado-neonatal/17348566/,2026-11-12
+PERHEP,302075,Perfil Hepático,Química seca multi capa,https://www.bklab.cl/examenes/Perfil-Hepatico/17357562/,2026-11-12
+ACILPLUS,302098,Perfil plus de aminoácidos y acilcarnitinas,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Perfil-plus-de-aminoacidos-y-acilcarnitinas/17318269/,2026-11-12
+PLATIOA,Sin Código FONASA,Platino en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Platino-en-orina-aislada/17318880/,2026-11-12
+PLOOA,Sin Código FONASA,Plomo en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Plomo-en-orina-aislada/17318720/,2026-11-12
+PLOMOMASA,302084,Plomo en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Plomo-en-sangre-total/17318719/,2026-11-12
+PCRJIRO,Sin Código FONASA,Pneumocystis jirovecii (carinii) por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Pneumocystis-jirovecii-carinii-por-PCRRT/17318691/,2026-11-12
+PORFI,309027,Porfirinas diferenciadas en orina,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Porfirinas-diferenciadas-en-orina/17318723/,2026-11-12
+PORFOA,Sin Código FONASA,Porfobilin¢geno en orina aislada,,https://www.bklab.cl/examenes/Porfobilin%C2%A2geno-en-orina-aislada/17318725/,2026-11-12
+PORFO,Sin Código FONASA,Porfobilinógeno en orina 24 horas,,https://www.bklab.cl/examenes/Porfobilinogeno-en-orina-24-horas/17318724/,2026-11-12
+K,302032,Potasio,ISE Indirect,https://www.bklab.cl/examenes/Potasio/17318567/,2026-11-12
+KO,309012,Potasio en orina,ISE Indirect,https://www.bklab.cl/examenes/Potasio-en-orina/17318568/,2026-11-12
+KOA,309012,Potasio en orina aislada,ISE Indirect,https://www.bklab.cl/examenes/Potasio-en-orina-aislada/17318569/,2026-11-12
+PREALB,302085,Prealbúmina,Turbidimetría,https://www.bklab.cl/examenes/Prealbumina/17318729/,2026-11-12
+PRIL,302035,"Primidona libre, nivel plasmático",Ultraflitracion y cromatografia gaseosa,https://www.bklab.cl/examenes/Primidona-libre-nivel-plasmatico/17318733/,2026-11-12
+PRI,302035,"Primidona total, nivel plasmático",Cromatografia gaseosa,https://www.bklab.cl/examenes/Primidona-total-nivel-plasmatico/17318732/,2026-11-12
+PROCAL,301096,"Procalcitonina, cuantificación",Fluorometría,https://www.bklab.cl/examenes/Procalcitonina-cuantificacion/17318735/,2026-11-12
+PRGD,303019,Progesterona,RIA,https://www.bklab.cl/examenes/Progesterona/17318730/,2026-11-12
+PRGMASA,303019,Progesterona por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Progesterona-por-LCMSMS/17318731/,2026-11-12
+PRL,303020,Prolactina,IRMA,https://www.bklab.cl/examenes/Prolactina/17318734/,2026-11-12
+PCRU,305031,Proteina C reactiva ultrasensible,Turbidimetría,https://www.bklab.cl/examenes/Proteina-C-reactiva-ultrasensible/17318708/,2026-11-12
+PROTECC,Sin Código FONASA,"Proteina C, coagulación",Coagulometrico,https://www.bklab.cl/examenes/Proteina-C-coagulacion/17318737/,2026-11-12
+PROTECR,301093,"Proteina C, resistencia",Coagulometrico,https://www.bklab.cl/examenes/Proteina-C-resistencia/17318738/,2026-11-12
+PROTEINA S,301092,Proteina S libre,Inmunoturbidimetrico,https://www.bklab.cl/examenes/Proteina-S-libre/17318739/,2026-11-12
+PROTOA,309028,"Proteinas Totales en Orina Aislada, mg/dL",Colorimetría,https://www.bklab.cl/examenes/Proteinas-Totales-en-Orina-Aislada-mgdL/17345076/,2026-11-12
+CRPP,305031,Proteína C reactiva,Inmunofrecuencia,https://www.bklab.cl/examenes/Proteina-C-reactiva/17318437/,2026-11-12
+TAU,Sin Código FONASA,"Proteína pTau217, Marcador de Alzheimer",Quimioluminiscencia,https://www.bklab.cl/examenes/Proteina-pTau217-Marcador-de-Alzheimer/17357553/,2026-11-12
+PROT,302100,Proteínas totales,Química seca multi capa,https://www.bklab.cl/examenes/Proteinas-totales/17318736/,2026-11-12
+PROTO,309028,Proteínas totales en orina,Colorimetría,https://www.bklab.cl/examenes/Proteinas-totales-en-orina/17318740/,2026-11-12
+PEPC,303052,Péptido C,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Peptido-C/17318717/,2026-11-12
+CCPP,305099,"Péptido citrulinado, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Peptido-citrulinado-anticuerpos-IgG/17318381/,2026-11-12
+BNPP,303055,"Péptido natriurético tipo B, (NT-pro BNP)",Quimioluminiscencia,https://www.bklab.cl/examenes/Peptido-natriuretico-tipo-B-NTpro-BNP/17318341/,2026-11-12
+QUETI,302035,"Quetiapina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Quetiapina-nivel-plasmatico/17318746/,2026-11-12
+INTERLEU2,Sin Código FONASA,Receptor soluble Interleukina - 2 (sCD25),Quimioluminiscencia,https://www.bklab.cl/examenes/Receptor-soluble-Interleukina--2-sCD25/17342173/,2026-11-12
+RENINA,303021,Renina plasmática,IRMA,https://www.bklab.cl/examenes/Renina-plasmatica/17318845/,2026-11-12
+RISPE,302035,"Risperidona, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Risperidona-nivel-plasmatico/17318747/,2026-11-12
+RUG,306069,"Rubéola, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Rubeola-anticuerpos-IgG/17318751/,2026-11-12
+RUM,306069,"Rubéola, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Rubeola-anticuerpos-IgM/17318752/,2026-11-12
+SARG,306069,"Sarampión, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Sarampion-anticuerpos-IgG/17318866/,2026-11-12
+SARM,306069,"Sarampión, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Sarampion-anticuerpos-IgM/17318867/,2026-11-12
+SAT%,Sin Código FONASA,Saturación del hierro,Cálculo aritmético,https://www.bklab.cl/examenes/Saturacion-del-hierro/17318757/,2026-11-12
+MUCO,309019,Screening de mucopolisacáridos cuantitativo,,https://www.bklab.cl/examenes/Screening-de-mucopolisacaridos-cuantitativo/17318613/,2026-11-12
+QNATAL,Sin Código FONASA,"Screening prenatal, Quest Diagnostics",,https://www.bklab.cl/examenes/Screening-prenatal-Quest-Diagnostics/17318745/,2026-11-12
+SELESANGRE,Sin Código FONASA,Selenio en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Selenio-en-sangre-total/17318847/,2026-11-12
+SELEMASA,Sin Código FONASA,Selenio en suero,Espectrometría de masa,https://www.bklab.cl/examenes/Selenio-en-suero/17318846/,2026-11-12
+SERTRA,302035,"Sertralina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Sertralina-nivel-plasmatico/17318760/,2026-11-12
+SHBG,303046,Sex hormone binding globulin,IRMA,https://www.bklab.cl/examenes/Sex-hormone-binding-globulin/17318761/,2026-11-12
+CHARCOT,Sin Código FONASA,Sindrome de Charcot Marie Tooth,Nefelometria,https://www.bklab.cl/examenes/Sindrome-de-Charcot-Marie-Tooth/17337998/,2026-11-12
+LEOPARD,Sin Código FONASA,"Sindrome de Leopard Gen PTPN11 Exones 7,12,13",,https://www.bklab.cl/examenes/Sindrome-de-Leopard-Gen-PTPN11-Exones-71213/17342174/,2026-11-12
+MICRODEL,Sin Código FONASA,Sindrome por Microdeleci¢n /Microduplicaci¢n,,https://www.bklab.cl/examenes/Sindrome-por-Microdeleci%C2%A2n-Microduplicaci%C2%A2n/17341020/,2026-11-12
+SIR,302035,"Sirolimus, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Sirolimus-nivel-plasmatico/17318762/,2026-11-12
+NA,302032,Sodio,ISE Indirect,https://www.bklab.cl/examenes/Sodio/17318616/,2026-11-12
+NAO,309012,Sodio en orina,ISE Indirect,https://www.bklab.cl/examenes/Sodio-en-orina/17318617/,2026-11-12
+NAOA,309012,Sodio en orina aislada,ISE Indirect,https://www.bklab.cl/examenes/Sodio-en-orina-aislada/17318618/,2026-11-12
+PCRSTREP,Sin Código FONASA,Streptococcus grupo B (Agalactiae) por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Streptococcus-grupo-B-Agalactiae-por-PCRRT/17318704/,2026-11-12
+PCRSTNEUMO,Sin Código FONASA,Streptococcus pneumoniae por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Streptococcus-pneumoniae-por-PCRRT/17318703/,2026-11-12
+IGG1,305029,Subclase de IgG1,Nefelometria,https://www.bklab.cl/examenes/Subclase-de-IgG1/17318551/,2026-11-12
+IGG2,305029,Subclase de IgG2,Nefelometria,https://www.bklab.cl/examenes/Subclase-de-IgG2/17318552/,2026-11-12
+IGG3,305029,Subclase de IgG3,Nefelometria,https://www.bklab.cl/examenes/Subclase-de-IgG3/17318553/,2026-11-12
+IGG4,305029,Subclase de IgG4,Nefelometria,https://www.bklab.cl/examenes/Subclase-de-IgG4/17318554/,2026-11-12
+PRADER,Sin Código FONASA,"S¡ndrome Angelman, Prader-Willi",,https://www.bklab.cl/examenes/Sndrome-Angelman-PraderWilli/17318727/,2026-11-12
+PCRXFRA,Sin Código FONASA,Síndrome X-Frágil,,https://www.bklab.cl/examenes/Sindrome-XFragil/17318715/,2026-11-12
+TAC,302035,"Tacrolimus, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Tacrolimus-nivel-plasmatico/17318770/,2026-11-12
+TALOA,Sin Código FONASA,Talio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Talio-en-orina-aislada/17318849/,2026-11-12
+TALISANGRE,Sin Código FONASA,Talio en sangre total,Espectrometría de masa,https://www.bklab.cl/examenes/Talio-en-sangre-total/17318848/,2026-11-12
+TEO,302035,"Teofilina, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Teofilina-nivel-plasmatico/17318771/,2026-11-12
+AVIDEZ,Sin Código FONASA,Test de avidez de IgG anti - citomegalovirus,,https://www.bklab.cl/examenes/Test-de-avidez-de-IgG-anti--citomegalovirus/17342964/,2026-11-12
+COOMT,Sin Código FONASA,Test de Coombs Directo,Aglutinación de glóbulos rojos,https://www.bklab.cl/examenes/Test-de-Coombs-Directo/17357548/,2026-11-12
+COOMI,Sin Código FONASA,Test de Coombs Indirecto,Aglutinación de glóbulos rojos,https://www.bklab.cl/examenes/Test-de-Coombs-Indirecto/17357547/,2026-11-12
+INTOL,Sin Código FONASA,Test de Intolerancia Alimentaria,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Test-de-Intolerancia-Alimentaria/17320701/,2026-11-12
+PATERNIDAD,Sin Código FONASA,Test de paternidad,Analisis de Fragmentos,https://www.bklab.cl/examenes/Test-de-paternidad/17318660/,2026-11-12
+SUDAN,308003,Test de Sudán (Grasas neutras),,https://www.bklab.cl/examenes/Test-de-Sudan-Grasas-neutras/17318764/,2026-11-12
+LACTOGEN,Sin Código FONASA,"Test Genetico, Intoleracia a la Lactosa por PCR-RT",PCR - Microarray DNA,https://www.bklab.cl/examenes/Test-Genetico-Intoleracia-a-la-Lactosa-por-PCRRT/17318572/,2026-11-12
+TESTBIO,303123,Testosterona Biodisponible,RIA,https://www.bklab.cl/examenes/Testosterona-Biodisponible/17318773/,2026-11-12
+TESTL,303023,Testosterona libre,RIA,https://www.bklab.cl/examenes/Testosterona-libre/17318774/,2026-11-12
+TESTMASA,303022,Testosterona por LC-MS/MS,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Testosterona-por-LCMSMS/17318775/,2026-11-12
+TESTQ,303022,Testosterona por quimioluminiscencia,Quimioluminiscencia,https://www.bklab.cl/examenes/Testosterona-por-quimioluminiscencia/17318776/,2026-11-12
+TEST,303022,Testosterona total,RIA,https://www.bklab.cl/examenes/Testosterona-total/17318772/,2026-11-12
+PROTOM,Sin Código FONASA,Tiempo de Protrombina /Actividad / INR,Coagulometrico,https://www.bklab.cl/examenes/Tiempo-de-Protrombina-Actividad--INR/17357538/,2026-11-12
+TTPA,Sin Código FONASA,Tiempo de Tromboplastina,Coagulometrico,https://www.bklab.cl/examenes/Tiempo-de-Tromboplastina/17357539/,2026-11-12
+HLAB51,Sin Código FONASA,Tipificaci¢n Molecular HLA-b 51,,https://www.bklab.cl/examenes/Tipificaci%C2%A2n-Molecular-HLAb-51/17344503/,2026-11-12
+DQ,305121,Tipifiicación HLA-DQ2 y HLA-DQ8,PCR - Microarray DNA,https://www.bklab.cl/examenes/Tipifiicacion-HLADQ2-y-HLADQ8/17318449/,2026-11-12
+TIROG,303025,Tiroglobulina,IRMA,https://www.bklab.cl/examenes/Tiroglobulina/17318779/,2026-11-12
+T4C,303027,Tiroxina,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Tiroxina/17318768/,2026-11-12
+T4LC,303026,Tiroxina libre,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Tiroxina-libre/17318769/,2026-11-12
+TOPI,302035,"Topiramato, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Topiramato-nivel-plasmatico/17318780/,2026-11-12
+TOXO,306061,"Toxocara, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Toxocara-anticuerpos-IgG/17318781/,2026-11-12
+PCRTOXO,Sin Código FONASA,Toxoplasma gondii por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Toxoplasma-gondii-por-PCRRT/17318706/,2026-11-12
+TOXOG,306061,"Toxoplasmosis, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Toxoplasmosis-anticuerpos-IgG/17318782/,2026-11-12
+TOXOM,306061,"Toxoplasmosis, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Toxoplasmosis-anticuerpos-IgM/17318783/,2026-11-12
+GOT,302063,Transaminasa GOT/AST,Química seca multi capa,https://www.bklab.cl/examenes/Transaminasa-GOTAST/17318508/,2026-11-12
+GPT,302063,Transaminasa GPT/ALT,Química seca multi capa,https://www.bklab.cl/examenes/Transaminasa-GPTALT/17318509/,2026-11-12
+TRANS,301082,Transferrina,Nefelometria,https://www.bklab.cl/examenes/Transferrina/17318786/,2026-11-12
+PCRFTA,Sin Código FONASA,Treponema pallidum por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Treponema-pallidum-por-PCRRT/17318680/,2026-11-12
+TRIA,302035,"Triazolam, nivel plasm tico",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Triazolam-nivel-plasm%C2%A0tico/17318788/,2026-11-12
+PCRTRICHO,Sin Código FONASA,Trichomonas vaginalis por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Trichomonas-vaginalis-por-PCRRT/17318707/,2026-11-12
+TRI,302064,Triglicéridos,Química seca multi capa,https://www.bklab.cl/examenes/Trigliceridos/17318787/,2026-11-12
+TRIPSINA,Sin Código FONASA,Tripsina inmunoreactiva,Fluorometría,https://www.bklab.cl/examenes/Tripsina-inmunoreactiva/17318789/,2026-11-12
+TRIPTASA,Sin Código FONASA,Triptasa,Nefelometria,https://www.bklab.cl/examenes/Triptasa/17318790/,2026-11-12
+TRIQ,306061,"Triquinosis, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Triquinosis-anticuerpos-IgG/17318791/,2026-11-12
+T3C,303028,Triyodotironina,Quimioluminiscencia directa,https://www.bklab.cl/examenes/Triyodotironina/17318766/,2026-11-12
+TROPOI,302027,Troponina I cardíaca (cTnl),Quimioluminiscencia,https://www.bklab.cl/examenes/Troponina-I-cardiaca-cTnl/17318792/,2026-11-12
+TUNGOA,Sin Código FONASA,Tungsteno en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Tungsteno-en-orina-aislada/17318881/,2026-11-12
+URANIOOA,Sin Código FONASA,Uranio en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Uranio-en-orina-aislada/17318882/,2026-11-12
+PCRURE,Sin Código FONASA,Ureaplasma spp. (parvum/urealyticum) por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Ureaplasma-spp-parvumurealyticum-por-PCRRT/17318709/,2026-11-12
+VANCO,302035,"Vancomicina, nivel plasmático",Química seca multi capa,https://www.bklab.cl/examenes/Vancomicina-nivel-plasmatico/17318814/,2026-11-12
+VARG,306069,"Varicela zoster, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Varicela-zoster-anticuerpos-IgG/17318864/,2026-11-12
+VARM,306069,"Varicela zoster, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Varicela-zoster-anticuerpos-IgM/17318863/,2026-11-12
+PCRVARI,Sin Código FONASA,Varicella zoster por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Varicella-zoster-por-PCRRT/17318710/,2026-11-12
+VDRL,306042,VDRL,Microscopía,https://www.bklab.cl/examenes/VDRL/17318817/,2026-11-12
+HIV,306112,"VIH, anticuerpos",Quimioluminiscencia,https://www.bklab.cl/examenes/VIH-anticuerpos/17318534/,2026-11-12
+PCRBK,306088,Virus BK por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-BK-por-PCRRT/17318664/,2026-11-12
+PCRDENGUE,Sin Código FONASA,Virus Dengue por PCR-RT,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-Dengue-por-PCRRT/17318675/,2026-11-12
+HANTAIGM,306069,"Virus hanta, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-hanta-anticuerpos-IgM/17318516/,2026-11-12
+PCRH6,306182,"Virus herpes 6, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-herpes-6-deteccion-por-PCRRT/17318685/,2026-11-12
+H1G,306069,"Virus herpes simple tipo 1, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-herpes-simple-tipo-1-anticuerpos-IgG/17318510/,2026-11-12
+H1M,306069,"Virus herpes simple tipo 1, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-herpes-simple-tipo-1-anticuerpos-IgM/17318511/,2026-11-12
+PCRH1,306182,"Virus herpes simple tipo 1, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-herpes-simple-tipo-1-deteccion-por-PCRRT/17318683/,2026-11-12
+H2G,306069,"Virus herpes simple tipo 2, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-herpes-simple-tipo-2-anticuerpos-IgG/17318513/,2026-11-12
+H2M,306069,"Virus herpes simple tipo 2, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-herpes-simple-tipo-2-anticuerpos-IgM/17318514/,2026-11-12
+PCRH2,306182,"Virus herpes simple tipo 2, detección por PCR-RT","Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-herpes-simple-tipo-2-deteccion-por-PCRRT/17318684/,2026-11-12
+INFA,306070,Virus influenza tipo A,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Virus-influenza-tipo-A/17318558/,2026-11-12
+INFB,306070,Virus influenza tipo B,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Virus-influenza-tipo-B/17318559/,2026-11-12
+PCRJC,Sin Código FONASA,Virus JC,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-JC/17318690/,2026-11-12
+HTLV,306111,Virus linfotrópico humano tipo I y II,Quimioluminiscencia,https://www.bklab.cl/examenes/Virus-linfotropico-humano-tipo-I-y-II/17318541/,2026-11-12
+PCRHTLV,Sin Código FONASA,Virus Linfotrópico I y II por PCR,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-Linfotropico-I-y-II-por-PCR/17329599/,2026-11-12
+HPV,306123,Virus papiloma humano (14 subtipos),"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-papiloma-humano-14-subtipos/17318540/,2026-11-12
+HPVR,306123,Virus papiloma humano (14 subtipos),,https://www.bklab.cl/examenes/Virus-papiloma-humano-14-subtipos/17357540/,2026-11-12
+HPVAR,306123,Virus papiloma humano (18 subtipos),PCR - Microarray DNA,https://www.bklab.cl/examenes/Virus-papiloma-humano-18-subtipos/17356568/,2026-11-12
+PCRPAPI,306123,Virus papiloma humano (30 subtipos),PCR - Microarray DNA,https://www.bklab.cl/examenes/Virus-papiloma-humano-30-subtipos/17318698/,2026-11-12
+PARA1,306070,Virus parainfluenza tipo 1,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Virus-parainfluenza-tipo-1/17318649/,2026-11-12
+PARA2,306070,Virus parainfluenza tipo 2,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Virus-parainfluenza-tipo-2/17318650/,2026-11-12
+PARA3,306070,Virus parainfluenza tipo 3,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Virus-parainfluenza-tipo-3/17318651/,2026-11-12
+PARAM,306069,Virus parotiditis anticuerpos IgM,Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-parotiditis-anticuerpos-IgM/17318654/,2026-11-12
+PARAG,306069,"Virus parotiditis, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-parotiditis-anticuerpos-IgG/17318653/,2026-11-12
+VSR,306270,Virus sincicial respiratorio,Inmunofluorescencia directa,https://www.bklab.cl/examenes/Virus-sincicial-respiratorio/17318829/,2026-11-12
+VSRG,306069,"Virus sincicial respiratorio, anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-sincicial-respiratorio-anticuerpos-IgG/17318830/,2026-11-12
+VSRM,306069,"Virus sincicial respiratorio, anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-sincicial-respiratorio-anticuerpos-IgM/17318831/,2026-11-12
+PCRZIKA,Sin Código FONASA,Virus Zika por PCR-RT cualitativo,"Reacción en cadena de la polimerasa, tiempo real",https://www.bklab.cl/examenes/Virus-Zika-por-PCRRT-cualitativo/17336258/,2026-11-12
+ZIKAG,306069,"Virus Zika, Anticuerpos IgG",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-Zika-Anticuerpos-IgG/17322393/,2026-11-12
+ZIKAM,306069,"Virus Zika, Anticuerpos IgM",Enzimoinmuno análisis (EIA),https://www.bklab.cl/examenes/Virus-Zika-Anticuerpos-IgM/17322394/,2026-11-12
+VITA,Sin Código FONASA,Vitamina A (Retinol),Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Vitamina-A-Retinol/17318821/,2026-11-12
+VITB1,Sin Código FONASA,Vitamina B1 (Tiamina),HPLC con detección MS/MS,https://www.bklab.cl/examenes/Vitamina-B1-Tiamina/17318861/,2026-11-12
+B12,302077,Vitamina B12,Quimioluminiscencia,https://www.bklab.cl/examenes/Vitamina-B12/17318322/,2026-11-12
+VITB6,302080,Vitamina B6,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Vitamina-B6/17318862/,2026-11-12
+VITC,Sin Código FONASA,Vitamina C,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Vitamina-C/17318822/,2026-11-12
+VITDD,302078,"Vitamina D, 25 hidroxi",Quimioluminiscencia,https://www.bklab.cl/examenes/Vitamina-D-25-hidroxi/17318824/,2026-11-12
+VITE,Sin Código FONASA,Vitamina E (alfa tocoferol),Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Vitamina-E-alfa-tocoferol/17318825/,2026-11-12
+VORI,302035,"Voriconazol, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Voriconazol-nivel-plasmatico/17318828/,2026-11-12
+ZN,Sin Código FONASA,Zinc,Colorimetría,https://www.bklab.cl/examenes/Zinc/17318834/,2026-11-12
+ZNOMASA,Sin Código FONASA,Zinc en orina,Espectrometría de masa,https://www.bklab.cl/examenes/Zinc-en-orina/17320702/,2026-11-12
+ZINCOA,Sin Código FONASA,Zinc en orina aislada,Espectrometría de masa,https://www.bklab.cl/examenes/Zinc-en-orina-aislada/17318833/,2026-11-12
+ZINCMASA,Sin Código FONASA,Zinc en suero o plasma,Espectrometría de masa,https://www.bklab.cl/examenes/Zinc-en-suero-o-plasma/17318832/,2026-11-12
+HIAA,309005,Ácido 5 hidroxindol acético,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Acido-5-hidroxindol-acetico/17318530/,2026-11-12
+HIAAO,309005,Ácido 5 hidroxindol acético en orina,Cromatografía líquida de alta presión,https://www.bklab.cl/examenes/Acido-5-hidroxindol-acetico-en-orina/17318531/,2026-11-12
+SALICIL,302035,"Ácido acetilsalicílico, nivel plasmático",Colorimetría,https://www.bklab.cl/examenes/Acido-acetilsalicilico-nivel-plasmatico/17318754/,2026-11-12
+FOL,301002,Ácido fólico,Quimioluminiscencia,https://www.bklab.cl/examenes/Acido-folico/17318481/,2026-11-12
+FOLERI,Sin Código FONASA,Ácido fólico eritrocitario,Quimioluminiscencia,https://www.bklab.cl/examenes/Acido-folico-eritrocitario/17318482/,2026-11-12
+MALO,Sin Código FONASA,Ácido Metilmalónico cualitativo,Nefelometria,https://www.bklab.cl/examenes/Acido-Metilmalonico-cualitativo/17318587/,2026-11-12
+MICO,302035,"Ácido micofenólico, nivel plasmático",HPLC con detección MS/MS,https://www.bklab.cl/examenes/Acido-micofenolico-nivel-plasmatico/17318606/,2026-11-12
+VMA,Sin Código FONASA,Ácido vainillilmandélico,HPLC con detección MS/MS,https://www.bklab.cl/examenes/Acido-vainillilmandelico/17318826/,2026-11-12
+VALPL,302035,"Ácido valpróico libre, nivel plasmático",Ultraflitracion y cromatografia gaseosa,https://www.bklab.cl/examenes/Acido-valproico-libre-nivel-plasmatico/17318813/,2026-11-12
+VALP,302035,"Ácido valpróico total, nivel plasmático",Cromatografia gaseosa,https://www.bklab.cl/examenes/Acido-valproico-total-nivel-plasmatico/17318812/,2026-11-12
+URI,302005,Ácido úrico,Química seca multi capa,https://www.bklab.cl/examenes/Acido-urico/17318810/,2026-11-12
+URIO,309004,Ácido úrico en orina,Química seca multi capa,https://www.bklab.cl/examenes/Acido-urico-en-orina/17318811/,2026-11-12
+IAL,303123,Índice androgénico libre,Cálculo aritmético,https://www.bklab.cl/examenes/Indice-androgenico-libre/17318542/,2026-11-12
+MAU,Sin Código FONASA,Índice microalbuminuria / creatininuria,Cálculo aritmético,https://www.bklab.cl/examenes/Indice-microalbuminuria--creatininuria/17318591/,2026-11-12
+RPCA,Sin Código FONASA,Índice proteinuria/creatininuria,Cálculo aritmético,https://www.bklab.cl/examenes/Indice-proteinuriacreatininuria/17318750/,2026-11-12
+RPC,Sin Código FONASA,Índice proteinuria/creatininuria en orina de 24 horas,Cálculo aritmético,https://www.bklab.cl/examenes/Indice-proteinuriacreatininuria-en-orina-de-24-horas/17318749/,2026-11-12

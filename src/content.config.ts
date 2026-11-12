@@ -1,5 +1,6 @@
 import { defineCollection, reference, z } from 'astro:content';
-import { file, glob } from 'astro/loaders';
+import { glob } from 'astro/loaders';
+import { readFile } from 'node:fs/promises';
 
 /**
  * Esquema de datos reutilizable (también por el sitio hermano .com).
@@ -24,8 +25,27 @@ const examCategory = z.enum([
  * Para otro país, se reemplaza este catálogo por el equivalente local.
  */
 const levelValue = z.object({ total: z.number().int().positive(), benef: z.number().int().nonnegative() });
+/**
+ * El catálogo junta dos archivos con la misma forma:
+ *  - src/data/fonasa-mle-2026.json: el arancel oficial (id = código FONASA, "03-01-045").
+ *  - src/data/examenes-sin-fonasa.json: exámenes especializados que FONASA no valoriza (id = "sf-...", sin niveles).
+ *    Sirven para registrar el examen y recibir precios de prestadores aunque no exista valor oficial.
+ */
+const CATALOG_FILES = ['src/data/fonasa-mle-2026.json', 'src/data/examenes-sin-fonasa.json'];
 const arancel = defineCollection({
-  loader: file('src/data/fonasa-mle-2026.json'),
+  loader: {
+    name: 'catalogo-examenes',
+    load: async ({ store, parseData, generateDigest }) => {
+      store.clear();
+      for (const f of CATALOG_FILES) {
+        const rows = JSON.parse(await readFile(f, 'utf-8')) as { id: string }[];
+        for (const row of rows) {
+          const data = await parseData({ id: row.id, data: row });
+          store.set({ id: row.id, data, digest: generateDigest(row) });
+        }
+      }
+    },
+  },
   schema: z.object({
     code: z.string(), // "03 01 045"
     official: z.string(), // denominación oficial completa
@@ -90,7 +110,7 @@ const providers = defineCollection({
  * aunque se carguen cientos de laboratorios. Se genera con scripts/import-prices.py.
  */
 const offer = z.object({
-  exam: z.string().regex(/^\d{2}-\d{2}-\d{3}$/), // código FONASA con guiones, p. ej. "03-01-045"
+  exam: z.string().regex(/^(\d{2}-\d{2}-\d{3}|sf-[a-z0-9-]+)$/), // código FONASA con guiones, p. ej. "03-01-045"; "sf-..." = examen sin código FONASA
   /** Entero en la moneda de site.config (CLP no usa decimales). */
   amount: z.number().int().nonnegative(),
   kind: z.enum(['particular', 'convenio', 'promocion']).default('particular'),
