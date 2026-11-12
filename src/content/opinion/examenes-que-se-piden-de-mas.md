@@ -8,7 +8,7 @@ sources:
   - label: Tu médico tratante, que es quien conoce tu caso
 image: /img/opinion/examenes-repetidos.svg
 imageAlt: Tubos de muestra repetidos en gris junto a uno útil, y la pregunta ¿cambiaría la decisión médica?
-draft: true
+draft: false
 ---
 
 > **Este artículo no te dice qué exámenes dejar de hacerte.** Eso lo decide tu médico, que conoce tu caso.

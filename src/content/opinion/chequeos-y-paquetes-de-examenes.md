@@ -13,7 +13,7 @@ relatedExams:
   - 03-02-034
 image: /img/opinion/paquete-examenes.svg
 imageAlt: "Una lista de exámenes de un paquete: algunos marcados como necesarios y otros en gris"
-draft: true
+draft: false
 ---
 
 «Chequeo completo», «perfil preventivo», «paquete ejecutivo». Los nombres suenan tranquilizadores y el precio

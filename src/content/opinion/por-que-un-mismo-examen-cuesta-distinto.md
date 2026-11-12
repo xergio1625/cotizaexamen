@@ -9,7 +9,7 @@ sources:
     url: https://cotizaexamen.cl/precios/
 image: /img/opinion/precio-cadena.svg
 imageAlt: Dos barras de precio formadas por los mismos cinco eslabones, una más baja y otra más alta
-draft: true
+draft: false
 ---
 
 Cuando alguien cotiza un examen y ve que en un lugar cuesta $3.000 y en otro $9.000, la conclusión habitual es

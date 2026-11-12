@@ -15,7 +15,7 @@ relatedExams:
   - 03-09-022
 image: /img/opinion/ayuno-reloj.svg
 imageAlt: Un reloj que avanza desde la última comida hasta la toma de muestra, con un vaso de agua permitido
-draft: true
+draft: false
 ---
 
 El examen más caro es el que hay que repetir. Y buena parte de las repeticiones no ocurren por un error del

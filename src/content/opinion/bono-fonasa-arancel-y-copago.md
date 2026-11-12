@@ -13,7 +13,7 @@ relatedExams:
   - 03-01-045
 image: /img/opinion/fonasa-niveles.svg
 imageAlt: Tres barras para los niveles 1, 2 y 3 de una glucosa en sangre; el total sube pero el copago es el mismo
-draft: true
+draft: false
 ---
 
 Cuando alguien dice «voy a usar mi bono FONASA» suele imaginar que el laboratorio le cobra un precio rebajado. La

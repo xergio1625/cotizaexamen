@@ -9,7 +9,7 @@ sources:
   - label: Arancel de Prestaciones de Salud 2026, Modalidad Libre Elección (FONASA), grupo 03 Laboratorio
 image: /img/opinion/barato-caro.svg
 imageAlt: Dos etiquetas de precio, barato y caro, que se balancean junto a una pregunta
-draft: true
+draft: false
 ---
 
 Las ideas sobre precios en salud se repiten tanto que parecen verdades. Algunas lo son a medias; otras, no. Estos son

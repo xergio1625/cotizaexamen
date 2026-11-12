@@ -11,7 +11,7 @@ relatedExams:
   - 03-02-047
 image: /img/opinion/orden-medica.svg
 imageAlt: "Una orden médica con dos caminos: pago particular y bono o seguro"
-draft: true
+draft: false
 ---
 
 La pregunta aparece cada semana: «¿puedo ir directo a hacerme un hemograma o tengo que ir primero al médico?».

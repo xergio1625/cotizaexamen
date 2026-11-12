@@ -12,7 +12,7 @@ relatedExams:
   - 03-02-034
 image: /img/opinion/rango-campana.svg
 imageAlt: Una campana de valores de personas sanas donde el 95 % queda dentro del rango de referencia y un 5 % queda fuera
-draft: true
+draft: false
 ---
 
 > **Este artículo explica un concepto, no interpreta resultados.** No sirve para decidir si un valor tuyo está bien

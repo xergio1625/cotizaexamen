@@ -9,7 +9,7 @@ sources:
     url: https://cotizaexamen.cl/precios/
 image: /img/opinion/muestra-viaje.svg
 imageAlt: Un camión lleva un tubo de muestra de una ciudad a otra mientras corre un reloj
-draft: true
+draft: false
 ---
 
 En el [primer artículo](/opinion/por-que-un-mismo-examen-cuesta-distinto/) conté que derivar muestras puede ser la

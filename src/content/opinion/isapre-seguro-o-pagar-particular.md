@@ -9,7 +9,7 @@ sources:
     url: https://cotizaexamen.cl/precios/
 image: /img/opinion/balanza-cobertura.svg
 imageAlt: Una balanza que se mueve entre usar la cobertura del plan y pagar el precio particular
-draft: true
+draft: false
 ---
 
 Tener cobertura da tranquilidad, pero no siempre significa pagar menos. En exámenes de laboratorio, que suelen ser

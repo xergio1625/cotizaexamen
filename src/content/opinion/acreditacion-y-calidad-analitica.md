@@ -12,7 +12,7 @@ sources:
   - label: Norma ISO 15189, requisitos de calidad y competencia para laboratorios médicos
 image: /img/opinion/control-calidad.svg
 imageAlt: Un escudo con visto bueno junto a un gráfico de control donde las mediciones oscilan dentro de los límites
-draft: true
+draft: false
 ---
 
 Cuando uno cotiza un examen es fácil que el precio ocupe toda la atención. Pero un resultado equivocado, aunque sea

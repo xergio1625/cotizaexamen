@@ -9,7 +9,7 @@ sources:
     url: https://cotizaexamen.cl/sobre-el-sitio/
 image: /img/opinion/lupa-precios.svg
 imageAlt: Una lupa recorre una lista de precios borrosa y deja ver los valores con claridad
-draft: true
+draft: false
 ---
 
 Para comprar un par de zapatillas, comparas precios en tres páginas en cinco minutos. Para hacerte un examen de
