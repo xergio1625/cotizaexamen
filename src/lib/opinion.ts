@@ -8,6 +8,8 @@ export const topicLabels: Record<string, string> = {
   urgencia: 'Qué no puede esperar',
   sistema: 'Sistema de salud y órdenes',
   comunicacion: 'Comunicación en salud',
+  preparacion: 'Preparación del examen',
+  resultados: 'Entender un resultado',
 };
 
 /** En desarrollo se ven los borradores (con marca); en producción no se publican. */

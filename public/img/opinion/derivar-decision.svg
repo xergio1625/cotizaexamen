@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" role="img" aria-label="Tres preguntas para decidir si derivar: ¿puedo esperar?, ¿la muestra es estable?, ¿el transporte está resuelto? Si las tres son sí, derivar puede ahorrar">
+<style>
+.bg{fill:#fbfaf6}.t{font:700 17px system-ui,sans-serif;fill:#2f4638}.m{font:13px system-ui,sans-serif;fill:#566459}
+.q{animation:hl 9s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes hl{0%,100%{fill:#fff;stroke:#9bb5a3}8%,26%{fill:#e6f0e3;stroke:#4f6f5c}}
+.fin{animation:fn 9s ease-in-out infinite}
+@keyframes fn{0%,66%{opacity:0;transform:scale(.85)}78%,95%{opacity:1;transform:none}100%{opacity:0}}
+.fin{transform-box:fill-box;transform-origin:center}
+.fl{stroke-dasharray:8 6;animation:fw 1s linear infinite}
+@keyframes fw{to{stroke-dashoffset:-14}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.fin{opacity:1}}
+</style>
+<rect class="bg" width="800" height="280"/>
+<g stroke-width="4"><rect class="q" style="--d:0s" x="30" y="60" width="200" height="110" rx="16"/><rect class="q" style="--d:2.2s" x="290" y="60" width="200" height="110" rx="16"/><rect class="q" style="--d:4.4s" x="550" y="60" width="200" height="110" rx="16"/></g>
+<path class="fl" d="M230 115 H290 M490 115 H550" stroke="#4f6f5c" stroke-width="4" fill="none"/>
+<text class="t" x="130" y="108" text-anchor="middle">1. ¿Puedo esperar?</text><text class="m" x="130" y="132" text-anchor="middle">El resultado tardará más</text>
+<text class="t" x="390" y="108" text-anchor="middle">2. ¿Es estable?</text><text class="m" x="390" y="132" text-anchor="middle">La muestra tolera el viaje</text>
+<text class="t" x="650" y="108" text-anchor="middle">3. ¿Transporte ok?</text><text class="m" x="650" y="132" text-anchor="middle">Frío y plazos resueltos</text>
+<g class="fin"><rect x="190" y="204" width="420" height="52" rx="26" fill="#4f6f5c"/><text x="400" y="237" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="18" fill="#fff">Tres sí: derivar puede ahorrarte dinero</text></g>
+</svg>

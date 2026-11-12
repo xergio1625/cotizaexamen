@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Tubos de muestra repetidos en gris junto a uno útil, y una pregunta: ¿este resultado cambiaría la decisión?">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 20px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}
+.dup{animation:du 7s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes du{0%,30%{opacity:1}50%,90%{opacity:.25}100%{opacity:1}}
+.main{animation:mn 7s ease-in-out infinite;transform-origin:150px 190px}
+@keyframes mn{0%,30%{transform:scale(1)}50%,90%{transform:scale(1.08)}100%{transform:scale(1)}}
+.q{animation:qp 3s ease-in-out infinite;transform-origin:600px 130px}
+@keyframes qp{50%{transform:scale(1.12) rotate(4deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.dup{opacity:.3}}
+</style>
+<defs><g id="tube"><rect x="0" y="0" width="34" height="120" rx="10" fill="#fff" stroke="#4f6f5c" stroke-width="4"/><rect x="5" y="56" width="24" height="58" rx="6" fill="#c9806a"/><rect x="-4" y="-8" width="42" height="14" rx="5" fill="#2f4638"/></g></defs>
+<rect class="bg" width="800" height="360"/>
+<g class="main"><use href="#tube" x="133" y="130"/></g>
+<g class="dup" style="--d:0s"><use href="#tube" x="213" y="130"/></g>
+<g class="dup" style="--d:.2s"><use href="#tube" x="273" y="130"/></g>
+<g class="dup" style="--d:.4s"><use href="#tube" x="333" y="130"/></g>
+<text class="m" x="150" y="296" text-anchor="middle">el que aporta</text><text class="m" x="300" y="296" text-anchor="middle">repetidos sin motivo nuevo</text>
+<g class="q"><circle cx="600" cy="130" r="64" fill="#fff" stroke="#c9806a" stroke-width="6"/><text x="600" y="152" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="68" fill="#8a3f2b">?</text></g>
+<text class="t" x="600" y="244" text-anchor="middle">¿Cambiaría</text><text class="t" x="600" y="270" text-anchor="middle">la decisión médica?</text>
+</svg>

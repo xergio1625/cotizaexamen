@@ -43,6 +43,12 @@ const ld = [
     </p>
     <p><em>{d.summary}</em></p>
 
+    {d.image && (
+      <figure class="op-hero">
+        <img src={d.image} alt={d.imageAlt} width="800" height="360" loading="eager" decoding="async" />
+      </figure>
+    )}
+
     <Content />
 
     {d.sources.length > 0 && (

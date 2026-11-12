@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-label="Durante el ayuno: agua sí; café, té, jugo y chicle no; los medicamentos no se suspenden por cuenta propia, se consulta">
+<style>
+.bg{fill:#fbfaf6}.l{font:600 20px system-ui,sans-serif;fill:#24332a}.m{font:15px system-ui,sans-serif;fill:#566459}
+.row{animation:in 8s var(--e,ease-out) infinite;animation-delay:var(--d);opacity:0}
+@keyframes in{0%{opacity:0;transform:translateX(-24px)}8%,88%{opacity:1;transform:none}100%{opacity:0}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pl 2.4s ease-in-out infinite}
+@keyframes pl{50%{transform:scale(1.12)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.row{opacity:1}}
+</style>
+<rect class="bg" width="800" height="300"/>
+<g class="row" style="--d:0s"><rect x="40" y="26" width="720" height="62" rx="14" fill="#e6f0e3" stroke="#bcd0bd"/><circle class="pulse" cx="86" cy="57" r="19" fill="#4f6f5c"/><path d="M76 57 l7 7 l13 -14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text class="l" x="126" y="52">Agua sola</text><text class="m" x="126" y="75">Permitida; ayuda a que la toma sea más fácil.</text></g>
+<g class="row" style="--d:.5s"><rect x="40" y="102" width="720" height="62" rx="14" fill="#f7e3dc" stroke="#e5bfb2"/><circle cx="86" cy="133" r="19" fill="#c9806a"/><path d="M77 124 l18 18 M95 124 l-18 18" stroke="#fff" stroke-width="5" stroke-linecap="round"/><text class="l" x="126" y="128">Café, té, jugo, leche, chicle o pastillas dulces</text><text class="m" x="126" y="151">Suelen no estar permitidos, aunque no parezcan comida.</text></g>
+<g class="row" style="--d:1s"><rect x="40" y="178" width="720" height="62" rx="14" fill="#fff5dc" stroke="#e8d49c"/><circle class="pulse" cx="86" cy="209" r="19" fill="#b08a2e"/><text x="86" y="217" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="24" fill="#fff">?</text><text class="l" x="126" y="204">Medicamentos</text><text class="m" x="126" y="227">No los suspendas por tu cuenta: pregunta a tu médico o al laboratorio.</text></g>
+</svg>

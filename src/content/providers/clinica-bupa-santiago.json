@@ -4,5 +4,6 @@
   "website": "https://www.clinicabupasantiago.cl",
   "subdivisions": [
     "La Florida"
-  ]
+  ],
+  "regionalOnly": true
 }

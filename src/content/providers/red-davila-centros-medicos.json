@@ -6,5 +6,6 @@
     "Las Condes",
     "Maipú",
     "Ñuñoa"
-  ]
+  ],
+  "regionalOnly": true
 }

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Una lista de exámenes de un paquete: algunos se marcan como necesarios y otros quedan en gris porque quizá no los necesitas">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 19px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}.l{font:600 16px system-ui,sans-serif;fill:#24332a}
+.row{opacity:0;animation:in 9s ease-out infinite;animation-delay:var(--d)}
+@keyframes in{0%{opacity:0;transform:translateX(-20px)}8%,90%{opacity:1;transform:none}100%{opacity:0}}
+.tick{stroke-dasharray:30;stroke-dashoffset:30;animation:tk 9s ease-out infinite;animation-delay:var(--d)}
+@keyframes tk{0%,14%{stroke-dashoffset:30}22%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:30}}
+.gray{animation:gy 9s ease-in-out infinite}
+@keyframes gy{0%,40%{opacity:1}55%,90%{opacity:.35}100%{opacity:1}}
+.tag{animation:tg 4s ease-in-out infinite;transform-origin:660px 80px}
+@keyframes tg{50%{transform:rotate(5deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.row{opacity:1}.tick{stroke-dashoffset:0}.gray{opacity:.5}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<rect x="60" y="44" width="470" height="276" rx="16" fill="#fff" stroke="#4f6f5c" stroke-width="4"/>
+<text class="t" x="90" y="82">Paquete «chequeo completo»</text>
+<g class="row" style="--d:.2s"><rect x="90" y="102" width="26" height="26" rx="6" fill="#e6f0e3" stroke="#4f6f5c" stroke-width="3"/><path class="tick" style="--d:.2s" d="M95 115 l7 7 l12 -14" fill="none" stroke="#4f6f5c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text class="l" x="132" y="122">Hemograma</text></g>
+<g class="row" style="--d:.6s"><rect x="90" y="142" width="26" height="26" rx="6" fill="#e6f0e3" stroke="#4f6f5c" stroke-width="3"/><path class="tick" style="--d:.6s" d="M95 155 l7 7 l12 -14" fill="none" stroke="#4f6f5c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text class="l" x="132" y="162">Glicemia en ayunas</text></g>
+<g class="row" style="--d:1s"><rect x="90" y="182" width="26" height="26" rx="6" fill="#e6f0e3" stroke="#4f6f5c" stroke-width="3"/><path class="tick" style="--d:1s" d="M95 195 l7 7 l12 -14" fill="none" stroke="#4f6f5c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text class="l" x="132" y="202">Perfil lipídico</text></g>
+<g class="row gray" style="--d:1.4s"><rect x="90" y="222" width="26" height="26" rx="6" fill="#fff" stroke="#9bb5a3" stroke-width="3" stroke-dasharray="5 4"/><text class="l" x="132" y="242">Examen que quizá no necesitas</text></g>
+<g class="row gray" style="--d:1.8s"><rect x="90" y="262" width="26" height="26" rx="6" fill="#fff" stroke="#9bb5a3" stroke-width="3" stroke-dasharray="5 4"/><text class="l" x="132" y="282">Otro que tampoco aplica a tu caso</text></g>
+<g class="tag"><line x1="660" y1="30" x2="660" y2="64" stroke="#9bb5a3" stroke-width="3"/><rect x="590" y="64" width="140" height="84" rx="12" fill="#f7e3dc" stroke="#c9806a" stroke-width="4"/><circle cx="660" cy="76" r="5" fill="#fff" stroke="#c9806a" stroke-width="2"/><text class="t" x="660" y="108" text-anchor="middle" style="fill:#8a3f2b">Precio</text><text class="m" x="660" y="130" text-anchor="middle">del paquete</text></g>
+<text class="m" x="660" y="200" text-anchor="middle">Compara con la suma</text><text class="m" x="660" y="220" text-anchor="middle">de lo que sí necesitas.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Glucosa en sangre, arancel 2026: el valor total sube en los niveles 1, 2 y 3, pero el copago es el mismo, 640 pesos">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 20px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}.l{font:600 15px system-ui,sans-serif;fill:#24332a}
+.s{transform-box:fill-box;transform-origin:50% 100%;animation:g 9s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes g{0%{transform:scaleY(0)}16%,88%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+.p{animation:f 9s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes f{0%,18%{opacity:0}30%,88%{opacity:1}100%{opacity:0}}
+.eq{stroke-dasharray:8 6;animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-14}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.p{opacity:1}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<text class="m" x="400" y="34" text-anchor="middle">Glucosa en sangre · Arancel MLE 2026 · valores en pesos</text>
+<line x1="70" y1="310" x2="530" y2="310" stroke="#9bb5a3" stroke-width="3"/>
+<!-- escala: 1 px = 10 pesos -->
+<rect class="s" style="--d:0s" x="90" y="182" width="100" height="128" fill="#9bb5a3"/><rect class="s" style="--d:.5s" x="90" y="246" width="100" height="64" fill="#c9806a"/>
+<rect class="s" style="--d:.2s" x="250" y="144" width="100" height="166" fill="#9bb5a3"/><rect class="s" style="--d:.7s" x="250" y="246" width="100" height="64" fill="#c9806a"/>
+<rect class="s" style="--d:.4s" x="410" y="105" width="100" height="205" fill="#9bb5a3"/><rect class="s" style="--d:.9s" x="410" y="246" width="100" height="64" fill="#c9806a"/>
+<g class="p" style="--d:0s"><text class="t" x="140" y="170" text-anchor="middle">$1.280</text></g>
+<g class="p" style="--d:.3s"><text class="t" x="300" y="132" text-anchor="middle">$1.660</text></g>
+<g class="p" style="--d:.6s"><text class="t" x="460" y="93" text-anchor="middle">$2.050</text></g>
+<g class="p" style="--d:1s"><text class="l" x="140" y="284" text-anchor="middle" style="fill:#fff">$640</text><text class="l" x="300" y="284" text-anchor="middle" style="fill:#fff">$640</text><text class="l" x="460" y="284" text-anchor="middle" style="fill:#fff">$640</text></g>
+<text class="l" x="140" y="334" text-anchor="middle">Nivel 1</text><text class="l" x="300" y="334" text-anchor="middle">Nivel 2</text><text class="l" x="460" y="334" text-anchor="middle">Nivel 3</text>
+<line class="eq" x1="70" y1="246" x2="530" y2="246" stroke="#8a3f2b" stroke-width="2"/>
+<g transform="translate(580 118)">
+<rect x="0" y="0" width="16" height="16" fill="#c9806a"/><text class="l" x="26" y="14">Copago (lo que pagas)</text>
+<rect x="0" y="34" width="16" height="16" fill="#9bb5a3"/><text class="l" x="26" y="48">Bonificación FONASA</text>
+<text class="m" x="0" y="96">La diferencia entre niveles</text><text class="m" x="0" y="116">la paga FONASA, no tú.</text>
+</g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Un reloj avanza desde la última comida hasta la toma de muestra, con un vaso de agua permitido">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 20px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}.l{font:600 15px system-ui,sans-serif;fill:#24332a}
+.hand{transform-origin:200px 180px;animation:r 10s linear infinite}
+@keyframes r{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.dot{animation:mv 10s linear infinite}
+@keyframes mv{from{transform:translateX(0)}to{transform:translateX(330px)}}
+.fill{transform-box:fill-box;transform-origin:0 50%;animation:fl 10s linear infinite}
+@keyframes fl{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.drop{animation:dr 3s ease-in infinite}
+@keyframes dr{0%{transform:translateY(-6px);opacity:0}30%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+.water{animation:w 4s ease-in-out infinite}
+@keyframes w{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<circle cx="200" cy="180" r="112" fill="#fff" stroke="#4f6f5c" stroke-width="6"/>
+<g stroke="#9bb5a3" stroke-width="4" stroke-linecap="round">
+<line x1="200" y1="82" x2="200" y2="96"/><line x1="298" y1="180" x2="284" y2="180"/><line x1="200" y1="278" x2="200" y2="264"/><line x1="102" y1="180" x2="116" y2="180"/>
+</g>
+<circle cx="200" cy="180" r="84" fill="none" stroke="#dde8db" stroke-width="14"/>
+<g class="hand"><line x1="200" y1="180" x2="200" y2="104" stroke="#c9806a" stroke-width="6" stroke-linecap="round"/></g>
+<circle cx="200" cy="180" r="9" fill="#2f4638"/>
+<text class="t" x="200" y="318" text-anchor="middle">8 a 12 horas</text>
+<g transform="translate(420 150)">
+<text class="m" x="0" y="-48">Última comida</text><text class="m" x="330" y="-48" text-anchor="end">Toma de muestra</text>
+<rect x="0" y="0" width="330" height="12" rx="6" fill="#dde8db"/>
+<rect class="fill" x="0" y="0" width="330" height="12" rx="6" fill="#4f6f5c"/>
+<circle class="dot" cx="0" cy="6" r="14" fill="#c9806a" stroke="#fff" stroke-width="4"/>
+<text class="l" x="0" y="52">Cena</text><text class="l" x="165" y="52" text-anchor="middle">Dormir</text><text class="l" x="330" y="52" text-anchor="end">Mañana</text>
+</g>
+<g transform="translate(580 238)">
+<path d="M0 0 h56 l-8 62 a8 8 0 0 1 -8 7 h-24 a8 8 0 0 1 -8 -7z" fill="#fff" stroke="#4f6f5c" stroke-width="4" stroke-linejoin="round"/>
+<g class="water"><path d="M6 20 h44 l-4 40 a6 6 0 0 1 -6 5 h-24 a6 6 0 0 1 -6 -5z" fill="#cfe3ec"/></g>
+<g fill="#7fb3cc"><circle class="drop" cx="28" cy="-6" r="4"/></g>
+<text class="l" x="28" y="96" text-anchor="middle">Agua: sí</text>
+</g>
+</svg>

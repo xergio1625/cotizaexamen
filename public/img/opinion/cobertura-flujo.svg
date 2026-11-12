@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-label="El precio del prestador pasa por la cobertura de tu isapre o FONASA, luego por el seguro complementario, y lo que queda es lo que pagas">
+<style>
+.bg{fill:#fbfaf6}.t{font:700 17px system-ui,sans-serif;fill:#2f4638}.m{font:13px system-ui,sans-serif;fill:#566459}
+.fl{stroke-dasharray:10 8;animation:fw 1s linear infinite}
+@keyframes fw{to{stroke-dashoffset:-18}}
+.coin{animation:mv 8s ease-in-out infinite}
+@keyframes mv{0%{transform:translateX(0);opacity:0}6%{opacity:1}30%{transform:translateX(0)}38%{transform:translateX(205px)}62%{transform:translateX(205px)}70%{transform:translateX(410px)}92%{transform:translateX(410px);opacity:1}100%{transform:translateX(410px);opacity:0}}
+.bx{animation:hl 8s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes hl{0%,100%{stroke:#9bb5a3;stroke-width:3}12%,24%{stroke:#c9806a;stroke-width:5}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.coin{opacity:1}}
+</style>
+<rect class="bg" width="800" height="260"/>
+<g fill="#fff" stroke="#9bb5a3" stroke-width="3">
+<rect class="bx" style="--d:0s" x="30" y="70" width="150" height="100" rx="14"/><rect class="bx" style="--d:2.4s" x="235" y="70" width="150" height="100" rx="14"/><rect class="bx" style="--d:4.8s" x="440" y="70" width="150" height="100" rx="14"/><rect x="645" y="70" width="130" height="100" rx="14" style="stroke:#4f6f5c;stroke-width:4"/>
+</g>
+<path class="fl" d="M180 120 H235 M385 120 H440 M590 120 H645" stroke="#4f6f5c" stroke-width="4" fill="none"/>
+<text class="t" x="105" y="112" text-anchor="middle">Precio</text><text class="m" x="105" y="134" text-anchor="middle">del prestador</text>
+<text class="t" x="310" y="112" text-anchor="middle">Isapre o</text><text class="m" x="310" y="134" text-anchor="middle">FONASA aporta</text>
+<text class="t" x="515" y="112" text-anchor="middle">Seguro</text><text class="m" x="515" y="134" text-anchor="middle">reembolsa algo</text>
+<text class="t" x="710" y="112" text-anchor="middle">Tú pagas</text><text class="m" x="710" y="134" text-anchor="middle">el saldo</text>
+<g class="coin"><circle cx="105" cy="196" r="15" fill="#e8c46c" stroke="#b08a2e" stroke-width="3"/><text x="105" y="202" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="16" fill="#7a5c14">$</text></g>
+<text class="m" x="400" y="40" text-anchor="middle">Cada capa descuenta una parte; cuánto depende de tu plan y de tus topes.</text>
+</svg>

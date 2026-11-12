@@ -6,7 +6,7 @@ import { getPriceRows } from '../../lib/prices';
 import { siteConfig } from '../../../site.config';
 
 const items = await getArancel();
-const rows = (await getPriceRows()).filter((r) => !r.regionalOnly);
+const rows = await getPriceRows();
 const priced = new Set(rows.map((r) => r.examId));
 
 const sections = [...new Set(items.map((i) => i.section))].map((s) => ({

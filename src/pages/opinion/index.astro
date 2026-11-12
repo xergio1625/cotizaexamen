@@ -28,13 +28,16 @@ const posts = await getOpinion();
 
     <ul class="post-list">
       {posts.map((p) => (
-        <li>
-          <p class="muted">
-            {topicLabels[p.data.topic]} · {formatDate(p.data.published)}
-            {p.data.draft && <strong> · BORRADOR (solo visible en desarrollo)</strong>}
-          </p>
-          <h2><a href={`/opinion/${p.id}/`}>{p.data.title}</a></h2>
-          <p>{p.data.summary}</p>
+        <li class={p.data.image ? 'has-thumb' : undefined}>
+          {p.data.image && <img class="post-thumb" src={p.data.image} alt="" width="800" height="360" loading="lazy" decoding="async" />}
+          <div>
+            <p class="muted">
+              {topicLabels[p.data.topic]} · {formatDate(p.data.published)}
+              {p.data.draft && <strong> · BORRADOR (solo visible en desarrollo)</strong>}
+            </p>
+            <h2><a href={`/opinion/${p.id}/`}>{p.data.title}</a></h2>
+            <p>{p.data.summary}</p>
+          </div>
         </li>
       ))}
     </ul>

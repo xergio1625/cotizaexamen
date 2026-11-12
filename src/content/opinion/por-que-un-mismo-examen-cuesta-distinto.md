@@ -7,6 +7,8 @@ sources:
   - label: Arancel de Prestaciones de Salud 2026, Modalidad Libre Elección (FONASA), grupo 03 Laboratorio
   - label: Precios de prestadores verificados en este sitio, con fuente y fecha en cada ficha de examen
     url: https://cotizaexamen.cl/precios/
+image: /img/opinion/precio-cadena.svg
+imageAlt: Dos barras de precio formadas por los mismos cinco eslabones, una más baja y otra más alta
 draft: true
 ---
 

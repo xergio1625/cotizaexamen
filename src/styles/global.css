@@ -231,3 +231,15 @@ caption { text-align: left; padding: .4rem .75rem; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .js .reveal { opacity: 1; transform: none; }
 }
+
+/* =====================================================================
+   Opinión: ilustraciones animadas (SVG) de los artículos
+   ===================================================================== */
+.op-hero, .op-fig { margin: 1.25rem 0 1.5rem; border: 1px solid var(--c-border); border-radius: 14px; overflow: hidden; background: var(--c-surface); box-shadow: var(--sh-1); }
+.op-hero img, .op-fig img { display: block; width: 100%; height: auto; }
+.op-fig figcaption { padding: .55rem 1rem .7rem; font-size: .9rem; color: var(--c-muted); border-top: 1px solid var(--c-border); background: #fff; }
+.post-list li.has-thumb { display: grid; grid-template-columns: 12rem 1fr; gap: 1.1rem; align-items: center; }
+.post-thumb { width: 100%; height: auto; aspect-ratio: 20 / 9; object-fit: cover; border-radius: 10px; border: 1px solid var(--c-border); background: var(--c-surface); }
+@media (max-width: 760px) {
+  .post-list li.has-thumb { grid-template-columns: 1fr; }
+}

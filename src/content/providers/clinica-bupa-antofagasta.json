@@ -4,5 +4,6 @@
   "website": "https://www.clinicabupaantofagasta.cl",
   "subdivisions": [
     "Antofagasta"
-  ]
+  ],
+  "regionalOnly": true
 }

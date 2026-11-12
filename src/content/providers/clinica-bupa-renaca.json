@@ -4,5 +4,6 @@
   "website": "https://www.clinicabuparenaca.cl",
   "subdivisions": [
     "Viña del Mar"
-  ]
+  ],
+  "regionalOnly": true
 }

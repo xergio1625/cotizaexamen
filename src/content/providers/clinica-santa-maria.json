@@ -4,5 +4,6 @@
   "website": "https://www.clinicasantamaria.cl",
   "subdivisions": [
     "Providencia"
-  ]
+  ],
+  "regionalOnly": true
 }

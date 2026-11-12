@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-label="Veinte mediciones en una persona sana: es probable que una de ellas salga marcada fuera de rango">
+<style>
+.bg{fill:#fbfaf6}.t{font:700 34px system-ui,sans-serif;fill:#8a3f2b}.m{font:15px system-ui,sans-serif;fill:#566459}.l{font:600 17px system-ui,sans-serif;fill:#24332a}
+.c{fill:#dde8db;stroke:#9bb5a3;stroke-width:2;animation:sc 6s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes sc{0%{fill:#dde8db}3%{fill:#4f6f5c}8%,100%{fill:#dde8db}}
+.x{animation:fx 6s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes fx{0%{fill:#dde8db}3%{fill:#4f6f5c}8%,74%{fill:#c9806a;stroke:#8a3f2b}98%,100%{fill:#dde8db}}
+.n{animation:nn 6s ease-in-out infinite}
+@keyframes nn{0%,40%{opacity:0;transform:translateY(8px)}60%,95%{opacity:1;transform:none}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.n{opacity:1}.x{fill:#c9806a}}
+</style>
+<rect class="bg" width="800" height="300"/>
+<g transform="translate(60 52)">
+<rect class="c" style="--d:0s" x="0" y="0" width="52" height="52" rx="10"/><rect class="c" style="--d:.15s" x="64" y="0" width="52" height="52" rx="10"/><rect class="c" style="--d:.3s" x="128" y="0" width="52" height="52" rx="10"/><rect class="c" style="--d:.45s" x="192" y="0" width="52" height="52" rx="10"/><rect class="c" style="--d:.6s" x="256" y="0" width="52" height="52" rx="10"/>
+<rect class="c" style="--d:.75s" x="0" y="64" width="52" height="52" rx="10"/><rect class="c" style="--d:.9s" x="64" y="64" width="52" height="52" rx="10"/><rect class="c" style="--d:1.05s" x="128" y="64" width="52" height="52" rx="10"/><rect class="c" style="--d:1.2s" x="192" y="64" width="52" height="52" rx="10"/><rect class="c" style="--d:1.35s" x="256" y="64" width="52" height="52" rx="10"/>
+<rect class="c" style="--d:1.5s" x="0" y="128" width="52" height="52" rx="10"/><rect class="c" style="--d:1.65s" x="64" y="128" width="52" height="52" rx="10"/><rect class="x" style="--d:1.8s;fill:#dde8db;stroke:#9bb5a3;stroke-width:2" x="128" y="128" width="52" height="52" rx="10"/><rect class="c" style="--d:1.95s" x="192" y="128" width="52" height="52" rx="10"/><rect class="c" style="--d:2.1s" x="256" y="128" width="52" height="52" rx="10"/>
+<rect class="c" style="--d:2.25s" x="0" y="192" width="52" height="52" rx="10"/><rect class="c" style="--d:2.4s" x="64" y="192" width="52" height="52" rx="10"/><rect class="c" style="--d:2.55s" x="128" y="192" width="52" height="52" rx="10"/><rect class="c" style="--d:2.7s" x="192" y="192" width="52" height="52" rx="10"/><rect class="c" style="--d:2.85s" x="256" y="192" width="52" height="52" rx="10"/>
+</g>
+<g transform="translate(420 96)"><g class="n"><text class="t" x="0" y="0">≈ 64 %</text><text class="l" x="0" y="34">de probabilidad de que al menos una</text><text class="l" x="0" y="58">de 20 mediciones salga «fuera de rango»</text><text class="m" x="0" y="88">en una persona sana (si fueran independientes).</text></g></g>
+</svg>

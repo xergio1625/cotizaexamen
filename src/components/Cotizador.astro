@@ -296,7 +296,7 @@ const data = {
     else complete.sort(byName);
 
     const pool = poolOffers();
-    if (!pool.some(visible)) {
+    if (!pool.length) {
       results.append(h('p', { class: 'notice' }, selected.every((id) => examById.get(id)!.noFonasa) ? 'Aún no tenemos precios de prestadores para estos exámenes. Suelen procesarse en laboratorios de derivación: consulta directamente a un laboratorio o clínica y pregunta si lo toman y a qué valor.' : 'Aún no tenemos precios de prestadores para estos exámenes. Usa el valor FONASA como referencia y consulta directamente al laboratorio o clínica.'));
       return;
     }
@@ -313,7 +313,7 @@ const data = {
     });
     ctl.append(grp);
     if (regions.length > 1) {
-      const rsel = h('select', { id: 'cz-region' }, h('option', { value: '' }, 'Todo Chile')) as HTMLSelectElement;
+      const rsel = h('select', { id: 'cz-region' }, h('option', { value: '' }, pool.some((o) => !o.regionalOnly) ? 'Todo Chile' : 'Elige una región')) as HTMLSelectElement;
       regions.forEach((r) => rsel.append(h('option', { value: r }, r)));
       rsel.value = region;
       rsel.addEventListener('change', () => { region = rsel.value; sub = ''; renderResults(); });
@@ -328,7 +328,9 @@ const data = {
     }
     results.append(ctl);
 
-    if (complete.length) results.append(table(complete, true));
+    if (!all.length) {
+      results.append(h('p', { class: 'notice' }, region ? 'Ningún prestador tiene precios para estos exámenes en esta región.' : 'Elige una región para ver los precios de los prestadores.'));
+    } else if (complete.length) results.append(table(complete, true));
     else results.append(h('p', { class: 'notice' }, 'Ningún prestador tiene precio para todos tus exámenes. Abajo ves cotizaciones parciales.'));
 
     if (partial.length) {

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Una orden médica con dos caminos: pago particular, a menudo sin orden, y bono o seguro, que piden orden">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 18px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}.l{font:600 15px system-ui,sans-serif;fill:#24332a}
+.paper{animation:bob 6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px) rotate(-1deg)}}
+.ln{stroke-dasharray:120;stroke-dashoffset:120;animation:wr 6s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes wr{0%{stroke-dashoffset:120}25%,100%{stroke-dashoffset:0}}
+.stamp{transform-box:fill-box;transform-origin:center;animation:st 6s ease-in infinite}
+@keyframes st{0%,40%{transform:scale(2.4) rotate(-14deg);opacity:0}52%{transform:scale(1) rotate(-14deg);opacity:1}92%{opacity:1}100%{opacity:0}}
+.flow{stroke-dasharray:10 8;animation:fw 1s linear infinite}
+@keyframes fw{to{stroke-dashoffset:-18}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.ln{stroke-dashoffset:0}.stamp{opacity:1;transform:rotate(-14deg)}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<g class="paper">
+<rect x="70" y="60" width="200" height="250" rx="14" fill="#fff" stroke="#4f6f5c" stroke-width="4"/>
+<text class="t" x="170" y="94" text-anchor="middle">Orden médica</text>
+<g stroke="#9bb5a3" stroke-width="5" stroke-linecap="round" fill="none"><path class="ln" style="--d:0s" d="M96 126 H244"/><path class="ln" style="--d:.4s" d="M96 154 H224"/><path class="ln" style="--d:.8s" d="M96 182 H238"/><path class="ln" style="--d:1.2s" d="M96 210 H200"/></g>
+<g class="stamp"><circle cx="212" cy="264" r="28" fill="none" stroke="#c9806a" stroke-width="5"/><path d="M198 264 l10 10 l18 -20" fill="none" stroke="#c9806a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<path class="flow" d="M290 150 C350 150 360 100 420 100 H500" fill="none" stroke="#9bb5a3" stroke-width="5"/>
+<path class="flow" d="M290 220 C350 220 360 270 420 270 H500" fill="none" stroke="#4f6f5c" stroke-width="5"/>
+<g transform="translate(500 56)"><rect width="240" height="88" rx="14" fill="#fff" stroke="#9bb5a3" stroke-width="3"/><text class="t" x="20" y="34">Pago particular</text><text class="m" x="20" y="58">Muchos laboratorios la piden</text><text class="m" x="20" y="76">solo en ciertos exámenes: consulta.</text></g>
+<g transform="translate(500 226)"><rect width="240" height="88" rx="14" fill="#fff" stroke="#4f6f5c" stroke-width="3"/><text class="t" x="20" y="34">Bono o seguro</text><text class="m" x="20" y="58">Casi siempre exigen orden</text><text class="m" x="20" y="76">vigente y legible.</text></g>
+</svg>

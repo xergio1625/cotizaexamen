@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Dos barras de precio hechas de los mismos cinco eslabones, una más baja y otra más alta">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 22px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}.l{font:600 15px system-ui,sans-serif;fill:#24332a}
+.s{transform-box:fill-box;transform-origin:50% 100%;animation:g 9s var(--e,ease-in-out) infinite;animation-delay:var(--d)}
+@keyframes g{0%{transform:scaleY(0)}14%,86%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+.p{animation:f 9s ease-in-out infinite}.p2{animation-delay:.5s}
+@keyframes f{0%,16%{opacity:0;transform:translateY(8px)}28%,86%{opacity:1;transform:none}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.p{opacity:1}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<line x1="60" y1="318" x2="520" y2="318" stroke="#d9e1d5" stroke-width="2"/>
+<g>
+<rect class="s" style="--d:0s" x="110" y="298" width="120" height="20" fill="#4f6f5c"/>
+<rect class="s" style="--d:.15s" x="110" y="278" width="120" height="20" fill="#6f8f7a"/>
+<rect class="s" style="--d:.3s" x="110" y="238" width="120" height="40" fill="#9bb5a3"/>
+<rect class="s" style="--d:.45s" x="110" y="223" width="120" height="15" fill="#d6a08f"/>
+<rect class="s" style="--d:.6s" x="110" y="208" width="120" height="15" fill="#c9806a"/>
+</g>
+<g>
+<rect class="s" style="--d:.2s" x="330" y="288" width="120" height="30" fill="#4f6f5c"/>
+<rect class="s" style="--d:.35s" x="330" y="248" width="120" height="40" fill="#6f8f7a"/>
+<rect class="s" style="--d:.5s" x="330" y="168" width="120" height="80" fill="#9bb5a3"/>
+<rect class="s" style="--d:.65s" x="330" y="123" width="120" height="45" fill="#d6a08f"/>
+<rect class="s" style="--d:.8s" x="330" y="78" width="120" height="45" fill="#c9806a"/>
+</g>
+<g class="p"><text class="t" x="170" y="196" text-anchor="middle">$3.000</text></g>
+<g class="p p2"><text class="t" x="390" y="66" text-anchor="middle">$9.000</text></g>
+<text class="m" x="170" y="342" text-anchor="middle">Prestador A</text>
+<text class="m" x="390" y="342" text-anchor="middle">Prestador B</text>
+<g transform="translate(560 96)">
+<text class="m" x="0" y="-14">La misma cadena, distinto peso</text>
+<rect x="0" y="6" width="14" height="14" fill="#c9806a"/><text class="l" x="24" y="18">Validación del resultado</text>
+<rect x="0" y="38" width="14" height="14" fill="#d6a08f"/><text class="l" x="24" y="50">Control de calidad</text>
+<rect x="0" y="70" width="14" height="14" fill="#9bb5a3"/><text class="l" x="24" y="82">Procesamiento</text>
+<rect x="0" y="102" width="14" height="14" fill="#6f8f7a"/><text class="l" x="24" y="114">Transporte</text>
+<rect x="0" y="134" width="14" height="14" fill="#4f6f5c"/><text class="l" x="24" y="146">Toma de muestra</text>
+</g>
+</svg>

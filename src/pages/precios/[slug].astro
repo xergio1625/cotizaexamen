@@ -12,10 +12,9 @@ import { formatMoney } from '../../lib/format';
 export async function getStaticPaths() {
   if (!siteConfig.modules.prices) return [];
   const [items, allRows] = await Promise.all([getArancel(), getPriceRows()]);
-  const generalRows = allRows.filter((r) => !r.regionalOnly);
   return items.map((item) => ({
     params: { slug: item.slug },
-    props: { item, rows: groupOffers(generalRows.filter((r) => r.examId === item.id)) },
+    props: { item, rows: groupOffers(allRows.filter((r) => r.examId === item.id)) },
   }));
 }
 

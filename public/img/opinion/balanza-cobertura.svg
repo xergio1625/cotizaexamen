@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Una balanza que se mueve entre usar la cobertura de tu plan y pagar el precio particular">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 19px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}
+.beam{transform-origin:400px 120px;animation:tilt 8s ease-in-out infinite}
+@keyframes tilt{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.coin{animation:cn 4s ease-in-out infinite}
+@keyframes cn{50%{transform:translateY(-5px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<rect x="388" y="120" width="24" height="190" rx="6" fill="#4f6f5c"/><rect x="330" y="306" width="140" height="18" rx="9" fill="#2f4638"/>
+<g class="beam"><rect x="150" y="112" width="500" height="16" rx="8" fill="#2f4638"/><circle cx="400" cy="120" r="14" fill="#c9806a"/>
+<g ><line x1="170" y1="128" x2="130" y2="230" stroke="#4f6f5c" stroke-width="3"/><line x1="170" y1="128" x2="210" y2="230" stroke="#4f6f5c" stroke-width="3"/><path d="M110 230 h120 a60 40 0 0 1 -120 0z" fill="#fff" stroke="#4f6f5c" stroke-width="4"/><text class="t" x="170" y="296" text-anchor="middle">Con tu plan</text><text class="m" x="170" y="316" text-anchor="middle">bono, reembolso, tope</text></g>
+<g ><line x1="630" y1="128" x2="590" y2="230" stroke="#4f6f5c" stroke-width="3"/><line x1="630" y1="128" x2="670" y2="230" stroke="#4f6f5c" stroke-width="3"/><path d="M570 230 h120 a60 40 0 0 1 -120 0z" fill="#fff" stroke="#4f6f5c" stroke-width="4"/><text class="t" x="630" y="296" text-anchor="middle">Particular</text><text class="m" x="630" y="316" text-anchor="middle">precio directo, sin trámite</text></g>
+</g>
+<g class="coin"><circle cx="400" cy="70" r="22" fill="#e8c46c" stroke="#b08a2e" stroke-width="4"/><text x="400" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="22" fill="#7a5c14">$</text></g>
+</svg>

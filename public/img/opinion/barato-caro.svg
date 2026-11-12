@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Dos etiquetas de precio, barato y caro, que se balancean junto a una pregunta: qué hay detrás del precio">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 26px system-ui,sans-serif;fill:#2f4638}.m{font:15px system-ui,sans-serif;fill:#566459}
+.a{transform-origin:200px 40px;animation:sw 5s ease-in-out infinite}
+.b{transform-origin:600px 40px;animation:sw 5s ease-in-out infinite reverse}
+@keyframes sw{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
+.q{animation:pp 3.5s ease-in-out infinite;transform-origin:400px 190px}
+@keyframes pp{50%{transform:scale(1.12)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<g class="a"><line x1="200" y1="40" x2="200" y2="96" stroke="#9bb5a3" stroke-width="4"/><rect x="110" y="96" width="180" height="120" rx="16" fill="#e6f0e3" stroke="#4f6f5c" stroke-width="5"/><circle cx="200" cy="112" r="6" fill="#fff" stroke="#4f6f5c" stroke-width="3"/><text class="t" x="200" y="160" text-anchor="middle">$3.000</text><text class="m" x="200" y="186" text-anchor="middle">«barato»</text></g>
+<g class="b"><line x1="600" y1="40" x2="600" y2="96" stroke="#9bb5a3" stroke-width="4"/><rect x="510" y="96" width="180" height="120" rx="16" fill="#f7e3dc" stroke="#c9806a" stroke-width="5"/><circle cx="600" cy="112" r="6" fill="#fff" stroke="#c9806a" stroke-width="3"/><text class="t" x="600" y="160" text-anchor="middle" style="fill:#8a3f2b">$9.000</text><text class="m" x="600" y="186" text-anchor="middle">«caro»</text></g>
+<g class="q"><circle cx="400" cy="190" r="48" fill="#fff" stroke="#4f6f5c" stroke-width="5"/><text x="400" y="212" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="56" fill="#4f6f5c">?</text></g>
+<text class="t" x="400" y="300" text-anchor="middle" style="font-size:20px">El precio es el comienzo de la pregunta, no la respuesta</text>
+</svg>

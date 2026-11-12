@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Una campana de valores de personas sanas: el 95 % queda dentro del rango de referencia y un 5 % queda fuera sin estar enfermo">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 22px system-ui,sans-serif;fill:#2f4638}.m{font:14px system-ui,sans-serif;fill:#566459}.l{font:600 15px system-ui,sans-serif;fill:#24332a}
+.d{animation:fall 7s cubic-bezier(.5,0,.8,.6) infinite;animation-delay:var(--d);opacity:0}
+@keyframes fall{0%{transform:translateY(-120px);opacity:0}6%{opacity:1}30%,92%{transform:translateY(0);opacity:1}100%{opacity:0}}
+.rng{animation:rg 7s ease-in-out infinite}
+@keyframes rg{0%,25%{opacity:0}45%,92%{opacity:1}100%{opacity:0}}
+.tail{animation:tl 7s ease-in-out infinite}
+@keyframes tl{0%,40%{opacity:.35}55%,90%{opacity:1}100%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.d,.rng{opacity:1}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<line x1="60" y1="300" x2="740" y2="300" stroke="#9bb5a3" stroke-width="3"/>
+<path d="M60 300 C170 298 230 285 290 225 C330 175 360 100 400 100 C440 100 470 175 510 225 C570 285 630 298 740 300Z" fill="#dde8db" stroke="#4f6f5c" stroke-width="3"/>
+<g class="rng"><path d="M290 225 C330 175 360 100 400 100 C440 100 470 175 510 225 L510 300 L290 300Z" fill="#4f6f5c" opacity=".28"/>
+<line x1="290" y1="150" x2="290" y2="300" stroke="#2f4638" stroke-width="3" stroke-dasharray="6 5"/><line x1="510" y1="150" x2="510" y2="300" stroke="#2f4638" stroke-width="3" stroke-dasharray="6 5"/>
+<text class="l" x="400" y="62" text-anchor="middle">Rango de referencia</text><text class="m" x="400" y="82" text-anchor="middle">95 % de personas sanas</text></g>
+<g class="tail"><path d="M60 300 C120 299 170 294 205 284 L205 300Z" fill="#c9806a"/><path d="M595 284 C630 294 680 299 740 300 L595 300Z" fill="#c9806a"/>
+<text class="l" x="132" y="236" text-anchor="middle" fill="#8a3f2b" style="fill:#8a3f2b">2,5 %</text><text class="l" x="668" y="236" text-anchor="middle" style="fill:#8a3f2b">2,5 %</text>
+<text class="m" x="132" y="256" text-anchor="middle">sano, pero</text><text class="m" x="668" y="256" text-anchor="middle">«fuera de rango»</text></g>
+<g fill="#4f6f5c">
+<circle class="d" style="--d:0s" cx="372" cy="288" r="7"/><circle class="d" style="--d:.2s" cx="402" cy="288" r="7"/><circle class="d" style="--d:.4s" cx="432" cy="288" r="7"/>
+<circle class="d" style="--d:.6s" cx="344" cy="288" r="7"/><circle class="d" style="--d:.8s" cx="462" cy="288" r="7"/><circle class="d" style="--d:1s" cx="316" cy="288" r="7"/>
+<circle class="d" style="--d:1.2s" cx="488" cy="288" r="7"/><circle class="d" style="--d:1.4s" cx="388" cy="270" r="7"/><circle class="d" style="--d:1.6s" cx="418" cy="270" r="7"/>
+</g>
+<g fill="#c9806a"><circle class="d" style="--d:2s" cx="140" cy="288" r="7"/><circle class="d" style="--d:2.4s" cx="660" cy="288" r="7"/></g>
+<text class="m" x="400" y="332" text-anchor="middle">Cada punto es una persona sana</text>
+</svg>

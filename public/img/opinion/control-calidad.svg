@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Un escudo con visto bueno junto a un gráfico de control de calidad donde las mediciones oscilan dentro de los límites">
+<style>
+.bg{fill:#f1f5ee}.t{font:700 18px system-ui,sans-serif;fill:#2f4638}.m{font:13px system-ui,sans-serif;fill:#566459}
+.line{stroke-dasharray:900;stroke-dashoffset:900;animation:dr 8s ease-in-out infinite}
+@keyframes dr{0%{stroke-dashoffset:900}55%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:900}}
+.pt{opacity:0;animation:pp 8s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes pp{0%{opacity:0}8%,90%{opacity:1}100%{opacity:0}}
+.alert{animation:al 8s ease-in-out infinite}
+@keyframes al{0%,50%{opacity:0;transform:scale(.4)}60%,90%{opacity:1;transform:scale(1)}100%{opacity:0}}
+.alert{transform-box:fill-box;transform-origin:center}
+.shield{animation:sh 4s ease-in-out infinite;transform-origin:150px 180px}
+@keyframes sh{50%{transform:scale(1.05)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.line{stroke-dashoffset:0}.pt,.alert{opacity:1}}
+</style>
+<rect class="bg" width="800" height="360"/>
+<g class="shield"><path d="M150 70 L230 98 V180 C230 232 196 266 150 288 C104 266 70 232 70 180 V98Z" fill="#fff" stroke="#4f6f5c" stroke-width="6" stroke-linejoin="round"/><path d="M110 180 l28 28 l54 -60" fill="none" stroke="#4f6f5c" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text class="t" x="150" y="324" text-anchor="middle">Calidad que se mide</text>
+<g transform="translate(300 60)">
+<rect width="450" height="240" rx="14" fill="#fff" stroke="#d9e1d5" stroke-width="2"/>
+<rect x="20" y="62" width="410" height="116" fill="#e6f0e3"/>
+<line x1="20" y1="120" x2="430" y2="120" stroke="#4f6f5c" stroke-width="2"/>
+<line x1="20" y1="62" x2="430" y2="62" stroke="#c9806a" stroke-width="2" stroke-dasharray="6 5"/><line x1="20" y1="178" x2="430" y2="178" stroke="#c9806a" stroke-width="2" stroke-dasharray="6 5"/>
+<text class="m" x="26" y="54">Límite superior</text><text class="m" x="26" y="198">Límite inferior</text><text class="m" x="430" y="140" text-anchor="end">Valor esperado</text>
+<polyline class="line" points="40,128 80,108 120,134 160,112 200,126 240,100 280,122 320,136 360,110 400,46" fill="none" stroke="#2f4638" stroke-width="4" stroke-linejoin="round"/>
+<g fill="#4f6f5c"><circle class="pt" style="--d:.4s" cx="40" cy="128" r="5"/><circle class="pt" style="--d:.9s" cx="120" cy="134" r="5"/><circle class="pt" style="--d:1.5s" cx="200" cy="126" r="5"/><circle class="pt" style="--d:2.1s" cx="280" cy="122" r="5"/><circle class="pt" style="--d:2.8s" cx="360" cy="110" r="5"/></g>
+<g class="alert"><circle cx="400" cy="46" r="12" fill="#c9806a"/></g>
+<text class="t" x="225" y="226" text-anchor="middle">Muestras control: se revisa cada día</text>
+</g>
+</svg>

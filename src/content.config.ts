@@ -92,7 +92,7 @@ const providers = defineCollection({
     subdivisions: z.array(z.string()).default([]), // comunas con sucursal
     acceptsWalkIn: z.boolean().optional(),
     requiresMedicalOrder: z.boolean().optional(),
-    /** Prestador local: solo aparece en el cotizador (y en las fichas de precio) al filtrar por región. */
+    /** Solo aparece en la búsqueda del cotizador al filtrar por región (las fichas de precio por examen sí lo listan). */
     regionalOnly: z.boolean().default(false),
     /**
      * Nivel de inscripción del prestador en FONASA (Modalidad Libre Elección): 1, 2 o 3.
@@ -142,6 +142,8 @@ const opinionTopic = z.enum([
   'urgencia', // qué no puede esperar
   'sistema', // FONASA, isapres, bonos, órdenes
   'comunicacion', // cómo se comunica la salud
+  'preparacion', // ayuno, horarios y errores al prepararse para el examen
+  'resultados', // conceptos generales para leer un resultado (nunca interpretación de un caso)
 ]);
 
 const opinion = defineCollection({
@@ -156,6 +158,9 @@ const opinion = defineCollection({
     sources: z.array(z.object({ label: z.string(), url: z.string().url().optional() })).default([]),
     /** Códigos FONASA de exámenes de los que se habla (para enlazar a su ficha). */
     relatedExams: z.array(reference('arancel')).default([]),
+    /** Ilustración principal (SVG animado en public/img/opinion/) y su texto alternativo. */
+    image: z.string().optional(),
+    imageAlt: z.string().default(''),
     draft: z.boolean().default(true),
   }),
 });
