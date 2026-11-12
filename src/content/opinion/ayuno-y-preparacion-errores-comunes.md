@@ -15,6 +15,15 @@ relatedExams:
   - 03-09-022
 image: /img/opinion/ayuno-reloj.svg
 imageAlt: Un reloj que avanza desde la última comida hasta la toma de muestra, con un vaso de agua permitido
+faq:
+  - q: "¿Cuántas horas de ayuno necesito para un examen de sangre?"
+    a: "Depende del examen: para una glicemia suelen ser unas 8 horas y para un perfil lipídico muchos laboratorios piden entre 9 y 12. Sigue siempre la indicación de tu laboratorio o tu médico."
+  - q: "¿Puedo tomar agua o café durante el ayuno?"
+    a: "El agua sola está permitida y suele ayudar. El café, el té, los jugos, la leche, el chicle y las pastillas dulces habitualmente no se permiten."
+  - q: "¿Debo suspender mis medicamentos antes de un examen?"
+    a: "No por cuenta propia. Algunos remedios no se deben dejar y otros conviene ajustarlos; esa decisión la toma tu médico. Consúltalo antes o pregunta al laboratorio."
+  - q: "¿Por qué me piden suspender la biotina antes de un examen?"
+    a: "Porque la biotina en dosis altas, común en suplementos para el pelo y las uñas, puede interferir con algunos métodos de laboratorio, sobre todo en hormonas como la TSH. Pregunta cuántos días antes debes suspenderla."
 draft: false
 ---
 

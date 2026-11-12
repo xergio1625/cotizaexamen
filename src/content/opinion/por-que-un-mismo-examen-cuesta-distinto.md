@@ -9,6 +9,13 @@ sources:
     url: https://cotizaexamen.cl/precios/
 image: /img/opinion/precio-cadena.svg
 imageAlt: Dos barras de precio formadas por los mismos cinco eslabones, una más baja y otra más alta
+faq:
+  - q: "¿Por qué un mismo examen cuesta distinto según el laboratorio?"
+    a: "Porque el precio refleja toda la cadena del examen: volumen de muestras, metodología, rapidez de entrega y logística. Una diferencia de precio no siempre es lucro ni siempre es calidad."
+  - q: "¿Derivar la muestra a otra ciudad permite ahorrar?"
+    a: "Sí, cuando la muestra es estable y puedes esperar el resultado. Un laboratorio puede tomarla en tu ciudad y enviarla a un centro de mayor volumen, con precio menor pero entrega más lenta."
+  - q: "¿Cómo detecto un precio excesivo?"
+    a: "Compara con una referencia pública, como el valor del Arancel FONASA, y pregunta por metodología, plazo y dónde se procesa. Si la diferencia no se explica por volumen, método, rapidez ni logística, conviene desconfiar."
 draft: false
 ---
 

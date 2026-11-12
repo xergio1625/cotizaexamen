@@ -8,6 +8,13 @@ sources:
   - label: Tu médico tratante, que es quien conoce tu caso
 image: /img/opinion/examenes-repetidos.svg
 imageAlt: Tubos de muestra repetidos en gris junto a uno útil, y la pregunta ¿cambiaría la decisión médica?
+faq:
+  - q: "¿Cómo sé si un examen es realmente necesario?"
+    a: "Pregunta a tu médico qué se espera averiguar, qué se hará si sale normal y si sale alterado, y si hay que repetirlo. Si el resultado no cambiaría la decisión, vale la pena conversarlo."
+  - q: "¿Puedo omitir un examen para ahorrar?"
+    a: "No por tu cuenta. Habla antes con el profesional que lo indicó. Dejar de hacerse exámenes que sí se necesitan es un problema tan serio como pedir de más."
+  - q: "¿Qué es Choosing Wisely?"
+    a: "Es una iniciativa internacional en la que sociedades médicas publican listas de pruebas de bajo valor en ciertas situaciones, para estimular la conversación entre pacientes y médicos."
 draft: false
 ---
 

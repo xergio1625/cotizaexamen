@@ -12,6 +12,13 @@ relatedExams:
   - 03-02-034
 image: /img/opinion/rango-campana.svg
 imageAlt: Una campana de valores de personas sanas donde el 95 % queda dentro del rango de referencia y un 5 % queda fuera
+faq:
+  - q: "¿Qué es un valor de referencia?"
+    a: "Es un intervalo que contiene el 95 % central de los valores medidos en personas sanas. Describe lo habitual, no marca el límite entre estar sano y enfermo."
+  - q: "¿Una persona sana puede salir «fuera de rango»?"
+    a: "Sí. Por construcción, cerca del 5 % de las personas sanas queda fuera del rango en cada examen. Con muchas mediciones juntas, es frecuente que alguna salga marcada."
+  - q: "¿Puedo comparar mi resultado con el rango de otro laboratorio?"
+    a: "No. Los rangos cambian según el método, el equipo, la población de referencia y las unidades. El rango válido es el impreso en tu propio informe; la interpretación corresponde a tu médico."
 draft: false
 ---
 

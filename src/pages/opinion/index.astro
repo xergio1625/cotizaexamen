@@ -4,14 +4,23 @@ import PageHero from '../../components/PageHero.astro';
 import { getOpinion, topicLabels } from '../../lib/opinion';
 import { formatDate } from '../../lib/format';
 import { siteConfig } from '../../../site.config';
+import { blogLd } from '../../lib/jsonld';
 
 const posts = await getOpinion();
+const title = 'Opinión: por qué los exámenes cuestan lo que cuestan';
+const description =
+  'Análisis de un tecnólogo médico sobre diferencias de precio, metodologías, calidad de resultados y derivación de muestras en el laboratorio clínico.';
+const ld = [
+  blogLd({
+    name: 'Opinión',
+    description,
+    path: '/opinion/',
+    posts: posts.map((p) => ({ title: p.data.title, path: `/opinion/${p.id}/`, published: p.data.published })),
+  }),
+];
 ---
 
-<Base
-  title="Opinión: por qué los exámenes cuestan lo que cuestan"
-  description="Análisis de un tecnólogo médico sobre diferencias de precio, metodologías, calidad de resultados y derivación de muestras en el laboratorio clínico."
->
+<Base title={title} description={description} jsonLd={ld}>
   <PageHero
     variant="banner"
     title="Opinión"

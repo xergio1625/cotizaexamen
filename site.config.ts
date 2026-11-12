@@ -94,5 +94,5 @@ export const siteConfig: SiteConfig = {
     url: 'https://consensuslab.cl',
   },
   contactEmail: 'contacto@cotizaexamen.cl',
-  social: { ogImage: '/og-default.svg' },
+  social: { ogImage: '/og-default.png' },
 };

@@ -9,6 +9,13 @@ sources:
     url: https://cotizaexamen.cl/precios/
 image: /img/opinion/balanza-cobertura.svg
 imageAlt: Una balanza que se mueve entre usar la cobertura del plan y pagar el precio particular
+faq:
+  - q: "¿Usar mi isapre o seguro siempre sale más barato?"
+    a: "No. En exámenes de bajo costo, el precio particular de un laboratorio de alto volumen puede ser menor que el saldo con cobertura. Compara el saldo final, no el precio de lista."
+  - q: "¿Cómo calculo cuánto pagaría con cobertura?"
+    a: "Resta al precio del prestador el aporte de tu isapre o FONASA y el reembolso de tu seguro complementario, según tus porcentajes, topes y deducibles. Lo que queda es tu gasto real."
+  - q: "¿Puedo pedir reembolso a mi seguro si pago particular?"
+    a: "En algunos seguros sí, con boleta o factura; en otros no. Pregunta a tu aseguradora antes de pagar."
 draft: false
 ---
 

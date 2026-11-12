@@ -13,6 +13,13 @@ relatedExams:
   - 03-01-045
 image: /img/opinion/fonasa-niveles.svg
 imageAlt: Tres barras para los niveles 1, 2 y 3 de una glucosa en sangre; el total sube pero el copago es el mismo
+faq:
+  - q: "¿Qué es el copago en la Modalidad Libre Elección de FONASA?"
+    a: "Es la parte del valor del arancel que paga el paciente: el valor total de la prestación menos la bonificación de FONASA."
+  - q: "¿Cambia mi copago si el prestador es nivel 1, 2 o 3?"
+    a: "Según el Arancel 2026 cargado en este sitio, no: en los 349 exámenes con valor en los tres niveles el copago es el mismo. Lo que sube con el nivel es el valor total, y esa diferencia la cubre FONASA."
+  - q: "¿Conviene usar bono FONASA o pagar particular?"
+    a: "Depende del examen y del prestador. Compara el precio particular con el copago, y suma el trámite de emitir el bono y la orden médica que se exige."
 draft: false
 ---
 

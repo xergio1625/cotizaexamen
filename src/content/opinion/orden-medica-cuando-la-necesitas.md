@@ -11,6 +11,13 @@ relatedExams:
   - 03-02-047
 image: /img/opinion/orden-medica.svg
 imageAlt: "Una orden médica con dos caminos: pago particular y bono o seguro"
+faq:
+  - q: "¿Necesito orden médica para hacerme un examen de laboratorio?"
+    a: "Si pagas particular, depende de cada prestador y del examen: muchos permiten exámenes de uso común sin orden. Con bono o seguro, casi siempre se exige una orden vigente y legible."
+  - q: "¿Qué datos debe tener una orden médica?"
+    a: "Tu nombre y RUT, la fecha, el nombre claro de cada examen y el nombre y firma del profesional, con su timbre o identificación. La vigencia varía según el prestador o la aseguradora."
+  - q: "¿Es buena idea pedirme exámenes por mi cuenta?"
+    a: "Puedes hacerlo si pagas tú, pero un resultado sin contexto puede confundir o asustar. La interpretación debe hacerla tu médico."
 draft: false
 ---
 

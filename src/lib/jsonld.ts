@@ -104,14 +104,57 @@ export const examServiceLd = (o: {
   };
 };
 
-export const articleLd = (o: { title: string; description: string; path: string; updated: Date }) => ({
+export const articleLd = (o: {
+  title: string;
+  description: string;
+  path: string;
+  updated: Date;
+  published?: Date;
+  /** Ruta absoluta del sitio de la imagen principal (1200x630). */
+  image?: string;
+  /** Fuentes del artículo; las que tienen URL se declaran como citas. */
+  sources?: { label: string; url?: string }[];
+}) => {
+  const url = new URL(o.path, siteConfig.url).href;
+  const cited = (o.sources ?? []).filter((s) => s.url);
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: o.title,
+    description: o.description,
+    inLanguage: siteConfig.lang,
+    url,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    ...(o.published ? { datePublished: o.published.toISOString() } : {}),
+    dateModified: o.updated.toISOString(),
+    ...(o.image ? { image: [new URL(o.image, siteConfig.url).href] } : {}),
+    isAccessibleForFree: true,
+    author: {
+      '@type': 'Person',
+      name: siteConfig.author.displayName,
+      jobTitle: siteConfig.author.credential,
+      url: new URL('/sobre-el-sitio/', siteConfig.url).href,
+    },
+    publisher: { '@type': 'Organization', name: siteConfig.brand, url: siteConfig.url },
+    ...(cited.length ? { citation: cited.map((s) => ({ '@type': 'CreativeWork', name: s.label, url: s.url })) } : {}),
+  };
+};
+
+/** Portada de la sección Opinión: colección con la lista de artículos. */
+export const blogLd = (o: { name: string; description: string; path: string; posts: { title: string; path: string; published: Date }[] }) => ({
   '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: o.title,
+  '@type': 'CollectionPage',
+  name: o.name,
   description: o.description,
+  url: new URL(o.path, siteConfig.url).href,
   inLanguage: siteConfig.lang,
-  mainEntityOfPage: new URL(o.path, siteConfig.url).href,
-  dateModified: o.updated.toISOString(),
-  author: { '@type': 'Person', name: siteConfig.author.displayName, jobTitle: siteConfig.author.credential },
-  publisher: { '@type': 'Organization', name: siteConfig.brand, url: siteConfig.url },
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: o.posts.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: new URL(p.path, siteConfig.url).href,
+      name: p.title,
+    })),
+  },
 });

@@ -2,7 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { siteConfig } from '../../../site.config';
-import { articleLd, breadcrumbLd } from '../../lib/jsonld';
+import { articleLd, breadcrumbLd, faqLd } from '../../lib/jsonld';
 import { formatDate } from '../../lib/format';
 import { getArancel } from '../../lib/arancel';
 import { getOpinion, topicLabels } from '../../lib/opinion';
@@ -22,17 +22,27 @@ const related = d.relatedExams
   .map((r) => arancel.find((i) => i.id === r.id))
   .filter((i): i is NonNullable<typeof i> => Boolean(i));
 
-const ld = [
-  articleLd({ title: d.title, description: d.summary, path: Astro.url.pathname, updated: d.updated ?? d.published }),
+const ogImage = `/img/og/${entry.id}.png`;
+const ld: object[] = [
+  articleLd({
+    title: d.title,
+    description: d.summary,
+    path: Astro.url.pathname,
+    published: d.published,
+    updated: d.updated ?? d.published,
+    image: ogImage,
+    sources: d.sources,
+  }),
   breadcrumbLd([
     { name: 'Inicio', path: '/' },
     { name: 'Opinión', path: '/opinion/' },
     { name: d.title, path: Astro.url.pathname },
   ]),
 ];
+if (d.faq.length) ld.push(faqLd(d.faq));
 ---
 
-<Base title={d.title} description={d.summary} jsonLd={ld} ogType="article" noindex={d.draft}>
+<Base title={d.title} description={d.summary} jsonLd={ld} ogType="article" ogImage={ogImage} ogImageAlt={d.imageAlt || d.title} noindex={d.draft}>
   <article class="container prose">
     <p class="muted"><a href="/opinion/">Opinión</a> › {topicLabels[d.topic]}</p>
     <h1>{d.title}</h1>
@@ -50,6 +60,18 @@ const ld = [
     )}
 
     <Content />
+
+    {d.faq.length > 0 && (
+      <>
+        <h2>Preguntas frecuentes</h2>
+        {d.faq.map((f) => (
+          <details>
+            <summary><strong>{f.q}</strong></summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </>
+    )}
 
     {d.sources.length > 0 && (
       <>

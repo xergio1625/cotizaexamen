@@ -9,6 +9,13 @@ sources:
     url: https://cotizaexamen.cl/precios/
 image: /img/opinion/muestra-viaje.svg
 imageAlt: Un camión lleva un tubo de muestra de una ciudad a otra mientras corre un reloj
+faq:
+  - q: "¿Qué exámenes no conviene derivar a otra ciudad?"
+    a: "Los que no admiten demora, como gases en sangre o lactato, y los de muestra inestable: amonio, pruebas de coagulación, glucosa o potasio sin separar a tiempo, y urocultivo sin conservación adecuada."
+  - q: "¿Cuándo sí conviene derivar una muestra?"
+    a: "Cuando puedes esperar el resultado, la muestra es estable y el transporte está bien resuelto. Es habitual con exámenes en suero ya separado, como perfil lipídico, algunas hormonas y serologías."
+  - q: "¿Qué le pregunto al laboratorio antes de derivar?"
+    a: "Si el examen se procesa en el lugar o se deriva, cuánto demora el resultado y cómo se transporta la muestra."
 draft: false
 ---
 

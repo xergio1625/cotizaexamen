@@ -9,6 +9,13 @@ sources:
   - label: Arancel de Prestaciones de Salud 2026, Modalidad Libre Elección (FONASA), grupo 03 Laboratorio
 image: /img/opinion/barato-caro.svg
 imageAlt: Dos etiquetas de precio, barato y caro, que se balancean junto a una pregunta
+faq:
+  - q: "¿Un examen barato es de peor calidad?"
+    a: "No necesariamente. El precio depende del volumen, la metodología y la logística. Un precio bajo no dice nada sobre calidad, y tampoco uno alto."
+  - q: "¿Con FONASA siempre pago menos?"
+    a: "No siempre. Con bono pagas el copago más el trámite, y a veces el precio particular de un laboratorio de alto volumen es menor o parecido. Compara ambos números."
+  - q: "¿Da lo mismo en qué laboratorio me haga el examen?"
+    a: "Para muchos exámenes el resultado es equivalente entre laboratorios bien controlados, pero los métodos y rangos pueden diferir. Si haces seguimiento, prefiere el mismo laboratorio."
 draft: false
 ---
 

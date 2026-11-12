@@ -9,6 +9,13 @@ sources:
     url: https://cotizaexamen.cl/sobre-el-sitio/
 image: /img/opinion/lupa-precios.svg
 imageAlt: Una lupa recorre una lista de precios borrosa y deja ver los valores con claridad
+faq:
+  - q: "¿Por qué es difícil encontrar el precio de un examen de laboratorio?"
+    a: "Porque el precio depende de convenios, cambia con frecuencia, no siempre se acostumbra publicarlo y el examen no es una sola cosa: metodología, urgencia y logística también influyen."
+  - q: "¿Qué debería incluir un precio bien publicado?"
+    a: "El nombre del examen, el valor y su tipo (particular, convenio o promoción), la sede, la fecha de verificación, la fuente y qué incluye."
+  - q: "¿Los precios de este sitio son definitivos?"
+    a: "No: son referenciales, con fuente pública y fecha de verificación. Confírmalos con el prestador antes de ir."
 draft: false
 ---
 

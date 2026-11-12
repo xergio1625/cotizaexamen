@@ -12,6 +12,13 @@ sources:
   - label: Norma ISO 15189, requisitos de calidad y competencia para laboratorios médicos
 image: /img/opinion/control-calidad.svg
 imageAlt: Un escudo con visto bueno junto a un gráfico de control donde las mediciones oscilan dentro de los límites
+faq:
+  - q: "¿Cómo sé si un laboratorio es confiable?"
+    a: "Pregunta si participa en un programa de control de calidad externo, quién valida los resultados, qué metodología usa y si está acreditado. Un informe que incluya método, rango de referencia y validador es buena señal."
+  - q: "¿Dónde ocurren la mayoría de los errores de laboratorio?"
+    a: "Según la literatura de medicina de laboratorio, buena parte ocurre fuera del analizador: en la identificación y toma de muestra, el transporte, y la digitación y entrega del resultado."
+  - q: "¿Un laboratorio no acreditado es de mala calidad?"
+    a: "No necesariamente, pero conviene preguntar qué controles internos y externos aplica. La autorización sanitaria es el mínimo para funcionar; la acreditación es una señal adicional."
 draft: false
 ---
 

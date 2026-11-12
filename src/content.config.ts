@@ -160,6 +160,8 @@ const opinion = defineCollection({
     relatedExams: z.array(reference('arancel')).default([]),
     /** Ilustración principal (SVG animado en public/img/opinion/) y su texto alternativo. */
     image: z.string().optional(),
+    /** Preguntas frecuentes del artículo: se muestran y se declaran como FAQPage. */
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
     imageAlt: z.string().default(''),
     draft: z.boolean().default(true),
   }),

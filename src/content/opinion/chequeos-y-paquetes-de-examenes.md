@@ -13,6 +13,13 @@ relatedExams:
   - 03-02-034
 image: /img/opinion/paquete-examenes.svg
 imageAlt: "Una lista de exámenes de un paquete: algunos marcados como necesarios y otros en gris"
+faq:
+  - q: "¿Conviene comprar un paquete de exámenes?"
+    a: "Solo si coincide con lo que realmente necesitas y su precio es menor que la suma de esos exámenes por separado. Compara siempre contra la suma, no contra un precio «normal» de referencia."
+  - q: "¿Cómo comparo un paquete con exámenes sueltos?"
+    a: "Anota los que tu médico te pidió, súmalos uno por uno en el cotizador, compáralos con el precio del paquete y resta lo que no estaba en tu lista: eso es lo que pagas de más."
+  - q: "¿Quién decide qué exámenes debo hacerme?"
+    a: "Tu médico. Este análisis solo ayuda a comparar productos; no reemplaza una indicación clínica."
 draft: false
 ---
 
