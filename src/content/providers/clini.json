@@ -1,0 +1,19 @@
+{
+  "name": "CLINI",
+  "kind": "laboratorio",
+  "website": "https://www.clini.cl",
+  "subdivisions": [
+    "Buin",
+    "Chillán",
+    "La Florida",
+    "Maipú",
+    "Providencia",
+    "Rancagua",
+    "San Bernardo",
+    "San Miguel",
+    "Santiago",
+    "Temuco"
+  ],
+  "regionalOnly": true,
+  "fonasaLevel": 1
+}

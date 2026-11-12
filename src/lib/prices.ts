@@ -5,6 +5,9 @@ export interface PriceRow extends Orderable {
   examId: string;
   kind: 'particular' | 'convenio' | 'promocion';
   providerWebsite?: string;
+  /** Prestador local: se muestra solo al filtrar por región en el cotizador. */
+  regionalOnly: boolean;
+  fonasaLevel?: 1 | 2 | 3;
   sourceUrl?: string;
   verifiedAt: Date;
   note?: string;
@@ -22,19 +25,22 @@ export async function getPriceRows(): Promise<PriceRow[]> {
   return prices.flatMap((p) => {
     const provider = byId.get(p.data.provider.id);
     if (!provider) return [];
-    return [
+    const subs = p.data.subdivisions?.length ? p.data.subdivisions : [p.data.subdivision];
+    return subs.map((subdivision) => (
       {
         examId: p.data.exam.id,
         amount: p.data.amount,
         kind: p.data.kind,
-        subdivision: p.data.subdivision,
+        subdivision,
         providerName: provider.name,
         providerWebsite: provider.website,
+        regionalOnly: provider.regionalOnly,
+        fonasaLevel: provider.fonasaLevel,
         sourceUrl: p.data.sourceUrl,
         verifiedAt: p.data.verifiedAt,
         note: p.data.note,
         stale: (now - p.data.verifiedAt.getTime()) / 86_400_000 > STALE_DAYS,
-      },
-    ];
+      }
+    ));
   });
 }

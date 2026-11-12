@@ -1,0 +1,10 @@
+{
+  "exam": "03-03-018",
+  "provider": "centro-medico-limari",
+  "amount": 18000,
+  "kind": "particular",
+  "subdivision": "Ovalle",
+  "sourceUrl": "https://www.centromedicolimari.cl/cotizador",
+  "verifiedAt": "2026-11-11",
+  "note": "Cotizador web, valor particular (las Isapre se cotizan con este valor)"
+}

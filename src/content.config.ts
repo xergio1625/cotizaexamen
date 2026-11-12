@@ -72,6 +72,14 @@ const providers = defineCollection({
     subdivisions: z.array(z.string()).default([]), // comunas con sucursal
     acceptsWalkIn: z.boolean().optional(),
     requiresMedicalOrder: z.boolean().optional(),
+    /** Prestador local: solo aparece en el cotizador (y en las fichas de precio) al filtrar por región. */
+    regionalOnly: z.boolean().default(false),
+    /**
+     * Nivel de inscripción del prestador en FONASA (Modalidad Libre Elección): 1, 2 o 3.
+     * Con FONASA el prestador cobra el arancel de su nivel; no puede cobrar otro valor por esas prestaciones.
+     * Solo se informa cuando el propio prestador lo declara; si no se sabe, se deja vacío.
+     */
+    fonasaLevel: z.union([z.literal(1), z.literal(2), z.literal(3)]).optional(),
   }),
 });
 
@@ -88,6 +96,7 @@ const prices = defineCollection({
     amount: z.number().int().nonnegative(),
     kind: z.enum(['particular', 'convenio', 'promocion']).default('particular'),
     subdivision: z.string().optional(), // comuna, si el precio es por sucursal
+    subdivisions: z.array(z.string()).optional(), // varias comunas con el mismo precio (alternativa a `subdivision`)
     sourceUrl: z.string().url().optional(),
     verifiedAt: z.coerce.date(),
     note: z.string().optional(),

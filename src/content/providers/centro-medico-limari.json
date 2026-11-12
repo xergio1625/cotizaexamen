@@ -1,0 +1,9 @@
+{
+  "name": "Centro Médico Limarí",
+  "kind": "centro-medico",
+  "website": "https://www.centromedicolimari.cl",
+  "subdivisions": [
+    "Ovalle"
+  ],
+  "regionalOnly": true
+}

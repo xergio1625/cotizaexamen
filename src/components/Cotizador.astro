@@ -30,17 +30,26 @@ const data = {
     stability: i.stability?.text ?? '',
     derivable: i.stability?.derivable ?? null,
   })),
-  offers: rows.map((r) => ({
-    examId: r.examId,
-    provider: r.providerName,
-    website: r.providerWebsite ?? '',
-    kind: r.kind,
-    subdivision: r.subdivision ?? '',
-    region: regionOf(r.subdivision) ?? '',
-    amount: r.amount,
-    verifiedAt: r.verifiedAt.toISOString().slice(0, 10),
-  })),
+  subRegions: {} as Record<string, string>,
+  offers: [] as Offer[],
 };
+// Un precio igual en varias comunas viaja una sola vez, con la lista de comunas.
+type Offer = { examId: string; provider: string; website: string; kind: string; subdivisions: string[]; regionalOnly: boolean; fonasaLevel: number; amount: number; verifiedAt: string };
+const grouped = new Map<string, Offer>();
+for (const r of rows) {
+  const verifiedAt = r.verifiedAt.toISOString().slice(0, 10);
+  const key = [r.examId, r.providerName, r.kind, r.amount, verifiedAt].join('|');
+  let o = grouped.get(key);
+  if (!o) {
+    o = { examId: r.examId, provider: r.providerName, website: r.providerWebsite ?? '', kind: r.kind, subdivisions: [], regionalOnly: r.regionalOnly, fonasaLevel: r.fonasaLevel ?? 0, amount: r.amount, verifiedAt };
+    grouped.set(key, o);
+  }
+  if (r.subdivision && !o.subdivisions.includes(r.subdivision)) {
+    o.subdivisions.push(r.subdivision);
+    data.subRegions[r.subdivision] = regionOf(r.subdivision) ?? '';
+  }
+}
+data.offers = [...grouped.values()];
 ---
 
 <section class="cotizador" aria-labelledby="cz-title">
@@ -82,11 +91,11 @@ const data = {
 <script>
   type Lv = [number, number] | null;
   type Exam = { id: string; code: string; name: string; official: string; lv: Lv[]; guide: string; slug: string; fasting: string; fastingRequired: boolean | null; urgent: string; stability: string; derivable: boolean | null };
-  type Offer = { examId: string; provider: string; website: string; kind: string; subdivision: string; region: string; amount: number; verifiedAt: string };
-  type Group = { provider: string; website: string; kind: string; items: Map<string, Offer>; subs: Set<string>; oldest: string };
+  type Offer = { examId: string; provider: string; website: string; kind: string; subdivisions: string[]; regionalOnly: boolean; fonasaLevel: number; amount: number; verifiedAt: string };
+  type Group = { provider: string; website: string; kind: string; fonasaLevel: number; items: Map<string, Offer>; subs: Set<string>; oldest: string };
 
   const data = JSON.parse(document.getElementById('cz-data')!.textContent!) as {
-    locale: string; currency: string; staleDays: number; subLabel: string; exams: Exam[]; offers: Offer[];
+    locale: string; currency: string; staleDays: number; subLabel: string; subRegions: Record<string, string>; exams: Exam[]; offers: Offer[];
   };
   const money = new Intl.NumberFormat(data.locale, { style: 'currency', currency: data.currency, maximumFractionDigits: 0 });
   const dateFmt = new Intl.DateTimeFormat(data.locale, { dateStyle: 'medium', timeZone: 'UTC' });
@@ -165,22 +174,30 @@ const data = {
     if (!(ev.target as Element).closest('.cz-search')) suggest.hidden = true;
   });
 
+  /* Los prestadores locales (regionalOnly) solo se muestran cuando se filtra por su región. */
+  const regionOfSub = (s: string) => data.subRegions[s] ?? '';
+  const inRegion = (s: string) => !region || regionOfSub(s) === region;
+  /* Comunas de un precio que cumplen el filtro actual. Un precio sin comunas vale para todas. */
+  const relevantSubs = (o: Offer) => o.subdivisions.filter((s) => inRegion(s) && (!sub || s === sub));
+  const visible = (o: Offer) => (region ? !o.subdivisions.length || o.subdivisions.some(inRegion) : !o.regionalOnly);
+
   /* ---------- Cálculo de prestadores ---------- */
   function buildGroups(): Group[] {
     const map = new Map<string, Group>();
     for (const o of data.offers) {
       if (!selected.includes(o.examId)) continue;
-      if (region && o.region && o.region !== region) continue;
-      if (sub && o.subdivision && o.subdivision !== sub) continue;
+      if (!visible(o)) continue;
+      const subs = relevantSubs(o);
+      if (o.subdivisions.length && !subs.length) continue;
       const key = `${o.provider}|${o.kind}`;
       let g = map.get(key);
       if (!g) {
-        g = { provider: o.provider, website: o.website, kind: o.kind, items: new Map(), subs: new Set(), oldest: o.verifiedAt };
+        g = { provider: o.provider, website: o.website, kind: o.kind, fonasaLevel: o.fonasaLevel, items: new Map(), subs: new Set(), oldest: o.verifiedAt };
         map.set(key, g);
       }
       const cur = g.items.get(o.examId);
       if (!cur || o.amount < cur.amount) g.items.set(o.examId, o);
-      if (o.subdivision) g.subs.add(o.subdivision);
+      subs.forEach((s) => g.subs.add(s));
       if (o.verifiedAt < g.oldest) g.oldest = o.verifiedAt;
     }
     return [...map.values()];
@@ -259,13 +276,13 @@ const data = {
 
     results.append(h('h3', {}, 'Precios en prestadores'));
 
-    if (!data.offers.some((o) => selected.includes(o.examId))) {
+    if (!data.offers.some((o) => selected.includes(o.examId) && visible(o))) {
       results.append(h('p', { class: 'notice' }, 'Aún no tenemos precios de prestadores para estos exámenes. Usa el valor FONASA como referencia y consulta directamente al laboratorio o clínica.'));
       return;
     }
 
-    const regions = [...new Set(data.offers.map((o) => o.region).filter(Boolean))].sort(collator.compare);
-    const subs = [...new Set(data.offers.filter((o) => !region || o.region === region).map((o) => o.subdivision).filter(Boolean))].sort(collator.compare);
+    const regions = [...new Set(Object.values(data.subRegions).filter(Boolean))].sort(collator.compare);
+    const subs = [...new Set(data.offers.filter(visible).flatMap((o) => o.subdivisions.filter(inRegion)))].sort(collator.compare);
     if (sub && !subs.includes(sub)) sub = '';
     const ctl = h('div', { class: 'controls' });
     const grp = h('div', { role: 'group', 'aria-label': 'Ordenar por' }, h('span', {}, 'Ordenar por: '));
@@ -298,11 +315,26 @@ const data = {
       results.append(h('h3', {}, 'Cotizaciones parciales'), h('p', { class: 'muted small' }, 'Estos prestadores no tienen precio cargado para algún examen de tu orden.'));
       results.append(table(partial, false));
     }
-    results.append(h('p', { class: 'muted small' }, 'Si un prestador tiene varias sedes o precios del mismo examen, se usa el más bajo. Los precios son referenciales: confírmalos con el prestador.'));
+    results.append(h('p', { class: 'muted small' }, 'Total particular es el precio publicado por el prestador. Si te atiendes con FONASA (bono de Libre Elección) pagas el arancel del nivel en que está inscrito el prestador, no su precio particular; el copago es el arancel menos el bono. El nivel se muestra solo cuando el prestador lo informa.'), h('p', { class: 'muted small' }, 'Si un prestador tiene varias sedes o precios del mismo examen, se usa el más bajo. Los precios son referenciales: confírmalos con el prestador.'));
+  }
+
+  /* Atención con FONASA: el prestador cobra el arancel de su nivel, no su precio particular. */
+  function fonasaCell(g: Group, isComplete: boolean): (Node | string)[] {
+    if (!g.fonasaLevel) return [h('span', { class: 'muted small' }, 'Nivel FONASA no informado')];
+    const i = g.fonasaLevel - 1;
+    const ex = [...g.items.keys()].map((id) => examById.get(id)!);
+    if (ex.some((e) => !e.lv[i])) return [h('span', { class: 'tag' }, `FONASA nivel ${g.fonasaLevel}`), h('div', { class: 'muted small' }, 'Sin valor de arancel en este nivel para algún examen')];
+    const t = ex.reduce((s, e) => s + e.lv[i]![0], 0);
+    const b = ex.reduce((s, e) => s + e.lv[i]![1], 0);
+    return [
+      h('span', { class: 'tag' }, `FONASA nivel ${g.fonasaLevel}`),
+      h('div', {}, h('strong', {}, money.format(t - b)), ' de copago'),
+      h('div', { class: 'muted small' }, `Arancel ${money.format(t)}, bono ${money.format(b)}${isComplete ? '' : ' (solo exámenes cotizados)'}`),
+    ];
   }
 
   function table(groups: Group[], isComplete: boolean) {
-    const head = h('tr', {}, ...['Prestador', isComplete ? 'Total' : 'Subtotal', 'Detalle', Sub, 'Verificado'].map((t) => h('th', { scope: 'col' }, t)));
+    const head = h('tr', {}, ...['Prestador', isComplete ? 'Total particular' : 'Subtotal particular', 'Con FONASA', 'Detalle', Sub, 'Verificado'].map((t) => h('th', { scope: 'col' }, t)));
     const body = groups.map((g) => {
       const name = g.website ? h('a', { href: g.website, rel: 'noopener nofollow' }, g.provider) : g.provider;
       const detail = selected.map((id) => {
@@ -313,6 +345,7 @@ const data = {
       return h('tr', {},
         h('th', { scope: 'row' }, name, h('div', { class: 'muted small' }, kindLabel[g.kind] ?? g.kind)),
         h('td', {}, h('strong', {}, money.format(total(g)))),
+        h('td', {}, ...fonasaCell(g, isComplete)),
         h('td', {}, ...detail),
         h('td', {}, g.subs.size ? [...g.subs].sort(collator.compare).join(', ') : 'Todas'),
         h('td', {}, dateFmt.format(new Date(g.oldest)), stale ? h('div', { class: 'stale small' }, 'Por reconfirmar') : ''),

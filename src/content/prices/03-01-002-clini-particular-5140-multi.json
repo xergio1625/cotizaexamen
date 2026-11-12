@@ -1,0 +1,21 @@
+{
+  "exam": "03-01-002",
+  "provider": "clini",
+  "amount": 5140,
+  "kind": "particular",
+  "subdivisions": [
+    "Providencia",
+    "Santiago",
+    "La Florida",
+    "Maipú",
+    "San Miguel",
+    "San Bernardo",
+    "Buin",
+    "Rancagua",
+    "Chillán",
+    "Temuco"
+  ],
+  "sourceUrl": "https://cotizador-web.clini.cl/",
+  "verifiedAt": "2026-11-12",
+  "note": "Cotizador web (buscador público), valor particular; paciente FONASA nivel 1 con bono paga 2570 (bonificación 2570)"
+}

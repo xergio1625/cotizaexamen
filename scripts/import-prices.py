@@ -59,6 +59,7 @@ def main():
 
     valid_codes = {r['id'] for r in json.load(open(a.arancel, encoding='utf-8'))}
     errors, providers, prices = [], {}, {}
+    seen, groups = set(), {}
 
     with open(a.csv, encoding='utf-8-sig', newline='') as f:
         sample = f.read(4096)
@@ -111,18 +112,35 @@ def main():
             if sub:
                 prov['subdivisions'].add(sub)
 
-            fname = f"{code}-{pid}-{row['kind']}-{slug(sub) or 'todas'}.json"
-            if fname in prices:
+            dup = (code, pid, row['kind'], sub)
+            if dup in seen:
                 errors.append(f'fila {n}: precio duplicado (mismo examen, prestador, tipo y comuna)')
                 continue
-            rec = {'exam': code, 'provider': pid, 'amount': int(row['amount']), 'kind': row['kind']}
-            if sub:
-                rec['subdivision'] = sub
-            rec['sourceUrl'] = row['source_url']
-            rec['verifiedAt'] = row['verified_at']
-            if row.get('note'):
-                rec['note'] = row['note']
-            prices[fname] = rec
+            seen.add(dup)
+            # Filas idénticas salvo la comuna se fusionan en un solo archivo con `subdivisions`.
+            gkey = (code, pid, row['kind'], int(row['amount']), row['source_url'], row['verified_at'], row.get('note', ''))
+            groups.setdefault(gkey, []).append(sub)
+
+    for (code, pid, kind, amount, src, vd, note), subs in groups.items():
+        subs = [s for s in subs if s]
+        if len(subs) > 1:
+            fname = f'{code}-{pid}-{kind}-{amount}-multi.json'
+        else:
+            fname = f"{code}-{pid}-{kind}-{slug(subs[0]) if subs else 'todas'}.json"
+        n = 2
+        while fname in prices:
+            fname = fname.replace('.json', f'-{n}.json') if n == 2 else re.sub(r'-\d+\.json$', f'-{n}.json', fname)
+            n += 1
+        rec = {'exam': code, 'provider': pid, 'amount': amount, 'kind': kind}
+        if len(subs) > 1:
+            rec['subdivisions'] = subs
+        elif subs:
+            rec['subdivision'] = subs[0]
+        rec['sourceUrl'] = src
+        rec['verifiedAt'] = vd
+        if note:
+            rec['note'] = note
+        prices[fname] = rec
 
     if errors:
         print('ERRORES, no se escribió nada:')
@@ -141,6 +159,12 @@ def main():
         if p.get('website'):
             rec['website'] = p['website']
         rec['subdivisions'] = sorted(p['subdivisions'])
+        prev = out / 'providers' / f'{pid}.json'
+        if prev.exists():
+            old = json.loads(prev.read_text(encoding='utf-8'))
+            for k in ('regionalOnly', 'fonasaLevel'):  # datos editoriales: se conservan al reimportar
+                if old.get(k):
+                    rec[k] = old[k]
         (out / 'providers' / f'{pid}.json').write_text(json.dumps(rec, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     for fname, rec in prices.items():
         (out / 'prices' / fname).write_text(json.dumps(rec, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
