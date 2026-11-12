@@ -2198,5 +2198,3949 @@
   "name": "Índice proteinuria/creatininuria en orina de 24 horas",
   "section": "Sin código FONASA (laboratorio de derivación)",
   "levels": {}
+ },
+ {
+  "id": "sf-11-desoxicorticoesterona-desoxicortisol-por-tandem-masas",
+  "code": "Sin código FONASA",
+  "official": "11 desoxicorticoesterona (desoxicortisol) por tandem/masas (RedSalud)",
+  "name": "11 desoxicorticoesterona (desoxicortisol) por tandem/masas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-17-alfa-oh-progesterona-tandem-masas",
+  "code": "Sin código FONASA",
+  "official": "17 ALFA OH progesterona, tandem masas (RedSalud)",
+  "name": "17 ALFA OH progesterona, tandem masas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-17-cetoesteroides-en-orina",
+  "code": "Sin código FONASA",
+  "official": "17 cetoesteroides en orina (RedSalud)",
+  "name": "17 cetoesteroides en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-17-oh-corticoesteroides-en-orina-24-horas",
+  "code": "Sin código FONASA",
+  "official": "17 OH corticoesteroides en orina 24 horas (RedSalud)",
+  "name": "17 OH corticoesteroides en orina 24 horas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ac-anti-dna-genomico-doble-cadena-cuantitativo-elisa",
+  "code": "Sin código FONASA",
+  "official": "AC ANTI DNA genómico doble cadena cuantitativo (elisa) (RedSalud)",
+  "name": "AC ANTI DNA genómico doble cadena cuantitativo (elisa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ac-antireceptores-de-acetilcolina",
+  "code": "Sin código FONASA",
+  "official": "AC antireceptores de acetilcolina (RedSalud)",
+  "name": "AC antireceptores de acetilcolina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acido-vainillilmandelico-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Acido vainillilmandélico en orina (RedSalud)",
+  "name": "Acido vainillilmandélico en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-actividad-anti-factor-xa",
+  "code": "Sin código FONASA",
+  "official": "Actividad ANTI factor XA (RedSalud)",
+  "name": "Actividad ANTI factor XA",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-actividad-renina-plasmatica",
+  "code": "Sin código FONASA",
+  "official": "Actividad renina plasmática (RedSalud)",
+  "name": "Actividad renina plasmática",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-adenovirus-por-pcr",
+  "code": "Sin código FONASA",
+  "official": "Adenovirus por PCR (RedSalud)",
+  "name": "Adenovirus por PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-adenovirus-test-pack",
+  "code": "Sin código FONASA",
+  "official": "Adenovirus, TEST PACK (RedSalud)",
+  "name": "Adenovirus, TEST PACK",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-alcohol-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "Alcohol en sangre (RedSalud)",
+  "name": "Alcohol en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aluminio-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "Aluminio en sangre (RedSalud)",
+  "name": "Aluminio en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ana-profile-23-autoanticuerpos-igg",
+  "code": "Sin código FONASA",
+  "official": "ANA profile 23 autoanticuerpos IGG (RedSalud)",
+  "name": "ANA profile 23 autoanticuerpos IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anti-toxoide-tetanico-igg",
+  "code": "Sin código FONASA",
+  "official": "ANTI toxoide tetánico IGG (RedSalud)",
+  "name": "ANTI toxoide tetánico IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-celulas-parietales",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI células parietales (RedSalud)",
+  "name": "Anticuerpos ANTI células parietales",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-pr3",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI PR3 (RedSalud)",
+  "name": "Anticuerpos ANTI PR3",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-receptor-fosfolipasa-a2",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI receptor fosfolipasa a2 (RedSalud)",
+  "name": "Anticuerpos ANTI receptor fosfolipasa a2",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-celulas-parietales-y-anti-factor-intrinseco",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-celulas parietales y anti-factor intrinseco por elisa (RedSalud)",
+  "name": "Anticuerpos anti-celulas parietales y anti-factor intrinseco por elisa",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antimitocondriales-m2-ama-m2",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antimitocondriales M2 (AMA-M2) (RedSalud)",
+  "name": "Anticuerpos antimitocondriales M2 (AMA-M2)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antineumococo-23-serotipos",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antineumococo (23 serotipos) (RedSalud)",
+  "name": "Anticuerpos antineumococo (23 serotipos)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antiplaquetarios",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antiplaquetarios (RedSalud)",
+  "name": "Anticuerpos antiplaquetarios",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antiplaquetarios-dependientes-de-heparina-igg",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antiplaquetarios dependientes de heparina (IGG) (RedSalud)",
+  "name": "Anticuerpos antiplaquetarios dependientes de heparina (IGG)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antitiroideos-incluye-codigos-030500701-03050070",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antitiroideos (incluye códigos 030500701, 030500702) (RedSalud)",
+  "name": "Anticuerpos antitiroideos (incluye códigos 030500701, 030500702)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-autoinmunes-incluye-codigos-030500502-030500504",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos autoinmunes (incluye códigos 030500502, 030500504, 030500401, 030500404, 030500405, 030500407, 030500403,030500501, 030500505) (RedSalud)",
+  "name": "Anticuerpos autoinmunes (incluye códigos 030500502, 030500504, 030500401, 030500404, 030500405, 030500407, 030500403,030500501, 030500505)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-igg-helicobacter-pylori",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos IGG helicobacter pylori (RedSalud)",
+  "name": "Anticuerpos IGG helicobacter pylori",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antigeno-urinario-pneumococo",
+  "code": "Sin código FONASA",
+  "official": "Antígeno urinario pneumococo (RedSalud)",
+  "name": "Antígeno urinario pneumococo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-asca-iga-asca-igg",
+  "code": "Sin código FONASA",
+  "official": "ASCA IGA, ASCA IGG (RedSalud)",
+  "name": "ASCA IGA, ASCA IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bartonella-henselae-serologia-igg",
+  "code": "Sin código FONASA",
+  "official": "Bartonella henselae serologia IGG (RedSalud)",
+  "name": "Bartonella henselae serologia IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bartonella-henselae-serologia-igm",
+  "code": "Sin código FONASA",
+  "official": "Bartonella henselae serologia IGM (RedSalud)",
+  "name": "Bartonella henselae serologia IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bordetella-pertussis-igm",
+  "code": "Sin código FONASA",
+  "official": "Bordetella pertussis IGM (RedSalud)",
+  "name": "Bordetella pertussis IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-borrelia-burdogferi-igm-e-igg",
+  "code": "Sin código FONASA",
+  "official": "Borrelia burdogferi IGM E IGG (RedSalud)",
+  "name": "Borrelia burdogferi IGM E IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-celulas-del-lupus",
+  "code": "Sin código FONASA",
+  "official": "Células del lupus (RedSalud)",
+  "name": "Células del lupus",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-chlamydia-psittaci-igg",
+  "code": "Sin código FONASA",
+  "official": "Chlamydía psittaci IGG (RedSalud)",
+  "name": "Chlamydía psittaci IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-chlamydia-psittaci-igm",
+  "code": "Sin código FONASA",
+  "official": "Chlamydía psittaci IGM (RedSalud)",
+  "name": "Chlamydía psittaci IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-citomegalovirus-carga-viral",
+  "code": "Sin código FONASA",
+  "official": "Citomegalovirus, carga viral (RedSalud)",
+  "name": "Citomegalovirus, carga viral",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-citomegalovirus-por-pcr",
+  "code": "Sin código FONASA",
+  "official": "Citomegalovirus, por PCR (RedSalud)",
+  "name": "Citomegalovirus, por PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-citraturia",
+  "code": "Sin código FONASA",
+  "official": "Citraturia (RedSalud)",
+  "name": "Citraturia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-clobazan-niveles-plasmaticos",
+  "code": "Sin código FONASA",
+  "official": "Clobazan, niveles plasmáticos (RedSalud)",
+  "name": "Clobazan, niveles plasmáticos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cobalto-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "Cobalto en sangre (RedSalud)",
+  "name": "Cobalto en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-coombs-indirecto-prueba-de",
+  "code": "Sin código FONASA",
+  "official": "Coombs indirecto, prueba de (RedSalud)",
+  "name": "Coombs indirecto, prueba de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cotinina",
+  "code": "Sin código FONASA",
+  "official": "Cotinina (RedSalud)",
+  "name": "Cotinina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cromo-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "Cromo en sangre (RedSalud)",
+  "name": "Cromo en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cuantificacion-de-aminoacidos",
+  "code": "Sin código FONASA",
+  "official": "Cuantificación de aminoácidos (RedSalud)",
+  "name": "Cuantificación de aminoácidos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cuerpos-cetonicos",
+  "code": "Sin código FONASA",
+  "official": "Cuerpos cetónicos (RedSalud)",
+  "name": "Cuerpos cetónicos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-deficiencia-adhesion-leucocitaria-lad-cd15-cd18",
+  "code": "Sin código FONASA",
+  "official": "Deficiencia adhesión leucocitaria (LAD) CD15, CD18 (RedSalud)",
+  "name": "Deficiencia adhesión leucocitaria (LAD) CD15, CD18",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-demodex-busqueda-de-sarna",
+  "code": "Sin código FONASA",
+  "official": "Demodex , búsqueda de (sarna) (RedSalud)",
+  "name": "Demodex , búsqueda de (sarna)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-deteccion-de-hemoglobinuria-paroxistica-nocturna",
+  "code": "Sin código FONASA",
+  "official": "Deteccion de hemoglobinuria paroxistica nocturna (RedSalud)",
+  "name": "Deteccion de hemoglobinuria paroxistica nocturna",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-determinacion-cd20-terapia-con-acmo-anti-cd20",
+  "code": "Sin código FONASA",
+  "official": "Determinación CD20+ (terapia con ACMO ANTI CD20) (RedSalud)",
+  "name": "Determinación CD20+ (terapia con ACMO ANTI CD20)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-determinacion-de-igm-e-igg-para-leptospira",
+  "code": "Sin código FONASA",
+  "official": "Determinación de IGM E IGG PARA leptospira (RedSalud)",
+  "name": "Determinación de IGM E IGG PARA leptospira",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-diagnostico-genetico-molecular-de-acondroplasia-e-hipocondro",
+  "code": "Sin código FONASA",
+  "official": "Diagnóstico genético-molecular de acondroplasia E hipocondroplasia (RedSalud)",
+  "name": "Diagnóstico genético-molecular de acondroplasia E hipocondroplasia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-electroforesis-de-hemoglobina",
+  "code": "Sin código FONASA",
+  "official": "Electroforésis de hemoglobina (RedSalud)",
+  "name": "Electroforésis de hemoglobina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-enterovirus-pcr",
+  "code": "Sin código FONASA",
+  "official": "Enterovirus, PCR (RedSalud)",
+  "name": "Enterovirus, PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-enzima-convertidora-de-angiotensina",
+  "code": "Sin código FONASA",
+  "official": "Enzima convertidora de angiotensina (RedSalud)",
+  "name": "Enzima convertidora de angiotensina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-epstein-barr-por-pcr",
+  "code": "Sin código FONASA",
+  "official": "Epstein BARR, por PCR (RedSalud)",
+  "name": "Epstein BARR, por PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-eritropoyetina",
+  "code": "Sin código FONASA",
+  "official": "Eritropoyetina (RedSalud)",
+  "name": "Eritropoyetina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-especiacion-arsenico-en-orina-aislada",
+  "code": "Sin código FONASA",
+  "official": "Especiación arsénico en orina aislada (RedSalud)",
+  "name": "Especiación arsénico en orina aislada",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-completo-de-enfermedad-von-willebrand",
+  "code": "Sin código FONASA",
+  "official": "Estudio completo de enfermedad VON willebrand (RedSalud)",
+  "name": "Estudio completo de enfermedad VON willebrand",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-de-intoxicacion-droga-marihuana-cocaina-benzodiazepi",
+  "code": "Sin código FONASA",
+  "official": "Estudio de intoxicación droga (marihuana, cocaína, benzodiazepinas, opiáceos, anfetaminas) (RedSalud)",
+  "name": "Estudio de intoxicación droga (marihuana, cocaína, benzodiazepinas, opiáceos, anfetaminas)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-de-mutaciones-fibrosis-quistica",
+  "code": "Sin código FONASA",
+  "official": "Estudio de mutaciones fibrosis quística (RedSalud)",
+  "name": "Estudio de mutaciones fibrosis quística",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-factor-xiii",
+  "code": "Sin código FONASA",
+  "official": "Factor XIII (RedSalud)",
+  "name": "Factor XIII",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fenciclidina-screening",
+  "code": "Sin código FONASA",
+  "official": "Fenciclidina screening (RedSalud)",
+  "name": "Fenciclidina screening",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepatitis-e-igg",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis E, IGG (RedSalud)",
+  "name": "Hepatitis E, IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepatitis-e-igm",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis E, IGM (RedSalud)",
+  "name": "Hepatitis E, IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hormona-del-crecimiento-gh-post-carga-de-glucosa",
+  "code": "Sin código FONASA",
+  "official": "Hormona del crecimiento (GH) POST carga de glucosa (RedSalud)",
+  "name": "Hormona del crecimiento (GH) POST carga de glucosa",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-htlv-i-y-ii-pcr",
+  "code": "Sin código FONASA",
+  "official": "HTLV I y II, PCR (RedSalud)",
+  "name": "HTLV I y II, PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-igg-brucella",
+  "code": "Sin código FONASA",
+  "official": "IGG brucella (RedSalud)",
+  "name": "IGG brucella",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-igm-brucella",
+  "code": "Sin código FONASA",
+  "official": "IGM brucella (RedSalud)",
+  "name": "IGM brucella",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-indice-microalbuminuria-creatinuria-agregar-codigos-03090130",
+  "code": "Sin código FONASA",
+  "official": "Índice microalbuminuria / creatinuria, (agregar códigos 030901302 y 030901002) (RedSalud)",
+  "name": "Índice microalbuminuria / creatinuria, (agregar códigos 030901302 y 030901002)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inhibidor-c1-funcional",
+  "code": "Sin código FONASA",
+  "official": "Inhibidor C1 funcional (RedSalud)",
+  "name": "Inhibidor C1 funcional",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunofijacion-cadenas-livianas-kappa-y-lambda-cuantitativo",
+  "code": "Sin código FONASA",
+  "official": "Inmunofijación cadenas livianas kappa y lambda cuantitativo (RedSalud)",
+  "name": "Inmunofijación cadenas livianas kappa y lambda cuantitativo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunofijacion-de-inmunoglobulinas-en-orina-x-5",
+  "code": "Sin código FONASA",
+  "official": "Inmunofijación de inmunoglobulinas en orina X 5 (RedSalud)",
+  "name": "Inmunofijación de inmunoglobulinas en orina X 5",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunoglobulina-d",
+  "code": "Sin código FONASA",
+  "official": "Inmunoglobulina D (RedSalud)",
+  "name": "Inmunoglobulina D",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-interleukina-humana-6-il-6-aperturar",
+  "code": "Sin código FONASA",
+  "official": "Interleukina humana 6 (IL-6) aperturar (RedSalud)",
+  "name": "Interleukina humana 6 (IL-6) aperturar",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-lactogen-test-genetico-intolerancia-a-la-lactosa-por-pcr",
+  "code": "Sin código FONASA",
+  "official": "Lactogen, TEST genético intolerancia a la lactosa por PCR (RedSalud)",
+  "name": "Lactogen, TEST genético intolerancia a la lactosa por PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-legionella-antigeno-urinario",
+  "code": "Sin código FONASA",
+  "official": "Legionella antígeno urinario (RedSalud)",
+  "name": "Legionella antígeno urinario",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-b-de-memoria-cd27",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos B de memoria (CD27+) (RedSalud)",
+  "name": "Linfocitos B de memoria (CD27+)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-magnesio-cuantitativo-orina-1er-chorro",
+  "code": "Sin código FONASA",
+  "official": "Magnesio cuantitativo orina 1ER chorro (RedSalud)",
+  "name": "Magnesio cuantitativo orina 1ER chorro",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-magnesio-cuantitativo-orina-24-horas",
+  "code": "Sin código FONASA",
+  "official": "Magnesio cuantitativo orina 24 horas (RedSalud)",
+  "name": "Magnesio cuantitativo orina 24 horas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-malabsorcion-de-lactosa-estudio-genetico-molecular",
+  "code": "Sin código FONASA",
+  "official": "Malabsorción de lactosa, estudio genético-molecular (RedSalud)",
+  "name": "Malabsorción de lactosa, estudio genético-molecular",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-marcadores-virales-de-hepatitis-incluye-codigos-0306074-0306",
+  "code": "Sin código FONASA",
+  "official": "Marcadores virales de hepatitis (incluye códigos 0306074, 0306079, 0306081, 0306080, 0306076) (RedSalud)",
+  "name": "Marcadores virales de hepatitis (incluye códigos 0306074, 0306079, 0306081, 0306080, 0306076)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mercurio-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Mercurio en orina (RedSalud)",
+  "name": "Mercurio en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mercurio-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "Mercurio en sangre (RedSalud)",
+  "name": "Mercurio en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metaloproteinasa-del-factor-von-willebrand-actividad",
+  "code": "Sin código FONASA",
+  "official": "Metaloproteinasa del factor VON willebrand (actividad) (RedSalud)",
+  "name": "Metaloproteinasa del factor VON willebrand (actividad)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metanefrinas-libres-plasmaticas",
+  "code": "Sin código FONASA",
+  "official": "Metanefrinas libres plasmáticas (RedSalud)",
+  "name": "Metanefrinas libres plasmáticas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-20210a-gen-de-la-protrombina",
+  "code": "Sin código FONASA",
+  "official": "Mutación 20210a GEN de la protrombina (RedSalud)",
+  "name": "Mutación 20210a GEN de la protrombina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-c46t-del-factor-xii-estudiogenetico-molecular",
+  "code": "Sin código FONASA",
+  "official": "Mutación C46T del factor XII, estudiogenético molecular (RedSalud)",
+  "name": "Mutación C46T del factor XII, estudiogenético molecular",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-c677t-de-la-mthfr-metilen-tetrahidrofolato-reductas",
+  "code": "Sin código FONASA",
+  "official": "Mutación C677T de la mthfr (RedSalud)",
+  "name": "Mutación C677T de la mthfr",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-factor-v-leiden",
+  "code": "Sin código FONASA",
+  "official": "Mutación factor V leiden (RedSalud)",
+  "name": "Mutación factor V leiden",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mycobacterium-tuberculosis-pcr",
+  "code": "Sin código FONASA",
+  "official": "Mycobacterium tuberculosis, PCR (RedSalud)",
+  "name": "Mycobacterium tuberculosis, PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mycoplasma-pneumoniae-igm-test-pack",
+  "code": "Sin código FONASA",
+  "official": "Mycoplasma pneumoniae IGM, TEST PACK (RedSalud)",
+  "name": "Mycoplasma pneumoniae IGM, TEST PACK",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-ciclosporina",
+  "code": "Sin código FONASA",
+  "official": "Niveles de ciclosporina (RedSalud)",
+  "name": "Niveles de ciclosporina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-lamotrigina",
+  "code": "Sin código FONASA",
+  "official": "Niveles de lamotrigina (RedSalud)",
+  "name": "Niveles de lamotrigina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-levetiracetam",
+  "code": "Sin código FONASA",
+  "official": "Niveles de levetiracetam (RedSalud)",
+  "name": "Niveles de levetiracetam",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-ox-carbazepina",
+  "code": "Sin código FONASA",
+  "official": "Niveles de ox-carbazepina (RedSalud)",
+  "name": "Niveles de ox-carbazepina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-tacrolimus",
+  "code": "Sin código FONASA",
+  "official": "Niveles de tacrolimus (RedSalud)",
+  "name": "Niveles de tacrolimus",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-voriconazol",
+  "code": "Sin código FONASA",
+  "official": "Niveles de voriconazol (RedSalud)",
+  "name": "Niveles de voriconazol",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-plasmaticos-anticuerpos-anti-infliximab",
+  "code": "Sin código FONASA",
+  "official": "Niveles plasmáticos anticuerpos ANTI infliximab (RedSalud)",
+  "name": "Niveles plasmáticos anticuerpos ANTI infliximab",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-plasmaticos-de-adalimumab",
+  "code": "Sin código FONASA",
+  "official": "Niveles plasmáticos de adalimumab (RedSalud)",
+  "name": "Niveles plasmáticos de adalimumab",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-osmolalidad-urinaria",
+  "code": "Sin código FONASA",
+  "official": "Osmolalidad urinaria (RedSalud)",
+  "name": "Osmolalidad urinaria",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-oxalaturia",
+  "code": "Sin código FONASA",
+  "official": "Oxalaturia (RedSalud)",
+  "name": "Oxalaturia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-candida-transmision-sexual-por-pcr-rt",
+  "code": "Sin código FONASA",
+  "official": "Panel candida transmisión sexual por pcr-rt (RedSalud)",
+  "name": "Panel candida transmisión sexual por pcr-rt",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-chile-ige-especificas",
+  "code": "Sin código FONASA",
+  "official": "Panel chile, IGE específicas (RedSalud)",
+  "name": "Panel chile, IGE específicas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-drogas-de-abuso",
+  "code": "Sin código FONASA",
+  "official": "Panel drogas de abuso (RedSalud)",
+  "name": "Panel drogas de abuso",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-enfermedades-hepaticas-autoinmunes",
+  "code": "Sin código FONASA",
+  "official": "Panel enfermedades hepáticas autoinmunes (RedSalud)",
+  "name": "Panel enfermedades hepáticas autoinmunes",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-gastroenteritis-bacteriano-parasitario-viral",
+  "code": "Sin código FONASA",
+  "official": "Panel gastroenteritis bacteriano / parasitario / viral (RedSalud)",
+  "name": "Panel gastroenteritis bacteriano / parasitario / viral",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-ige-especificas-22-alergenos",
+  "code": "Sin código FONASA",
+  "official": "Panel IGE específicas (22 alérgenos) (RedSalud)",
+  "name": "Panel IGE específicas (22 alérgenos)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-ige-especificas-36-alergenos-panel-chile",
+  "code": "Sin código FONASA",
+  "official": "Panel IGE específicas 36 alergenos (panel chile) (RedSalud)",
+  "name": "Panel IGE específicas 36 alergenos (panel chile)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-miositis-mi-2-ku-pm-scl100-pm-scl75-jo-1-srp-pl-7-pl-1",
+  "code": "Sin código FONASA",
+  "official": "Panel miositis (MI-2, KU, pm-scl100, pm-scl75, JO-1, SRP, PL-7, PL-12, EJ, OJ, RO-52) (RedSalud)",
+  "name": "Panel miositis (MI-2, KU, pm-scl100, pm-scl75, JO-1, SRP, PL-7, PL-12, EJ, OJ, RO-52)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-molecular-respiratorio",
+  "code": "Sin código FONASA",
+  "official": "Panel molecular respiratorio (RedSalud)",
+  "name": "Panel molecular respiratorio",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-pcr-embarazada-chlamydia-trachomatis-mycoplasma-homini",
+  "code": "Sin código FONASA",
+  "official": "Panel PCR embarazada (chlamydia trachomatis, mycoplasma hominis, neisseria gonorrhoeae, ureaplasma urealyticum, ureaplasma parvum, streptococcus agalactiae) (RedSalud)",
+  "name": "Panel PCR embarazada (chlamydia trachomatis, mycoplasma hominis, neisseria gonorrhoeae, ureaplasma urealyticum, ureaplasma parvum, streptococcus agalactiae)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-pcr-embarazada-ampliado",
+  "code": "Sin código FONASA",
+  "official": "Panel PCR embarazada ampliado (RedSalud)",
+  "name": "Panel PCR embarazada ampliado",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-pcr-ets-14-patogenos",
+  "code": "Sin código FONASA",
+  "official": "Panel PCR ETS 14 patógenos (RedSalud)",
+  "name": "Panel PCR ETS 14 patógenos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-pcr-para-ets",
+  "code": "Sin código FONASA",
+  "official": "Panel PCR PARA ETS (RedSalud)",
+  "name": "Panel PCR PARA ETS",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-pcr-respiratorio-plus-incluye-coronavirus-covid-19",
+  "code": "Sin código FONASA",
+  "official": "Panel PCR respiratorio PLUS (incluye coronavirus covid-19) (RedSalud)",
+  "name": "Panel PCR respiratorio PLUS (incluye coronavirus covid-19)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-respiratorio-directo-por-if-incluye-adenovirus-virus-i",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio directo, por IF (incluye adenovirus, virus influenza a, virus influenza B, virus parainfluenza 1, virus parainfluenza 2, virus parainfluenza 3, virus respiratorio sincicial y metapneumovirus) C/U (RedSalud)",
+  "name": "Panel respiratorio directo, por IF (incluye adenovirus, virus influenza a, virus influenza B, virus parainfluenza 1, virus parainfluenza 2, virus parainfluenza 3, virus respiratorio sincicial y metapneumovirus) C/U",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-viral-bk8",
+  "code": "Sin código FONASA",
+  "official": "Panel viral BK8 (RedSalud)",
+  "name": "Panel viral BK8",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-clostridium-difficile",
+  "code": "Sin código FONASA",
+  "official": "PCR clostridium difficile (RedSalud)",
+  "name": "PCR clostridium difficile",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-helicobacter-pylori",
+  "code": "Sin código FONASA",
+  "official": "PCR helicobacter pylori (RedSalud)",
+  "name": "PCR helicobacter pylori",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-hepatitis-b",
+  "code": "Sin código FONASA",
+  "official": "PCR hepatitis B (RedSalud)",
+  "name": "PCR hepatitis B",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-hepatitis-c",
+  "code": "Sin código FONASA",
+  "official": "PCR hepatitis C (RedSalud)",
+  "name": "PCR hepatitis C",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-listeria",
+  "code": "Sin código FONASA",
+  "official": "PCR listeria (RedSalud)",
+  "name": "PCR listeria",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-mutacion-jak2",
+  "code": "Sin código FONASA",
+  "official": "PCR mutación JAK2 (RedSalud)",
+  "name": "PCR mutación JAK2",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-panel-enterico-film-array",
+  "code": "Sin código FONASA",
+  "official": "PCR panel entérico FILM array (RedSalud)",
+  "name": "PCR panel entérico FILM array",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-panel-influenza-a-incluye-h1n1-h3n2-h5-y-h7",
+  "code": "Sin código FONASA",
+  "official": "PCR panel influenza a (incluye H1N1, H3N2, H5 y H7) (RedSalud)",
+  "name": "PCR panel influenza a (incluye H1N1, H3N2, H5 y H7)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-panel-respiratorio-film-array",
+  "code": "Sin código FONASA",
+  "official": "PCR panel respiratorio FILM array (RedSalud)",
+  "name": "PCR panel respiratorio FILM array",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-para-mycoplasma-genitalum",
+  "code": "Sin código FONASA",
+  "official": "PCR PARA mycoplasma genitalum (RedSalud)",
+  "name": "PCR PARA mycoplasma genitalum",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-para-mycoplasma-hominis",
+  "code": "Sin código FONASA",
+  "official": "PCR PARA mycoplasma hominis (RedSalud)",
+  "name": "PCR PARA mycoplasma hominis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-para-mycoplasma-pneumoniae",
+  "code": "Sin código FONASA",
+  "official": "PCR PARA mycoplasma pneumoniae (RedSalud)",
+  "name": "PCR PARA mycoplasma pneumoniae",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-para-neisseria-gonorrhoeae",
+  "code": "Sin código FONASA",
+  "official": "PCR PARA neisseria gonorrhoeae (RedSalud)",
+  "name": "PCR PARA neisseria gonorrhoeae",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-para-toxoplasma-gondii",
+  "code": "Sin código FONASA",
+  "official": "PCR PARA toxoplasma gondii (RedSalud)",
+  "name": "PCR PARA toxoplasma gondii",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-para-ureaplasma-urealyticum",
+  "code": "Sin código FONASA",
+  "official": "PCR PARA ureaplasma urealyticum (RedSalud)",
+  "name": "PCR PARA ureaplasma urealyticum",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-para-virus-jc",
+  "code": "Sin código FONASA",
+  "official": "PCR PARA virus JC (RedSalud)",
+  "name": "PCR PARA virus JC",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-parvovirus-b19",
+  "code": "Sin código FONASA",
+  "official": "PCR parvovirus B19 (RedSalud)",
+  "name": "PCR parvovirus B19",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-streptococcus-grupo-b",
+  "code": "Sin código FONASA",
+  "official": "PCR streptococcus grupo B (RedSalud)",
+  "name": "PCR streptococcus grupo B",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-trichomonas-vaginalis",
+  "code": "Sin código FONASA",
+  "official": "PCR trichomonas vaginalis (RedSalud)",
+  "name": "PCR trichomonas vaginalis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-trypanosoma-cruzi-chagas",
+  "code": "Sin código FONASA",
+  "official": "PCR trypanosoma cruzi (chagas) (RedSalud)",
+  "name": "PCR trypanosoma cruzi (chagas)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-varicella-zoster",
+  "code": "Sin código FONASA",
+  "official": "PCR varicella zoster (RedSalud)",
+  "name": "PCR varicella zoster",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-virus-dengue",
+  "code": "Sin código FONASA",
+  "official": "PCR virus dengue (RedSalud)",
+  "name": "PCR virus dengue",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-virus-papiloma-humano-hpv",
+  "code": "Sin código FONASA",
+  "official": "PCR virus papiloma humano (HPV) (RedSalud)",
+  "name": "PCR virus papiloma humano (HPV)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-panel-influenza-a-y-b",
+  "code": "Sin código FONASA",
+  "official": "PCR, panel influenza a y B (RedSalud)",
+  "name": "PCR, panel influenza a y B",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-rt-chlamydia-pneumoniae",
+  "code": "Sin código FONASA",
+  "official": "Pcr-rt chlamydia pneumoniae (RedSalud)",
+  "name": "Pcr-rt chlamydia pneumoniae",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-biologico-incluye-codigos-0301045-030902201-0302075-0",
+  "code": "Sin código FONASA",
+  "official": "Perfil biológico (incluye códigos 0301045, 030902201, 0302075, 030202301, 0302034, 0302061, 0302026, 0302045, 030206302) (RedSalud)",
+  "name": "Perfil biológico (incluye códigos 0301045, 030902201, 0302075, 030202301, 0302034, 0302061, 0302026, 0302045, 030206302)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-bioquimico-modificado",
+  "code": "Sin código FONASA",
+  "official": "Perfil bioquimico modificado (RedSalud)",
+  "name": "Perfil bioquimico modificado",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-hematologico",
+  "code": "Sin código FONASA",
+  "official": "Perfil hematológico (RedSalud)",
+  "name": "Perfil hematológico",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-hormonal-0303015-0303016-0303019-0303030",
+  "code": "Sin código FONASA",
+  "official": "Perfil hormonal (0303015, 0303016, 0303019, 0303030) (RedSalud)",
+  "name": "Perfil hormonal (0303015, 0303016, 0303019, 0303030)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-inmunologico-incluye-codigos-030500502-030501202-0305",
+  "code": "Sin código FONASA",
+  "official": "Perfil inmunológico (incluye códigos 030500502, 030501202, 030501203, 0302026, 030502001) (RedSalud)",
+  "name": "Perfil inmunológico (incluye códigos 030500502, 030501202, 030501203, 0302026, 030502001)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-marcial-incluye-codigos-0301026-0301030",
+  "code": "Sin código FONASA",
+  "official": "Perfil marcial (incluye códigos 0301026, 0301030,) (RedSalud)",
+  "name": "Perfil marcial (incluye códigos 0301026, 0301030,)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-multianalitico-incluye-codigos-0302075-030202301-0301",
+  "code": "Sin código FONASA",
+  "official": "Perfil multianalitico (incluye códigos 0302075, 030202301, 0301045, 030902201, 0302064) (RedSalud)",
+  "name": "Perfil multianalitico (incluye códigos 0302075, 030202301, 0301045, 030902201, 0302064)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-renal-incluye-codigos-030202301-030205701",
+  "code": "Sin código FONASA",
+  "official": "Perfil renal (incluye códigos 030202301, 030205701) (RedSalud)",
+  "name": "Perfil renal (incluye códigos 030202301, 030205701)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-tiroideo-incluye-codigos-0303028-0303027-030302401-03",
+  "code": "Sin código FONASA",
+  "official": "Perfil tiroideo (incluye códigos 0303028, 0303027, 030302401, 0303026) (RedSalud)",
+  "name": "Perfil tiroideo (incluye códigos 0303028, 0303027, 030302401, 0303026)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-porfirinas-diferenciadas-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Porfirinas diferenciadas en orina (RedSalud)",
+  "name": "Porfirinas diferenciadas en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-proteina-c-reactiva-cuantitativa-ultrasensible",
+  "code": "Sin código FONASA",
+  "official": "Proteína C reactiva cuantitativa ultrasensible (RedSalud)",
+  "name": "Proteína C reactiva cuantitativa ultrasensible",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pruebas-de-coagulacion-o-coagulograma-agregar-codigos-incluy",
+  "code": "Sin código FONASA",
+  "official": "Pruebas de coagulacion o coagulograma, agregar códigos, (incluye códigos ,0301067, 0301012, 0301059, 0301085, 0301024) (RedSalud)",
+  "name": "Pruebas de coagulacion o coagulograma, agregar códigos, (incluye códigos ,0301067, 0301012, 0301059, 0301085, 0301024)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-rapamicina-niveles",
+  "code": "Sin código FONASA",
+  "official": "Rapamicina, niveles (RedSalud)",
+  "name": "Rapamicina, niveles",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-rickettsia-sp-anticuerpos-igg",
+  "code": "Sin código FONASA",
+  "official": "Rickettsia SP, anticuerpos IGG (RedSalud)",
+  "name": "Rickettsia SP, anticuerpos IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-rickettsia-sp-anticuerpos-igm",
+  "code": "Sin código FONASA",
+  "official": "Rickettsia SP, anticuerpos IGM (RedSalud)",
+  "name": "Rickettsia SP, anticuerpos IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-screening-enfermedad-metabolica-incluye-aminoaciduria",
+  "code": "Sin código FONASA",
+  "official": "Screening enfermedad metabólica (incluye aminoaciduria) (RedSalud)",
+  "name": "Screening enfermedad metabólica (incluye aminoaciduria)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-screening-metabolico",
+  "code": "Sin código FONASA",
+  "official": "Screening metabólico (RedSalud)",
+  "name": "Screening metabólico",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-selenio-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "Selenio en sangre (RedSalud)",
+  "name": "Selenio en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-serologia-virus-fiebre-amarilla-igm-igg",
+  "code": "Sin código FONASA",
+  "official": "Serología virus fiebre amarilla IGM, IGG (RedSalud)",
+  "name": "Serología virus fiebre amarilla IGM, IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-subclases-igg-1-2-3-4",
+  "code": "Sin código FONASA",
+  "official": "Subclases IGG (1, 2, 3, 4) (RedSalud)",
+  "name": "Subclases IGG (1, 2, 3, 4)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-subpoblaciones-linfocitarias-marcadores-celulares-cd4-cd8",
+  "code": "Sin código FONASA",
+  "official": "Subpoblaciones linfocitarias (marcadores celulares: CD4, CD8) (RedSalud)",
+  "name": "Subpoblaciones linfocitarias (marcadores celulares: CD4, CD8)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sulfaturia",
+  "code": "Sin código FONASA",
+  "official": "Sulfaturia (RedSalud)",
+  "name": "Sulfaturia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-confirmatorio-anfetaminas",
+  "code": "Sin código FONASA",
+  "official": "TEST confirmatorio anfetaminas (RedSalud)",
+  "name": "TEST confirmatorio anfetaminas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-confirmatorio-benzodiazepinas",
+  "code": "Sin código FONASA",
+  "official": "TEST confirmatorio benzodiazepinas (RedSalud)",
+  "name": "TEST confirmatorio benzodiazepinas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-confirmatorio-cocaina",
+  "code": "Sin código FONASA",
+  "official": "TEST confirmatorio cocaína (RedSalud)",
+  "name": "TEST confirmatorio cocaína",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-confirmatorio-marihuana",
+  "code": "Sin código FONASA",
+  "official": "TEST confirmatorio marihuana (RedSalud)",
+  "name": "TEST confirmatorio marihuana",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-confirmatorio-mdma-extasis",
+  "code": "Sin código FONASA",
+  "official": "TEST confirmatorio MDMA (extásis) (RedSalud)",
+  "name": "TEST confirmatorio MDMA (extásis)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-confirmatorio-opiaceos",
+  "code": "Sin código FONASA",
+  "official": "TEST confirmatorio opiáceos (RedSalud)",
+  "name": "TEST confirmatorio opiáceos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-de-homa-incluye-codigos-030204701-030301701",
+  "code": "Sin código FONASA",
+  "official": "TEST de HOMA (incluye códigos 030204701, 030301701) (RedSalud)",
+  "name": "TEST de HOMA (incluye códigos 030204701, 030301701)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-intolerancia-alimentaria",
+  "code": "Sin código FONASA",
+  "official": "TEST intolerancia alimentaria (RedSalud)",
+  "name": "TEST intolerancia alimentaria",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-isac-microarray-de-ige-especificas",
+  "code": "Sin código FONASA",
+  "official": "TEST ISAC (microarray de IGE específicas) (RedSalud)",
+  "name": "TEST ISAC (microarray de IGE específicas)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tincion-para-campylobacter",
+  "code": "Sin código FONASA",
+  "official": "Tinción PARA campylobacter (RedSalud)",
+  "name": "Tinción PARA campylobacter",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tipificacion-hla-b5701",
+  "code": "Sin código FONASA",
+  "official": "Tipificación HLA-B5701 (RedSalud)",
+  "name": "Tipificación HLA-B5701",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tipificacion-hla-dq2-y-hla-dq8",
+  "code": "Sin código FONASA",
+  "official": "Tipificación hla-dq2 y hla-dq8 (RedSalud)",
+  "name": "Tipificación hla-dq2 y hla-dq8",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-torch-030606903-030606904-030606107-030606108-030606918-0306",
+  "code": "Sin código FONASA",
+  "official": "Torch (030606903, 030606904, 030606107, 030606108, 030606918, 030606919, 030606920, 030606921, 030606905, 030606906) (RedSalud)",
+  "name": "Torch (030606903, 030606904, 030606107, 030606108, 030606918, 030606919, 030606920, 030606921, 030606905, 030606906)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-treponema-pallidum-por-pcr-rt-cualitativo",
+  "code": "Sin código FONASA",
+  "official": "Treponema pallidum por pcr-rt cualitativo (RedSalud)",
+  "name": "Treponema pallidum por pcr-rt cualitativo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-union-de-fvw-a-colageno",
+  "code": "Sin código FONASA",
+  "official": "Unión de FVW a colágeno (RedSalud)",
+  "name": "Unión de FVW a colágeno",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-venosa-en-nino",
+  "code": "Sin código FONASA",
+  "official": "Venosa en NIÑO (RedSalud)",
+  "name": "Venosa en NIÑO",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vigilancia-dengue",
+  "code": "Sin código FONASA",
+  "official": "Vigilancia dengue (RedSalud)",
+  "name": "Vigilancia dengue",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vigilancia-procet",
+  "code": "Sin código FONASA",
+  "official": "Vigilancia procet (RedSalud)",
+  "name": "Vigilancia procet",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vigilancia-viruela-simica",
+  "code": "Sin código FONASA",
+  "official": "Vigilancia viruela símica (RedSalud)",
+  "name": "Vigilancia viruela símica",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-bk-por-pcr-rt",
+  "code": "Sin código FONASA",
+  "official": "Virus BK por pcr-rt (RedSalud)",
+  "name": "Virus BK por pcr-rt",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-hepatitis-a-anticuerpos-totales-igg-igm",
+  "code": "Sin código FONASA",
+  "official": "Virus hepatitis a, anticuerpos totales (IGG - IGM) (RedSalud)",
+  "name": "Virus hepatitis a, anticuerpos totales (IGG - IGM)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-hepatitis-b-anti-antigeno-e-anti-hbe-ag",
+  "code": "Sin código FONASA",
+  "official": "Virus hepatitis B, anti-antígeno E (ANTI HBE AG) (RedSalud)",
+  "name": "Virus hepatitis B, anti-antígeno E (ANTI HBE AG)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-herpes-tipo-1-pcr",
+  "code": "Sin código FONASA",
+  "official": "Virus herpes TIPO 1 , PCR (RedSalud)",
+  "name": "Virus herpes TIPO 1 , PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-herpes-tipo-1-y-2-pcr",
+  "code": "Sin código FONASA",
+  "official": "Virus herpes TIPO 1 y 2, PCR (RedSalud)",
+  "name": "Virus herpes TIPO 1 y 2, PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-herpes-tipo-2-pcr",
+  "code": "Sin código FONASA",
+  "official": "Virus herpes TIPO 2, PCR (RedSalud)",
+  "name": "Virus herpes TIPO 2, PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-herpes-tipo-6-pcr",
+  "code": "Sin código FONASA",
+  "official": "Virus herpes TIPO 6, PCR (RedSalud)",
+  "name": "Virus herpes TIPO 6, PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-influenza-a-h1n1-por-reaccion-polimerasa-en-cadena-pcr",
+  "code": "Sin código FONASA",
+  "official": "Virus influenza a H1N1 por reacción polimerasa en cadena (PCR) (RedSalud)",
+  "name": "Virus influenza a H1N1 por reacción polimerasa en cadena (PCR)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-influenza-a-y-b-test-pack",
+  "code": "Sin código FONASA",
+  "official": "Virus influenza a y B, TEST PACK (RedSalud)",
+  "name": "Virus influenza a y B, TEST PACK",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-parotiditis-igg-ac-virales-determ-de",
+  "code": "Sin código FONASA",
+  "official": "Virus parotiditis IGG; AC virales, determ de (RedSalud)",
+  "name": "Virus parotiditis IGG; AC virales, determ de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-parotiditis-igm-ac-virales-determ-de",
+  "code": "Sin código FONASA",
+  "official": "Virus parotiditis IGM; AC virales, determ de (RedSalud)",
+  "name": "Virus parotiditis IGM; AC virales, determ de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-respiratorio-sincicial-test-pack",
+  "code": "Sin código FONASA",
+  "official": "Virus respiratorio sincicial, TEST PACK (RedSalud)",
+  "name": "Virus respiratorio sincicial, TEST PACK",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-zika-anticuerpos-igg",
+  "code": "Sin código FONASA",
+  "official": "Virus ZIKA, anticuerpos IGG (RedSalud)",
+  "name": "Virus ZIKA, anticuerpos IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-zika-anticuerpos-igg-e-igm",
+  "code": "Sin código FONASA",
+  "official": "Virus ZIKA, anticuerpos IGG E IGM (RedSalud)",
+  "name": "Virus ZIKA, anticuerpos IGG E IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-zika-anticuerpos-igm",
+  "code": "Sin código FONASA",
+  "official": "Virus ZIKA, anticuerpos IGM (RedSalud)",
+  "name": "Virus ZIKA, anticuerpos IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitamina-b6",
+  "code": "Sin código FONASA",
+  "official": "Vitamina B6 (RedSalud)",
+  "name": "Vitamina B6",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitamina-c-determinacion",
+  "code": "Sin código FONASA",
+  "official": "Vitamina C, determinación (RedSalud)",
+  "name": "Vitamina C, determinación",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitamina-d3-colecalciferol",
+  "code": "Sin código FONASA",
+  "official": "Vitamina D3 (colecalciferol) (RedSalud)",
+  "name": "Vitamina D3 (colecalciferol)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-yoduria-mas-creatinina-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Yoduria MAS creatinina en orina (RedSalud)",
+  "name": "Yoduria MAS creatinina en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-zinc-suero",
+  "code": "Sin código FONASA",
+  "official": "ZINC, suero (RedSalud)",
+  "name": "ZINC, suero",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-11-desoxicorticoesterona-desoxicortisol",
+  "code": "Sin código FONASA",
+  "official": "11 desoxicorticoesterona (RedSalud)",
+  "name": "11 desoxicorticoesterona",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ac-anti-receptor-de-fosfolipasa-a2",
+  "code": "Sin código FONASA",
+  "official": "AC ANTI receptor de fosfolipasa a2 (RedSalud)",
+  "name": "AC ANTI receptor de fosfolipasa a2",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ac-dna-genomico-doble-cadena",
+  "code": "Sin código FONASA",
+  "official": "AC DNA genómico doble cadena (RedSalud)",
+  "name": "AC DNA genómico doble cadena",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ac-antireceptores-de-acetilcolina-2",
+  "code": "Sin código FONASA",
+  "official": "AC. antireceptores de acetilcolina (RedSalud)",
+  "name": "AC. antireceptores de acetilcolina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acanthamoeba-sp-busqueda-de",
+  "code": "Sin código FONASA",
+  "official": "Acanthamoeba SP, busqueda de (RedSalud)",
+  "name": "Acanthamoeba SP, busqueda de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acido-folico-eritrocitario",
+  "code": "Sin código FONASA",
+  "official": "Acido folico eritrocitario (RedSalud)",
+  "name": "Acido folico eritrocitario",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acido-micofenolico-niveles-plasmaticos",
+  "code": "Sin código FONASA",
+  "official": "Ácido micofenolico, niveles plasmáticos (RedSalud)",
+  "name": "Ácido micofenolico, niveles plasmáticos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acido-vainillinmandelico",
+  "code": "Sin código FONASA",
+  "official": "Acido vainillinmandelico (RedSalud)",
+  "name": "Acido vainillinmandelico",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-acidos-biliares-totales",
+  "code": "Sin código FONASA",
+  "official": "Ácidos biliares totales (RedSalud)",
+  "name": "Ácidos biliares totales",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-activacion-hemolitica-del-complemento",
+  "code": "Sin código FONASA",
+  "official": "Activacion hemolitica del complemento (RedSalud)",
+  "name": "Activacion hemolitica del complemento",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-actividad-de-renina-plasmatica",
+  "code": "Sin código FONASA",
+  "official": "Actividad de renina plasmatica (RedSalud)",
+  "name": "Actividad de renina plasmatica",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-adalimumab-cuantificacion",
+  "code": "Sin código FONASA",
+  "official": "Adalimumab, cuantificacion (RedSalud)",
+  "name": "Adalimumab, cuantificacion",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-adenoma-esplenograma-mielograma-c-u",
+  "code": "Sin código FONASA",
+  "official": "Adenoma, esplenograma,mielograma C/U (RedSalud)",
+  "name": "Adenoma, esplenograma,mielograma C/U",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-adenovirus-igg-ac-virales-determ-de",
+  "code": "Sin código FONASA",
+  "official": "Adenovirus IGG, AC virales, determ de (RedSalud)",
+  "name": "Adenovirus IGG, AC virales, determ de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-adenovirus-igm-ac-virales-determ-de",
+  "code": "Sin código FONASA",
+  "official": "Adenovirus IGM, AC virales, determ de (RedSalud)",
+  "name": "Adenovirus IGM, AC virales, determ de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-amilasa-en-otros-fluidos",
+  "code": "Sin código FONASA",
+  "official": "Amilasa en otros fluídos (RedSalud)",
+  "name": "Amilasa en otros fluídos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ana23-profile-23-autoanticuerpos-igg",
+  "code": "Sin código FONASA",
+  "official": "ANA23 profile 23 autoanticuerpos IGG (RedSalud)",
+  "name": "ANA23 profile 23 autoanticuerpos IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aneuploidia-pcr-fluorescente-de-los-cro",
+  "code": "Sin código FONASA",
+  "official": "Aneuploidia, PCR fluorescente de los CRO (RedSalud)",
+  "name": "Aneuploidia, PCR fluorescente de los CRO",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anfetaminas-03-93-030",
+  "code": "Sin código FONASA",
+  "official": "Anfetaminas (03 93 030) (RedSalud)",
+  "name": "Anfetaminas (03 93 030)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anti-hmg-coa",
+  "code": "Sin código FONASA",
+  "official": "ANTI hmg-coa (RedSalud)",
+  "name": "ANTI hmg-coa",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpo-antiplaquetarios-solo-fonasa",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpo antiplaquetarios(solo fonasa) (RedSalud)",
+  "name": "Anticuerpo antiplaquetarios(solo fonasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-ag-de-sup-hepatitis-b",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI AG de SUP. hepatitis B (RedSalud)",
+  "name": "Anticuerpos ANTI AG de SUP. hepatitis B",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-aquaporina-4-nmo-y-an",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI aquaporina-4 (NMO) y AN (RedSalud)",
+  "name": "Anticuerpos ANTI aquaporina-4 (NMO) y AN",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-mpo-mieloperoxidasa",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI MPO (mieloperoxidasa) (RedSalud)",
+  "name": "Anticuerpos ANTI MPO (mieloperoxidasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-neuronales-paraneoplasi",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI neuronales paraneoplasi (RedSalud)",
+  "name": "Anticuerpos ANTI neuronales paraneoplasi",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-pr3-proteinasa",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI PR3 (proteinasa) (RedSalud)",
+  "name": "Anticuerpos ANTI PR3 (proteinasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-sacaromices-asca",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI sacaromices (ASCA) (RedSalud)",
+  "name": "Anticuerpos ANTI sacaromices (ASCA)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-trombospondina",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos ANTI trombospondina (RedSalud)",
+  "name": "Anticuerpos ANTI trombospondina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-hmgcr",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-hmgcr (RedSalud)",
+  "name": "Anticuerpos anti-hmgcr",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anti-lkm-1",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anti-lkm-1 (RedSalud)",
+  "name": "Anticuerpos anti-lkm-1",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antiantigeno-e",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antiantigeno E (RedSalud)",
+  "name": "Anticuerpos antiantigeno E",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-anticelulas-parietales-y-ant",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos anticelulas parietales y ANT (RedSalud)",
+  "name": "Anticuerpos anticelulas parietales y ANT",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antimembrana-basal",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antimembrana basal (RedSalud)",
+  "name": "Anticuerpos antimembrana basal",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-antimitocondrial-tipo-2-por",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos antimitocondrial TIPO 2 por (RedSalud)",
+  "name": "Anticuerpos antimitocondrial TIPO 2 por",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-dependientes-de-heparina",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos dependientes de heparina (RedSalud)",
+  "name": "Anticuerpos dependientes de heparina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-anticuerpos-especificos-anti-neumococo",
+  "code": "Sin código FONASA",
+  "official": "Anticuerpos específicos ANTI neumococo (RedSalud)",
+  "name": "Anticuerpos específicos ANTI neumococo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antigeneia-criptococcus",
+  "code": "Sin código FONASA",
+  "official": "Antigeneia criptococcus (RedSalud)",
+  "name": "Antigeneia criptococcus",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antigeno-e-hepatitis-b-solo-fonasa",
+  "code": "Sin código FONASA",
+  "official": "Antigeno E hepatitis B (SOLO fonasa) (RedSalud)",
+  "name": "Antigeno E hepatitis B (SOLO fonasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antigeno-legionella-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Antigeno legionella en orina (RedSalud)",
+  "name": "Antigeno legionella en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-antigeno-streptococcus-pneumoniae-en-ori",
+  "code": "Sin código FONASA",
+  "official": "Antigeno streptococcus pneumoniae en ORI (RedSalud)",
+  "name": "Antigeno streptococcus pneumoniae en ORI",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-aquaporina-4-igg-cualitativa",
+  "code": "Sin código FONASA",
+  "official": "Aquaporina-4, IGG cualitativa (RedSalud)",
+  "name": "Aquaporina-4, IGG cualitativa",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-arsenico-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "Arsenico en sangre (RedSalud)",
+  "name": "Arsenico en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-atrofia-muscular-espinal-sma-gen-smn1",
+  "code": "Sin código FONASA",
+  "official": "Atrofia muscular espinal (SMA) GEN SMN1, (RedSalud)",
+  "name": "Atrofia muscular espinal (SMA) GEN SMN1,",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-b-hidroxibutirato-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "B-hidroxibutirato en sangre (RedSalud)",
+  "name": "B-hidroxibutirato en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bandas-oligoclonales-lcr-solo-fonasa",
+  "code": "Sin código FONASA",
+  "official": "Bandas oligoclonales(lcr) (SOLO fonasa) (RedSalud)",
+  "name": "Bandas oligoclonales(lcr) (SOLO fonasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bartonella-igg",
+  "code": "Sin código FONASA",
+  "official": "Bartonella IGG (RedSalud)",
+  "name": "Bartonella IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bartonella-igm",
+  "code": "Sin código FONASA",
+  "official": "Bartonella IGM (RedSalud)",
+  "name": "Bartonella IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-benzodiazepinas-03-93-030",
+  "code": "Sin código FONASA",
+  "official": "Benzodiazepinas (03 93 030) (RedSalud)",
+  "name": "Benzodiazepinas (03 93 030)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-beta-2-transferrina",
+  "code": "Sin código FONASA",
+  "official": "BETA 2 transferrina (RedSalud)",
+  "name": "BETA 2 transferrina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-biomarcadores-enfermedad-de-alzheimer",
+  "code": "Sin código FONASA",
+  "official": "Biomarcadores enfermedad de alzheimer (RedSalud)",
+  "name": "Biomarcadores enfermedad de alzheimer",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-bordetella-ifi",
+  "code": "Sin código FONASA",
+  "official": "Bordetella (IFI) (RedSalud)",
+  "name": "Bordetella (IFI)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-borrelia-burgdorferi-serologia",
+  "code": "Sin código FONASA",
+  "official": "Borrelia burgdorferi, serologia (RedSalud)",
+  "name": "Borrelia burgdorferi, serologia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-busqueda-de-amebas-de-vida-libre",
+  "code": "Sin código FONASA",
+  "official": "Busqueda de amebas de VIDA libre (RedSalud)",
+  "name": "Busqueda de amebas de VIDA libre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-canabinoides-03-93-030",
+  "code": "Sin código FONASA",
+  "official": "Canabinoides (03 93 030) (RedSalud)",
+  "name": "Canabinoides (03 93 030)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-carga-viral-citomegalovirus",
+  "code": "Sin código FONASA",
+  "official": "Carga viral citomegalovirus (RedSalud)",
+  "name": "Carga viral citomegalovirus",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-carga-viral-epstein-barr",
+  "code": "Sin código FONASA",
+  "official": "Carga viral, epstein BARR (RedSalud)",
+  "name": "Carga viral, epstein BARR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cariograma-en-medula-osea",
+  "code": "Sin código FONASA",
+  "official": "Cariograma en médula ÓSEA (RedSalud)",
+  "name": "Cariograma en médula ÓSEA",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cariotipo",
+  "code": "Sin código FONASA",
+  "official": "Cariotipo (RedSalud)",
+  "name": "Cariotipo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-certican-niveles-plasmaticos-de",
+  "code": "Sin código FONASA",
+  "official": "Certican, niveles plasmaticos de (RedSalud)",
+  "name": "Certican, niveles plasmaticos de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-chlamydia-psittaci-igg-2",
+  "code": "Sin código FONASA",
+  "official": "Chlamydia psittaci IGG (RedSalud)",
+  "name": "Chlamydia psittaci IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-chlamydia-psittaci-igm-2",
+  "code": "Sin código FONASA",
+  "official": "Chlamydia psittaci IGM (RedSalud)",
+  "name": "Chlamydia psittaci IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ciclosporina-niveles-plasmaticos-de",
+  "code": "Sin código FONASA",
+  "official": "Ciclosporina, niveles plasmaticos de (RedSalud)",
+  "name": "Ciclosporina, niveles plasmaticos de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cisticercosis-anticuerpos-igg",
+  "code": "Sin código FONASA",
+  "official": "Cisticercosis, anticuerpos IGG (RedSalud)",
+  "name": "Cisticercosis, anticuerpos IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-citomegalovirus-cmv-shell-vial-aislami",
+  "code": "Sin código FONASA",
+  "official": "Citomegalovirus (CMV) shell VIAL aislami (RedSalud)",
+  "name": "Citomegalovirus (CMV) shell VIAL aislami",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cocainas-03-93-030",
+  "code": "Sin código FONASA",
+  "official": "Cocainas (03 93 030) (RedSalud)",
+  "name": "Cocainas (03 93 030)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-confirmacion-de-anfetaminas",
+  "code": "Sin código FONASA",
+  "official": "Confirmacion de anfetaminas (RedSalud)",
+  "name": "Confirmacion de anfetaminas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-confirmacion-de-benzodiazepinas",
+  "code": "Sin código FONASA",
+  "official": "Confirmacion de benzodiazepinas (RedSalud)",
+  "name": "Confirmacion de benzodiazepinas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-confirmacion-de-cannabinoides",
+  "code": "Sin código FONASA",
+  "official": "Confirmacion de cannabinoides (RedSalud)",
+  "name": "Confirmacion de cannabinoides",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-confirmacion-de-cocaina",
+  "code": "Sin código FONASA",
+  "official": "Confirmacion de cocaina (RedSalud)",
+  "name": "Confirmacion de cocaina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-confirmacion-de-extasis",
+  "code": "Sin código FONASA",
+  "official": "Confirmacion de extasis (RedSalud)",
+  "name": "Confirmacion de extasis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-confirmacion-de-opiaceos",
+  "code": "Sin código FONASA",
+  "official": "Confirmacion de opiaceos (RedSalud)",
+  "name": "Confirmacion de opiaceos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cortisol-en-saliva",
+  "code": "Sin código FONASA",
+  "official": "Cortisol en saliva (RedSalud)",
+  "name": "Cortisol en saliva",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-creutzfeldt-jakob-estudio",
+  "code": "Sin código FONASA",
+  "official": "Creutzfeldt-jakob estudio (RedSalud)",
+  "name": "Creutzfeldt-jakob estudio",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-criptococcus-neoformans-deteccion-cuant",
+  "code": "Sin código FONASA",
+  "official": "Criptococcus neoformans, deteccion cuant (RedSalud)",
+  "name": "Criptococcus neoformans, deteccion cuant",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cromosoma-y-estudio-secuencias-especifi",
+  "code": "Sin código FONASA",
+  "official": "Cromosoma y, estudio secuencias específi (RedSalud)",
+  "name": "Cromosoma y, estudio secuencias específi",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ctx-serico-b-crosslaps-carboxi-telopep",
+  "code": "Sin código FONASA",
+  "official": "CTX sérico, b-crosslaps, carboxi telopép (RedSalud)",
+  "name": "CTX sérico, b-crosslaps, carboxi telopép",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cuantificacion-de-celulas-progenitoras-h",
+  "code": "Sin código FONASA",
+  "official": "Cuantificación de células progenitoras H (RedSalud)",
+  "name": "Cuantificación de células progenitoras H",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-cuerpos-cetonicos-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Cuerpos cetonicos en orina (RedSalud)",
+  "name": "Cuerpos cetonicos en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-deficiencia-adhesion-leucocitaria-lad",
+  "code": "Sin código FONASA",
+  "official": "Deficiencia adhesión leucocitaria (LAD) (RedSalud)",
+  "name": "Deficiencia adhesión leucocitaria (LAD)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-det-de-alcohol-etilico-en-sangre",
+  "code": "Sin código FONASA",
+  "official": "DET. de alcohol etilico en sangre (RedSalud)",
+  "name": "DET. de alcohol etilico en sangre",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-deteccion-de-1-3-b-d-glucano",
+  "code": "Sin código FONASA",
+  "official": "Deteccion de (1-3)-b-d-glucano (RedSalud)",
+  "name": "Deteccion de (1-3)-b-d-glucano",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-deteccion-de-hemoglobinuria-paroxistica",
+  "code": "Sin código FONASA",
+  "official": "Detección de hemoglobinuria paroxística (RedSalud)",
+  "name": "Detección de hemoglobinuria paroxística",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-deteccion-toxina-a-b-clostridium-diffici",
+  "code": "Sin código FONASA",
+  "official": "Deteccion toxina A+B clostridium diffici (RedSalud)",
+  "name": "Deteccion toxina A+B clostridium diffici",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-diagnostico-genetico-molecular-de-acond",
+  "code": "Sin código FONASA",
+  "official": "Diagnóstico genético-molecular de acond (RedSalud)",
+  "name": "Diagnóstico genético-molecular de acond",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-dispositivo-tiempo-de-sangria-ivy",
+  "code": "Sin código FONASA",
+  "official": "Dispositivo tiempo de sangria IVY (RedSalud)",
+  "name": "Dispositivo tiempo de sangria IVY",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-distrofia-miotonica-tipo-i-estudio-gene",
+  "code": "Sin código FONASA",
+  "official": "Distrofia miotónica TIPO I, estudio GENÉ (RedSalud)",
+  "name": "Distrofia miotónica TIPO I, estudio GENÉ",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-drogas-de-abuso-en-pelo",
+  "code": "Sin código FONASA",
+  "official": "Drogas de abuso en PELO (RedSalud)",
+  "name": "Drogas de abuso en PELO",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-electrofor-proteinas-en-orina-solo-fns",
+  "code": "Sin código FONASA",
+  "official": "Electrofor.proteinas en orina (SOLO FNS) (RedSalud)",
+  "name": "Electrofor.proteinas en orina (SOLO FNS)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-emigrantes-timicos-recientes",
+  "code": "Sin código FONASA",
+  "official": "Emigrantes tímicos recientes (RedSalud)",
+  "name": "Emigrantes tímicos recientes",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-enfermedad-minima-residual-emr-inmuno",
+  "code": "Sin código FONASA",
+  "official": "Enfermedad mínima residual (EMR), inmuno (RedSalud)",
+  "name": "Enfermedad mínima residual (EMR), inmuno",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-est-traslocaciones-leucemia-c-u",
+  "code": "Sin código FONASA",
+  "official": "EST. traslocaciones leucemia, C/U (RedSalud)",
+  "name": "EST. traslocaciones leucemia, C/U",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estallido-respiratorio-test-estimulacio",
+  "code": "Sin código FONASA",
+  "official": "Estallido respiratorio (RedSalud)",
+  "name": "Estallido respiratorio",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-de-blastogenesis",
+  "code": "Sin código FONASA",
+  "official": "Estudio de blastogénesis (RedSalud)",
+  "name": "Estudio de blastogénesis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-de-intoxicacion-por-drogas",
+  "code": "Sin código FONASA",
+  "official": "Estudio de intoxicacion por drogas (RedSalud)",
+  "name": "Estudio de intoxicacion por drogas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-de-susceptibilidad-ceftolozano-t",
+  "code": "Sin código FONASA",
+  "official": "Estudio de susceptibilidad ceftolozano/t (RedSalud)",
+  "name": "Estudio de susceptibilidad ceftolozano/t",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-genetico-hemocromatosis",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético hemocromatosis (RedSalud)",
+  "name": "Estudio genético hemocromatosis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-genetico-molecular-gen-ptpn11-s",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético molecular GEN PTPN11 (RedSalud)",
+  "name": "Estudio genético molecular GEN PTPN11",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-genetico-sindrome-x-fragil",
+  "code": "Sin código FONASA",
+  "official": "Estudio genético sindrome x-fragil (RedSalud)",
+  "name": "Estudio genético sindrome x-fragil",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-metabolico-litiasis-renal",
+  "code": "Sin código FONASA",
+  "official": "Estudio metabólico litiasis renal (RedSalud)",
+  "name": "Estudio metabólico litiasis renal",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-molecular-in16-cbfb-myh11",
+  "code": "Sin código FONASA",
+  "official": "Estudio molecular IN16 cbfb-myh11 (RedSalud)",
+  "name": "Estudio molecular IN16 cbfb-myh11",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-molecular-mutacion-itd-del-gen-f",
+  "code": "Sin código FONASA",
+  "official": "Estudio molecular mutación ITD del GEN F (RedSalud)",
+  "name": "Estudio molecular mutación ITD del GEN F",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-molecular-mutaciones-gen-npm1",
+  "code": "Sin código FONASA",
+  "official": "Estudio molecular mutaciones GEN NPM1 (RedSalud)",
+  "name": "Estudio molecular mutaciones GEN NPM1",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-molecular-t-8-21-runx1-runx1t1",
+  "code": "Sin código FONASA",
+  "official": "Estudio molecular T(8:21) runx1-runx1t1 (RedSalud)",
+  "name": "Estudio molecular T(8:21) runx1-runx1t1",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-susceptibilidad-ceftazidima-avib",
+  "code": "Sin código FONASA",
+  "official": "Estudio susceptibilidad ceftazidima AVIB (RedSalud)",
+  "name": "Estudio susceptibilidad ceftazidima AVIB",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-estudio-susceptibilidad-colistin",
+  "code": "Sin código FONASA",
+  "official": "Estudio susceptibilidad colistin (RedSalud)",
+  "name": "Estudio susceptibilidad colistin",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-factor-v-leyden",
+  "code": "Sin código FONASA",
+  "official": "Factor V leyden (RedSalud)",
+  "name": "Factor V leyden",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-factor-xa-medicion-de-actividad",
+  "code": "Sin código FONASA",
+  "official": "Factor XA , medicion de actividad (RedSalud)",
+  "name": "Factor XA , medicion de actividad",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fasciolasis-serologia",
+  "code": "Sin código FONASA",
+  "official": "Fasciolasis, serologia (RedSalud)",
+  "name": "Fasciolasis, serologia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-film-array-de-sepsis",
+  "code": "Sin código FONASA",
+  "official": "FILM array de sepsis (RedSalud)",
+  "name": "FILM array de sepsis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-film-array-gastrointestinal",
+  "code": "Sin código FONASA",
+  "official": "FILM array gastrointestinal (RedSalud)",
+  "name": "FILM array gastrointestinal",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-film-array-meningitis-encefalitis",
+  "code": "Sin código FONASA",
+  "official": "FILM array meningitis / encefalitis (RedSalud)",
+  "name": "FILM array meningitis / encefalitis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-film-array-pneumonia",
+  "code": "Sin código FONASA",
+  "official": "FILM array pneumonia (RedSalud)",
+  "name": "FILM array pneumonia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-film-array-respiratorio",
+  "code": "Sin código FONASA",
+  "official": "FILM array respiratorio (RedSalud)",
+  "name": "FILM array respiratorio",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fosfatasas-alcalinas-con-separacion-de-i",
+  "code": "Sin código FONASA",
+  "official": "Fosfatasas alcalinas con separacion de I (RedSalud)",
+  "name": "Fosfatasas alcalinas con separacion de I",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-fragmentacion-adn-espermatica",
+  "code": "Sin código FONASA",
+  "official": "Fragmentación ADN espermática (RedSalud)",
+  "name": "Fragmentación ADN espermática",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-genotificacion-vih",
+  "code": "Sin código FONASA",
+  "official": "Genotificación VIH (RedSalud)",
+  "name": "Genotificación VIH",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-glicosaminoglicanos-en-orina-gags",
+  "code": "Sin código FONASA",
+  "official": "Glicosaminoglicanos en orina (GAGS) (RedSalud)",
+  "name": "Glicosaminoglicanos en orina (GAGS)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-glucosa-6-fosfato-deshidrogenasa",
+  "code": "Sin código FONASA",
+  "official": "Glucosa 6 fosfato deshidrogenasa (RedSalud)",
+  "name": "Glucosa 6 fosfato deshidrogenasa",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hemocromatosis-gen-de",
+  "code": "Sin código FONASA",
+  "official": "Hemocromatosis, GEN de (RedSalud)",
+  "name": "Hemocromatosis, GEN de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hemoglobina-plasmatica",
+  "code": "Sin código FONASA",
+  "official": "Hemoglobina plasmática (RedSalud)",
+  "name": "Hemoglobina plasmática",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hemoglucotest",
+  "code": "Sin código FONASA",
+  "official": "Hemoglucotest (RedSalud)",
+  "name": "Hemoglucotest",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepatitis-e-igg-2",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis E IGG (RedSalud)",
+  "name": "Hepatitis E IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hepatitis-e-igm-2",
+  "code": "Sin código FONASA",
+  "official": "Hepatitis E IGM (RedSalud)",
+  "name": "Hepatitis E IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hiperplasia-suprarrenal-congenita-por-de",
+  "code": "Sin código FONASA",
+  "official": "Hiperplasia suprarrenal congénita por DÉ (RedSalud)",
+  "name": "Hiperplasia suprarrenal congénita por DÉ",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hla-b51-tipificacion",
+  "code": "Sin código FONASA",
+  "official": "HLA B51 (tipificación) (RedSalud)",
+  "name": "HLA B51 (tipificación)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hla-abdr-tipificacion",
+  "code": "Sin código FONASA",
+  "official": "Hla-abdr tipificacion (RedSalud)",
+  "name": "Hla-abdr tipificacion",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-hormona-anti-mulleriana",
+  "code": "Sin código FONASA",
+  "official": "Hormona anti-mulleriana (RedSalud)",
+  "name": "Hormona anti-mulleriana",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-influenza-a-ag-virales-por-if",
+  "code": "Sin código FONASA",
+  "official": "Influenza a, AG virales por IF (RedSalud)",
+  "name": "Influenza a, AG virales por IF",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-influenza-b-ag-virales-por-if",
+  "code": "Sin código FONASA",
+  "official": "Influenza B, AG virales por IF (RedSalud)",
+  "name": "Influenza B, AG virales por IF",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inhibidor-c1-cuantitativo",
+  "code": "Sin código FONASA",
+  "official": "Inhibidor C1 cuantitativo (RedSalud)",
+  "name": "Inhibidor C1 cuantitativo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunof-inmunoglobulina-orina-solo-fns",
+  "code": "Sin código FONASA",
+  "official": "Inmunof.inmunoglobulina orina (SOLO FNS) (RedSalud)",
+  "name": "Inmunof.inmunoglobulina orina (SOLO FNS)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunofenotipo",
+  "code": "Sin código FONASA",
+  "official": "Inmunofenotipo (RedSalud)",
+  "name": "Inmunofenotipo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunofenotipo-mielodisplasia",
+  "code": "Sin código FONASA",
+  "official": "Inmunofenotipo, mielodisplasia (RedSalud)",
+  "name": "Inmunofenotipo, mielodisplasia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunofenotipo-mieloma-linfoma",
+  "code": "Sin código FONASA",
+  "official": "Inmunofenotipo, mieloma/linfoma (RedSalud)",
+  "name": "Inmunofenotipo, mieloma/linfoma",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-inmunofij-inmunoglobulinas-solo-fonasa",
+  "code": "Sin código FONASA",
+  "official": "Inmunofij.inmunoglobulinas(solo fonasa) (RedSalud)",
+  "name": "Inmunofij.inmunoglobulinas(solo fonasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-insumo-orina-24-horas",
+  "code": "Sin código FONASA",
+  "official": "Insumo orina 24 horas (RedSalud)",
+  "name": "Insumo orina 24 horas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-insumos-de-glucosa",
+  "code": "Sin código FONASA",
+  "official": "Insumos de glucosa (RedSalud)",
+  "name": "Insumos de glucosa",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-interleukina-humana-6",
+  "code": "Sin código FONASA",
+  "official": "Interleukina humana 6 (RedSalud)",
+  "name": "Interleukina humana 6",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-kit-hemocultivo-automatizado",
+  "code": "Sin código FONASA",
+  "official": "KIT hemocultivo automatizado (RedSalud)",
+  "name": "KIT hemocultivo automatizado",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-lactogen-test-genetico-intolerancia-a-l",
+  "code": "Sin código FONASA",
+  "official": "Lactogen, TEST genético intolerancia a L (RedSalud)",
+  "name": "Lactogen, TEST genético intolerancia a L",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-leptospira-igg-igm",
+  "code": "Sin código FONASA",
+  "official": "Leptospira(igg/igm) (RedSalud)",
+  "name": "Leptospira(igg/igm)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-levetiracetam-niv-plasmaticos-solo-fns",
+  "code": "Sin código FONASA",
+  "official": "Levetiracetam, niv.plasmaticos(solo FNS) (RedSalud)",
+  "name": "Levetiracetam, niv.plasmaticos(solo FNS)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-cd-20",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos CD 20 (RedSalud)",
+  "name": "Linfocitos CD 20",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-cd8",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos CD8 (RedSalud)",
+  "name": "Linfocitos CD8",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-natural-killers-cd16-cd56",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos natural killers CD16/CD56 (RedSalud)",
+  "name": "Linfocitos natural killers CD16/CD56",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-t-cd3",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos T (CD3) (RedSalud)",
+  "name": "Linfocitos T (CD3)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-t-cd4",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos T (CD4) (RedSalud)",
+  "name": "Linfocitos T (CD4)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-t-cd8",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos T (CD8) (RedSalud)",
+  "name": "Linfocitos T (CD8)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfocitos-t-supresores",
+  "code": "Sin código FONASA",
+  "official": "Linfocitos T supresores (RedSalud)",
+  "name": "Linfocitos T supresores",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-linfoproliferacion-de-linfocitos-t-con-p",
+  "code": "Sin código FONASA",
+  "official": "Linfoproliferación de linfocitos T con P (RedSalud)",
+  "name": "Linfoproliferación de linfocitos T con P",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-lipasa-en-otros-fluidos",
+  "code": "Sin código FONASA",
+  "official": "Lipasa en otros fluidos (RedSalud)",
+  "name": "Lipasa en otros fluidos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-magnesio-cuantitativo-orina-aislada",
+  "code": "Sin código FONASA",
+  "official": "Magnesio cuantitativo orina aislada (RedSalud)",
+  "name": "Magnesio cuantitativo orina aislada",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-marcadores-inmunologicos-en-diabetes",
+  "code": "Sin código FONASA",
+  "official": "Marcadores inmunologicos en diabetes (RedSalud)",
+  "name": "Marcadores inmunologicos en diabetes",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metaloproteinasa-adamts-13",
+  "code": "Sin código FONASA",
+  "official": "Metaloproteinasa (adamts 13) (RedSalud)",
+  "name": "Metaloproteinasa (adamts 13)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metanefrinas-en-orina-solo-fonasa",
+  "code": "Sin código FONASA",
+  "official": "Metanefrinas en orina (SOLO fonasa) (RedSalud)",
+  "name": "Metanefrinas en orina (SOLO fonasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-metotrexato-niveles-plasmaticos-de",
+  "code": "Sin código FONASA",
+  "official": "Metotrexato, niveles plasmaticos de (RedSalud)",
+  "name": "Metotrexato, niveles plasmaticos de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mioglobina-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Mioglobina en orina (RedSalud)",
+  "name": "Mioglobina en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-msud-determinacion-de-bcaa-enf-orina",
+  "code": "Sin código FONASA",
+  "official": "MSUD, determinación de BCAA (RedSalud)",
+  "name": "MSUD, determinación de BCAA",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-multimeros-del-factor-von-willebrand",
+  "code": "Sin código FONASA",
+  "official": "Multimeros del factor VON willebrand (RedSalud)",
+  "name": "Multimeros del factor VON willebrand",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-c46t-del-factor-xii-estudio-ge",
+  "code": "Sin código FONASA",
+  "official": "Mutación C46T del factor XII, estudio GE (RedSalud)",
+  "name": "Mutación C46T del factor XII, estudio GE",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-c677t-de-la-mthfr",
+  "code": "Sin código FONASA",
+  "official": "Mutacion C677T de la mthfr (RedSalud)",
+  "name": "Mutacion C677T de la mthfr",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-g20210a",
+  "code": "Sin código FONASA",
+  "official": "Mutacion G20210A (RedSalud)",
+  "name": "Mutacion G20210A",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutacion-gen-abl1",
+  "code": "Sin código FONASA",
+  "official": "Mutación GEN ABL1 (RedSalud)",
+  "name": "Mutación GEN ABL1",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutaciones-gen-calreticulina",
+  "code": "Sin código FONASA",
+  "official": "Mutaciones GEN calreticulina (RedSalud)",
+  "name": "Mutaciones GEN calreticulina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mutaciones-gen-mpl",
+  "code": "Sin código FONASA",
+  "official": "Mutaciones GEN MPL (RedSalud)",
+  "name": "Mutaciones GEN MPL",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-mycoplasma-pneumoniae-lgm",
+  "code": "Sin código FONASA",
+  "official": "Mycoplasma pneumoniae LGM (RedSalud)",
+  "name": "Mycoplasma pneumoniae LGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-nivel-plasmatico-de-amikacina",
+  "code": "Sin código FONASA",
+  "official": "Nivel plasmatico de amikacina (RedSalud)",
+  "name": "Nivel plasmatico de amikacina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-nivele-plasmaticos-paracetamol-solo-fns",
+  "code": "Sin código FONASA",
+  "official": "Nivele plasmaticos paracetamol(solo FNS) (RedSalud)",
+  "name": "Nivele plasmaticos paracetamol(solo FNS)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-anticuerpos-anti-adalimumab",
+  "code": "Sin código FONASA",
+  "official": "Niveles de anticuerpos ANTI adalimumab (RedSalud)",
+  "name": "Niveles de anticuerpos ANTI adalimumab",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-anticuerpos-anti-infliximab",
+  "code": "Sin código FONASA",
+  "official": "Niveles de anticuerpos ANTI infliximab (RedSalud)",
+  "name": "Niveles de anticuerpos ANTI infliximab",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-carnitina",
+  "code": "Sin código FONASA",
+  "official": "Niveles de carnitina (RedSalud)",
+  "name": "Niveles de carnitina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-de-infliximab",
+  "code": "Sin código FONASA",
+  "official": "Niveles de infliximab (RedSalud)",
+  "name": "Niveles de infliximab",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-plasmaticos-anticuerpos-anti-inf",
+  "code": "Sin código FONASA",
+  "official": "Niveles plasmáticos anticuerpos ANTI INF (RedSalud)",
+  "name": "Niveles plasmáticos anticuerpos ANTI INF",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-niveles-plasmaticos-de-gentamicina",
+  "code": "Sin código FONASA",
+  "official": "Niveles plasmaticos de gentamicina (RedSalud)",
+  "name": "Niveles plasmaticos de gentamicina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-opiaceos",
+  "code": "Sin código FONASA",
+  "official": "Opiaceos (RedSalud)",
+  "name": "Opiaceos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-osmolaridad-serica",
+  "code": "Sin código FONASA",
+  "official": "Osmolaridad serica (RedSalud)",
+  "name": "Osmolaridad serica",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-osmolaridad-urinaria",
+  "code": "Sin código FONASA",
+  "official": "Osmolaridad urinaria (RedSalud)",
+  "name": "Osmolaridad urinaria",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-oxcarbamazepina-solo-fonasa",
+  "code": "Sin código FONASA",
+  "official": "Oxcarbamazepina (SOLO fonasa) (RedSalud)",
+  "name": "Oxcarbamazepina (SOLO fonasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-candida-transmision-sexual-por-pcr",
+  "code": "Sin código FONASA",
+  "official": "Panel candida transmisión sexual por PCR (RedSalud)",
+  "name": "Panel candida transmisión sexual por PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-encefalitis-autoinmunes-suero-y-lc",
+  "code": "Sin código FONASA",
+  "official": "Panel encefalitis autoinmunes suero y LC (RedSalud)",
+  "name": "Panel encefalitis autoinmunes suero y LC",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-ige-especificas-35-alergenos",
+  "code": "Sin código FONASA",
+  "official": "Panel IGE específicas 35 alérgenos (RedSalud)",
+  "name": "Panel IGE específicas 35 alérgenos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-meningitis-encefalitis-por-pcr-rt",
+  "code": "Sin código FONASA",
+  "official": "Panel meningitis/encefalitis por PCR- RT (RedSalud)",
+  "name": "Panel meningitis/encefalitis por PCR- RT",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-miositis",
+  "code": "Sin código FONASA",
+  "official": "Panel miositis (RedSalud)",
+  "name": "Panel miositis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-pcr-influenza-diferenciacion-h3n2",
+  "code": "Sin código FONASA",
+  "official": "Panel PCR influenza diferenciacion H3N2 (RedSalud)",
+  "name": "Panel PCR influenza diferenciacion H3N2",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-pcr-respiratorio-plus-incluye-cor",
+  "code": "Sin código FONASA",
+  "official": "Panel PCR respiratorio PLUS (RedSalud)",
+  "name": "Panel PCR respiratorio PLUS",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-respiratorio-ifi",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio IFI (RedSalud)",
+  "name": "Panel respiratorio IFI",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-respiratorio-test-pack",
+  "code": "Sin código FONASA",
+  "official": "Panel respiratorio TEST PACK (RedSalud)",
+  "name": "Panel respiratorio TEST PACK",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-tropical-por-pcr",
+  "code": "Sin código FONASA",
+  "official": "Panel tropical por PCR (RedSalud)",
+  "name": "Panel tropical por PCR",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-varicela-zoster-herpes-simplex-1",
+  "code": "Sin código FONASA",
+  "official": "Panel varicela zoster / herpes simplex 1 (RedSalud)",
+  "name": "Panel varicela zoster / herpes simplex 1",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-viral-bk8-sera-bk9",
+  "code": "Sin código FONASA",
+  "official": "Panel viral BK8 SERA BK9?? (RedSalud)",
+  "name": "Panel viral BK8 SERA BK9??",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-panel-viral-meningitis-virus-herpes-1-y",
+  "code": "Sin código FONASA",
+  "official": "Panel viral meningitis (RedSalud)",
+  "name": "Panel viral meningitis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-parainfluenza-1-ag-virales-por-if",
+  "code": "Sin código FONASA",
+  "official": "Parainfluenza 1, AG virales por IF (RedSalud)",
+  "name": "Parainfluenza 1, AG virales por IF",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-parainfluenza-2-ag-virales-por-if",
+  "code": "Sin código FONASA",
+  "official": "Parainfluenza 2, AG virales por IF (RedSalud)",
+  "name": "Parainfluenza 2, AG virales por IF",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-parainfluenza-3-ag-virales-por-if",
+  "code": "Sin código FONASA",
+  "official": "Parainfluenza 3, AG virales por IF (RedSalud)",
+  "name": "Parainfluenza 3, AG virales por IF",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-paraneoplasicos-anticuerpos-anti-neuron",
+  "code": "Sin código FONASA",
+  "official": "Paraneoplásicos, anticuerpos ANTI neuron (RedSalud)",
+  "name": "Paraneoplásicos, anticuerpos ANTI neuron",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-parasitos-determinacion-por-reaccion-de",
+  "code": "Sin código FONASA",
+  "official": "Parasitos: determinacion por reaccion de (RedSalud)",
+  "name": "Parasitos: determinacion por reaccion de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-parvovirus-b19-anticuerpos-igg",
+  "code": "Sin código FONASA",
+  "official": "Parvovirus B19 anticuerpos IGG (RedSalud)",
+  "name": "Parvovirus B19 anticuerpos IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-parvovirus-b19-anticuerpos-igm",
+  "code": "Sin código FONASA",
+  "official": "Parvovirus B19 anticuerpos IGM (RedSalud)",
+  "name": "Parvovirus B19 anticuerpos IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-panel-embarazada",
+  "code": "Sin código FONASA",
+  "official": "PCR panel embarazada (RedSalud)",
+  "name": "PCR panel embarazada",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-panel-ets",
+  "code": "Sin código FONASA",
+  "official": "PCR panel ETS (RedSalud)",
+  "name": "PCR panel ETS",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-15-17-cualitativa",
+  "code": "Sin código FONASA",
+  "official": "PCR T (15:17) cualitativa (RedSalud)",
+  "name": "PCR T (15:17) cualitativa",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-adenovirus",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R adenovirus (RedSalud)",
+  "name": "PCR T/R adenovirus",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-chlamydia-trachomatis",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R chlamydia trachomatis (RedSalud)",
+  "name": "PCR T/R chlamydia trachomatis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-enterovirus",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R enterovirus (RedSalud)",
+  "name": "PCR T/R enterovirus",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-listeria-monocytogenes",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R listeria monocytogenes (RedSalud)",
+  "name": "PCR T/R listeria monocytogenes",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-mycoplasma-hominis",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R mycoplasma hominis (RedSalud)",
+  "name": "PCR T/R mycoplasma hominis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-mycoplasma-pneumoniae",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R mycoplasma pneumoniae (RedSalud)",
+  "name": "PCR T/R mycoplasma pneumoniae",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-neisseria-gonorrhoeae",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R neisseria gonorrhoeae (RedSalud)",
+  "name": "PCR T/R neisseria gonorrhoeae",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-parvovirus-b19",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R parvovirus B19 (RedSalud)",
+  "name": "PCR T/R parvovirus B19",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-streptococcus-agalactiae-grupo",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R streptococcus agalactiae (RedSalud)",
+  "name": "PCR T/R streptococcus agalactiae",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-toxoplasma-gondii",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R toxoplasma gondii (RedSalud)",
+  "name": "PCR T/R toxoplasma gondii",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-ureaplasma-spp",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R ureaplasma SPP. (RedSalud)",
+  "name": "PCR T/R ureaplasma SPP.",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-virus-epstein-barr-ebv",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R virus epstein BARR (EBV) (RedSalud)",
+  "name": "PCR T/R virus epstein BARR (EBV)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-virus-hepatitis-b",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R virus hepatitis B (RedSalud)",
+  "name": "PCR T/R virus hepatitis B",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-virus-herpes-humano-tipo-6-hhv6",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R virus herpes humano TIPO 6 (RedSalud)",
+  "name": "PCR T/R virus herpes humano TIPO 6",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-virus-influenza-a-y-a-h1n1",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R virus influenza a y a H1N1 (RedSalud)",
+  "name": "PCR T/R virus influenza a y a H1N1",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-virus-papiloma-humano-30-serotip",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R virus papiloma humano 30 serotip (RedSalud)",
+  "name": "PCR T/R virus papiloma humano 30 serotip",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-t-r-virus-varicela-zoster-hzv",
+  "code": "Sin código FONASA",
+  "official": "PCR T/R virus varicela zoster (HZV) (RedSalud)",
+  "name": "PCR T/R virus varicela zoster (HZV)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-traslocacion-t-12-21",
+  "code": "Sin código FONASA",
+  "official": "PCR traslocacion T (12;21) (RedSalud)",
+  "name": "PCR traslocacion T (12;21)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-traslocacion-t-1-19",
+  "code": "Sin código FONASA",
+  "official": "PCR traslocacion T (1;19) (RedSalud)",
+  "name": "PCR traslocacion T (1;19)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-traslocacion-t-4-11",
+  "code": "Sin código FONASA",
+  "official": "PCR traslocación T (4;11) (RedSalud)",
+  "name": "PCR traslocación T (4;11)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-trypanosoma-cruzzi-chagas",
+  "code": "Sin código FONASA",
+  "official": "PCR trypanosoma cruzzi (chagas) (RedSalud)",
+  "name": "PCR trypanosoma cruzzi (chagas)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-universal-identificacion-especies-ba",
+  "code": "Sin código FONASA",
+  "official": "PCR universal identificacion especies BA (RedSalud)",
+  "name": "PCR universal identificacion especies BA",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-universal-identificacion-especies-ho",
+  "code": "Sin código FONASA",
+  "official": "PCR universal identificacion especies HO (RedSalud)",
+  "name": "PCR universal identificacion especies HO",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-virus-bk",
+  "code": "Sin código FONASA",
+  "official": "PCR virus BK (RedSalud)",
+  "name": "PCR virus BK",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-virus-fiebre-amarilla",
+  "code": "Sin código FONASA",
+  "official": "PCR virus fiebre amarilla (RedSalud)",
+  "name": "PCR virus fiebre amarilla",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-virus-hanta",
+  "code": "Sin código FONASA",
+  "official": "PCR virus hanta (RedSalud)",
+  "name": "PCR virus hanta",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-virus-jc",
+  "code": "Sin código FONASA",
+  "official": "PCR virus JC (RedSalud)",
+  "name": "PCR virus JC",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-rt-enterococcus-resistente-vancomici",
+  "code": "Sin código FONASA",
+  "official": "Pcr-rt enterococcus resistente vancomici (RedSalud)",
+  "name": "Pcr-rt enterococcus resistente vancomici",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-rt-virus-dengue",
+  "code": "Sin código FONASA",
+  "official": "Pcr-rt virus dengue (RedSalud)",
+  "name": "Pcr-rt virus dengue",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pcr-rt-virus-zika",
+  "code": "Sin código FONASA",
+  "official": "Pcr-rt virus ZIKA (RedSalud)",
+  "name": "Pcr-rt virus ZIKA",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-peptido-c-pro-insulina",
+  "code": "Sin código FONASA",
+  "official": "Peptido C PRO insulina (RedSalud)",
+  "name": "Peptido C PRO insulina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-perfil-de-aminoacidos-y-acilcarnitinas-e",
+  "code": "Sin código FONASA",
+  "official": "Perfil de aminoácidos y acilcarnitinas E (RedSalud)",
+  "name": "Perfil de aminoácidos y acilcarnitinas E",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-pfa-200-tiempo-de-cierre-oclusion",
+  "code": "Sin código FONASA",
+  "official": "PFA-200 tiempo de cierre (oclusión) (RedSalud)",
+  "name": "PFA-200 tiempo de cierre (oclusión)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-porfirinas-dif-en-orina-solo-fonasa",
+  "code": "Sin código FONASA",
+  "official": "Porfirinas DIF. en orina (SOLO fonasa) (RedSalud)",
+  "name": "Porfirinas DIF. en orina (SOLO fonasa)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-porfobilinogeno",
+  "code": "Sin código FONASA",
+  "official": "Porfobilinogeno (RedSalud)",
+  "name": "Porfobilinogeno",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-proteina-c-reactiva-ultrasensible",
+  "code": "Sin código FONASA",
+  "official": "Proteina C reactiva ultrasensible (RedSalud)",
+  "name": "Proteina C reactiva ultrasensible",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-prueba-de-union-fvw-a-colageno-uc",
+  "code": "Sin código FONASA",
+  "official": "Prueba de union FVW a colageno (UC) (RedSalud)",
+  "name": "Prueba de union FVW a colageno (UC)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-quantiferon",
+  "code": "Sin código FONASA",
+  "official": "Quantiferon (RedSalud)",
+  "name": "Quantiferon",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-receptor-soluble-de-il-2-scd25",
+  "code": "Sin código FONASA",
+  "official": "Receptor soluble de IL-2 (SCD25) (RedSalud)",
+  "name": "Receptor soluble de IL-2 (SCD25)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-receptor-soluble-interleukina-2-scd25",
+  "code": "Sin código FONASA",
+  "official": "Receptor soluble interleukina-2 (SCD25) (RedSalud)",
+  "name": "Receptor soluble interleukina-2 (SCD25)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-recolector-orina-pediatrico-c-u",
+  "code": "Sin código FONASA",
+  "official": "Recolector orina pediatrico C/U (RedSalud)",
+  "name": "Recolector orina pediatrico C/U",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-recuento-diferencial-lavado-bronquialveo",
+  "code": "Sin código FONASA",
+  "official": "Recuento diferencial lavado bronquialveo (RedSalud)",
+  "name": "Recuento diferencial lavado bronquialveo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-recuento-hematologico-automatizado",
+  "code": "Sin código FONASA",
+  "official": "Recuento hematologico automatizado (RedSalud)",
+  "name": "Recuento hematologico automatizado",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-resistencia-globular-osmotica",
+  "code": "Sin código FONASA",
+  "official": "Resistencia globular osmótica (RedSalud)",
+  "name": "Resistencia globular osmótica",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sangre-oculta",
+  "code": "Sin código FONASA",
+  "official": "Sangre oculta (RedSalud)",
+  "name": "Sangre oculta",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-schistosomiasis-serologia",
+  "code": "Sin código FONASA",
+  "official": "Schistosomiasis, serologia (RedSalud)",
+  "name": "Schistosomiasis, serologia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-screening-prenatal",
+  "code": "Sin código FONASA",
+  "official": "Screening prenatal (RedSalud)",
+  "name": "Screening prenatal",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-serologia-amebiasis",
+  "code": "Sin código FONASA",
+  "official": "Serologia amebiasis (RedSalud)",
+  "name": "Serologia amebiasis",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-serologia-virus-hanta-igg-igm",
+  "code": "Sin código FONASA",
+  "official": "Serologia virus hanta igg/igm (RedSalud)",
+  "name": "Serologia virus hanta igg/igm",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-serotonina",
+  "code": "Sin código FONASA",
+  "official": "Serotonina (RedSalud)",
+  "name": "Serotonina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sindrome-charcot-marie-tooth-dgco-genet",
+  "code": "Sin código FONASA",
+  "official": "Sindrome charcot marie tooth, DGCO genet (RedSalud)",
+  "name": "Sindrome charcot marie tooth, DGCO genet",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sindrome-de-gilbert-estudio-genetico-mo",
+  "code": "Sin código FONASA",
+  "official": "Sindrome de gilbert, estudio genético MO (RedSalud)",
+  "name": "Sindrome de gilbert, estudio genético MO",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sindrome-micro-delecion-duplicaion-por-m",
+  "code": "Sin código FONASA",
+  "official": "Sindrome micro deleción/duplicaión por M (RedSalud)",
+  "name": "Sindrome micro deleción/duplicaión por M",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sindrome-prader-willi-y-angelman-estudi",
+  "code": "Sin código FONASA",
+  "official": "Sindrome prader-willi y angelman, estudi (RedSalud)",
+  "name": "Sindrome prader-willi y angelman, estudi",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-sintesis-intrtecal-de-igg-indice-igg-al",
+  "code": "Sin código FONASA",
+  "official": "Sintesis intrtecal de IGG indice igg/al (RedSalud)",
+  "name": "Sintesis intrtecal de IGG indice igg/al",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-strongyloidiasis-serologia",
+  "code": "Sin código FONASA",
+  "official": "Strongyloidiasis, serologia (RedSalud)",
+  "name": "Strongyloidiasis, serologia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-subclases-de-igg-igg1-igg2-igg3-igg4",
+  "code": "Sin código FONASA",
+  "official": "Subclases de IGG (igg1-igg2-igg3-igg4) (RedSalud)",
+  "name": "Subclases de IGG (igg1-igg2-igg3-igg4)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-subpoblaciones-linfocitarias",
+  "code": "Sin código FONASA",
+  "official": "Subpoblaciones linfocitarias (RedSalud)",
+  "name": "Subpoblaciones linfocitarias",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-t-11-22-ews-fli1",
+  "code": "Sin código FONASA",
+  "official": "T(11;22) ews-fli1 (RedSalud)",
+  "name": "T(11;22) ews-fli1",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-t-9-22-bcr-abl-p190-y-p210-cuantitativo",
+  "code": "Sin código FONASA",
+  "official": "T(9;22) bcr-abl P190 y P210 cuantitativo (RedSalud)",
+  "name": "T(9;22) bcr-abl P190 y P210 cuantitativo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tacrolimus-niveles-plasmaticos",
+  "code": "Sin código FONASA",
+  "official": "Tacrolimus, niveles plasmaticos (RedSalud)",
+  "name": "Tacrolimus, niveles plasmaticos",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-de-acido-delta-aminolevulinico-y-po",
+  "code": "Sin código FONASA",
+  "official": "TEST de acido delta aminolevulinico y PO (RedSalud)",
+  "name": "TEST de acido delta aminolevulinico y PO",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-de-ham",
+  "code": "Sin código FONASA",
+  "official": "TEST de HAM (RedSalud)",
+  "name": "TEST de HAM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-de-metilacion",
+  "code": "Sin código FONASA",
+  "official": "TEST de metilación (RedSalud)",
+  "name": "TEST de metilación",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-isac-microarray-de-ige-especificas-2",
+  "code": "Sin código FONASA",
+  "official": "TEST ISAC (RedSalud)",
+  "name": "TEST ISAC",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-test-pack-embarzo",
+  "code": "Sin código FONASA",
+  "official": "TEST PACK embarzo (RedSalud)",
+  "name": "TEST PACK embarzo",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tiempo-de-trombina",
+  "code": "Sin código FONASA",
+  "official": "Tiempo de trombina (RedSalud)",
+  "name": "Tiempo de trombina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tiopurina-metiltransferasa-actividad-de",
+  "code": "Sin código FONASA",
+  "official": "Tiopurina metiltransferasa, actividad de (RedSalud)",
+  "name": "Tiopurina metiltransferasa, actividad de",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tipificacion-celulas-mesenquimatosas-cm",
+  "code": "Sin código FONASA",
+  "official": "Tipificación células mesenquimatosas (RedSalud)",
+  "name": "Tipificación células mesenquimatosas",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tipificacion-hla-a-y-b-clase-i",
+  "code": "Sin código FONASA",
+  "official": "Tipificación HLA a y B (clase I) (RedSalud)",
+  "name": "Tipificación HLA a y B (clase I)",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tipificacion-hla-b-5701",
+  "code": "Sin código FONASA",
+  "official": "Tipificacion HLA B 5701 (RedSalud)",
+  "name": "Tipificacion HLA B 5701",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tipificacion-molecular-hla-b-51",
+  "code": "Sin código FONASA",
+  "official": "Tipificacion molecular HLA B*51 (RedSalud)",
+  "name": "Tipificacion molecular HLA B*51",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-toma-de-muestra-de-pap",
+  "code": "Sin código FONASA",
+  "official": "TOMA de muestra de PAP (RedSalud)",
+  "name": "TOMA de muestra de PAP",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-toma-de-muestra-en-terreno-solo-ch-empr",
+  "code": "Sin código FONASA",
+  "official": "TOMA de muestra en terreno (RedSalud)",
+  "name": "TOMA de muestra en terreno",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-toma-de-muestra-especial-exam-eeuu",
+  "code": "Sin código FONASA",
+  "official": "TOMA de muestra especial EXAM. EEUU (RedSalud)",
+  "name": "TOMA de muestra especial EXAM. EEUU",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-toxocara-igg",
+  "code": "Sin código FONASA",
+  "official": "Toxocara IGG (RedSalud)",
+  "name": "Toxocara IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-treponema-pallidum-por-pcr-rt-cualitativ",
+  "code": "Sin código FONASA",
+  "official": "Treponema pallidum por pcr-rt cualitativ (RedSalud)",
+  "name": "Treponema pallidum por pcr-rt cualitativ",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-triciclicos-en-orina",
+  "code": "Sin código FONASA",
+  "official": "Triciclicos en orina (RedSalud)",
+  "name": "Triciclicos en orina",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-tripsina-inmunoreactiva-neonatal-fibros",
+  "code": "Sin código FONASA",
+  "official": "Tripsina inmunoreactiva neonatal (RedSalud)",
+  "name": "Tripsina inmunoreactiva neonatal",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-triquinosis-serologia",
+  "code": "Sin código FONASA",
+  "official": "Triquinosis, serologia (RedSalud)",
+  "name": "Triquinosis, serologia",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-ttpk-diluido-al-50",
+  "code": "Sin código FONASA",
+  "official": "TTPK diluido AL 50% (RedSalud)",
+  "name": "TTPK diluido AL 50%",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-dengue-anticuerpos-igg",
+  "code": "Sin código FONASA",
+  "official": "Virus dengue, anticuerpos IGG (RedSalud)",
+  "name": "Virus dengue, anticuerpos IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-dengue-anticuerpos-igm",
+  "code": "Sin código FONASA",
+  "official": "Virus dengue, anticuerpos IGM (RedSalud)",
+  "name": "Virus dengue, anticuerpos IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-parotiditis-igg",
+  "code": "Sin código FONASA",
+  "official": "Virus parotiditis IGG (RedSalud)",
+  "name": "Virus parotiditis IGG",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-parotiditis-igm",
+  "code": "Sin código FONASA",
+  "official": "Virus parotiditis IGM (RedSalud)",
+  "name": "Virus parotiditis IGM",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-virus-sincicial-respiratorio-ag-virales",
+  "code": "Sin código FONASA",
+  "official": "Virus sincicial respiratorio, AG virales (RedSalud)",
+  "name": "Virus sincicial respiratorio, AG virales",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitamina-a-determinacion",
+  "code": "Sin código FONASA",
+  "official": "Vitamina a, determinación (RedSalud)",
+  "name": "Vitamina a, determinación",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-vitamina-e",
+  "code": "Sin código FONASA",
+  "official": "Vitamina E (RedSalud)",
+  "name": "Vitamina E",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
+ },
+ {
+  "id": "sf-voriconazol-nivel-plasmatico",
+  "code": "Sin código FONASA",
+  "official": "Voriconazol, nivel plasmatico (RedSalud)",
+  "name": "Voriconazol, nivel plasmatico",
+  "section": "Sin código FONASA (exámenes especializados)",
+  "levels": {}
  }
 ]

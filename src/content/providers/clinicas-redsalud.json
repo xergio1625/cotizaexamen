@@ -1,0 +1,10 @@
+{
+  "name": "Clínicas RedSalud",
+  "kind": "clinica",
+  "website": "https://www.redsalud.cl",
+  "subdivisions": [
+    "Providencia"
+  ],
+  "regionalOnly": true,
+  "fonasaLevel": 3
+}
