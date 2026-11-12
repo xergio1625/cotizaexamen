@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """
-Importa precios de prestadores desde un CSV (editable en Excel) y genera los JSON del sitio.
+Importa precios de prestadores desde un CSV (editable en Excel) y genera los JSON del sitio:
+un archivo por prestador en src/content/prices/<prestador>.json (ver scripts/pricefile.py).
 
 Uso:
   python scripts/import-prices.py precios.csv                 # escribe en src/content
   python scripts/import-prices.py precios.csv --out otra/ruta # carpeta alternativa (pruebas)
   python scripts/import-prices.py precios.csv --check         # solo valida, no escribe
+  python scripts/import-prices.py precios.csv --replace       # reemplaza TODAS las ofertas de los prestadores del CSV
+
+Por defecto se combina con lo ya cargado: un precio del CSV (mismo examen, tipo y comuna) pisa al
+anterior y el resto de las ofertas del prestador se conserva. Con --replace el CSV es la lista completa.
 
 Columnas (ver docs/precios-plantilla.csv):
   exam_code         código FONASA, con o sin separadores: 03-02-047, "03 02 047" o 0302047
@@ -31,6 +36,9 @@ import unicodedata
 from datetime import date
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pricefile import from_atoms, read_provider_file, to_atoms, write_provider_file
+
 ROOT = Path(__file__).resolve().parent.parent
 KINDS_PROVIDER = {'laboratorio', 'clinica', 'centro-medico', 'otro'}
 KINDS_PRICE = {'particular', 'convenio', 'promocion'}
@@ -55,11 +63,12 @@ def main():
     ap.add_argument('--out', default=str(ROOT / 'src' / 'content'))
     ap.add_argument('--arancel', default=str(ROOT / 'src' / 'data' / 'fonasa-mle-2026.json'))
     ap.add_argument('--check', action='store_true')
+    ap.add_argument('--replace', action='store_true')
     a = ap.parse_args()
 
     valid_codes = {r['id'] for r in json.load(open(a.arancel, encoding='utf-8'))}
-    errors, providers, prices = [], {}, {}
-    seen, groups = set(), {}
+    errors, providers, atoms = [], {}, {}
+    seen = set()
 
     with open(a.csv, encoding='utf-8-sig', newline='') as f:
         sample = f.read(4096)
@@ -117,37 +126,19 @@ def main():
                 errors.append(f'fila {n}: precio duplicado (mismo examen, prestador, tipo y comuna)')
                 continue
             seen.add(dup)
-            # Filas idénticas salvo la comuna se fusionan en un solo archivo con `subdivisions`.
-            gkey = (code, pid, row['kind'], int(row['amount']), row['source_url'], row['verified_at'], row.get('note', ''))
-            groups.setdefault(gkey, []).append(sub)
-
-    for (code, pid, kind, amount, src, vd, note), subs in groups.items():
-        subs = [s for s in subs if s]
-        if len(subs) > 1:
-            fname = f'{code}-{pid}-{kind}-{amount}-multi.json'
-        else:
-            fname = f"{code}-{pid}-{kind}-{slug(subs[0]) if subs else 'todas'}.json"
-        n = 2
-        while fname in prices:
-            fname = fname.replace('.json', f'-{n}.json') if n == 2 else re.sub(r'-\d+\.json$', f'-{n}.json', fname)
-            n += 1
-        rec = {'exam': code, 'provider': pid, 'amount': amount, 'kind': kind}
-        if len(subs) > 1:
-            rec['subdivisions'] = subs
-        elif subs:
-            rec['subdivision'] = subs[0]
-        rec['sourceUrl'] = src
-        rec['verifiedAt'] = vd
-        if note:
-            rec['note'] = note
-        prices[fname] = rec
+            atoms.setdefault(pid, {})[(code, row['kind'], sub)] = {
+                'amount': int(row['amount']),
+                'sourceUrl': row['source_url'],
+                'verifiedAt': row['verified_at'],
+                'note': row.get('note', ''),
+            }
 
     if errors:
         print('ERRORES, no se escribió nada:')
         print('\n'.join(' - ' + e for e in errors))
         sys.exit(1)
 
-    print(f'{len(prices)} precios de {len(providers)} prestadores: OK')
+    print(f'{sum(len(a) for a in atoms.values())} precios (por comuna) de {len(providers)} prestadores: OK')
     if a.check:
         return
 
@@ -166,8 +157,12 @@ def main():
                 if old.get(k):
                     rec[k] = old[k]
         (out / 'providers' / f'{pid}.json').write_text(json.dumps(rec, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    for fname, rec in prices.items():
-        (out / 'prices' / fname).write_text(json.dumps(rec, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    for pid, new_atoms in atoms.items():
+        path = out / 'prices' / f'{pid}.json'
+        merged = {} if a.replace else to_atoms(read_provider_file(path))
+        merged.update(new_atoms)
+        write_provider_file(path, pid, from_atoms(merged))
+        print(f'  {pid}: {len(from_atoms(merged))} ofertas en total')
     print(f'Escrito en {out}')
 
 

@@ -4,7 +4,10 @@
   Se genera con `scripts/parse-arancel.py` a partir del PDF; no se edita a mano.
 - `exams/`: guías de preparación (Markdown). Cada una se enlaza a un examen con `fonasa: 03-01-045`.
 - `providers/`: un JSON por prestador (laboratorio, clínica, centro).
-- `prices/`: un JSON por precio observado: examen × prestador × fecha.
+- `prices/`: **un JSON por prestador** (`prices/<prestador>.json`) con todas sus ofertas: examen × tipo × fecha.
+  No se editan a mano en masa: se generan con `scripts/import-prices.py` (formato en `scripts/pricefile.py`).
+  Al compilar, el sitio publica un archivo por examen (`/data/ofertas/<código>.json`) que el cotizador pide
+  solo cuando el usuario elige ese examen; así la página no crece al sumar prestadores.
 - `_ejemplos/`: formato de referencia con datos FICTICIOS. No se publican.
 
 ## Actualizar el arancel (cada año)
@@ -22,6 +25,7 @@ guías (`fonasa:`) y de los precios (`exam:`) sigan existiendo.
 1. Copia `docs/precios-plantilla.csv`, ábrelo en Excel y agrega una fila por precio.
 2. Valida sin escribir: `python scripts/import-prices.py mis-precios.csv --check`
 3. Genera los archivos: `python scripts/import-prices.py mis-precios.csv`
+   (se combina con lo ya cargado del prestador; con `--replace` el CSV reemplaza todas sus ofertas)
 4. `npm run build` para comprobar y luego commit.
 
 El importador exige fuente pública y fecha en cada fila, y rechaza códigos FONASA que no existan.
@@ -29,8 +33,8 @@ El importador exige fuente pública y fecha en cada fila, y rechaza códigos FON
 ## Agregar un precio a mano
 
 1. Crea el prestador en `providers/<id>.json` si no existe (el nombre del archivo es su id).
-2. Crea `prices/<codigo>-<prestador>.json` con `exam` (código FONASA con guiones, p. ej. `03-02-047`),
-   `provider`, `amount` (entero en CLP), `verifiedAt` (fecha en que viste el precio) y `sourceUrl` si hay una
-   página pública.
+2. Agrega una línea a `prices/<id>.json` dentro de `offers`, con `exam` (código FONASA con guiones, p. ej.
+   `03-02-047`), `amount` (entero en CLP), `kind`, `verifiedAt` (fecha en que viste el precio) y `sourceUrl`.
+   Si el precio vale en varias comunas, usa `subdivisions: [...]`.
 3. Todo precio debe provenir de una fuente pública verificable. Nunca de un acuerdo comercial.
 4. Los precios con más de 90 días se marcan "Por reconfirmar" automáticamente.

@@ -4,7 +4,7 @@ import PriceTable from '../../components/PriceTable.astro';
 import FonasaTable from '../../components/FonasaTable.astro';
 import { siteConfig } from '../../../site.config';
 import { orderOffers, type OrderKey } from '../../lib/ordering';
-import { getPriceRows } from '../../lib/prices';
+import { getPriceRows, groupOffers } from '../../lib/prices';
 import { getArancel, LEVELS, fastingText } from '../../lib/arancel';
 import { breadcrumbLd, examServiceLd } from '../../lib/jsonld';
 import { formatMoney } from '../../lib/format';
@@ -15,7 +15,7 @@ export async function getStaticPaths() {
   const generalRows = allRows.filter((r) => !r.regionalOnly);
   return items.map((item) => ({
     params: { slug: item.slug },
-    props: { item, rows: generalRows.filter((r) => r.examId === item.id) },
+    props: { item, rows: groupOffers(generalRows.filter((r) => r.examId === item.id)) },
   }));
 }
 
@@ -27,9 +27,7 @@ const orders: { key: OrderKey; label: string }[] = [
   { key: 'subdivision', label: Sub },
   { key: 'alpha', label: 'Alfabético' },
 ];
-const subdivisions = [...new Set(rows.map((r) => r.subdivision).filter(Boolean))].sort((a, b) =>
-  a!.localeCompare(b!, 'es'),
-) as string[];
+const subdivisions = [...new Set(rows.flatMap((r) => r.subdivisions))].sort((a, b) => a.localeCompare(b, 'es'));
 
 const levelList = LEVELS.flatMap((n) => (item.levels[n] ? [{ level: n, ...item.levels[n]! }] : []));
 const n1 = item.levels['1'];
@@ -46,7 +44,10 @@ const ld = [
     path: Astro.url.pathname,
     code: item.code,
     levels: levelList,
-    offers: orderOffers(rows, 'price'),
+    offers: orderOffers(rows, 'price').map((r) => ({
+      ...r,
+      subdivision: r.subdivisions.length > 3 ? `${r.subdivisions.length} comunas` : r.subdivisions.join(', ') || undefined,
+    })),
     lastVerified: rows.length ? new Date(Math.max(...rows.map((r) => r.verifiedAt.getTime()))) : undefined,
   }),
   breadcrumbLd([
@@ -152,9 +153,10 @@ const ld = [
 
   filter?.addEventListener('change', () => {
     document.querySelectorAll<HTMLElement>('tbody tr').forEach((tr) => {
-      const s = tr.dataset.sub;
-      if (s === undefined) return;
-      tr.hidden = !!filter.value && s !== '' && s !== filter.value;
+      const subs = tr.dataset.subs;
+      if (subs === undefined) return;
+      // Sin comunas = vale para todas.
+      tr.hidden = !!filter.value && subs !== '' && !subs.split('|').includes(filter.value);
     });
   });
 </script>

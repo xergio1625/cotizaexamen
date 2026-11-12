@@ -11,7 +11,7 @@ npm run build    # astro check + build a dist/
 ## Dónde se cambia qué
 - **Todo lo configurable:** `site.config.ts` (país, dominio, moneda, módulos, firma, correo).
 - **Guías de preparación:** `src/content/exams/*.md`.
-- **Precios y prestadores:** `src/content/prices|providers/*.json` (ver `src/content/README.md`).
+- **Precios y prestadores:** `src/content/prices|providers/*.json`, un archivo por prestador (ver `src/content/README.md`).
 - **Despliegue y dominio:** `.github/workflows/deploy.yml`, `public/CNAME`, `docs/DNS.md`.
 
 ## Reglas editoriales

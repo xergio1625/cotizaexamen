@@ -3,12 +3,13 @@ import Base from '../layouts/Base.astro';
 import Cotizador from '../components/Cotizador.astro';
 import { getCollection } from 'astro:content';
 import { siteConfig } from '../../site.config';
+import { countOffers } from '../lib/prices';
 
 const { modules, country } = siteConfig;
-const [arancel, providers, prices] = await Promise.all([
+const [arancel, providers, offerCount] = await Promise.all([
   getCollection('arancel'),
   getCollection('providers'),
-  getCollection('prices'),
+  countOffers(),
 ]);
 ---
 
@@ -24,7 +25,7 @@ const [arancel, providers, prices] = await Promise.all([
         <ul class="stats">
           <li><strong data-count={arancel.length}>{arancel.length}</strong><span>exámenes con valor FONASA</span></li>
           <li><strong data-count={providers.length}>{providers.length}</strong><span>prestadores</span></li>
-          <li><strong data-count={prices.length}>{prices.length}</strong><span>precios verificados</span></li>
+          <li><strong data-count={offerCount}>{offerCount}</strong><span>precios verificados</span></li>
         </ul>
       </div>
       <div class="hero-art reveal" data-reveal="right" data-parallax>

@@ -84,22 +84,28 @@ const providers = defineCollection({
 });
 
 /**
- * Un precio observado: examen × prestador × fecha.
- * Siempre con fuente y fecha de verificación (transparencia).
+ * Precios observados: UN archivo por prestador (`prices/<prestador>.json`) con todas sus ofertas.
+ * Cada oferta es examen × tipo × fecha, siempre con fuente y fecha de verificación (transparencia).
+ * Un archivo por prestador (y no uno por precio) mantiene el build rápido y el repositorio liviano
+ * aunque se carguen cientos de laboratorios. Se genera con scripts/import-prices.py.
  */
+const offer = z.object({
+  exam: z.string().regex(/^\d{2}-\d{2}-\d{3}$/), // código FONASA con guiones, p. ej. "03-01-045"
+  /** Entero en la moneda de site.config (CLP no usa decimales). */
+  amount: z.number().int().nonnegative(),
+  kind: z.enum(['particular', 'convenio', 'promocion']).default('particular'),
+  subdivision: z.string().optional(), // comuna, si el precio es por sucursal
+  subdivisions: z.array(z.string()).optional(), // varias comunas con el mismo precio (alternativa a `subdivision`)
+  sourceUrl: z.string().url().optional(),
+  verifiedAt: z.coerce.date(),
+  note: z.string().optional(),
+});
+
 const prices = defineCollection({
-  loader: glob({ pattern: '**/*.json', base: './src/content/prices' }),
+  loader: glob({ pattern: '*.json', base: './src/content/prices' }),
   schema: z.object({
-    exam: reference('arancel'), // código FONASA, p. ej. "03-01-045"
     provider: reference('providers'),
-    /** Entero en la moneda de site.config (CLP no usa decimales). */
-    amount: z.number().int().nonnegative(),
-    kind: z.enum(['particular', 'convenio', 'promocion']).default('particular'),
-    subdivision: z.string().optional(), // comuna, si el precio es por sucursal
-    subdivisions: z.array(z.string()).optional(), // varias comunas con el mismo precio (alternativa a `subdivision`)
-    sourceUrl: z.string().url().optional(),
-    verifiedAt: z.coerce.date(),
-    note: z.string().optional(),
+    offers: z.array(offer),
   }),
 });
 
