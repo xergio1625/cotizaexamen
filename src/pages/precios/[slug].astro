@@ -6,8 +6,8 @@ import { siteConfig } from '../../../site.config';
 import { orderOffers, type OrderKey } from '../../lib/ordering';
 import { getPriceRows, groupOffers } from '../../lib/prices';
 import { getArancel, LEVELS, fastingText } from '../../lib/arancel';
-import { breadcrumbLd, examServiceLd } from '../../lib/jsonld';
-import { formatMoney } from '../../lib/format';
+import { breadcrumbLd, examServiceLd, faqLd } from '../../lib/jsonld';
+import { formatMoney, formatDate } from '../../lib/format';
 import { slugifyComuna } from '../../lib/comunas';
 
 export async function getStaticPaths() {
@@ -32,6 +32,49 @@ const subdivisions = [...new Set(rows.flatMap((r) => r.subdivisions))].sort((a, 
 const levelList = LEVELS.flatMap((n) => (item.levels[n] ? [{ level: n, ...item.levels[n]! }] : []));
 const n1 = item.levels['1'];
 const title = `Precio del examen de ${item.name}`;
+const byPrice = orderOffers(rows, 'price');
+const cheapest = byPrice[0];
+const newest = rows.length ? new Date(Math.max(...rows.map((r) => r.verifiedAt.getTime()))) : undefined;
+const year = (newest ?? new Date()).getUTCFullYear();
+const seoFrom = cheapest ? cheapest.amount : n1?.total;
+// Título de la pestaña y buscadores: precio inicial y año (el H1 sigue siendo `title`).
+const seoTitle = `${item.name}: precio${seoFrom ? ` desde ${formatMoney(seoFrom)}` : ''} ${siteConfig.country.areaLabel} ${year}`;
+
+const nProv = new Set(rows.map((r) => r.providerName)).size;
+const faq: { q: string; a: string }[] = [];
+if (cheapest) {
+  const max = byPrice[byPrice.length - 1];
+  faq.push({
+    q: `¿Cuánto cuesta el examen de ${item.name}?`,
+    a:
+      cheapest.amount === max.amount
+        ? `Según los precios publicados, cuesta ${formatMoney(cheapest.amount)} (${nProv} ${nProv === 1 ? 'prestador' : 'prestadores'}).`
+        : `Según los precios publicados, cuesta entre ${formatMoney(cheapest.amount)} y ${formatMoney(max.amount)} (${nProv} ${nProv === 1 ? 'prestador' : 'prestadores'}). El valor depende del prestador y de si incluye la toma de muestra.`,
+  });
+  faq.push({
+    q: `¿Dónde está el precio más bajo publicado para ${item.name}?`,
+    a: `El más bajo que tenemos es ${formatMoney(cheapest.amount)} en ${cheapest.providerName}${cheapest.subdivisions.length ? ` (${cheapest.subdivisions.length > 3 ? `${cheapest.subdivisions.length} comunas` : cheapest.subdivisions.join(', ')})` : ''}, verificado el ${formatDate(cheapest.verifiedAt)}. Los precios cambian: confírmalo con el prestador.`,
+  });
+}
+const range = (v: number[]) => {
+  const lo = Math.min(...v);
+  const hi = Math.max(...v);
+  return lo === hi ? `es de ${formatMoney(lo)}` : `va de ${formatMoney(lo)} a ${formatMoney(hi)}`;
+};
+if (!item.noFonasa && levelList.length) {
+  const totals = levelList.map((l) => l.total);
+  const copagos = levelList.map((l) => l.total - l.benef);
+  faq.push({
+    q: `¿Cuál es el valor FONASA y el copago de ${item.name}?`,
+    a: `En el Arancel MLE 2026 de FONASA el valor total ${range(totals)} según el nivel del prestador, y el copago estimado con bono de Libre Elección ${range(copagos)}. Revisa la tabla por nivel en esta página.`,
+  });
+}
+if (item.guide) {
+  faq.push({
+    q: `¿Necesito ayuno para el examen de ${item.name}?`,
+    a: `${fastingText(item.fasting)}. Si tu médico o el laboratorio te dieron otras indicaciones, sigue siempre las de ellos. Detalle en la guía de preparación.`,
+  });
+}
 const description =
   (item.noFonasa ? `Examen ${item.name} (sin valor FONASA)` : `Valor del examen ${item.name} (código FONASA ${item.code})`) +
   (n1 ? `: desde ${formatMoney(n1.total)} en el Arancel MLE 2026` : '') +
@@ -55,10 +98,11 @@ const ld = [
     { name: 'Cotizar', path: '/precios/' },
     { name: item.name, path: Astro.url.pathname },
   ]),
+  ...(faq.length ? [faqLd(faq)] : []),
 ];
 ---
 
-<Base jsonLd={ld} title={title} description={description} noindex={item.noFonasa && rows.length === 0}>
+<Base jsonLd={ld} title={seoTitle} description={description} noindex={item.noFonasa && rows.length === 0}>
   <div class="container">
     <div class="prose">
       <p class="muted"><a href="/precios/">Cotizar</a> › {item.section}</p>
@@ -153,6 +197,20 @@ const ld = [
           Precios particulares referenciales, salvo que se indique otro tipo. Pueden cambiar sin aviso y no incluyen
           necesariamente la toma de muestra u otros cargos. Verifica con el prestador.
         </p>
+      </>
+    )}
+
+    {faq.length > 0 && (
+      <>
+        <h2>Preguntas frecuentes</h2>
+        <div class="prose">
+          {faq.map((f) => (
+            <>
+              <h3>{f.q}</h3>
+              <p>{f.a}</p>
+            </>
+          ))}
+        </div>
       </>
     )}
   </div>
