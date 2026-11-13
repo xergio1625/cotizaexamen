@@ -2,6 +2,7 @@
 import { siteConfig } from '../../site.config';
 import { getOfferIndex, STALE_DAYS } from '../lib/prices';
 import { getArancel, LEVELS, fastingText } from '../lib/arancel';
+import PrecioNoEsTodo from './PrecioNoEsTodo.astro';
 
 const items = await getArancel();
 const { byExam, subRegions } = await getOfferIndex();
@@ -45,6 +46,8 @@ const data = {
     </div>
     <img src="/img/cotizador.webp" alt="" width="1408" height="768" loading="lazy" decoding="async" />
   </div>
+
+  <PrecioNoEsTodo />
 
   <div class="cz-search">
     <label for="cz-input">Buscar examen ({items.length} disponibles)</label>
@@ -98,7 +101,7 @@ const data = {
   const prep = document.getElementById('cz-prep')!;
 
   let selected: string[] = [];
-  let order: 'price' | 'subdivision' | 'alpha' = 'price';
+  let order: 'price' | 'subdivision' | 'alpha' = 'alpha';
   let sub = '';
   let region = '';
 

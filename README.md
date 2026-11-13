@@ -14,6 +14,15 @@ npm run build    # astro check + build a dist/
 - **Precios y prestadores:** `src/content/prices|providers/*.json`, un archivo por prestador (ver `src/content/README.md`).
 - **Despliegue y dominio:** `.github/workflows/deploy.yml`, `public/CNAME`, `docs/DNS.md`.
 
+## Línea estratégica: informar, no comparar
+CotizaExamen **no es un comparador de precios**. El autor es profesional de laboratorio y el precio es solo una
+variable entre varias (calidad analítica, utilidad clínica, costo del traslado, condiciones de la muestra). Resumir un
+examen en "el más barato" puede llevar al paciente a un error. Por tanto:
+- No se publican "el más barato", "ahorro máximo", "desde $X" en títulos, textos ni FAQ, ni rankings de prestadores.
+- El orden por defecto es alfabético; el precio es una opción de orden, nunca la vista inicial.
+- Las páginas que muestran precios incluyen `PrecioNoEsTodo` (aviso) y enlazan a `/sobre-el-sitio/#no-es-un-comparador`.
+- Cualquier función nueva (resúmenes, calculadoras, alertas) se evalúa contra esta línea antes de construirse.
+
 ## Reglas editoriales
 - Sin dinero de prestadores: orden solo por precio, comuna o alfabeto (`src/lib/ordering.ts`).
 - Sin interpretación de resultados individuales.

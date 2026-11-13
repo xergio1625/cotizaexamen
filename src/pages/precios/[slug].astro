@@ -7,7 +7,8 @@ import { orderOffers, type OrderKey } from '../../lib/ordering';
 import { getPriceRows, groupOffers } from '../../lib/prices';
 import { getArancel, LEVELS, fastingText } from '../../lib/arancel';
 import { breadcrumbLd, examServiceLd, faqLd } from '../../lib/jsonld';
-import { formatMoney, formatDate } from '../../lib/format';
+import { formatMoney } from '../../lib/format';
+import PrecioNoEsTodo from '../../components/PrecioNoEsTodo.astro';
 import { slugifyComuna } from '../../lib/comunas';
 
 export async function getStaticPaths() {
@@ -22,10 +23,11 @@ export async function getStaticPaths() {
 const { item, rows } = Astro.props;
 const sub = siteConfig.country.subdivisionLabel;
 const Sub = sub[0].toUpperCase() + sub.slice(1);
+// Vista inicial alfabética: no se presenta una lista "del más barato al más caro".
 const orders: { key: OrderKey; label: string }[] = [
-  { key: 'price', label: 'Precio' },
-  { key: 'subdivision', label: Sub },
   { key: 'alpha', label: 'Alfabético' },
+  { key: 'subdivision', label: Sub },
+  { key: 'price', label: 'Precio' },
 ];
 const subdivisions = [...new Set(rows.flatMap((r) => r.subdivisions))].sort((a, b) => a.localeCompare(b, 'es'));
 
@@ -36,9 +38,8 @@ const byPrice = orderOffers(rows, 'price');
 const cheapest = byPrice[0];
 const newest = rows.length ? new Date(Math.max(...rows.map((r) => r.verifiedAt.getTime()))) : undefined;
 const year = (newest ?? new Date()).getUTCFullYear();
-const seoFrom = cheapest ? cheapest.amount : n1?.total;
-// Título de la pestaña y buscadores: precio inicial y año (el H1 sigue siendo `title`).
-const seoTitle = `${item.name}: precio${seoFrom ? ` desde ${formatMoney(seoFrom)}` : ''} ${siteConfig.country.areaLabel} ${year}`;
+// Título de la pestaña y buscadores: informa qué hay en la página, sin "desde $X" (no es un comparador).
+const seoTitle = `${item.name}: ${item.noFonasa ? 'precios publicados' : 'valor FONASA y precios publicados'} ${siteConfig.country.areaLabel} ${year}`;
 
 const nProv = new Set(rows.map((r) => r.providerName)).size;
 const faq: { q: string; a: string }[] = [];
@@ -49,11 +50,11 @@ if (cheapest) {
     a:
       cheapest.amount === max.amount
         ? `Según los precios publicados, cuesta ${formatMoney(cheapest.amount)} (${nProv} ${nProv === 1 ? 'prestador' : 'prestadores'}).`
-        : `Según los precios publicados, cuesta entre ${formatMoney(cheapest.amount)} y ${formatMoney(max.amount)} (${nProv} ${nProv === 1 ? 'prestador' : 'prestadores'}). El valor depende del prestador y de si incluye la toma de muestra.`,
+        : `Los precios publicados varían entre ${formatMoney(cheapest.amount)} y ${formatMoney(max.amount)} según el prestador (${nProv} ${nProv === 1 ? 'prestador' : 'prestadores'}). El valor depende, entre otras cosas, de si incluye la toma de muestra.`,
   });
   faq.push({
-    q: `¿Dónde está el precio más bajo publicado para ${item.name}?`,
-    a: `El más bajo que tenemos es ${formatMoney(cheapest.amount)} en ${cheapest.providerName}${cheapest.subdivisions.length ? ` (${cheapest.subdivisions.length > 3 ? `${cheapest.subdivisions.length} comunas` : cheapest.subdivisions.join(', ')})` : ''}, verificado el ${formatDate(cheapest.verifiedAt)}. Los precios cambian: confírmalo con el prestador.`,
+    q: `¿Conviene elegir el prestador más económico para ${item.name}?`,
+    a: 'No necesariamente. El precio es solo una variable: también importan el costo de llegar al prestador, la calidad analítica del laboratorio (acreditación y control de calidad), si el examen es útil para tu caso y lo que te indique tu médico. Este sitio informa precios publicados; no recomienda prestadores.',
   });
 }
 const range = (v: number[]) => {
@@ -161,8 +162,9 @@ const ld = [
     ) : (
       <>
         <p class="notice prose">
-          Orden solo por precio, {sub} o alfabeto. Ningún prestador paga por aparecer ni por mejor posición.
+          Orden alfabético por defecto; también puedes ordenar por {sub} o precio. Ningún prestador paga por aparecer ni por mejor posición.
         </p>
+        <PrecioNoEsTodo />
         <div class="controls" id="controls" hidden>
           <div role="group" aria-label="Ordenar por">
             <span>Ordenar por:</span>

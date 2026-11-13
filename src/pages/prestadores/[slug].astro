@@ -4,6 +4,7 @@ import { siteConfig } from '../../../site.config';
 import { getPrestadores, kindLabel } from '../../lib/prestadores';
 import { breadcrumbLd, faqLd } from '../../lib/jsonld';
 import { formatMoney, formatDate } from '../../lib/format';
+import PrecioNoEsTodo from '../../components/PrecioNoEsTodo.astro';
 
 export async function getStaticPaths() {
   if (!siteConfig.modules.prices) return [];
@@ -89,10 +90,11 @@ const ld = [
 
     <h2>Exámenes con más prestadores</h2>
     <p class="muted prose">
-      Precio más bajo publicado por {p.name}.
+      Precio publicado por {p.name} (si hay varios para un mismo examen, se muestra el menor). Orden alfabético.
       {p.fonasaLevel ? ` Con FONASA pagarías el arancel de nivel ${p.fonasaLevel}, no el precio particular.` : ''}
-      Entra a cada examen para compararlo con otros prestadores.
+      Entra a cada examen para ver qué otros prestadores publican su precio.
     </p>
+    <PrecioNoEsTodo />
     <div class="table-wrap">
       <table>
         <thead>
@@ -103,7 +105,7 @@ const ld = [
           </tr>
         </thead>
         <tbody>
-          {top.map((e) => (
+          {[...top].sort((a, b) => a.name.localeCompare(b.name, 'es')).map((e) => (
             <tr>
               <th scope="row"><a href={`/precios/${e.slug}/`}>{e.name}</a></th>
               <td><strong>{formatMoney(e.amount)}</strong></td>

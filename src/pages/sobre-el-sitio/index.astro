@@ -18,8 +18,25 @@ const { author, affiliation, brand } = siteConfig;
 
     <h2>Qué es {brand}</h2>
     <p>
-      {brand} ayuda a pacientes que pagan de su bolsillo {siteConfig.country.areaLabel} a comparar precios de
-      exámenes de laboratorio y a entender cómo prepararse. No interpreta resultados individuales ni diagnostica.
+      {brand} informa a pacientes {siteConfig.country.areaLabel} sobre los precios publicados de exámenes de
+      laboratorio, los valores de referencia de FONASA y cómo prepararse. No interpreta resultados individuales ni
+      diagnostica, y <strong>no es un comparador de precios</strong>.
+    </p>
+
+    <h2 id="no-es-un-comparador">Por qué no somos un comparador</h2>
+    <p>
+      El sitio lo mantiene un profesional de laboratorio, y por eso no resume un examen en "el más barato". El
+      precio es solo una de las variables, y rara vez la más importante:
+    </p>
+    <ul>
+      <li><strong>Calidad analítica:</strong> acreditación, control de calidad y trazabilidad del laboratorio.</li>
+      <li><strong>Utilidad clínica:</strong> si el examen sirve para tu caso lo decide tu médico, no una lista de precios.</li>
+      <li><strong>Costo real de ir:</strong> traslado, tiempo, estacionamiento y si la toma de muestra está incluida.</li>
+      <li><strong>Condiciones de la muestra:</strong> ayuno, horario, estabilidad y tiempo de entrega.</li>
+    </ul>
+    <p>
+      Por eso mostramos precios publicados con su fuente y fecha, ordenados alfabéticamente por defecto, y nunca
+      señalamos un "mejor" prestador. Una cifra suelta puede llevar a una decisión equivocada.
     </p>
 
     <h2>Quién lo hace</h2>
@@ -39,8 +56,8 @@ const { author, affiliation, brand } = siteConfig;
       <li>No aceptamos auspicios de laboratorios ni de prestadores.</li>
       <li>No existen posiciones pagadas ni destacados.</li>
       <li>
-        El orden de los resultados depende solo de tres criterios: <strong>precio</strong>,
-        <strong>{siteConfig.country.subdivisionLabel}</strong> o <strong>orden alfabético</strong>.
+        El orden de los resultados es <strong>alfabético</strong> por defecto; puedes ordenarlos por
+        <strong>{siteConfig.country.subdivisionLabel}</strong> o <strong>precio</strong>, y nunca por otro criterio.
       </li>
     </ul>
 

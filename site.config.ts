@@ -61,7 +61,7 @@ export const siteConfig: SiteConfig = {
   brand: 'CotizaExamen',
   tagline: 'Precios y preparación de tus exámenes de laboratorio',
   description:
-    'Compara precios de exámenes de laboratorio en Chile y aprende cómo prepararte. Sitio independiente: sin dinero de laboratorios ni clínicas.',
+    'Precios publicados y valores FONASA de exámenes de laboratorio en Chile, y cómo prepararte. Informa, no es un comparador. Sitio independiente: sin dinero de laboratorios ni clínicas.',
   domain: 'cotizaexamen.cl',
   url: 'https://cotizaexamen.cl',
   lang: 'es-CL',

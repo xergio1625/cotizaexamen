@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import { siteConfig } from '../../../site.config';
 import { getComunas } from '../../lib/comunas';
 import { breadcrumbLd, faqLd } from '../../lib/jsonld';
-import { formatMoney, formatDate } from '../../lib/format';
+import { formatDate } from '../../lib/format';
+import PrecioNoEsTodo from '../../components/PrecioNoEsTodo.astro';
 
 export async function getStaticPaths() {
   if (!siteConfig.modules.prices) return [];
@@ -21,24 +22,16 @@ const provWord = nProv === 1 ? 'prestador' : 'prestadores';
 const title = `Precios de exámenes de laboratorio en ${c.name}`;
 const description = `Precios publicados de ${c.exams.length} exámenes de laboratorio en ${c.name}, de ${nProv} ${provWord}, con fuente y fecha de verificación. Valores FONASA de referencia por nivel.`;
 
-const lead = top[0];
 const providerNames = c.providers.map((p) => p.name).join(', ');
 const faq = [
   {
     q: `¿Qué prestadores con precios publicados hay en ${c.name}?`,
     a: `En ${c.name} tenemos precios publicados de ${nProv} ${provWord}: ${providerNames}. Solo incluimos prestadores cuyos precios son públicos y verificables; puede haber otros que no figuren aquí.`,
   },
-  ...(lead
-    ? [
-        {
-          q: `¿Cuánto cuesta el examen de ${lead.name} en ${c.name}?`,
-          a:
-            lead.min === lead.max
-              ? `Según los precios publicados, el examen de ${lead.name} cuesta ${formatMoney(lead.min)} en ${c.name} (${lead.providers} ${lead.providers === 1 ? 'prestador' : 'prestadores'}).`
-              : `Según los precios publicados, el examen de ${lead.name} cuesta entre ${formatMoney(lead.min)} y ${formatMoney(lead.max)} en ${c.name} (${lead.providers} ${lead.providers === 1 ? 'prestador' : 'prestadores'}).`,
-        },
-      ]
-    : []),
+  {
+    q: `¿Conviene elegir el prestador más económico en ${c.name}?`,
+    a: 'No necesariamente. El precio es solo una variable: también importan el costo de llegar al prestador, la calidad analítica del laboratorio (acreditación y control de calidad), si el examen es útil para tu caso y lo que te indique tu médico. Este sitio informa precios publicados; no recomienda prestadores.',
+  },
   {
     q: '¿Estos precios incluyen la toma de muestra?',
     a: 'No necesariamente. Son precios referenciales publicados por cada prestador y pueden no incluir la toma de muestra u otros cargos. Confírmalos con el prestador antes de ir.',
@@ -85,8 +78,7 @@ const ld = [
       <h1>{title}</h1>
       <p>
         Precios publicados de <strong>{c.exams.length}</strong> exámenes en {c.name}, de {nProv} {provWord}. Última
-        verificación: {formatDate(c.newest)}. Orden solo por cantidad de prestadores y alfabeto: ningún prestador paga
-        por aparecer.
+        verificación: {formatDate(c.newest)}. Ningún prestador paga por aparecer ni por mejor posición.
       </p>
     </div>
 
@@ -115,26 +107,23 @@ const ld = [
     </div>
 
     <h2>Exámenes con más prestadores en {c.name}</h2>
+    <p class="muted small prose">Los {top.length} exámenes con más prestadores con precio publicado, en orden alfabético.</p>
     <p class="muted prose">
-      Precio mínimo y máximo publicado en la {sub}. Entra a cada examen para ver el detalle por prestador, la fuente y
-      los valores FONASA por nivel.
+      Entra a cada examen para ver los precios publicados por prestador, la fuente y los valores FONASA por nivel.
     </p>
+    <PrecioNoEsTodo />
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
             <th scope="col">Examen</th>
-            <th scope="col">Desde</th>
-            <th scope="col">Hasta</th>
-            <th scope="col">Prestadores</th>
+            <th scope="col">Prestadores con precio publicado</th>
           </tr>
         </thead>
         <tbody>
-          {top.map((e) => (
+          {[...top].sort((a, b) => a.name.localeCompare(b.name, 'es')).map((e) => (
             <tr>
               <th scope="row"><a href={`/precios/${e.slug}/`}>{e.name}</a></th>
-              <td><strong>{formatMoney(e.min)}</strong></td>
-              <td>{e.min === e.max ? '' : formatMoney(e.max)}</td>
               <td>{e.providers}</td>
             </tr>
           ))}
@@ -149,7 +138,6 @@ const ld = [
           {[...c.exams].sort((a, b) => a.name.localeCompare(b.name, 'es')).map((e) => (
             <li>
               <a href={`/precios/${e.slug}/`}>{e.name}</a>
-              <span class="muted small"> · desde {formatMoney(e.min)}</span>
             </li>
           ))}
         </ul>
