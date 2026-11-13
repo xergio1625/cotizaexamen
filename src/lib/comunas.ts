@@ -17,6 +17,7 @@ export function slugifyComuna(s: string): string {
 }
 
 export interface ComunaProvider {
+  id: string;
   name: string;
   website?: string;
   fonasaLevel?: 1 | 2 | 3;
@@ -78,7 +79,7 @@ async function build(): Promise<Comuna[]> {
 
       let p = provs.get(r.providerName);
       if (!p) {
-        p = { p: { name: r.providerName, website: r.providerWebsite, fonasaLevel: r.fonasaLevel, exams: 0 }, ids: new Set() };
+        p = { p: { id: r.providerId, name: r.providerName, website: r.providerWebsite, fonasaLevel: r.fonasaLevel, exams: 0 }, ids: new Set() };
         provs.set(r.providerName, p);
       }
       p.ids.add(r.examId);

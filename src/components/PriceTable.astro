@@ -24,7 +24,8 @@ const kindLabel = { particular: 'Particular', convenio: 'Convenio', promocion: '
       {rows.map((r) => (
         <tr data-subs={r.subdivisions.join('|')}>
           <th scope="row">
-            {r.providerWebsite ? <a href={r.providerWebsite} rel="noopener nofollow">{r.providerName}</a> : r.providerName}
+            <a href={`/prestadores/${r.providerId}/`}>{r.providerName}</a>
+            {r.providerWebsite && <> <a class="muted small" href={r.providerWebsite} rel="noopener nofollow">(sitio)</a></>}
             {r.note && <div class="muted small">{r.note}</div>}
           </th>
           <td><strong>{formatMoney(r.amount)}</strong></td>

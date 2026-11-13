@@ -17,7 +17,6 @@ const top = c.exams.slice(0, TOP);
 const sub = siteConfig.country.subdivisionLabel;
 const nProv = c.providers.length;
 const provWord = nProv === 1 ? 'prestador' : 'prestadores';
-const year = c.newest.getUTCFullYear();
 
 const title = `Precios de exámenes de laboratorio en ${c.name}`;
 const description = `Precios publicados de ${c.exams.length} exámenes de laboratorio en ${c.name}, de ${nProv} ${provWord}, con fuente y fecha de verificación. Valores FONASA de referencia por nivel.`;
@@ -105,7 +104,7 @@ const ld = [
           {c.providers.map((p) => (
             <tr>
               <th scope="row">
-                {p.website ? <a href={p.website} rel="noopener nofollow">{p.name}</a> : p.name}
+                <a href={`/prestadores/${p.id}/`}>{p.name}</a>
               </th>
               <td>{p.fonasaLevel ? `Nivel ${p.fonasaLevel}` : 'No informado'}</td>
               <td>{p.exams}</td>

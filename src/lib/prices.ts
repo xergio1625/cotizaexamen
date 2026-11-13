@@ -4,6 +4,8 @@ import type { Orderable } from './ordering';
 
 export interface PriceRow extends Orderable {
   examId: string;
+  /** Id del prestador (nombre de su archivo en providers/). */
+  providerId: string;
   kind: 'particular' | 'convenio' | 'promocion';
   providerWebsite?: string;
   /** Prestador local: se muestra solo al filtrar por región en el cotizador. */
@@ -41,6 +43,7 @@ async function loadRows(): Promise<PriceRow[]> {
       for (const subdivision of subs) {
         rows.push({
           examId: o.exam,
+          providerId: file.data.provider.id,
           amount: o.amount,
           kind: o.kind,
           subdivision,

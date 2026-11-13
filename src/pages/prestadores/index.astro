@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+import { getPrestadores, kindLabel } from '../../lib/prestadores';
+import { breadcrumbLd } from '../../lib/jsonld';
+
+const list = await getPrestadores();
+const title = 'Prestadores con precios de exámenes publicados';
+const description = `${list.length} laboratorios, clínicas y centros médicos ${siteConfig.country.areaLabel} con precios de exámenes publicados, nivel FONASA informado y fecha de verificación.`;
+const ld = [
+  breadcrumbLd([
+    { name: 'Inicio', path: '/' },
+    { name: 'Prestadores', path: '/prestadores/' },
+  ]),
+];
+---
+
+<Base jsonLd={ld} title={title} description={description}>
+  <div class="container">
+    <div class="prose">
+      <h1>{title}</h1>
+      <p>
+        Laboratorios, clínicas y centros médicos cuyos precios son públicos y verificables ({list.length} por ahora).
+        Orden alfabético: ningún prestador paga por aparecer ni por mejor posición.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Prestador</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Nivel FONASA</th>
+            <th scope="col">Exámenes con precio</th>
+            <th scope="col">{siteConfig.country.subdivisionLabel === 'comuna' ? 'Comunas' : 'Localidades'}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {list.map((p) => (
+            <tr>
+              <th scope="row"><a href={`/prestadores/${p.id}/`}>{p.name}</a></th>
+              <td>{kindLabel[p.kind]}</td>
+              <td>{p.fonasaLevel ? `Nivel ${p.fonasaLevel}` : 'No informado'}</td>
+              <td>{p.exams.length}</td>
+              <td>{p.comunas.length}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="notice prose">
+      ¿Falta un prestador? <a href="/contacto/">Cuéntanos</a> y, si sus precios son públicos, lo agregamos.
+    </p>
+  </div>
+</Base>
