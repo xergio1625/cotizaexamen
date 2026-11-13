@@ -3,7 +3,14 @@
   "kind": "clinica",
   "website": "https://www.redsalud.cl",
   "subdivisions": [
-    "Providencia"
+    "Iquique",
+    "La Serena",
+    "Providencia",
+    "Punta Arenas",
+    "Rancagua",
+    "Temuco",
+    "Valparaíso",
+    "Vitacura"
   ],
   "regionalOnly": true,
   "fonasaLevel": 3

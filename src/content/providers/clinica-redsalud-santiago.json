@@ -1,0 +1,9 @@
+{
+  "name": "Clínica RedSalud Santiago",
+  "kind": "clinica",
+  "website": "https://www.redsalud.cl",
+  "subdivisions": [
+    "Santiago"
+  ],
+  "regionalOnly": true
+}
