@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+import { getComunas } from '../../lib/comunas';
+import { breadcrumbLd } from '../../lib/jsonld';
+
+const comunas = await getComunas();
+const sub = siteConfig.country.subdivisionLabel;
+const collator = new Intl.Collator('es', { sensitivity: 'base' });
+
+const byRegion = new Map<string, typeof comunas>();
+for (const c of comunas) {
+  const r = c.region ?? 'Otras';
+  byRegion.set(r, [...(byRegion.get(r) ?? []), c]);
+}
+const regions = [...byRegion.entries()].sort(([a], [b]) => collator.compare(a, b));
+
+const title = `Precios de exámenes de laboratorio por ${sub}`;
+const description = `Encuentra precios publicados de exámenes de laboratorio en ${comunas.length} ${sub === 'comuna' ? 'comunas' : 'localidades'} ${siteConfig.country.areaLabel}, con fuente y fecha de verificación.`;
+const ld = [
+  breadcrumbLd([
+    { name: 'Inicio', path: '/' },
+    { name: `Por ${sub}`, path: '/comunas/' },
+  ]),
+];
+---
+
+<Base jsonLd={ld} title={title} description={description}>
+  <div class="container">
+    <div class="prose">
+      <h1>{title}</h1>
+      <p>
+        Elige tu {sub} para ver qué prestadores tienen precios publicados y cuánto cuestan los exámenes más
+        solicitados. Solo listamos {sub === 'comuna' ? 'comunas' : 'lugares'} con precios cargados ({comunas.length} por ahora);
+        sin dinero de laboratorios, el orden no depende de ningún prestador.
+      </p>
+    </div>
+    {regions.map(([region, list]) => (
+      <section>
+        <h2>{region}</h2>
+        <ul class="exam-list">
+          {list.map((c) => (
+            <li>
+              <a href={`/comunas/${c.slug}/`}>{c.name}</a>
+              <span class="muted small"> · {c.providers.length} {c.providers.length === 1 ? 'prestador' : 'prestadores'} · {c.exams.length} exámenes</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    <p class="notice prose">
+      ¿Tu {sub} no aparece? <a href="/precios/">Cotiza por examen</a> y revisa los prestadores de otras zonas, o
+      <a href="/contacto/">cuéntanos</a> qué prestador falta.
+    </p>
+  </div>
+</Base>

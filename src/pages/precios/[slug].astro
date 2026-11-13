@@ -8,6 +8,7 @@ import { getPriceRows, groupOffers } from '../../lib/prices';
 import { getArancel, LEVELS, fastingText } from '../../lib/arancel';
 import { breadcrumbLd, examServiceLd } from '../../lib/jsonld';
 import { formatMoney } from '../../lib/format';
+import { slugifyComuna } from '../../lib/comunas';
 
 export async function getStaticPaths() {
   if (!siteConfig.modules.prices) return [];
@@ -140,6 +141,14 @@ const ld = [
             <PriceTable rows={orderOffers(rows, o.key)} />
           </section>
         ))}
+        {subdivisions.length > 0 && (
+          <p class="prose">
+            <strong>Precios por {sub}:</strong>
+            {subdivisions.map((s, i) => (
+              <>{i > 0 ? ' · ' : ' '}<a href={`/comunas/${slugifyComuna(s)}/`}>{s}</a></>
+            ))}
+          </p>
+        )}
         <p class="muted small prose">
           Precios particulares referenciales, salvo que se indique otro tipo. Pueden cambiar sin aviso y no incluyen
           necesariamente la toma de muestra u otros cargos. Verifica con el prestador.

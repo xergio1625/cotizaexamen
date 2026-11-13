@@ -1,0 +1,179 @@
+---
+import Base from '../../layouts/Base.astro';
+import { siteConfig } from '../../../site.config';
+import { getComunas } from '../../lib/comunas';
+import { breadcrumbLd, faqLd } from '../../lib/jsonld';
+import { formatMoney, formatDate } from '../../lib/format';
+
+export async function getStaticPaths() {
+  if (!siteConfig.modules.prices) return [];
+  const comunas = await getComunas();
+  return comunas.map((c) => ({ params: { slug: c.slug }, props: { c } }));
+}
+
+const { c } = Astro.props;
+const TOP = 40;
+const top = c.exams.slice(0, TOP);
+const sub = siteConfig.country.subdivisionLabel;
+const nProv = c.providers.length;
+const provWord = nProv === 1 ? 'prestador' : 'prestadores';
+const year = c.newest.getUTCFullYear();
+
+const title = `Precios de exámenes de laboratorio en ${c.name}`;
+const description = `Precios publicados de ${c.exams.length} exámenes de laboratorio en ${c.name}, de ${nProv} ${provWord}, con fuente y fecha de verificación. Valores FONASA de referencia por nivel.`;
+
+const lead = top[0];
+const providerNames = c.providers.map((p) => p.name).join(', ');
+const faq = [
+  {
+    q: `¿Qué prestadores con precios publicados hay en ${c.name}?`,
+    a: `En ${c.name} tenemos precios publicados de ${nProv} ${provWord}: ${providerNames}. Solo incluimos prestadores cuyos precios son públicos y verificables; puede haber otros que no figuren aquí.`,
+  },
+  ...(lead
+    ? [
+        {
+          q: `¿Cuánto cuesta el examen de ${lead.name} en ${c.name}?`,
+          a:
+            lead.min === lead.max
+              ? `Según los precios publicados, el examen de ${lead.name} cuesta ${formatMoney(lead.min)} en ${c.name} (${lead.providers} ${lead.providers === 1 ? 'prestador' : 'prestadores'}).`
+              : `Según los precios publicados, el examen de ${lead.name} cuesta entre ${formatMoney(lead.min)} y ${formatMoney(lead.max)} en ${c.name} (${lead.providers} ${lead.providers === 1 ? 'prestador' : 'prestadores'}).`,
+        },
+      ]
+    : []),
+  {
+    q: '¿Estos precios incluyen la toma de muestra?',
+    a: 'No necesariamente. Son precios referenciales publicados por cada prestador y pueden no incluir la toma de muestra u otros cargos. Confírmalos con el prestador antes de ir.',
+  },
+  {
+    q: `¿Cuánto pago si me atiendo con FONASA en ${c.name}?`,
+    a: 'Con bono de Libre Elección pagas el arancel del nivel en que está inscrito el prestador, no su precio particular; el copago es ese arancel menos la bonificación. En cada ficha de examen está la tabla de valores FONASA por nivel.',
+  },
+];
+
+const ld = [
+  breadcrumbLd([
+    { name: 'Inicio', path: '/' },
+    { name: 'Por comuna', path: '/comunas/' },
+    { name: c.name, path: Astro.url.pathname },
+  ]),
+  faqLd(faq),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: title,
+    description,
+    url: new URL(Astro.url.pathname, siteConfig.url).href,
+    inLanguage: siteConfig.lang,
+    dateModified: c.newest.toISOString().slice(0, 10),
+    about: { '@type': 'AdministrativeArea', name: c.name, containedInPlace: { '@type': 'Country', name: siteConfig.country.name } },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: top.map((e, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: e.name,
+        url: new URL(`/precios/${e.slug}/`, siteConfig.url).href,
+      })),
+    },
+  },
+];
+---
+
+<Base jsonLd={ld} title={title} description={description}>
+  <div class="container">
+    <div class="prose">
+      <p class="muted"><a href="/comunas/">Por {sub}</a>{c.region && ` › ${c.region}`}</p>
+      <h1>{title}</h1>
+      <p>
+        Precios publicados de <strong>{c.exams.length}</strong> exámenes en {c.name}, de {nProv} {provWord}. Última
+        verificación: {formatDate(c.newest)}. Orden solo por cantidad de prestadores y alfabeto: ningún prestador paga
+        por aparecer.
+      </p>
+    </div>
+
+    <h2>Prestadores en {c.name}</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Prestador</th>
+            <th scope="col">Nivel FONASA</th>
+            <th scope="col">Exámenes con precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          {c.providers.map((p) => (
+            <tr>
+              <th scope="row">
+                {p.website ? <a href={p.website} rel="noopener nofollow">{p.name}</a> : p.name}
+              </th>
+              <td>{p.fonasaLevel ? `Nivel ${p.fonasaLevel}` : 'No informado'}</td>
+              <td>{p.exams}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Exámenes con más prestadores en {c.name}</h2>
+    <p class="muted prose">
+      Precio mínimo y máximo publicado en la {sub}. Entra a cada examen para ver el detalle por prestador, la fuente y
+      los valores FONASA por nivel.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Examen</th>
+            <th scope="col">Desde</th>
+            <th scope="col">Hasta</th>
+            <th scope="col">Prestadores</th>
+          </tr>
+        </thead>
+        <tbody>
+          {top.map((e) => (
+            <tr>
+              <th scope="row"><a href={`/precios/${e.slug}/`}>{e.name}</a></th>
+              <td><strong>{formatMoney(e.min)}</strong></td>
+              <td>{e.min === e.max ? '' : formatMoney(e.max)}</td>
+              <td>{e.providers}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    {c.exams.length > TOP && (
+      <details class="exam-section">
+        <summary><strong>Todos los exámenes con precio en {c.name}</strong> <span class="muted">({c.exams.length})</span></summary>
+        <ul class="exam-list">
+          {[...c.exams].sort((a, b) => a.name.localeCompare(b.name, 'es')).map((e) => (
+            <li>
+              <a href={`/precios/${e.slug}/`}>{e.name}</a>
+              <span class="muted small"> · desde {formatMoney(e.min)}</span>
+            </li>
+          ))}
+        </ul>
+      </details>
+    )}
+
+    <p class="notice prose">
+      ¿Tienes una orden con varios exámenes? <a href="/precios/">Cotízala completa</a> y filtra por {sub}.
+    </p>
+
+    <h2>Preguntas frecuentes</h2>
+    <div class="prose">
+      {faq.map((f) => (
+        <>
+          <h3>{f.q}</h3>
+          <p>{f.a}</p>
+        </>
+      ))}
+    </div>
+
+    <p class="muted small prose">
+      Precios particulares referenciales publicados por cada prestador (verificados entre {formatDate(c.oldest)} y {formatDate(c.newest)}). Pueden cambiar sin aviso:
+      confírmalos con el prestador. Los precios de más de 90 días se marcan "Por reconfirmar" en cada ficha de examen.
+    </p>
+  </div>
+</Base>
